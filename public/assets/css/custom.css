@@ -1,0 +1,191 @@
+/*
+* Hover Style
+*/
+.hover-styled {
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.hover-styled:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+/************ nav bar ***/
+.logo a img {
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+
+.hero-two-right {
+    width: 475px;
+    height: 634px;
+}
+.hero-two-right img {
+    width: 100%;
+    height: 100%;
+}
+.hero-two-left {
+    width: 455px;
+    height: 641px;
+}
+.hero-two-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-btn-sidebar a {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 8px 23px;
+    font-weight: 700;
+}
+
+/************* header ***************/
+.section {
+    padding: 70px 0;
+}
+.featured-services {
+    text-align: center;
+    margin: 0 -15px;
+}
+.featured-services .box1 {
+    padding: 25px 15px 15px;
+}
+
+.box-shadow {
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (min-width: 576px) {
+    .featured-services .box1 {
+        width: calc(100% / 2 - 4px);
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+@media screen and (min-width: 992px) {
+    .featured-services .box1 {
+        width: calc(100% / 3 - 4px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .featured-services .box1 {
+        width: calc(100% / 6 - 4px);
+    }
+}
+
+.featured-services .box1 .inner {
+    min-height: 240px;
+    padding: 25px 15px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.box1 .figure {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #008000;
+    position: relative;
+}
+
+.box1 .figure::before {
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90px;
+    height: 90px;
+    content: "";
+    background: rgba(0, 128, 0, 0.9);
+    opacity: 0.5;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.featured-services .box1:nth-child(2) .figure {
+    background: rgba(66, 34, 268, 1);
+}
+
+.featured-services .box1:nth-child(2) .figure::before {
+    background: rgba(66, 34, 268, 0.9);
+}
+
+.featured-services .box1:nth-child(3) .figure {
+    background: rgb(121, 7, 173, 1);
+}
+
+.featured-services .box1:nth-child(3) .figure::before {
+    background: rgb(121, 7, 173, 0.9);
+}
+
+.featured-services .box1:nth-child(4) .figure {
+    background: rgba(19, 235, 162, 1);
+}
+
+.featured-services .box1:nth-child(4) .figure::before {
+    background: rgba(19, 235, 162, 0.9);
+}
+
+.featured-services .box1:nth-child(5) .figure {
+    background: var(--primary);
+}
+
+.featured-services .box1:nth-child(5) .figure::before {
+    background: rgba(222, 0, 35, 0.9);
+}
+.featured-services .box1:nth-child(6) .figure::before {
+    background: rgba(222, 0, 35, 0.9);
+}
+.box1 .figure > img {
+    width: 45px;
+}
+
+.featured-services h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.about-us {
+    background: #f2f3f7;
+}
+
+.about-us .circle-styled::before {
+    display: none;
+}
+
+.services-section .category-item a {
+    color: #b71616;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.services-section .category-item a:hover {
+    font-size: 13px;
+    color: #278acd;
+}

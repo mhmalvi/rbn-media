@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateEventsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('events', function (Blueprint $table) {
+            $table->id();
+            $table->string('slug');
+            $table->longText('title');
+            $table->string('location');
+            $table->string('thumbnail');
+            $table->date('event_date');
+            $table->date('starting_date');
+            $table->date('ending_date');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('events');
+    }
+}
