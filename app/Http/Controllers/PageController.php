@@ -111,10 +111,22 @@ class PageController extends Controller
 
         return view('user.pages.blog', compact('blogs', 'recent_blogs', 'tags', 'total_page', 'page', 'pageName'));
     }
-    public function blogDetails()
+    public function blogDetails(Request $request)
     {
+        if(!isset($request->id)){
+            return redirect()->route('blog');
+        }
+        //dd($request->id);
         $pageName = 'Blog Details';
-        return view('user.pages.blogDetails', compact('pageName'));
+        $blogs = Blog::Where('id', $request->id);
+        if($blogs==""){
+            return redirect()->route('blog');
+        }
+        $blog = $blogs->first();
+        $recent_blogs = Blog::latest()->limit(4)->get();
+        //dd($blog);
+
+        return view('user.pages.blogDetails', compact(['pageName', 'blog', 'recent_blogs']));
     }
     public function dhakaOffice()
     {

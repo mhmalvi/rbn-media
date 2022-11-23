@@ -2,24 +2,26 @@
 @section('content')
         <div class="page-wrapper">
             <!-- Page Banner Start -->
-            <section class="page-banner-area rel z-1 text-white text-center" style="background-image: url({{ asset('assets/images/banner.jpg') }});">
+            @include('user.partials.banner')
+{{--            <section class="page-banner-area rel z-1 text-white text-center" style="background-image: url({{ asset('assets/images/banner.jpg') }});">--}}
 
-                <div class="container">
-                    <div class="banner-inner rpt-10">
-                        <h2 class="page-title wow fadeInUp delay-0-2s">Blog Details</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb wow fadeInUp delay-0-4s">
-                                <li class="breadcrumb-item"><a href="index.html">home</a></li>
-                                <li class="breadcrumb-item active">Blog Details</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-                <img class="circle-one" src="{{ asset('assets/images/shapes/circle-one.png') }}" alt="Circle">
+{{--                <div class="container">--}}
+{{--                    <div class="banner-inner rpt-10">--}}
+{{--                        <h2 class="page-title wow fadeInUp delay-0-2s">Blog Details</h2>--}}
+{{--                        <nav aria-label="breadcrumb">--}}
+{{--                            <ol class="breadcrumb wow fadeInUp delay-0-4s">--}}
+{{--                                <li class="breadcrumb-item"><a href="index.html">home</a></li>--}}
+{{--                                <li class="breadcrumb-item active">Blog Details</li>--}}
+{{--                            </ol>--}}
+{{--                        </nav>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <img class="circle-one" src="{{ asset('assets/images/shapes/circle-one.png') }}" alt="Circle">--}}
 
-                <img class="circle-two" src="{{ asset('assets/images/shapes/circle-two.png') }}" alt="Circle">
+{{--                <img class="circle-two" src="{{ asset('assets/images/shapes/circle-two.png') }}" alt="Circle">--}}
 
-            </section>
+{{--            </section>--}}
+
             <!-- Page Banner End -->
             <!-- Blog Details Start -->
             <section class="blog-details-area py-130 rpy-100">
@@ -27,258 +29,90 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="blog-details-wrap">
-                                <div class="image mb-25 wow fadeInUp delay-0-2s">
-                                    <img src="assets/images/blog/blog-details.jpg" alt="Blog">
-                                    <a href="#"><i class="fas fa-share-alt"></i></a>
-                                </div>
-                                <ul class="blog-standard-header wow fadeInUp delay-0-2s">
-                                    <li><span class="name">Michael M. Morris</span></li>
-                                    <li><i class="far fa-calendar-alt"></i> <a href="blog-details.html">February 20, 2022</a></li>
-                                    <li><i class="far fa-comments"></i> <a href="blog-details.html">Comments (05)</a></li>
-                                </ul>
-                                <h3 class="title">Creating Online Environments That Work Well For Older Users</h3>
-                                <p>Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis ut aut reiciendis voluptatibus maiores alias consequatu </p>
-                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour</p>
-                                <blockquote>
-                                    <h4>Smashing Podcast Episode Pauloag Conve Seen Overs Optimization Inspired Decisions</h4>
-                                    <span class="blockquote-footer">Rasalina Willamson</span>
-                                </blockquote>
-                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue</p>
-                                <div class="tag-share pt-10">
-                                    <div class="tag-coulds pb-25">
-                                        <h6>Tags</h6>
-                                        <a href="blog.html">Course</a>
-                                        <a href="blog.html">Design</a>
-                                        <a href="blog.html">Marketing</a>
+                                <div class="blog-standard-item wow fadeInUp delay-0-2s">
+                                    <div class="image">
+                                        <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail">
+
                                     </div>
-                                    <div class="social-style-two">
-                                        <h6>Share :</h6>
-                                        <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="contact.html"><i class="fab fa-twitter"></i></a>
-                                        <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                <div class="admin-comment text-white bg-light-blue p-40 br-10 mt-50 wow fadeInUp delay-0-2s">
-                                    <div class="comment-body mb-0">
-                                        <div class="author-thumb">
-                                            <img src="assets/images/blog/admin-author.jpg" alt="Image">
-                                        </div>
+                                    <div class="blog-standard-content">
+{{--                                        <div class="author">--}}
+{{--                                            <img src="{{ asset('assets/admin/image/authors/'.$blog->author_image) }}" alt="Author">--}}
+{{--                                        </div>--}}
                                         <div class="content">
-                                            <h4>Rasalina Wilimson</h4>
-                                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atqu corruptie quos dolores et quas molestias excepturi sint</p>
-                                            <div class="social-style-two">
-                                                <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
-                                                <a href="contact.html"><i class="fab fa-twitter"></i></a>
-                                                <a href="contact.html"><i class="fab fa-instagram"></i></a>
-                                                <a href="contact.html"><i class="fab fa-behance"></i></a>
-                                                <a href="contact.html"><i class="fab fa-dribbble"></i></a>
+                                            <div class="mb-50">
+                                                <h3>{{ $blog->title }}</h3>
+                                                <ul class="blog-standard-header">
+                                                    <li><span class="name">{{ $blog->author_name }}</span></li>
+                                                    <li><i class="far fa-calendar-alt"></i> <a href="javascript:void(0)" class="text-secondary">{{ date('M d, Y', strtotime($blog->created_at)) }}</a></li>
+
+                                                </ul>
                                             </div>
+                                            <div class="pb-4">
+
+                                                @php
+                                                    $details = explode(".",$blog->details);
+                                                    //$detailsData = html_entity_decode($blog->details, ENT_COMPAT, 'UTF-8')
+                                                @endphp
+                                                {!! $blog->details !!}
+
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
-                                <div class="post-nav pt-60 pb-25">
-                                    <div class="prev-post wow fadeInLeft delay-0-2s">
-                                        <div class="post-thumb">
-                                            <a href="blog-details.html"><img src="assets/images/blog/post-nav-prev.jpg" alt="Image"></a>
-                                        </div>
-                                        <div class="content">
-                                            <h6><a href="blog-details.html">How Deal With Back During Pregn</a></h6>
-                                            <span><i class="far fa-calendar-alt"></i> 25 May 2022</span>
-                                        </div>
-                                    </div>
-                                    <div class="next-post wow fadeInRight delay-0-2s">
-                                        <div class="post-thumb">
-                                            <a href="blog-details.html"><img src="assets/images/blog/post-nav-next.jpg" alt="Image"></a>
-                                        </div>
-                                        <div class="content">
-                                            <h6><a href="blog-details.html">Online Environme Work Older See</a></h6>
-                                            <span><i class="far fa-calendar-alt"></i> 25 May 2022</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="comments pt-40 pb-30 wow fadeInUp delay-0-2s">
-                                    <h4 class="template-title mb-35">Peopel Comments</h4>
-                                    <ul class="comment-list">
-                                        <li>
-                                            <div class="comment-body">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/blog/comment-author1.jpg" alt="Image">
-                                                </div>
-                                                <div class="comment-content">
-                                                    <div class="name-date">
-                                                        <h6>John F. Medina</h6>
-                                                        <span class="comment-date">25 Feb 2022</span>
-                                                    </div>
-                                                    <p>Quis autem vel eum iure reprehenderit quin voluptate velit esseeso quam nihile molestiae consequatur veillum quolore</p>
-                                                    <a href="#" class="reply-link">Reply <i class="fas fa-long-arrow-alt-right"></i></a>
-                                                </div>
-                                            </div>
-                                            <ul class="children">
-                                                <li>
-                                                    <div class="comment-body">
-                                                        <div class="author-thumb">
-                                                            <img src="assets/images/blog/comment-author2.jpg" alt="Image">
-                                                        </div>
-                                                        <div class="comment-content">
-                                                            <div class="name-date">
-                                                                <h6>Somalia D. Silva</h6>
-                                                                <span class="comment-date">25 Feb 2022</span>
-                                                            </div>
-                                                            <p>Quis autem vel eum iure reprehenderit quin voluptate velit esseeso quam nihile molestiae consequatur veillum quolore</p>
-                                                            <a href="#" class="reply-link">Reply <i class="fas fa-long-arrow-alt-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <div class="comment-body">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/blog/comment-author3.jpg" alt="Image">
-                                                </div>
-                                                <div class="comment-content">
-                                                    <div class="name-date">
-                                                        <h6>Roger A. Torrence</h6>
-                                                        <span class="comment-date">25 Feb 2022</span>
-                                                    </div>
-                                                    <p>Quis autem vel eum iure reprehenderit quin voluptate velit esseeso quam nihile molestiae consequatur veillum quolore</p>
-                                                    <a href="#" class="reply-link">Reply <i class="fas fa-long-arrow-alt-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <form id="comment-form" class="comment-form p-50 bg-lighter wow fadeInUp delay-0-2s" name="comment-form" action="#" method="post">
-                                    <h4>Leave a Message</h4>
-                                    <p>Have any question? Ready to talk to us! </p>
-                                    <div class="row mt-25">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" id="full-name" name="full-name" class="form-control" value="" placeholder="Full Name" required="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="email" id="blog-email" name="blog-email" class="form-control" value="" placeholder="Email Address" required="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 mb-30">
-                                            <div class="form-group">
-                                                <select name="subject" id="subject">
-                                                    <option value="Subject">Subject</option>
-                                                    <option value="Instructors">Instructors</option>
-                                                    <option value="Pricing">Pricing</option>
-                                                    <option value="Setting">Setting</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label for="message"><i class="fas fa-pencil-alt"></i></label>
-                                                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Write Message" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group mb-0">
-                                                <div class="custom-control custom-radio mb-20">
-                                                    <input type="radio" class="custom-control-input" id="condition" name="privacy" required="">
-                                                    <label class="custom-control-label" for="condition">I Agree with the trams & conditions</label>
-                                                </div>
-                                                <button type="submit" class="theme-btn">Send Message us<i class="fas fa-arrow-right"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="blog-sidebar rmt-75">
-                                <div class="widget widget-search wow fadeInUp delay-0-2s">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search Here" required>
-                                        <button type="submit" class="searchbutton fa fa-search"></button>
-                                    </form>
-                                </div>
-                                <div class="widget widget-about wow fadeInUp delay-0-4s">
-                                    <div class="image">
-                                        <img src="assets/images/widgets/about.jpg" alt="Author">
-                                    </div>
-                                    <h4>James D. Thomas</h4>
-                                    <p>Sit amet consectetur adipiscing elits do eiusmod tempor incididunt ut labore etdol magna aliquas uspensis. </p>
-                                    <div class="social-style-two">
-                                        <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="contact.html"><i class="fab fa-twitter"></i></a>
-                                        <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="contact.html"><i class="fab fa-youtube"></i></a>
-                                    </div>
-                                </div>
-                                <div class="widget widget-menu wow fadeInUp delay-0-2s">
-                                    <h4 class="widget-title">Category</h4>
-                                    <ul>
-                                        <li><a href="blog.html">Business Coach </a> <span>(25)</span></li>
-                                        <li><a href="blog.html">Life Coach </a> <span>(07)</span></li>
-                                        <li><a href="blog.html">Health Coach </a> <span>(12)</span></li>
-                                        <li><a href="blog.html">Web Design </a> <span>(55)</span></li>
-                                        <li><a href="blog.html">Web Development </a> <span>(14)</span></li>
-                                        <li><a href="blog.html">SEO Optimizations </a> <span>(30)</span></li>
-                                        <li><a href="blog.html">Digital Analysis </a> <span>(18)</span></li>
-                                    </ul>
-                                </div>
+
                                 <div class="widget widget-recent-courses wow fadeInUp delay-0-2s">
-                                    <h4 class="widget-title">Recent Courses</h4>
-                                    <ul>
-                                        <li>
-                                            <div class="image">
-                                                <img src="assets/images/widgets/course1.jpg" alt="Course">
-                                            </div>
-                                            <div class="content">
-                                                <h6><a href="course-details.html">How to Learn Basic Web (UI) Design</a></h6>
-                                                <span>By <a href="#">Williams</a></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="image">
-                                                <img src="assets/images/widgets/course2.jpg" alt="Course">
-                                            </div>
-                                            <div class="content">
-                                                <h6><a href="course-details.html">How to Learn Basic Web Development</a></h6>
-                                                <span>By <a href="#">Somalia</a></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="image">
-                                                <img src="assets/images/widgets/course3.jpg" alt="Course">
-                                            </div>
-                                            <div class="content">
-                                                <h6><a href="course-details.html">How to Learn Basic (SEO) Marketing </a></h6>
-                                                <span>By <a href="#">Blanchard</a></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="image">
-                                                <img src="assets/images/widgets/course4.jpg" alt="Course">
-                                            </div>
-                                            <div class="content">
-                                                <h6><a href="course-details.html">Business Strategy Managements</a></h6>
-                                                <span>By <a href="#">Johnson</a></span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <h4 class="widget-title">Recent Posts</h4>
+
+                                        @isset($recent_blogs)
+                                            @foreach($recent_blogs as $blog)
+                                                <div class="container mb-20">
+                                                <div class="row">
+                                                    <div class="image col-12 mb-15">
+                                                        <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="blog thumbnail" class="img-thumbnail">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="content col-12">
+                                                        <h6><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary">{{$blog->title}}</a></h6>
+                                                        <p>{{ $blog->intro_details }}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="author-info col-5">
+
+                                                        <strong><span class="name">{{ $blog->author_name }}</span></strong>
+                                                    </div>
+                                                    <div class="author-info col-7">
+
+                                                        <i class="far fa-calendar-alt"></i> <a href="javascript:void(0)" class="text-secondary">{{ date('M d, Y', strtotime($blog->created_at)) }}</a>
+
+                                                    </div>
+                                                </div>
+                                                </div>
+
+                                            @endforeach
+                                        @endisset
+
                                 </div>
-                                <div class="widget widget-tag-cloud wow fadeInUp delay-0-2s">
-                                    <h4 class="widget-title">Popular Tags</h4>
-                                    <div class="tag-coulds">
-                                        <a href="blog.html">Course</a>
-                                        <a href="blog.html">Design</a>
-                                        <a href="blog.html">Marketing</a>
-                                        <a href="blog.html">Life Course</a>
-                                        <a href="blog.html">Health Course</a>
-                                        <a href="blog.html">SEO</a>
-                                        <a href="blog.html">Business</a>
-                                        <a href="blog.html">Graphics</a>
-                                    </div>
-                                </div>
+{{--                                <div class="widget widget-tag-cloud wow fadeInUp delay-0-2s">--}}
+{{--                                    <h4 class="widget-title">Popular Tags</h4>--}}
+{{--                                    <div class="tag-coulds">--}}
+{{--                                        <a href="blog.html">Course</a>--}}
+{{--                                        <a href="blog.html">Design</a>--}}
+{{--                                        <a href="blog.html">Marketing</a>--}}
+{{--                                        <a href="blog.html">Life Course</a>--}}
+{{--                                        <a href="blog.html">Health Course</a>--}}
+{{--                                        <a href="blog.html">SEO</a>--}}
+{{--                                        <a href="blog.html">Business</a>--}}
+{{--                                        <a href="blog.html">Graphics</a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                             </div>
                         </div>
                     </div>
@@ -289,4 +123,3 @@
         <!--End pagewrapper-->
 @endsection
 
-  

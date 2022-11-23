@@ -43,7 +43,7 @@ Route::get('/study-in-usa', [PageController::class, 'studyInUsa'])->name('studyI
 Route::get('/study-scholarship', [PageController::class, 'scholarship'])->name('scholarship');
 Route::get('/event', [PageController::class, 'event'])->name('event');
 Route::get('/blog/{page?}', [PageController::class, 'blog'])->name('blog');
-Route::get('/blog-details', [PageController::class, 'blogDetails'])->name('blogDetails');
+Route::get('/blog-details/{id}', [PageController::class, 'blogDetails'])->name('blogDetails');
 Route::get('/dhaka/office', [PageController::class, 'dhakaOffice'])->name('dhakaOffice');
 Route::get('/sylhet/office', [PageController::class, 'sylhetOffice'])->name('sylhetOffice');
 Route::get('/school-of-english', [PageController::class, 'schoolOfEnglish'])->name('schoolOfEnglish');

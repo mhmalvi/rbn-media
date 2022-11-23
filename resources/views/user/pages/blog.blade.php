@@ -1,7 +1,7 @@
 @extends('user.layout.app')
 @section('content')
   <div class="page-wrapper">
-     
+
       <!-- Page Banner Start -->
       @include('user.partials.banner')
       <!-- Page Banner End -->
@@ -25,15 +25,17 @@
                                               <div class="content">
                                                   <ul class="blog-standard-header">
                                                       <li><span class="name">{{ $blog->author_name }}</span></li>
-                                                      <li><i class="far fa-calendar-alt"></i> <a href="javascript:void(0)">{{ date('M d, Y', strtotime($blog->created_at)) }}</a></li>
+                                                      <li><i class="far fa-calendar-alt"></i>
+                                                          <a href="javascript:void(0)" class="text-secondary">{{ date('M d, Y', strtotime($blog->created_at)) }}</a>
+                                                      </li>
                                                       {{-- <li><i class="far fa-comments"></i> <a href="blog-details.html">Comments (05)</a></li> --}}
                                                   </ul>
-                                                  <h3><a href="blog-details.html">{{ $blog->title }}</a></h3>
+                                                  <h3><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary">{{ $blog->title }}</a></h3>
                                                   @php
                                                     $details = explode(".",$blog->details);
                                                   @endphp
                                                   <p>{{ $blog->intro_details }}</p>
-                                                  <a href="blog-details.html" class="theme-btn style-two">Learn more <i class="fas fa-arrow-right"></i></a>
+                                                  <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="theme-btn style-two">Learn more <i class="fas fa-arrow-right"></i></a>
                                               </div>
                                           </div>
                                       </div>
@@ -65,23 +67,38 @@
                   <div class="col-lg-4">
                       <div class="blog-sidebar rmt-75">
                           <div class="widget widget-recent-courses wow fadeInUp delay-0-2s">
-                              <h4 class="widget-title">Recent Blogs</h4>
-                              <ul>
-                                 @isset($recent_blogs)
-                                   @foreach($recent_blogs as $blog)
-                                        <li>
-                                            <div class="image">
-                                                <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="blog thumbnail">
-                                            </div>
-                                            <div class="content">
-                                                <h6><a href="course-details.html">{{$blog->title}}</a></h6>
-                                                <span>By <a href="course-list.html">{{$blog->author_name}}</a></span>
-                                            </div>
-                                        </li>
-                                    @endforeach
-                                 @endisset
-                                 
-                              </ul>
+                              <h4 class="widget-title">Recent Posts</h4>
+
+                              @isset($recent_blogs)
+                                  @foreach($recent_blogs as $blog)
+                                      <div class="container mb-20">
+                                          <div class="row">
+                                              <div class="image col-12 mb-15">
+                                                  <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="blog thumbnail" class="img-thumbnail">
+                                              </div>
+                                          </div>
+                                          <div class="row">
+                                              <div class="content col-12">
+                                                  <h6><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary">{{$blog->title}}</a></h6>
+                                                  <p>{{ $blog->intro_details }}</p>
+                                              </div>
+                                          </div>
+                                          <div class="row">
+                                              <div class="author-info col-5">
+
+                                                  <strong><span class="name">{{ $blog->author_name }}</span></strong>
+                                              </div>
+                                              <div class="author-info col-7">
+
+                                                  <i class="far fa-calendar-alt"></i> <a href="javascript:void(0)" class="text-secondary">{{ date('M d, Y', strtotime($blog->created_at)) }}</a>
+
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                  @endforeach
+                              @endisset
+
                           </div>
                           <div class="widget widget-tag-cloud wow fadeInUp delay-0-2s">
                               <h4 class="widget-title">Popular Tags</h4>
