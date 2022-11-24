@@ -74,100 +74,127 @@
               <h2>Determine Your Future Hub</h2>
           </div>
           <div class="row justify-content-center align-items-center">
-          <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
-                  <figure class="figure mb-0" style="background-image: url(&quot;https://www.iecc.co.uk/public/uploads/destination/1569240440.jpg&quot;); background-repeat: no-repeat;">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/1569240440.jpg" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569253786.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1569253786.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
                       <div class="icon">
-                          <img src="https://www.iecc.co.uk/public/uploads/destination/flag/1569240440.png" alt="UK">
+                          <img src="{{ asset('assets/images/flag/1569253786.png') }}" alt="Australia">
+                      </div>
+                      <h4>Australia</h4>
+                      <p class="card-text">Enjoy the diverse cultural opportunities by studying abroad in Australia.</p>
+                      <a href="{{ url('study-in-aus') }}" class="btn btn-primary">Explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569237351.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1569237351.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1569237351.png') }}" alt="Canada">
+                      </div>
+                      <h4>Canada</h4>
+                      <p class="card-text">Experience quality education and beautiful natural environment while studying in Canada..</p>
+                      <a href="{{ url('study-in-canada') }}" class="btn btn-primary">Explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1624194468.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1624194468.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1624194469.png') }}" alt="Dubai">
+                      </div>
+                      <h4>Dubai</h4>
+                      <p class="card-text">Study in the UAE, and you will certainly learn a lot about the Emirati culture..</p>
+                      <a href="{{ url('study-in-dubai') }}" class="btn btn-primary">Explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569401765.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1569401765.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1573652587.png') }}" alt="Germany">
+                      </div>
+                      <h4>Germany</h4>
+                      <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Germany..</p>
+                      <a href="{{ url('study-in-germany') }}" class="btn btn-primary">Explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569404986.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1569404986.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1569404987.png') }}" alt="Malaysia">
+                      </div>
+                      <h4>Malaysia</h4>
+                      <p class="card-text">Be a part of Malaysian Society and experience the unique culture.</p>
+                      <a href="{{ url('study-in-malyasia') }}" class="btn btn-primary">Explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1628508373.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1628508373.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1628508376.png') }}" alt="Switzerland">
+                      </div>
+                      <h4>Switzerland</h4>
+                      <p class="card-text">Experience quality education and a beautiful natural environment while studying in Switzerland..</p>
+                      <a href="{{ url('study-in-switzerland') }}" class="btn btn-primary">Explore</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569240440.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1569240440.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
                       </div>
                       <h4>UK</h4>
                       <p class="card-text">Take the opportunity to Immerse yourself in British culture by studying in the UK.</p>
-                      <a href="https://www.iecc.co.uk/destinations/study-in-uk" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-uk') }}" class="btn btn-primary">Explore</a>
                   </div>
               </div>
           </div>
-           <div class="col-lg-4 col-md-4 col-sm-6">
-               <div class="card box-shadow border-0 hover-styled">
-                   <figure class="figure mb-0" style="background-image: url(&quot;https://www.iecc.co.uk/public/uploads/destination/1569252684.jpg&quot;); background-repeat: no-repeat;">
-                       <img src="https://www.iecc.co.uk/public/uploads/destination/1569252684.jpg" class="card-img-top" alt="Image" style="visibility: hidden;">
-                   </figure>
-                   <div class="card-body pt-0">
-                       <div class="icon">
-                           <img src="https://www.iecc.co.uk/public/uploads/destination/flag/1569246724.png" alt="USA">
-                       </div>
-                       <h4>USA</h4>
-                       <p class="card-text">Experience the beautiful natural environment and multi-cultural society of USA.</p>
-                       <a href="https://www.iecc.co.uk/destinations/study-in-usa" class="btn btn-primary">Explore</a>
-                   </div>
-               </div>
-           </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="card box-shadow border-0 hover-styled">
-                    <figure class="figure mb-0" style="background-image: url(&quot;https://www.iecc.co.uk/public/uploads/destination/1569237351.jpg&quot;); background-repeat: no-repeat;">
-                        <img src="https://www.iecc.co.uk/public/uploads/destination/1569237351.jpg" class="card-img-top" alt="Image" style="visibility: hidden;">
-                    </figure>
-                    <div class="card-body pt-0">
-                        <div class="icon">
-                            <img src="https://www.iecc.co.uk/public/uploads/destination/flag/1569237351.png" alt="Canada">
-                        </div>
-                        <h4>Canada</h4>
-                        <p class="card-text">Experience quality education and beautiful natural environment while studying in Canada..</p>
-                        <a href="https://www.iecc.co.uk/destinations/study-in-canada" class="btn btn-primary">Explore</a>
-                    </div>
-                </div>
-            </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="card box-shadow border-0 hover-styled">
-                      <figure class="figure mb-0" style="background-image: url(&quot;https://www.iecc.co.uk/public/uploads/destination/1569253786.jpg&quot;); background-repeat: no-repeat;">
-                          <img src="https://www.iecc.co.uk/public/uploads/destination/1569253786.jpg" class="card-img-top" alt="Image" style="visibility: hidden;">
-                      </figure>
-                      <div class="card-body pt-0">
-                          <div class="icon">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/flag/1569253786.png" alt="Australia">
-                          </div>
-                          <h4>Australia</h4>
-                          <p class="card-text">Enjoy the diverse cultural opportunities by studying abroad in Australia.</p>
-                          <a href="https://www.iecc.co.uk/destinations/study-in-australia" class="btn btn-primary">Explore</a>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card box-shadow border-0 hover-styled">
+                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569252684.jpg') }}'); background-repeat: no-repeat;">
+                      <img src="{{ asset('assets/images/future-hub/1569252684.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
+                  </figure>
+                  <div class="card-body pt-0">
+                      <div class="icon">
+                          <img src="{{ asset('assets/images/flag/1569246724.png') }}" alt="USA">
                       </div>
-                  </div>
-              </div>
-             
-           
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="card box-shadow border-0 hover-styled">
-                      <figure class="figure mb-0" style="background-image: url(&quot;https://www.iecc.co.uk/public/uploads/destination/1569401765.jpg&quot;); background-repeat: no-repeat;">
-                          <img src="https://www.iecc.co.uk/public/uploads/destination/1569401765.jpg" class="card-img-top" alt="Image" style="visibility: hidden;">
-                      </figure>
-                      <div class="card-body pt-0">
-                          <div class="icon">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/flag/1573652587.png" alt="Germany">
-                          </div>
-                          <h4>Europe</h4>
-                          <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Europe..</p>
-                          <a href="https://www.iecc.co.uk/destinations/study-in-germany" class="btn btn-primary">Explore</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="card box-shadow border-0 hover-styled">
-                      <figure class="figure mb-0" style="background-image: url(&quot;https://www.iecc.co.uk/public/uploads/destination/1569404986.jpg&quot;); background-repeat: no-repeat;">
-                          <img src="https://www.iecc.co.uk/public/uploads/destination/1569404986.jpg" class="card-img-top" alt="Image" style="visibility: hidden;">
-                      </figure>
-                      <div class="card-body pt-0">
-                          <div class="icon">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/flag/1569404987.png" alt="Malaysia">
-                          </div>
-                          <h4>Malaysia</h4>
-                          <p class="card-text">Be a part of Malaysian Society and experience the unique culture.</p>
-                          <a href="https://www.iecc.co.uk/destinations/study-in-malaysia" class="btn btn-primary">Explore</a>
-                      </div>
+                      <h4>USA</h4>
+                      <p class="card-text">Experience the beautiful natural environment and multi-cultural society of USA.</p>
+                      <a href="{{ url('study-in-usa') }}" class="btn btn-primary">Explore</a>
                   </div>
               </div>
           </div>
-
+          </div>
       </div>
   </section>
   <!-- Features Section End -->
@@ -181,14 +208,14 @@
               <div class="col-lg-5">
                   <div class="services-content rmb-65 wow fadeInUp delay-0-2s">
                       <div class="section-title">
-                        
+
                           <h2>Services</h2>
                       </div>
                       <p>
                          A place for everything you need to shape your dream.
 
                       </p>
-                    
+
                   </div>
               </div>
               <div class="col-lg-7">
@@ -215,7 +242,7 @@
                                         <a href="#">Read More</a>
 
                               </div>
-                               
+
 
                           </div>
                           <div class="col-md-4 col-sm-6">
@@ -268,7 +295,7 @@
                                      <a href="#">Read More</a>
 
                               </div>
-                            
+
                           </div>
                       </div>
                   </div>
@@ -284,114 +311,46 @@
           <div class="row justify-content-center">
               <div class="col-xl-6 col-lg-7 col-md-8">
                   <div class="section-title text-center mb-45">
-                      
+
 
                       <h2>Featured Universities</h2>
 
                   </div>
               </div>
           </div>
-          <div class="coach-slider">
-              <div class="coach-item style-two wow fadeInUp delay-0-2s">
+          <div class="row">
+              <div class="col-6 fadeInUp delay-0-2s">
                   <div class="coach-image">
-                      <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
+                      <img src="{{ asset('assets/images/features/university-manchester.jpg') }}" alt="University of Manchester" />
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">The University of Manchester</a>
+                      <a href="javascript:void(0)" class="category text-secondary">The University of Manchester</a>
 
                       <h4>
-                          <a href="javascript:void(0)">Manchester, UK</a>
-                        
+                          <a href="javascript:void(0)" class="text-secondary">Manchester, UK</a>
+
                       </h4>
                         <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
 
-                   
                   </div>
               </div>
-              <div class="coach-item style-two wow fadeInUp delay-0-4s">
+              <div class="col-6 fadeInUp delay-0-4s">
                   <div class="coach-image">
                       <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
 
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Leeds</a>
+                      <a href="javascript:void(0)" class="category text-secondary">University of Leeds</a>
 
                       <h4>
-                          <a href="javascript:void(0)">Yorkshire, UK</a>
+                          <a href="javascript:void(0)" class="text-secondary">Yorkshire, UK</a>
 
                       </h4>
                         <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
 
-
                   </div>
               </div>
-              <div class="coach-item style-two wow fadeInUp delay-0-6s">
-                  <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach3.jpg') }}" alt="Coach" />
 
-                  </div>
-                  <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Manitoba</a>
-
-                      <h4>
-                          <a href="javascript:void(0)">Manitoba, Canada</a>
-
-                      </h4>
-                      <p>Ranked 350th by The World University Ranking 2021.</p>
-
-                     
-                  </div>
-              </div>
-              <div class="coach-item style-two wow fadeInUp delay-0-2s">
-                  <div class="coach-image">
-                      <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
-                  </div>
-                  <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">The University of Manchester</a>
-
-                      <h4>
-                          <a href="javascript:void(0)">Manchester, UK</a>
-                        
-                      </h4>
-                        <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
-
-                   
-                  </div>
-              </div>
-              <div class="coach-item style-two wow fadeInUp delay-0-4s">
-                  <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
-
-                  </div>
-                  <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Leeds</a>
-
-                      <h4>
-                          <a href="javascript:void(0)">Yorkshire, UK</a>
-
-                      </h4>
-                        <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
-
-
-                  </div>
-              </div>
-              <div class="coach-item style-two wow fadeInUp delay-0-6s">
-                  <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach3.jpg') }}" alt="Coach" />
-
-                  </div>
-                  <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Manitoba</a>
-
-                      <h4>
-                          <a href="javascript:void(0)">Manitoba, Canada</a>
-
-                      </h4>
-                      <p>Ranked 350th by The World University Ranking 2021.</p>
-
-                     
-                  </div>
-              </div>
           </div>
       </div>
   </section>
@@ -405,7 +364,7 @@
           <div class="row justify-content-center">
               <div class="col-xl-6 col-lg-7 col-md-8">
                   <div class="section-title text-center mb-45">
-                    
+
                       <h2>Our Accreditations</h2>
                   </div>
               </div>
@@ -421,11 +380,11 @@
 
                       <h4>
                           <a href="javascript:void(0)">Manchester, UK</a>
-                        
+
                       </h4>
                         <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
 
-                   
+
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-4s">
@@ -459,7 +418,7 @@
                       </h4>
                       <p>Ranked 350th by The World University Ranking 2021.</p>
 
-                     
+
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-2s">
@@ -471,11 +430,11 @@
 
                       <h4>
                           <a href="javascript:void(0)">Manchester, UK</a>
-                        
+
                       </h4>
                         <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
 
-                   
+
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-4s">
@@ -509,7 +468,7 @@
                       </h4>
                       <p>Ranked 350th by The World University Ranking 2021.</p>
 
-                     
+
                   </div>
               </div>
           </div>
@@ -518,44 +477,44 @@
   <!-- Coach Section End -->
 
   <!-- Advertise Area Start -->
-  <section class="advertise-area pb-100 rpb-70">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="advertise-item wow fadeInUp delay-0-2s">
-                      <div class="content">
-                          <h4>Add Text</h4>
-                          <p>
-                              Sit amet consectetur adipiscing sed eiusmod tempore dolore
-                              magna suspendisse
-                          </p>
-                          <a href="javascript:void(0)" class="theme-btn">Join with us <i class="fas fa-arrow-right"></i></a>
-                      </div>
-                      <div class="image">
-                          <img src="{{ asset('assets/images/advertise/advertise1.png') }}" alt="Advertise" />
+{{--  <section class="advertise-area pb-100 rpb-70">--}}
+{{--      <div class="container">--}}
+{{--          <div class="row">--}}
+{{--              <div class="col-lg-6">--}}
+{{--                  <div class="advertise-item wow fadeInUp delay-0-2s">--}}
+{{--                      <div class="content">--}}
+{{--                          <h4>Add Text</h4>--}}
+{{--                          <p>--}}
+{{--                              Sit amet consectetur adipiscing sed eiusmod tempore dolore--}}
+{{--                              magna suspendisse--}}
+{{--                          </p>--}}
+{{--                          <a href="javascript:void(0)" class="theme-btn">Join with us <i class="fas fa-arrow-right"></i></a>--}}
+{{--                      </div>--}}
+{{--                      <div class="image">--}}
+{{--                          <img src="{{ asset('assets/images/advertise/advertise1.png') }}" alt="Advertise" />--}}
 
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="advertise-item bg-two wow fadeInUp delay-0-4s">
-                      <div class="content">
-                          <h4>Add Text</h4>
-                          <p>
-                              Amet consectetur adipiscing sed eius tempore dolore magna
-                              suspens
-                          </p>
-                          <a href="javascript:void(0)" class="theme-btn style-two">Join with us <i class="fas fa-arrow-right"></i></a>
-                      </div>
-                      <div class="image">
-                          <img src="{{ asset('assets/images/advertise/advertise2.png') }}" alt="Advertise" />
+{{--                      </div>--}}
+{{--                  </div>--}}
+{{--              </div>--}}
+{{--              <div class="col-lg-6">--}}
+{{--                  <div class="advertise-item bg-two wow fadeInUp delay-0-4s">--}}
+{{--                      <div class="content">--}}
+{{--                          <h4>Add Text</h4>--}}
+{{--                          <p>--}}
+{{--                              Amet consectetur adipiscing sed eius tempore dolore magna--}}
+{{--                              suspens--}}
+{{--                          </p>--}}
+{{--                          <a href="javascript:void(0)" class="theme-btn style-two">Join with us <i class="fas fa-arrow-right"></i></a>--}}
+{{--                      </div>--}}
+{{--                      <div class="image">--}}
+{{--                          <img src="{{ asset('assets/images/advertise/advertise2.png') }}" alt="Advertise" />--}}
 
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
+{{--                      </div>--}}
+{{--                  </div>--}}
+{{--              </div>--}}
+{{--          </div>--}}
+{{--      </div>--}}
+{{--  </section>--}}
   <!-- Advertise Area End -->
 
   <!-- Team Section Start -->
@@ -673,44 +632,50 @@
       <div class="container">
           <div class="section-title text-center mb-55">
               <span class="sub-title-two">Event & Program</span>
-              <h2>Add Text</h2>
+{{--              <h2>Add Text</h2>--}}
           </div>
           <div class="row">
           @php
             $i=1;
+
           @endphp
            @isset($events)
+               @php
+                   $eventCount = count($events);
+               @endphp
                @foreach($events as $event)
-                 @if($i == 3)
-                     <div class="col-lg-12">
-                         <hr class="mb-55" />
-                     </div>
-                 @endif
-                 <div class="col-lg-6">
-                     <div class="event-item-two wow fadeInUp delay-0-2s">
-                         <span class="date"> {{ date('M', strtotime($event->event_date)) }} <b>{{ date('d', strtotime($event->event_date)) }}</b> <span>{{ date('Y', strtotime($event->event_date)) }}</span> </span>
+                 @if($i <5)
+                     @if($i == 3)
+                         <div class="col-lg-12">
+                             <hr class="mb-55" />
+                         </div>
+                     @endif
+                     <div class="col-lg-6">
+                         <div class="event-item-two wow fadeInUp delay-0-2s">
+                             <span class="date"> {{ date('M', strtotime($event->event_date)) }} <b>{{ date('d', strtotime($event->event_date)) }}</b> <span>{{ date('Y', strtotime($event->event_date)) }}</span> </span>
 
 
-                         <img src="{{ asset('assets/admin/image/events/'.$event->thumbnail) }}" alt="Event thumbnail" />
+                             <img src="{{ asset('assets/admin/image/events/'.$event->thumbnail) }}" alt="Event thumbnail" />
 
 
-                         <div class="content">
-                             <span class="location"><i class="fas fa-map-marker-alt"></i>{{ $event->location }}</span>
-                             <h4>
-                                 <a href="javascript:void(0)">{{ $event->title }}</a>
-                             </h4>
-                             {{-- <a href="javascript:void(0)" class="read-more color-two">Get ticket <i class="fas fa-arrow-right"></i></a> --}}
+                             <div class="content">
+                                 <span class="location"><i class="fas fa-map-marker-alt"></i>{{ $event->location }}</span>
+                                 <h4>
+                                     <a href="javascript:void(0)" class="text-secondary">{{ $event->title }}</a>
+                                 </h4>
+                                 {{-- <a href="javascript:void(0)" class="read-more color-two">Get ticket <i class="fas fa-arrow-right"></i></a> --}}
+                             </div>
                          </div>
                      </div>
-                 </div>
-                 @php
-                     $i++;
+                     @php
+                         $i++;
 
-                 @endphp
+                     @endphp
+                 @endif
                @endforeach
-            
+
            @endisset
-             
+
              {{--  <div class="col-lg-6">
                   <div class="event-item-two wow fadeInUp delay-0-4s">
                       <span class="date"> Mar <b>09</b> <span>2022</span> </span>
@@ -760,9 +725,12 @@
                   </div>
               </div> --}}
           </div>
+
+          @if($eventCount >4)
           <div class="event-more-btn text-center pt-15">
-              <a href="javascript:void(0)" class="theme-btn style-three">view more events <i class="fas fa-arrow-right"></i></a>
+              <a href="{{ route('event') }}" class="theme-btn style-three">View More Events <i class="fas fa-arrow-right"></i></a>
           </div>
+          @endif
       </div>
   </section>
   <!-- Event Section End -->
@@ -857,8 +825,14 @@
           </div>
           <div class="row">
             @isset($blogs)
-                 @foreach($blogs as $blog)
-                       <div class="col-lg-4 col-md-6">
+                  @php
+                      $i=1;
+                      $blogCount = count($blogs);
+                  @endphp
+
+              @foreach($blogs as $blog)
+                      @if($i <5)
+                       <div class="col-lg-3 col-md-6">
                            <div class="blog-item style-two wow fadeInUp delay-0-2s">
                                <div class="blog-image">
                                    <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
@@ -871,28 +845,37 @@
                                                <i class="far fa-user"></i>
                                                <a href="javascript:void(0)">By {{ $blog->author_name }}</a>
                                            </li>
-                                           
+
                                        </ul>
                                        <h4>
                                            <a href="javascript:void(0)">Designing Better Link Web Site and Emailsite</a>
                                        </h4>
-                                       <a href="javascript:void(0)" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                       <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
                                    </div>
                                </div>
                            </div>
                        </div>
-
+                      @endif
+                          @php
+                              $i++;
+                          @endphp
                  @endforeach
             @endisset
-           
-         
+
+                @if($blogCount >4)
+                    <div class="event-more-btn text-center pt-15">
+                        <a href="{{ route('blog') }}" class="theme-btn style-three">View More Posts <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                @endif
+
           </div>
-          <hr class="mt-95 rmt-65" />
+
       </div>
   </section>
+  <hr class="mt-95 rmt-65" />
   <!-- Blog Section End -->
 
-@include('user.partials.partners')
+{{--@include('user.partials.partners')--}}
 
 
 @endsection

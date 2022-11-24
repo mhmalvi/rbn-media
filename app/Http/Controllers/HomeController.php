@@ -17,7 +17,8 @@ class HomeController extends Controller
     {
 
         //fetch the latest 3 blogs
-        $blogs = Blog::latest()->limit(3)->get();
+        //$blogs = Blog::latest()->limit(3)->get();
+        $blogs = Blog::latest()->limit(5)->get();
 
         //get the date according to ending format
         $today = date('Y-m-d', strtotime(Carbon::now()));
@@ -25,7 +26,8 @@ class HomeController extends Controller
         //get the latest 4 events
         $today = date('Y-m-d', strtotime($today));
 
-        $events = Event::where('ending_date', '>=', $today)->offset(0)->limit(4)->orderBy('created_at', 'desc')->get();
+        $events = Event::where('ending_date', '>=', $today)->offset(0)->limit(5)->orderBy('created_at', 'desc')->get();
+        //$events = Event::where('ending_date', '>=', $today)->orderBy('created_at', 'desc')->get();
 
         return view('user.pages.index', compact('blogs', 'events'));
     }

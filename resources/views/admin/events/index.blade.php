@@ -25,7 +25,7 @@
                     <table class="table table-striped table-bordered table-hover dataTables-example" >
                         <thead>
                             <tr class="text-center">
-                              
+
                                 <th>#</th>
                                 <th>Title</th>
                                 <th>Location</th>
@@ -55,10 +55,10 @@
 
                                                 </div> --}}
                                                 <div class="col-md-1">
-                                                    <a href="{{ route('admin.event.edit',$event->slug )}}">edit</a>
+                                                    <a href="{{ route('admin.event.edit',$event->slug )}}">Edit</a>
                                                 </div>
                                                 <div class="col-md-1">
-                                                    <a href="#" data-slug="{{$event->slug}}" class="del">delete</a>
+                                                    <a href="#" data-slug="{{$event->slug}}" class="del">Delete</a>
                                                 </div>
                                             </div>
                                         </td>

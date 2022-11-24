@@ -4022,7 +4022,7 @@ h6,
 .main-menu .navbar-collapse li a {
     position: relative;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     opacity: 1;
     font-weight: 700;
     color: #262d3d;
@@ -4030,6 +4030,14 @@ h6,
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
+}
+.main-menu ul li .icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: var(--white);
+    border: 1px solid var(--white);
 }
 @media only screen and (max-width: 991px) {
     .main-menu .navbar-collapse li a {

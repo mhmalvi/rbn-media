@@ -25,7 +25,7 @@
                     <table class="table table-striped table-bordered table-hover dataTables-example" >
                         <thead>
                             <tr class="text-center">
-                              
+
                                 <th>#</th>
                                 <th>Title</th>
                                 <th>Tags</th>
@@ -47,21 +47,21 @@
                                             {{$blog->title}}
                                             <div class="row">
                                                 <div class="col-md-1">
-                                                    <a href="{{ route('admin.blog.show',$blog->blog_slug)}}">view</a>
+                                                    <a href="{{ route('admin.blog.show',$blog->blog_slug)}}">View</a>
 
                                                 </div>
                                                 <div class="col-md-1">
-                                                    <a href="{{ route('admin.blog.edit',$blog->blog_slug )}}">edit</a>
+                                                    <a href="{{ route('admin.blog.edit',$blog->blog_slug )}}">Edit</a>
                                                 </div>
                                                 <div class="col-md-1">
-                                                    <a href="#" data-slug="{{$blog->blog_slug}}" class="del">delete</a>
+                                                    <a href="#" data-slug="{{$blog->blog_slug}}" class="del">Delete</a>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
 
                                         @php
-                                            $tags = $blog->tags ? json_decode($blog->tags) : null; 
+                                            $tags = $blog->tags ? json_decode($blog->tags) : null;
                                         @endphp
                                         @if($tags)
                                              @foreach($tags as $tag)

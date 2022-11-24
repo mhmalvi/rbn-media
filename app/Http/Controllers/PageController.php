@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Admin\Blog;
+use App\Models\Admin\Event;
 use App\Models\Admin\Tag;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -93,10 +95,20 @@ class PageController extends Controller
         $pageName = 'Scholarship';
         return view('user.pages.scholarship', compact('pageName'));
     }
-    public function event()
+    public function event(Request $request, $page = 1)
     {
         $pageName = 'Event';
-        return view('user.pages.event', compact('pageName'));
+        $today = date('Y-m-d', strtotime(Carbon::now()));
+
+        //get the latest 4 events
+        $today = date('Y-m-d', strtotime($today));
+        $total_event = Event::where('ending_date', '>=', $today)->count();
+        $event_per_page = 10;
+        $total_page = ceil($total_event / $event_per_page);
+        $offset = ($page - 1) * $event_per_page;
+        $events = Event::offset($offset)->limit($event_per_page)->orderBy('id', 'desc')->get();
+
+        return view('user.pages.event', compact('events', 'total_page', 'page', 'pageName'));
     }
     public function blog(Request $request, $page = 1)
     {
