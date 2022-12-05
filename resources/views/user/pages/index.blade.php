@@ -74,7 +74,7 @@
               <h2>Determine Your Future Hub</h2>
           </div>
           <div class="row justify-content-center align-items-center">
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569253786.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569253786.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
@@ -89,7 +89,7 @@
                   </div>
               </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569237351.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569237351.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
@@ -104,22 +104,8 @@
                   </div>
               </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="card box-shadow border-0 hover-styled">
-                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1624194468.jpg') }}'); background-repeat: no-repeat;">
-                      <img src="{{ asset('assets/images/future-hub/1624194468.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
-                  </figure>
-                  <div class="card-body pt-0">
-                      <div class="icon">
-                          <img src="{{ asset('assets/images/flag/1624194469.png') }}" alt="Dubai">
-                      </div>
-                      <h4>Dubai</h4>
-                      <p class="card-text">Study in the UAE, and you will certainly learn a lot about the Emirati culture..</p>
-                      <a href="{{ url('study-in-dubai') }}" class="btn btn-primary">Explore</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          
+          <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569401765.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569401765.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
@@ -134,7 +120,7 @@
                   </div>
               </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569404986.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569404986.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
@@ -149,22 +135,8 @@
                   </div>
               </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="card box-shadow border-0 hover-styled">
-                  <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1628508373.jpg') }}'); background-repeat: no-repeat;">
-                      <img src="{{ asset('assets/images/future-hub/1628508373.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
-                  </figure>
-                  <div class="card-body pt-0">
-                      <div class="icon">
-                          <img src="{{ asset('assets/images/flag/1628508376.png') }}" alt="Switzerland">
-                      </div>
-                      <h4>Switzerland</h4>
-                      <p class="card-text">Experience quality education and a beautiful natural environment while studying in Switzerland..</p>
-                      <a href="{{ url('study-in-switzerland') }}" class="btn btn-primary">Explore</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          
+          <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569240440.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569240440.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
@@ -179,7 +151,7 @@
                   </div>
               </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569252684.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569252684.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
@@ -221,7 +193,7 @@
               <div class="col-lg-7">
                   <div class="services-wrap wow fadeInUp delay-0-4s">
                       <div class="row">
-                          <div class="col-md-4 col-sm-6">
+                          <div class="col-md-4 col-sm-6 mt-40">
                               <div class="category-item mt-35 hover-styled">
 
                                   <div class="icon">
@@ -242,9 +214,8 @@
                                         <a href="#">Read More</a>
 
                               </div>
-
-
                           </div>
+
                           <div class="col-md-4 col-sm-6">
                               <div class="category-item  hover-styled">
                                   <div class="icon">
@@ -262,20 +233,16 @@
                                   </div>
                                   <h4>Admission Assistance </h4>
                                     <a href="#">Read More</a>
-
                               </div>
                                <div class="category-item  hover-styled">
                                    <div class="icon">
                                        <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
-
                                    </div>
                                    <h4>Pastoral Care</h4>
                                         <a href="#">Read More</a>
-
-
                                </div>
-
                           </div>
+
                           <div class="col-md-4 col-sm-6">
                               <div class="category-item  hover-styled mt-40">
                                   <div class="icon">
@@ -295,6 +262,14 @@
                                      <a href="#">Read More</a>
 
                               </div>
+                               <div class="category-item  hover-styled">
+                                   <div class="icon">
+                                       <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
+                                   </div>
+                                   <h4>Pastoral Care</h4>
+                                        <a href="#">Read More</a>
+                               </div>
+
 
                           </div>
                       </div>

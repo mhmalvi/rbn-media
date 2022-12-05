@@ -2,7 +2,7 @@
         <!-- Main Menu -->
         <nav class="main-menu navbar-expand-lg">
             <div class="navbar-header">
-                <div class="mobile-logo bg-green br-10 p-15">
+                <div class="mobile-logo br-10 p-15">
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('assets/images/logos/rbn.png') }}" alt="Logo" title="Logo" />
                     </a>
@@ -48,8 +48,9 @@
                             </li>
                             <li>
                                 <a href="{{ route('departureBriefing') }}">Visa Assistance</a>
-
-
+                            </li>
+                            <li>
+                                <a href="{{ route('departureBriefing') }}">Prior Departure Briefing</a>
                             </li>
                             <li>
                                 <a href="{{ route('postalCare') }}">Pastoral Care</a>
@@ -60,7 +61,7 @@
                     <li class="dropdown">
                         <a href="javascript:void(0)">Dream Destination</a>
 
-                        <ul>
+                        <ul style="padding-bottom: 4px">
                             <li>
                                 <a href="{{ url('study-in-aus') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569253786.png') }}" alt="Australia">
@@ -73,12 +74,12 @@
                                     Study In Canada
                                 </a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="{{ url('study-in-dubai') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1624194469.png') }}" alt="Dubai">
                                     Study In Dubai
                                 </a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="{{ url('study-in-germany') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1573652587.png') }}" alt="Germany">
@@ -91,12 +92,12 @@
                                     Study In Malaysia
                                 </a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="{{ url('study-in-switzerland') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1628508376.png') }}" alt="Switzerland">
                                     Study In Switzerland
                                 </a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="{{ url('study-in-uk') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
@@ -143,7 +144,7 @@
     </div>
     <!-- Menu Button -->
     <div class="menu-btn-sidebar d-flex align-items-center">
-        <a href="{{ route('schoolOfEnglish') }}" class="btn btn-success">School Of English</a>
+        <a href="{{ route('schoolOfEnglish') }}" class="btn text-white" style="font-size: 12px; padding: 6px 16px">School Of English</a>
         {{--  <form action="javascript:void(0)">
              <input type="search" placeholder="Search" required />
              <button><i class="fas fa-search"></i></button>

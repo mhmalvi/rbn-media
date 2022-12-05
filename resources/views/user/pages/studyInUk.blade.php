@@ -2,7 +2,7 @@
 @section('content')
   @include('user.partials.banner')
   <!--  destination list start -->
-  <section class="destination text-justify py-80 rpt-90  rpb-45">
+  <section class="destination text-justify py-80 mx-sm-4 rpt-90 rpb-45">
       <div class="container">
         <div class="section-title text-center mb-55">
             <h2>Determine Your Future Hub</h2>
@@ -11,11 +11,12 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1569240627.png" class="img-fluid" alt="Toronto ">
+                          <figure class="figure mx-auto">
+                              {{-- <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1569240627.png')}}" class="img-fluid" alt="Toronto "> --}}
+                              <img src="{{asset('assets/images/destination/uk/topcities/london.png')}}" class="img-fluid" alt="London ">
                           </figure>
                           <div class="card-body">
-                              <h5> London</h5>
+                              <h5>London</h5>
                           </div>
                       </div>
                   </a>
@@ -23,11 +24,11 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1569240640.png" class="img-fluid" alt="Toronto ">
+                          <figure class="figure mx-auto">
+                              <img src="{{asset('assets/images/destination/uk/topcities/manchester.png')}}" class="img-fluid" alt="Manchester ">
                           </figure>
                           <div class="card-body">
-                              <h5> Manchester</h5>
+                              <h5>Manchester</h5>
                           </div>
                       </div>
                   </a>
@@ -35,8 +36,8 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1572785067.png" class="img-fluid" alt="Toronto ">
+                          <figure class="figure mx-auto">
+                              <img src="{{asset('assets/images/destination/uk/topcities/SCOTLAND.png')}}" class="img-fluid" alt="Scotland">
                           </figure>
                           <div class="card-body">
                               <h5> Scotland</h5>
@@ -47,8 +48,8 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1572265616.png" class="img-fluid" alt="Toronto ">
+                          <figure class="figure mx-auto">
+                              <img src="{{asset('assets/images/destination/uk/topcities/SHEFFIELD.png')}}" class="img-fluid" alt="Sheffield">
                           </figure>
                           <div class="card-body">
                               <h5> Sheffield</h5>
@@ -59,8 +60,8 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
-                              <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1569488712.png" class="img-fluid" alt="Toronto ">
+                          <figure class="figure mx-auto">
+                              <img src="{{asset('assets/images/destination/uk/topcities/WALES.png')}}" class="img-fluid" alt="Wales">
                           </figure>
                           <div class="card-body">
                               <h5> Wales</h5>
@@ -80,14 +81,14 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 pt-md-2">
+                <div class="col-sm-12 mx-auto col-lg-6 pt-md-2">
                     <div class="video-box">
                         <figure class="figure circle-styled">
-                            <img class="img-fluid" src="https://www.iecc.co.uk/public/uploads/destination/secone/thumb/1603015036.jpg" alt="Image">
+                            <img class="img-fluid" src="{{asset('assets/images/destination/uk/1603015036.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-11 mx-auto col-lg-6 pl-lg-5">
                     <h3 class="brand-color divider-1"> Why study in the UK? </h3>
                     <p>Here are few reasons to choose UK as your study destination</p>
                     <ol>
@@ -104,8 +105,8 @@
             </div>
         </div>
         <!-- Video modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog')}}" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg')}}" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -127,21 +128,20 @@
 
           <div class="container">
               <div class="row">
-                  <div class="col-lg-6">
-                      <h3 class="brand-color divider-1">Study in the UK with IECC </h3>
+                  <div class="col-11  mx-auto col-lg-6 pl-lg-5">
+                      <h3 class="brand-color divider-1">Study in the UK with RBN </h3>
                       <p>
                       </p>
-                      <p>Guide for application and visa requirements with IECC Thousands of students plan to study in the UK&nbsp;every year but many of them find it difficult while applying for the UK universities. IECC helps international students to live their dream to study in Uk since 2005. We handle the whole process on your behalf starting with university selection, application paperwork, visa guidance, and accommodation arrangements.</p>
+                      <p>Guide for application and visa requirements with RBN Thousands of students plan to study in the UK&nbsp;every year but many of them find it difficult while applying for the UK universities. RBN helps international students to live their dream to study in Uk since 2005. We handle the whole process on your behalf starting with university selection, application paperwork, visa guidance, and accommodation arrangements.</p>
                       <p>Our expert team is aware of your time and interest so we start the process immediately after receiving your document and submit your application within 2 working days. We have a dedicated team to support you in visa processing and ensure your admission journey to be successful.</p>
-                      <p></p>
-
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-sm-12 mx-auto col-lg-6 col-lg-6">
                       <div class="video-box">
                           <figure class="figure1 mb-0">
-                              <img class="img-fluid" src="https://www.iecc.co.uk/public/uploads/destination/sectwo/thumb/1571657683.PNG" alt="Image">
+                            {{-- <img width="75%" src="{{asset('assets/images/destination/uk/1571657683.png')}}" alt="Image"> --}}
+                            <img src="{{asset('assets/images/destination/uk/1571657683.png')}}" alt="Image">
                               <button class="btn btn-link play-btn-sec absolute-center" data-toggle="modal" data-target="#myModalSec" data-src="https://www.youtube.com/embed/8VFx25hIB70">
-                                  <svg class="svg-inline--fa fa-play-circle fa-w-16" aria-hidden="true" data-prefix="far" data-icon="play-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                  <svg class="svg-inline--fa fa-play-circle fa-w-16" aria-hidden="true" data-prefix="far" data-icon="play-circle" role="img')}}" xmlns="http://www.w3.org/2000/svg')}}" viewBox="0 0 512 512" data-fa-i2svg="">
                                       <path fill="currentColor" d="M371.7 238l-176-107c-15.8-8.8-35.7 2.5-35.7 21v208c0 18.4 19.8 29.8 35.7 21l176-101c16.4-9.1 16.4-32.8 0-42zM504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256z"></path>
                                   </svg><!-- <i class="far fa-play-circle"></i> -->
                               </button>
@@ -182,7 +182,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572698665.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Aston University</h5>
                           <p>Birmingham</p>
@@ -194,7 +194,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569490629.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Bangor University</h5>
                           <p>Wales</p>
@@ -206,7 +206,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572875214.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572875214.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Bellerbys College</h5>
                           <p>Brighton</p>
@@ -217,7 +217,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572699086.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699086.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Bournemouth University</h5>
                           <p>Dorset</p>
@@ -228,7 +228,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572699473.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699473.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Brunel University</h5>
                           <p>London</p>
@@ -239,7 +239,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572699609.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699609.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Buckingham University</h5>
                           <p>Buckingham</p>
@@ -250,7 +250,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569490283.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569490283.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Cardiff University</h5>
                           <p>Wales</p>
@@ -261,7 +261,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572873704.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873704.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> CATS College</h5>
                           <p>Canterbury</p>
@@ -272,7 +272,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572699938.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699938.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> City University of London</h5>
                           <p>London</p>
@@ -283,7 +283,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572700160.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572700160.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Coventry University</h5>
                           <p>Coventry</p>
@@ -294,7 +294,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572870037.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572870037.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Coventry University London</h5>
                           <p>London</p>
@@ -305,7 +305,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1575369232.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1575369232.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Cranfield University</h5>
                           <p>Cranfield</p>
@@ -316,7 +316,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572873162.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873162.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> d'Overbroeck's, Oxford</h5>
                           <p>Oxford</p>
@@ -327,7 +327,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572700272.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572700272.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> De Montfort University</h5>
                           <p>Leicester</p>
@@ -338,7 +338,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572700753.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572700753.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Durham University</h5>
                           <p>Durham</p>
@@ -349,7 +349,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572784932.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572784932.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> East London University</h5>
                           <p>London</p>
@@ -360,7 +360,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572785167.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572785167.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
                           <p>Scotland</p>
@@ -371,7 +371,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572785314.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572785314.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Heriot-Watt University</h5>
                           <p>Scotland</p>
@@ -382,7 +382,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572874820.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572874820.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Istituto Marangoni (fashion)</h5>
                           <p>London</p>
@@ -393,7 +393,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786296.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786296.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Keele University</h5>
                           <p>Keele</p>
@@ -404,7 +404,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572869887.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572869887.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Leeds Beckett University</h5>
                           <p>Leeds</p>
@@ -415,7 +415,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786416.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786416.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Liverpool John Moores University</h5>
                           <p>Liverpool</p>
@@ -426,7 +426,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786560.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786560.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Middlesex University</h5>
                           <p>London</p>
@@ -437,7 +437,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572873269.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873269.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Oxford Tutorial College</h5>
                           <p>Oxford</p>
@@ -448,7 +448,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786976.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786976.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
                           <p>Northern Ireland</p>
@@ -459,7 +459,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569488170.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569488170.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Sheffield Hallam University</h5>
                           <p>Sheffield</p>
@@ -470,7 +470,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569490373.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569490373.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Swansea University</h5>
                           <p>Wales</p>
@@ -481,7 +481,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572873342.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873342.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> The Courtauld Institute of Art</h5>
                           <p>London</p>
@@ -492,7 +492,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572869963.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572869963.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> The University of Aberdeen</h5>
                           <p>Scotland</p>
@@ -504,7 +504,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569487716.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569487716.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> The University of Manchester</h5>
                           <p>Manchester</p>
@@ -516,7 +516,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1652611078.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1652611078.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Birmingham</h5>
                           <p>Birmingham</p>
@@ -527,7 +527,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572698884.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572698884.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Bolton</h5>
                           <p>Bolton</p>
@@ -538,7 +538,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572875314.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572875314.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Bradford</h5>
                           <p>Bradford</p>
@@ -549,7 +549,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572699817.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699817.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Central Lancashire</h5>
                           <p>Preston</p>
@@ -560,7 +560,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1592140732.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1592140732.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Chester</h5>
                           <p>Parkgate</p>
@@ -571,7 +571,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572868032.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572868032.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Dundee</h5>
                           <p>Scotland</p>
@@ -582,7 +582,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572872980.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872980.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Greenwich</h5>
                           <p>London</p>
@@ -594,7 +594,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572785617.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572785617.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Hertfordshire</h5>
                           <p>Hertfordshire</p>
@@ -605,7 +605,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572785732.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572785732.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Huddersfield</h5>
                           <p>Huddersfield</p>
@@ -617,7 +617,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786082.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786082.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Hull</h5>
                           <p>Hull</p>
@@ -629,7 +629,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569488242.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569488242.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Leeds</h5>
                           <p>Leeds</p>
@@ -640,7 +640,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572265952.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572265952.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Portsmouth</h5>
                           <p>Portsmouth</p>
@@ -651,7 +651,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572787168.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572787168.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Salford</h5>
                           <p>Manchester</p>
@@ -662,7 +662,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572787481.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572787481.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Stirling</h5>
                           <p>Scotland</p>
@@ -673,7 +673,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572875061.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572875061.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Strathclyde</h5>
                           <p>Scotland</p>
@@ -684,7 +684,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572787852.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572787852.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Sunderland</h5>
                           <p>Sunderland</p>
@@ -695,7 +695,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572870312.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572870312.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Surrey</h5>
                           <p>Surrey</p>
@@ -706,7 +706,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572870252.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572870252.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Sussex</h5>
                           <p>Sussex</p>
@@ -717,7 +717,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1569487896.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569487896.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Westminster</h5>
                           <p>London</p>
@@ -745,7 +745,7 @@
           <ul class="list-unstyled partner-universities">
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572699938.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699938.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> City University of London</h5>
                           <p>London</p>
@@ -759,7 +759,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572784689.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572784689.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> East Anglia University</h5>
                           <p>Norwich</p>
@@ -773,7 +773,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572785167.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572785167.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
                           <p>Scotland</p>
@@ -787,7 +787,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572872985.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872985.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> INTO London World Education Centre</h5>
                           <p>London</p>
@@ -801,7 +801,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572872882.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872882.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> INTO Manchester</h5>
                           <p>Manchester</p>
@@ -815,7 +815,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572873985.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873985.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Manchester Metropolitan University</h5>
                           <p>Manchester</p>
@@ -829,7 +829,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786861.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786861.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Newcastle University</h5>
                           <p>Newcastle</p>
@@ -843,7 +843,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572872810.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872810.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Newcastle University London</h5>
                           <p>London</p>
@@ -857,7 +857,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572786976.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786976.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
                           <p>Northern Ireland</p>
@@ -871,7 +871,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572873115.png" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873115.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Exeter</h5>
                           <p>Exeter</p>
@@ -885,7 +885,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.iecc.co.uk/public/uploads/destination/partneruniversity/1572787481.jpg" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572787481.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Stirling</h5>
                           <p>Scotland</p>

@@ -156,4 +156,9 @@ class PageController extends Controller
         $pageName = 'School Of English';
         return view('user.pages.schoolOfEnglish', compact('pageName'));
     }
+    public function studentRegistration()
+    {
+        $pageName = 'Student Registration';
+        return view('user.pages.studentRegistrationFrom', compact('pageName'));
+    }
 }

@@ -48,6 +48,7 @@ Route::get('/blog-details/{id}', [PageController::class, 'blogDetails'])->name('
 Route::get('/dhaka/office', [PageController::class, 'dhakaOffice'])->name('dhakaOffice');
 Route::get('/sylhet/office', [PageController::class, 'sylhetOffice'])->name('sylhetOffice');
 Route::get('/school-of-english', [PageController::class, 'schoolOfEnglish'])->name('schoolOfEnglish');
+Route::get('/student-registration', [PageController::class, 'studentRegistration'])->name('studentRegistration');
 
 
 Route::middleware(['guest', 'PreventBackHistory'])->group(function () {
