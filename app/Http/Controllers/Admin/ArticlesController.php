@@ -4,12 +4,13 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\BlogCreateRequest;
+use App\Models\Admin\Articles;
 use App\Models\Admin\Tag;
 use App\Models\Admin\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
-class BlogController extends Controller
+class ArticlesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,8 +20,9 @@ class BlogController extends Controller
     public function index()
     {
         $tags = Tag::all();
-        $blogs = Blog::orderBy('created_at', 'desc')->get();
-        return view('admin.blogs.index', compact('blogs', 'tags'));
+        $articles = Articles::orderBy('created_at', 'desc')->get();
+        //dd($articles);
+        return view('admin.article.index', compact('articles', 'tags'));
     }
 
     /**
@@ -32,7 +34,7 @@ class BlogController extends Controller
     {
         $tags = Tag::all();
 
-        return view('admin.blogs.create', compact('tags'));
+        return view('admin.article.create', compact('tags'));
     }
 
     /**
@@ -46,7 +48,7 @@ class BlogController extends Controller
 
         $request->validate([
 
-            'title' => 'required|max:150|unique:blogs',
+            'title' => 'required|max:150|unique:articles',
             'intro_details' => 'required',
             'tags' => 'required',
             'details' => 'required',
@@ -66,7 +68,7 @@ class BlogController extends Controller
 
                 $file = $request->file('thumbnail');
                 $newThumbnailName = time() . '.' . $file->getClientOriginalExtension();
-                $path = public_path('assets/admin/image/blogs');
+                $path = public_path('assets/admin/image/articles');
                 $file->move($path, $newThumbnailName);
             }
 
@@ -78,9 +80,9 @@ class BlogController extends Controller
                 $file->move($path, $newAuthorFileName);
             }
 
-            Blog::create([
+            Articles::create([
 
-                'blog_slug' => md5($request->title . time()),
+                'article_slug' => md5($request->title . time()),
                 'title' => $request->title,
                 'intro_details' => $request->intro_details,
                 'details' => $request->details,
@@ -93,15 +95,14 @@ class BlogController extends Controller
                 'meta_desc' => $request->meta_desc,
 
             ]);
-
-
-            $notification = [
-                'message'   =>  'Successfully saved',
-                'alert-type'    =>  'success'
-            ];
             return redirect()->back()->with('success', 'Successfully saved');
 
-            //return redirect()->back()->with($notification);
+//            $notification = [
+//                'success'   =>  'Successfully saved',
+//                'alert-type'    =>  'success'
+//            ];
+//
+//            return redirect()->back()->with($notification);
         } catch (\Throwable $th) {
             $notification = [
                 // 'message'   =>  'oops! Something went wrong',
@@ -109,9 +110,6 @@ class BlogController extends Controller
                 'alert-type'    =>  'warning'
             ];
 
-
-
-            //return redirect()->back()->with($notification);
             return redirect()->back()->with('failed', $th->getMessage());
         }
     }
@@ -125,9 +123,9 @@ class BlogController extends Controller
     public function show($slug)
     {
 
-        $blog = Blog::where('blog_slug', $slug)->first();
+        $article = Articles::where('article_slug', $slug)->first();
 
-        return view('admin.blogs.show', compact('blog'));
+        return view('admin.article.show', compact('article'));
     }
 
     /**
@@ -139,10 +137,10 @@ class BlogController extends Controller
     public function edit($slug)
     {
 
-        $blog = Blog::where('blog_slug', $slug)->first();
+        $article = Articles::where('article_slug', $slug)->first();
         $tags = Tag::all();
 
-        return view('admin.blogs.edit', compact('blog', 'tags'));
+        return view('admin.article.edit', compact('article', 'tags'));
     }
 
     /**
@@ -169,30 +167,30 @@ class BlogController extends Controller
 
         try {
 
-            $blog = Blog::where('blog_slug', $slug)->first();
+            $article = Articles::where('article_slug', $slug)->first();
 
             if ($request->tags) {
-                $blog->tags = json_encode($request->tags);
+                $article->tags = json_encode($request->tags);
             }
 
             if ($request->file('thumbnail')) {
 
                 //get the thumbnail image file
-                $thumbnail = public_path('assets/admin/image/blogs/' . $blog->thumbnail);
+                $thumbnail = public_path('assets/admin/image/articles/' . $article->thumbnail);
                 //delete the file from destination folder
                 File::delete($thumbnail);
 
                 $file = $request->file('thumbnail');
                 $newThumbnailName = time() . '.' . $file->getClientOriginalExtension();
-                $path = public_path('assets/admin/image/blogs');
+                $path = public_path('assets/admin/image/articles');
                 $file->move($path, $newThumbnailName);
-                $blog->thumbnail = $newThumbnailName;
+                $article->thumbnail = $newThumbnailName;
             }
 
             if ($request->file('author_image')) {
 
                 //get the thumbnail and author image file
-                $author_image = public_path('assets/admin/image/authors/' . $blog->author_image);
+                $author_image = public_path('assets/admin/image/authors/' . $article->author_image);
                 //delete the file from destination folder
                 File::delete($author_image);
 
@@ -200,26 +198,25 @@ class BlogController extends Controller
                 $newAuthorFileName = time() . '.' . $file->getClientOriginalExtension();
                 $path = public_path('assets/admin/image/authors');
                 $file->move($path, $newAuthorFileName);
-                $blog->author_image = $newAuthorFileName;
+                $article->author_image = $newAuthorFileName;
             }
 
-            $blog->title = $request->title;
-            $blog->intro_details = $request->intro_details;
-            $blog->details = $request->details;
-            $blog->author_name = $request->author_name;
-            $blog->meta_tags = $request->meta_tags;
-            $blog->meta_keys = $request->meta_keys;
-            $blog->meta_desc = $request->meta_desc;
+            $article->title = $request->title;
+            $article->intro_details = $request->intro_details;
+            $article->details = $request->details;
+            $article->author_name = $request->author_name;
+            $article->meta_tags = $request->meta_tags;
+            $article->meta_keys = $request->meta_keys;
+            $article->meta_desc = $request->meta_desc;
 
 
-            $blog->save();
+            $article->save();
 
             $notification = [
                 'message'   =>  'Successfully saved',
                 'alert-type'    =>  'success'
             ];
 
-            //return redirect()->back()->with($notification);
             return redirect()->back()->with('success', 'Successfully saved');
         } catch (\Throwable $th) {
             $notification = [
@@ -228,7 +225,6 @@ class BlogController extends Controller
                 'alert-type'    =>  'warning'
             ];
 
-            //return redirect()->back()->with($notification);
             return redirect()->back()->with('failed', $th->getMessage());
         }
     }
@@ -236,23 +232,30 @@ class BlogController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int  $request
      * @return \Illuminate\Http\Response
      */
-    public function destroy($slug)
+    public function destroy(Request $request)
     {
+       // dd($request);
+
+        $slug = $request->slug;
         //get the blog instance
-        $blog = Blog::where('blog_slug', $slug)->first();
+        $article = Articles::where('article_slug', $slug)->first();
+        //dd($article);
+        if($article ==""){
+            return response()->json(['status' => 404]);
+        }
 
         //get the thumbnail and author image file
-        $thumbnail = public_path('assets/admin/image/blogs/' . $blog->thumbnail);
-        $author_image = public_path('assets/admin/image/authors/' . $blog->author_image);
+        $thumbnail = public_path('assets/admin/image/articles/' . $article->thumbnail);
+        $author_image = public_path('assets/admin/image/authors/' . $article->author_image);
 
         //delete the file from destination folder
         File::delete($thumbnail, $author_image);
 
         //delete the blog form data base
-        $blog->delete();
+        $article->delete();
 
         return response()->json(['status' => 200]);
     }

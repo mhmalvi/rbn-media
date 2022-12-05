@@ -1,0 +1,150 @@
+@extends('admin.layouts.app')
+@section('title', 'Show Articles')
+
+@push('css')
+    <link href="{{asset('assets/admin/css/plugins/dataTables/datatables.min.css')}}" rel="stylesheet">
+    <style>
+        .devider{
+            display: inline;
+            padding: 0px 5px;
+        }
+    </style>
+@endpush
+
+@section('content')
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+        <div class="ibox ">
+            <div class="ibox-title">
+                <h5>So far you have created!!!</h5>
+            </div>
+            <div class="ibox-content">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover dataTables-example" >
+                        <thead>
+                            <tr class="text-center">
+
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Tags</th>
+                                <th>Posted at</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @isset($articles)
+                                @php
+                                    $i = 1;
+                                @endphp
+                                @foreach($articles as $article)
+                                @php
+                                    $date = date("M d, Y", strtotime($article->created_at));
+                                @endphp
+                                    <tr class="text-center">
+                                        <td>{{$i++}}</td>
+                                        <td class="text-left">
+                                            {{$article->title}}
+                                            <div class="row">
+                                                <div class="col-md-1">
+                                                    <a href="{{ route('admin.article.show',$article->article_slug)}}">View</a>
+
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <a href="{{ route('admin.article.edit',$article->article_slug )}}">Edit</a>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <a href="#" data-slug="{{$article->article_slug}}"  class="del">Delete</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        @php
+                                            $tags = $article->tags ? json_decode($article->tags) : null;
+                                        @endphp
+                                        @if($tags)
+                                             @foreach($tags as $tag)
+                                             <button class="btn btn-secondary">{{ App\Models\Admin\Tag::where('tag_slug', $tag)->first()->name }}</button>
+                                             @endforeach
+                                        @endif
+                                        </td>
+                                        <td>{{$date}}</td>
+                                    </tr>
+                                @endforeach
+                            @endisset
+                        </tbody>
+                    </table>
+                    {{-- {!! $dataTable->table() !!} --}}
+                </div>
+                {{-- {!! $dataTable->script() !!} --}}
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+@endsection
+
+@push('js')
+    <script src="{{asset('assets/admin/js/plugins/dataTables/datatables.min.js')}}"></script>
+    <script src="{{asset('assets/admin/js/plugins/dataTables/dataTables.bootstrap4.min.js')}}"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.dataTables-example').DataTable({
+                pageLength: 25,
+                responsive: true,
+                dom: '<"html5buttons"B>lTfgitp',
+                buttons: [
+                    { extend: 'copy'},
+                    {extend: 'csv'},
+                    {extend: 'excel', title: 'ExampleFile'},
+                    {extend: 'pdf', title: 'ExampleFile'},
+
+                    {extend: 'print',
+                     customize: function (win){
+                            $(win.document.body).addClass('white-bg');
+                            $(win.document.body).css('font-size', '10px');
+
+                            $(win.document.body).find('table')
+                                    .addClass('compact')
+                                    .css('font-size', 'inherit');
+                    }
+                    }
+                ]
+
+            });
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('.del').on('click', function(){
+                var slug = $(this).data('slug');
+                // $('.dataTables-example').DataTable().ajax.reload();
+
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+
+                if(confirm('Are you sure to delete?')){
+                        $.ajax({
+                        url: "/admin/article/" + slug+'/destroy',
+                        method: 'DELETE',
+                        success: function(data){
+                            //console.log('heer', data['status']);
+                            if(data['status'] == 200){
+                                location.reload(true);
+                            }else{
+                                alert('Operation Failed, Please try Again')
+                            }
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+@endpush

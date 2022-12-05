@@ -41,7 +41,14 @@
                     <li class="{{ (Route::currentRouteName()=='admin.event.index')?'active':'' }}"><a href="{{ route('admin.event.index')}}">Manage Events</a></li>
                 </ul>
             </li>
-         
+            <li class="{{(request()->segment(1)=='articles')?'active':''}}">
+                <a href="javascript:void(0)"><i class="fa fa-newspaper-o"></i> <span class="nav-label">Articles</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li class="{{ (Route::currentRouteName()=='admin.article.create')?'active':'' }}"><a href="{{ route('admin.article.create')}}">Post New Article</a></li>
+                    <li class="{{ (Route::currentRouteName()=='admin.article.index')?'active':'' }}"><a href="{{ route('admin.article.index')}}">Manage Articles</a></li>
+                </ul>
+            </li>
+
             {{-- <li class="{{-- (request()->segment(1)=='settings')?'active':''">
                 <a href="javascript:void(0)"><i class="fa fa-cogs"></i> <span class="nav-label">Settings</span><span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse">

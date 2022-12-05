@@ -7,6 +7,16 @@
 
 @section('content')
     <div class="wrapper wrapper-content">
+        @if(session()->has('success'))
+            <div class="alert alert-success">
+                {{ session()->get('success') }}
+            </div>
+        @endif
+        @if(session()->has('failed'))
+            <div class="alert alert-success">
+                {{ session()->get('failed') }}
+            </div>
+        @endif
         <form action="{{route('admin.event.store')}}" method="post" enctype="multipart/form-data" id="formEvent">
             @csrf
             <div class="container">
@@ -44,7 +54,7 @@
                                    <small class="text-danger">{{ $message }}</small>
                                    @enderror
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -76,7 +86,7 @@
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
-                       
+
                     </div>
                 </div>
                 <div style="display: flex; justify-content: center;">

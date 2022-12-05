@@ -7,6 +7,16 @@
 
 @section('content')
 <div class="wrapper wrapper-content">
+    @if(session()->has('success'))
+        <div class="alert alert-success">
+            {{ session()->get('success') }}
+        </div>
+    @endif
+    @if(session()->has('failed'))
+        <div class="alert alert-success">
+            {{ session()->get('failed') }}
+        </div>
+    @endif
     <form action="{{route('admin.event.update', $event->slug)}}" method="post" enctype="multipart/form-data" id="formEvent">
           @method('PUT')
           @csrf

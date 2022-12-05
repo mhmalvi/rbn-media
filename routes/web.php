@@ -71,6 +71,9 @@ Route::middleware(['auth', 'PreventBackHistory'])->prefix('admin')->name('admin.
     Route::resource('blog', BlogController::class);
 
     Route::resource('event', EventController::class);
+    Route::resource('article', \App\Http\Controllers\Admin\ArticlesController::class);
+
+    Route::delete('article/{slug}/destroy', [\App\Http\Controllers\Admin\ArticlesController::class, 'destroy'])->name('admin.article.destroy');
 
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });

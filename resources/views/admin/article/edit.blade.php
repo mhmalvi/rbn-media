@@ -1,5 +1,5 @@
 @extends('admin.layouts.app')
-@section('title', 'Edit Blog')
+@section('title', 'Edit Article')
 @push('css')
 <link href="{{asset('assets/admin/css/plugins/jasny/jasny-bootstrap.min.css')}}" rel="stylesheet">
 <link href="{{asset('assets/admin/css/plugins/chosen/bootstrap-chosen.css')}}" rel="stylesheet">
@@ -17,7 +17,7 @@
             {{ session()->get('failed') }}
         </div>
     @endif
-    <form action="{{route('admin.blog.update', $blog->blog_slug)}}" method="POST" enctype="multipart/form-data" id="formBlog">
+    <form action="{{route('admin.article.update', $article->article_slug)}}" method="POST" enctype="multipart/form-data" id="formBlog">
 
     @method('PUT')
     @csrf
@@ -26,7 +26,7 @@
             <div class="ibox">
                 <div class="ibox-content">
                     <div class="form-group">
-                        <input type="text" name="title" id="title" value="{{$blog->title}}" class="form-control @error('title') is-invalid @enderror" placeholder="Lets give a blog title..."/>
+                        <input type="text" name="title" id="title" value="{{$article->title}}" class="form-control @error('title') is-invalid @enderror" placeholder="Lets give a Article title..."/>
                         <cite class="tex-light" style="font-size: 10px; display: block;">*Max 100 characters</cite>
                         @error('title')
                         <small class="text-danger">{{ $message }}</small>
@@ -34,7 +34,7 @@
                     </div>
                       <div class="form-group">
                           <div>
-                              <textarea name="intro_details" class="form-control  @error('intro_details') is-invalid @enderror" value="" placeholder="Lets give a blog intro details...">{{ $blog->intro_details }}</textarea>
+                              <textarea name="intro_details" class="form-control  @error('intro_details') is-invalid @enderror" value="" placeholder="Lets give a Article intro details...">{{ $article->intro_details }}</textarea>
                           </div>
                           <cite class="tex-light" style="font-size: 10px; display: block;">*Max first two lines</cite>
                           @error('intro_details')
@@ -50,8 +50,8 @@
                             @isset($tags)
                             @foreach ($tags as $item)
                             @php
-                                $blogTagsArray = json_decode($blog->tags);
-                                $selected = in_array($item->tag_slug, $blogTagsArray)?'selected=selected':'';
+                            $articleTagsArray = json_decode($article->tags);
+                            $selected = in_array($item->tag_slug, $articleTagsArray)?'selected=selected':'';
                             @endphp
                             <option {{$selected}} value="{{$item->tag_slug}}">{{$item->name}}</option>
                             @endforeach
@@ -67,7 +67,7 @@
             <div class="ibox">
                 <div class="ibox-content">
                     <div>
-                        <textarea rows="50" name="details" class="desc" class="form-control  @error('title') is-invalid @enderror" value="" placeholder="Describe yourself here...">{{ $blog->details}}</textarea>
+                        <textarea rows="50" name="details" class="desc" class="form-control  @error('title') is-invalid @enderror" value="" placeholder="Describe yourself here...">{{ $article->details}}</textarea>
                     </div>
                     @error('details')
                     <small class="text-danger">{{ $message }}</small>
@@ -87,7 +87,7 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <div id="thumbnail"><img style="width: 100%; vertical-align: middle;" class="img_" data-spartanindeximage="0" src="{{ asset('assets/admin/image/blogs/' . $blog->thumbnail) }}"></div>
+                            <div id="thumbnail"><img style="width: 100%; vertical-align: middle;" class="img_" data-spartanindeximage="0" src="{{ asset('assets/admin/image/articles/' . $article->thumbnail) }}"></div>
                             @error('thumbnail')
                             <small class="text-danger">{{ $message }}</small>
                             @enderror
@@ -101,19 +101,19 @@
             <div class="ibox">
                 <div class="ibox-content">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="meta_tags" id="meta_tags" placeholder="blogs meta tags..." value="{{$blog->meta_tags}}" />
+                        <input type="text" class="form-control" name="meta_tags" id="meta_tags" placeholder="Article meta tags..." value="{{$article->meta_tags}}" />
                          @error('meta_tags')
                         <small class="text-danger">{{ $message }}</small>
                         @enderror
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="meta_keys" id="meta_keys" placeholder="blogs meta keywords..." value="{{$blog->meta_keys}}" />
+                        <input type="text" class="form-control" name="meta_keys" id="meta_keys" placeholder="Article meta keywords..." value="{{$article->meta_keys}}" />
                          @error('meta_keys')
                         <small class="text-danger">{{ $message }}</small>
                         @enderror
                     </div>
                     <div class="form-group">
-                        <textarea name="meta_desc" class="form-control" rows="5" style="resize: none;" placeholder="bolgs meta description...">{{$blog->meta_desc}}</textarea>
+                        <textarea name="meta_desc" class="form-control" rows="5" style="resize: none;" placeholder="Article meta description...">{{$article->meta_desc}}</textarea>
                         @error('meta_desc')
                         <small class="text-danger">{{ $message }}</small>
                         @enderror
@@ -128,7 +128,7 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="author_name"><b>Author Name</b></label>
-                                <input type="text" class="form-control  @error('title') is-invalid @enderror" name="author_name"  value="{{ $blog->author_name }}" placeholder="enter author name...">
+                                <input type="text" class="form-control  @error('title') is-invalid @enderror" name="author_name"  value="{{ $article->author_name }}" placeholder="Enter author name...">
                                 @error('author_name')
                                 <small class="text-danger">{{ $message }}</small>
                                 @enderror
@@ -137,7 +137,7 @@
                         <div class="col-lg-6">
                             <label><b>Author Image</b> <span class="text-warning">(50*50 size)</span> </label>
                             <div id="author_image">
-                               <img style="width: 100%; vertical-align: middle;" class="img_" data-spartanindeximage="0" src="{{ asset('assets/admin/image/authors/' . $blog->author_image) }}">
+                                <img style="vertical-align: middle;" class="img_" data-spartanindeximage="0" src="{{ asset('assets/admin/image/authors/' . $article->author_image) }}">
                             </div>
                             @error('author_image')
                             <small class="text-danger">{{ $message }}</small>

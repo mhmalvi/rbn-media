@@ -1,6 +1,6 @@
 @extends('admin.layouts.app')
 
-@section('title', $blog->blog_title)
+@section('title', $article->title)
 
 {{-- @push('seo')
 <meta name="tags" content="{{ $blog->meta_tags }}" />
@@ -51,9 +51,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 page-content">
-                <h1>{{$blog->blog_title}}</h1>
+                <h1>{{$article->title}}</h1>
                 <div class="page_nav">
-                    <span>You are here:</span> <a href="{{-- route('home') --}}">Home</a> <span><i class="fa fa-angle-double-right"></i>Blog</span>
+                    <span>You are here:</span> <a href="{{-- route('home') --}}">Home</a> <span><i class="fa fa-angle-double-right"></i>Article</span>
                 </div>
             </div>
         </div>
@@ -67,24 +67,24 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 offset-md-2 col-sm-10 wow fadeIn" data-wow-delay="400ms">
-                @isset($blog)
+                @isset($article)
                 @php
-                $date = date("M d, Y", strtotime($blog->created_at));
+                $date = date("M d, Y", strtotime($article->created_at));
                 @endphp
                 <article class="blog_item padding-bottom-half heading_space" style="border:none;">
                     <div class="image bottom25 text-center">
-                        <img src="{{asset('assets/admin/image/blogs/'.$blog->thumbnail)}}" alt="blog thumbnail" style="width:100%">
+                        <img src="{{asset('assets/admin/image/articles/'.$article->thumbnail)}}" alt="Article thumbnail" style="width:100%">
                     </div>
                     <hr>
                     <ul class="comment margin10">
-                        <li><a href="javascript:void(0)"><i class="icon-user"></i>By &nbsp;<span class="text-primary">{{$blog->author_name}}</span></a></li>
+                        <li><a href="javascript:void(0)"><i class="icon-user"></i>By &nbsp; <span class="text-primary">{{$article->author_name}}</span></a></li>
                         <li><a href="javascript:void(0)"><i class="icon-time2"></i>{{$date}}</a></li>
                     </ul>
                     <hr>
 
                     <div class="artical">
                         @php
-                        echo $blog->details;
+                        echo $article->details;
                         @endphp
                     </div>
                 </article>
@@ -95,6 +95,7 @@
                         <div class="addthis_inline_share_toolbox"></div>
                     </div>
                 </div>
+
                 {{-- <article>
             <h3 class="heading bottom25">3 Comments<span class="divider-left"></span></h3>
             <div class="profile_border">

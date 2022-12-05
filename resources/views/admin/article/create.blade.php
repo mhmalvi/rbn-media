@@ -1,5 +1,5 @@
 @extends('admin.layouts.app')
-@section('title', 'Create Blog')
+@section('title', 'Create Article')
 @push('css')
     <link href="{{asset('assets/admin/css/plugins/jasny/jasny-bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/admin/css/plugins/chosen/bootstrap-chosen.css')}}" rel="stylesheet">
@@ -17,13 +17,13 @@
                 {{ session()->get('failed') }}
             </div>
         @endif
-        <form action="{{route('admin.blog.store')}}" method="post" enctype="multipart/form-data" id="formBlog">
+        <form action="{{route('admin.article.store')}}" method="post" enctype="multipart/form-data" id="formBlog">
             @csrf
             <div class="container">
                 <div class="ibox">
                     <div class="ibox-content">
                         <div class="form-group">
-                           <input type="text" name="title" id="title" value="{{ old('title') }}" class="form-control @error('title') is-invalid @enderror" placeholder="Lets give a blog title..." value="{{old('title')}}"/>
+                           <input type="text" name="title" id="title" value="{{ old('title') }}" class="form-control @error('title') is-invalid @enderror" placeholder="Lets give a Article title..." value="{{old('title')}}"/>
                             <cite class="tex-light" style="font-size: 10px; display: block;">*Max 100 characters</cite>
                             @error('title')
                                 <small class="text-danger">{{ $message }}</small>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="form-group">
                              <div>
-                                 <textarea name="intro_details" class="form-control  @error('intro_details') is-invalid @enderror" value="" placeholder="Lets give a blog intro details...">{{ old('intro_details') }}</textarea>
+                                 <textarea name="intro_details" class="form-control  @error('intro_details') is-invalid @enderror" value="" placeholder="Lets give a Article intro details...">{{ old('intro_details') }}</textarea>
                              </div>
                             <cite class="tex-light" style="font-size: 10px; display: block;">*Max first two lines</cite>
                             @error('intro_details')
@@ -74,7 +74,7 @@
                     <div class="ibox-content">
                         <div class="row">
                             <div class="col-lg-6 pb-2">
-                                <h4>Upload Blog Thumbnail</h4>
+                                <h4>Upload Article Thumbnail</h4>
                                 <cite class="text-warning">*max-upload-size: 2mb</cite>
                                 <br>
                                 <cite class="text-warning">*image-dimension: 720px x 450px</cite>
@@ -95,19 +95,19 @@
                 <div class="ibox">
                     <div class="ibox-content">
                         <div class="form-group">
-                            <input type="text" class="form-control" name="meta_tags" id="meta_tags" placeholder="blogs meta tags..." value="{{old('meta_tags')}}" />
+                            <input type="text" class="form-control" name="meta_tags" id="meta_tags" placeholder="Articles meta tags..." value="{{old('meta_tags')}}" />
                              @error('meta_tags')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="meta_keys" id="meta_keys" placeholder="blogs meta keywords..." value="{{old('meta_keys')}}" />
+                            <input type="text" class="form-control" name="meta_keys" id="meta_keys" placeholder="Articles meta keywords..." value="{{old('meta_keys')}}" />
                              @error('meta_keys')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
                         <div class="form-group">
-                            <textarea name="meta_desc" class="form-control" rows="5" style="resize: none;" placeholder="bolgs meta description...">{{old('meta_desc')}}</textarea>
+                            <textarea name="meta_desc" class="form-control" rows="5" style="resize: none;" placeholder="Articles meta description...">{{old('meta_desc')}}</textarea>
                             @error('meta_desc')
                             <small class="text-danger">{{ $message }}</small>
                             @enderror
@@ -157,5 +157,5 @@
     <script src="{{asset('assets/admin/js/plugins/chosen/chosen.jquery.js')}}"></script>
     <script src="{{asset('assets/admin/js/plugins/spartan/spartan-multi-image-picker-min.js')}}"></script>
     <script src="{{asset('assets/tinymce/tinymce.min.js')}}"></script>
-    @include('admin.blogs.scripts')
+    @include('admin.article.scripts')
 @endpush

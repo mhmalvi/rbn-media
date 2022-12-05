@@ -82,7 +82,8 @@ class EventController extends Controller
                 'alert-type'    =>  'success'
             ];
 
-            return redirect()->back()->with($notification);
+            //return redirect()->back()->with($notification);
+            return redirect()->back()->with('success', 'Successfully saved');
         } catch (\Throwable $th) {
             $notification = [
                 // 'message'   =>  'oops! Something went wrong',
@@ -92,7 +93,8 @@ class EventController extends Controller
 
 
 
-            return redirect()->back()->with($notification);
+            //return redirect()->back()->with($notification);
+            return redirect()->back()->with('failed', $th->getMessage());
         }
     }
 
@@ -146,7 +148,7 @@ class EventController extends Controller
 
         try {
 
-            //get the event 
+            //get the event
             $event = Event::where('slug', $slug)->first();
 
             if ($request->file('thumbnail')) {
