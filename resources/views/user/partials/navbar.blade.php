@@ -116,7 +116,7 @@
                     <li class="dropdown"><a href="{{ route('scholarship') }}">scholarship</a>
                         <ul>
                             <li><a href="{{ route('event') }}">Renowned Scholarships</a></li>
-                            <li><a href="{{ route('event') }}">Articles</a></li>
+                            <li><a href="{{ route('article') }}">Articles</a></li>
                         </ul>
                     </li>
 

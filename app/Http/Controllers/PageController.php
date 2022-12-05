@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Admin\Articles;
 use App\Models\Admin\Blog;
 use App\Models\Admin\Event;
 use App\Models\Admin\Tag;
@@ -140,6 +141,41 @@ class PageController extends Controller
 
         return view('user.pages.blogDetails', compact(['pageName', 'blog', 'recent_blogs']));
     }
+    // Articles -----
+
+    public function article(Request $request, $page = 1)
+    {
+        $pageName = 'Articles';
+        $total_article = Articles::count();
+        $article_per_page = 3;
+        $total_page = ceil($total_article / $article_per_page);
+        $offset = ($page - 1) * $article_per_page;
+        $articles = Articles::offset($offset)->limit($article_per_page)->orderBy('id', 'desc')->get();
+        $recent_articles = Articles::latest()->limit(4)->get();
+        $tags = Tag::all();
+
+        return view('user.pages.article', compact('articles', 'recent_articles', 'tags', 'total_page', 'page', 'pageName'));
+    }
+
+    public function articleDetails(Request $request)
+    {
+        if(!isset($request->id)){
+            return redirect()->route('article');
+        }
+        //dd($request->id);
+        $pageName = 'Article Details';
+        $articles = Articles::Where('id', $request->id);
+        if($articles==""){
+            return redirect()->route('article');
+        }
+        $article = $articles->first();
+        $recent_articles = Articles::latest()->limit(4)->get();
+        //dd($blog);
+
+        return view('user.pages.articleDetails', compact(['pageName', 'article', 'recent_articles']));
+    }
+
+
     public function dhakaOffice()
     {
         $pageName = 'Dhaka Office';
