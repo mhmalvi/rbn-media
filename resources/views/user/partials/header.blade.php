@@ -9,10 +9,11 @@
                  </div>
                  <div class="top-right d-flex align-items-center">
                      <div class="social-style-two">
-                         <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                         <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-                         <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
-                         <a href="javascript:void(0)"><i class="fab fa-pinterest-p"></i></a>
+                         <a href="https://twitter.com/RobiRaihan2"><i class="fab fa-twitter"></i></a>
+                         <a href="https://www.facebook.com/rbn.com.bd"><i class="fab fa-facebook-f"></i></a>
+                         <a href="https://www.instagram.com/rbn_education/"><i class="fab fa-instagram"></i></a>
+                         <a href="https://www.linkedin.com/company/rbn-education/about/"><i class="fab fa-linkedin"></i></a>
+                         <a href="https://www.youtube.com/@rbneducation7406"><i class="fab fa-youtube"></i></a>
                      </div>
                      <ul class="top-menu">
                          <li><a href="javascript:void(0)">Setting & Privacy</a></li>

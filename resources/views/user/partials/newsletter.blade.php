@@ -8,8 +8,13 @@
                  <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i class="fas fa-play"></i></a>
              </div>
          </div>
-         <div class="col-lg-6 align-self-center">
-             <h3>CEO Content Will be Added</h3>
+         <div class="col-lg-6 align-self-center position-relative px-5">
+         Message From the CEO
+             <h4>"The whole purpose of education is to turn mirrors into windows”. <br>
+             Higher education clears up the space to know beyond oneself as if 
+             looking through a window, rather than seeing the world as a reflection</h4>
+                <span class="textFade"></span>
+                <a class="text-primary">READ MORE</a>
          </div>
      </div>
  </div>

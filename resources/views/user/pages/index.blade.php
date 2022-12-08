@@ -80,12 +80,12 @@
                       <img src="{{ asset('assets/images/future-hub/1569253786.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
+                      <div class="icon position-absolute">
                           <img src="{{ asset('assets/images/flag/1569253786.png') }}" alt="Australia">
                       </div>
                       <h4>Australia</h4>
                       <p class="card-text">Enjoy the diverse cultural opportunities by studying abroad in Australia.</p>
-                      <a href="{{ url('study-in-aus') }}" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-aus') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -95,12 +95,12 @@
                       <img src="{{ asset('assets/images/future-hub/1569237351.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
+                      <div class="icon position-absolute">
                           <img src="{{ asset('assets/images/flag/1569237351.png') }}" alt="Canada">
                       </div>
                       <h4>Canada</h4>
                       <p class="card-text">Experience quality education and beautiful natural environment while studying in Canada..</p>
-                      <a href="{{ url('study-in-canada') }}" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-canada') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -111,12 +111,12 @@
                       <img src="{{ asset('assets/images/future-hub/1569401765.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
+                      <div class="icon position-absolute">
                           <img src="{{ asset('assets/images/flag/1573652587.png') }}" alt="Germany">
                       </div>
                       <h4>Germany</h4>
                       <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Germany..</p>
-                      <a href="{{ url('study-in-germany') }}" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-germany') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -126,12 +126,12 @@
                       <img src="{{ asset('assets/images/future-hub/1569404986.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
+                      <div class="icon position-absolute">
                           <img src="{{ asset('assets/images/flag/1569404987.png') }}" alt="Malaysia">
                       </div>
                       <h4>Malaysia</h4>
                       <p class="card-text">Be a part of Malaysian Society and experience the unique culture.</p>
-                      <a href="{{ url('study-in-malyasia') }}" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-malyasia') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -142,12 +142,12 @@
                       <img src="{{ asset('assets/images/future-hub/1569240440.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
+                      <div class="icon position-absolute">
                           <img src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
                       </div>
                       <h4>UK</h4>
                       <p class="card-text">Take the opportunity to Immerse yourself in British culture by studying in the UK.</p>
-                      <a href="{{ url('study-in-uk') }}" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-uk') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -157,12 +157,12 @@
                       <img src="{{ asset('assets/images/future-hub/1569252684.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
+                      <div class="icon position-absolute">
                           <img src="{{ asset('assets/images/flag/1569246724.png') }}" alt="USA">
                       </div>
                       <h4>USA</h4>
                       <p class="card-text">Experience the beautiful natural environment and multi-cultural society of USA.</p>
-                      <a href="{{ url('study-in-usa') }}" class="btn btn-primary">Explore</a>
+                      <a href="{{ url('study-in-usa') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -179,14 +179,14 @@
           <div class="row align-items-center">
               <div class="col-lg-5">
                   <div class="services-content rmb-65 wow fadeInUp delay-0-2s">
-                      <div class="section-title">
+                      <div class="section-title text-white">
 
                           <h2>Services</h2>
                       </div>
-                      <p>
+                      <h5 class="text-white">
                          A place for everything you need to shape your dream.
 
-                      </p>
+                      </h5>
 
                   </div>
               </div>
@@ -222,7 +222,8 @@
                                       <img src="{{ asset('assets/images/categories/icon3.png') }}" alt="Icon" />
 
                                   </div>
-                                  <h4>Language & Scholarship Guidance</h4>
+                                  {{-- <h4>Language & Scholarship Guidance</h4> --}}
+                                  <h4>Scholarship Guidance</h4>
                                         <a href="#">Read More</a>
 
                               </div>
@@ -243,7 +244,7 @@
                                </div>
                           </div>
 
-                          <div class="col-md-4 col-sm-6">
+                          <div class="col-md-4 col-sm-6 mt-40">
                               <div class="category-item  hover-styled mt-40">
                                   <div class="icon">
                                       <img src="{{ asset('assets/images/categories/icon5.png') }}" alt="Icon" />
@@ -262,13 +263,13 @@
                                      <a href="#">Read More</a>
 
                               </div>
-                               <div class="category-item  hover-styled">
+                               {{--<div class="category-item  hover-styled">
                                    <div class="icon">
                                        <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
                                    </div>
                                    <h4>Pastoral Care</h4>
                                         <a href="#">Read More</a>
-                               </div>
+                               </div>--}}
 
 
                           </div>
@@ -280,7 +281,7 @@
   </section>
   <!-- Categories Section End -->
 
-  <!-- Accreditations Section Start -->
+  <!-- Featured Universities Section Start -->
   <section class="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
       <div class="container">
           <div class="row justify-content-center">
@@ -293,35 +294,163 @@
                   </div>
               </div>
           </div>
-          <div class="row">
+          <div class="Accreditations-slider m-10">
               <div class="col-6 fadeInUp delay-0-2s">
                   <div class="coach-image">
-                      <img src="{{ asset('assets/images/features/university-manchester.jpg') }}" alt="University of Manchester" />
+                      <img src="{{ asset('assets/images/features/sunderland-uni.jpg') }}" alt="University of Manchester" />
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category text-secondary">The University of Manchester</a>
+                      <a href="javascript:void(0)" class="category text-secondary">University of Sunderland</a>
 
                       <h4>
-                          <a href="javascript:void(0)" class="text-secondary">Manchester, UK</a>
+                          <a href="javascript:void(0)" class="text-secondary">UK</a>
 
                       </h4>
-                        <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
+                        {{-- <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p> --}}
 
                   </div>
               </div>
               <div class="col-6 fadeInUp delay-0-4s">
                   <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
+                    <img src="{{ asset('assets/images/features/middlesex-uni.jpg') }}" alt="Middlesex University London" />
 
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category text-secondary">University of Leeds</a>
+                      <a href="javascript:void(0)" class="category text-secondary">Middlesex University London</a>
 
                       <h4>
-                          <a href="javascript:void(0)" class="text-secondary">Yorkshire, UK</a>
+                          <a href="javascript:void(0)" class="text-secondary">UK</a>
 
                       </h4>
-                        <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/michigan-uni.jpg') }}" alt="Central Michigan University" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Central Michigan University</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">USA</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/trine-uni.jpg') }}" alt="Trine University" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Trine University</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">USA</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/nipissing-uni.jpg') }}" alt="Nipissing University" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Nipissing University</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">Canada</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/quest-uni.jpg') }}" alt="Quest University" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Quest University</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">Canada</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/naps-uni.png') }}" alt="National Academy of Professional Studies" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">National Academy of Professional Studies</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">Australia</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/ATC-uni.png') }}" alt="Australian Technical College" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Australian Technical College Western Australia</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">Australia</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/features/budapest-uni.png') }}" alt="Budapest Metropolitan University" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Budapest Metropolitan University</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">Hungary</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
+
+                  </div>
+              </div>
+              <div class="col-6 fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                    <img src="{{ asset('assets/images/features/mahsa-uni.png') }}" alt="Mahsa University" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category text-secondary">Mahsa University</a>
+
+                      <h4>
+                          <a href="javascript:void(0)" class="text-secondary">Malaysia</a>
+
+                      </h4>
+                        {{-- <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p> --}}
 
                   </div>
               </div>
@@ -329,7 +458,7 @@
           </div>
       </div>
   </section>
-  <!-- Coach Section End -->
+  <!-- Featured Universities Section End -->
 
   <!-- Accreditations Section Start -->
 
@@ -353,10 +482,7 @@
                   <div class="coach-content text-center">
                       <a href="javascript:void(0)" class="category">The University of Manchester</a>
 
-                      <h4>
-                          <a href="javascript:void(0)">Manchester, UK</a>
-
-                      </h4>
+                      <h4>Manchester, UK</h4>
                         <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
 
 
@@ -370,10 +496,7 @@
                   <div class="coach-content text-center">
                       <a href="javascript:void(0)" class="category">University of Leeds</a>
 
-                      <h4>
-                          <a href="javascript:void(0)">Yorkshire, UK</a>
-
-                      </h4>
+                      <h4>Yorkshire, UK</h4>
                         <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
 
 
@@ -387,10 +510,7 @@
                   <div class="coach-content text-center">
                       <a href="javascript:void(0)" class="category">University of Manitoba</a>
 
-                      <h4>
-                          <a href="javascript:void(0)">Manitoba, Canada</a>
-
-                      </h4>
+                      <h4>Manitoba, Canada</h4>
                       <p>Ranked 350th by The World University Ranking 2021.</p>
 
 
@@ -403,10 +523,7 @@
                   <div class="coach-content text-center">
                       <a href="javascript:void(0)" class="category">The University of Manchester</a>
 
-                      <h4>
-                          <a href="javascript:void(0)">Manchester, UK</a>
-
-                      </h4>
+                      <h4>Manchester, UK</h4>
                         <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
 
 
@@ -420,10 +537,7 @@
                   <div class="coach-content text-center">
                       <a href="javascript:void(0)" class="category">University of Leeds</a>
 
-                      <h4>
-                          <a href="javascript:void(0)">Yorkshire, UK</a>
-
-                      </h4>
+                      <h4>Yorkshire, UK</h4>
                         <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
 
 
@@ -437,10 +551,7 @@
                   <div class="coach-content text-center">
                       <a href="javascript:void(0)" class="category">University of Manitoba</a>
 
-                      <h4>
-                          <a href="javascript:void(0)">Manitoba, Canada</a>
-
-                      </h4>
+                      <h4>Manitoba, Canada</h4>
                       <p>Ranked 350th by The World University Ranking 2021.</p>
 
 
@@ -449,7 +560,7 @@
           </div>
       </div>
   </section>
-  <!-- Coach Section End -->
+  <!-- Accredations Section End -->
 
   <!-- Advertise Area Start -->
 {{--  <section class="advertise-area pb-100 rpb-70">--}}
@@ -493,7 +604,7 @@
   <!-- Advertise Area End -->
 
   <!-- Team Section Start -->
-  <section class="team-section rel z-1 bg-blue text-white pb-100 rpb-70">
+  {{--<section class="team-section rel z-1 bg-blue text-white pb-100 rpb-70">
       <div class="container">
           <div class="row justify-content-between">
               <div class="col-lg-5">
@@ -599,7 +710,7 @@
           </div>
       </div>
       <span class="bg-text">Advisors</span>
-  </section>
+  </section>--}}
   <!-- Team Section End -->
 
   <!-- Event Section Start -->
@@ -721,13 +832,14 @@
                   </div>
                   <div class="testimonial-content-two">
                       <div class="designation">
-                          <h3>Justin C. Swanson</h3>
-                          <span>Business Manager</span>
+                          <h3>Canada student visa achiever</h3>
+                          {{--<span>Business Manager</span>--}}
                       </div>
                       <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                          accusantium doloremq udantium totam rem aperiam eaque quae
-                          abillo inventore veritatis et quasi architecto beatae
+                      "I visited Canada on a visitor visa but wanted to convert my visitor visa 
+                      into a Canada student visa. Every consultant I visited told me that your 
+                      case was impossible. But then I met RBN EDUCATION and I got my Canada student 
+                      visa with the help of the staff of RBN EDUCATION I would recommend them to all people."
                       </p>
                       <div class="ratting">
                           <i class="fas fa-star"></i>
@@ -745,37 +857,13 @@
                   </div>
                   <div class="testimonial-content-two">
                       <div class="designation">
-                          <h3>Daniel E. Yager</h3>
-                          <span>Business Manager</span>
+                          <h3>UK student visa achiever</h3>
+                          {{--<span>Business Manager</span>--}}
                       </div>
                       <p>
-                          Aperiam eaque quae abillo inventore veritatis et quasi
-                          architecto beatae Sed ut perspiciatis unde omnis iste natus
-                          error sit voluptatem accusantium doloremq udantium totam rem
-                      </p>
-                      <div class="ratting">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                      </div>
-                  </div>
-              </div>
-              <div class="testimonial-item-two">
-                  <div class="testimonial-author-two">
-                      <img src="{{ asset('assets/images/testimonials/testimonial-two3.jpg') }}" alt="Author" />
-
-                  </div>
-                  <div class="testimonial-content-two">
-                      <div class="designation">
-                          <h3>Stewart R. Platt</h3>
-                          <span>Business Manager</span>
-                      </div>
-                      <p>
-                          Voluptatem accusantium doloremq udantium totam rem Sed ut
-                          perspiciatis unde omnis iste natus error sit aperiam eaque
-                          quae abillo inventore veritatis et quasi architecto beatae
+                      “The counselors at RBN EDUCATION are very helpful and helped me gain a 
+                      UK student visa. Today, I'm very happy and would recommend them to each 
+                      and every student.”
                       </p>
                       <div class="ratting">
                           <i class="fas fa-star"></i>

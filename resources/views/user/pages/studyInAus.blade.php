@@ -28,7 +28,7 @@
                               <img src="{{asset('assets/images/destination/aus/topcities/1573052543.png')}}" class="img-fluid" alt="Manchester ">
                           </figure>
                           <div class="card-body">
-                              <h5>NEW SOUTH WALES</h5>
+                              <h5>BRISBANE</h5>
                           </div>
                       </div>
                   </a>
@@ -40,7 +40,7 @@
                               <img src="{{asset('assets/images/destination/aus/topcities/1573052585.png')}}" class="img-fluid" alt="Scotland">
                           </figure>
                           <div class="card-body">
-                              <h5>NEWCASTLE</h5>
+                              <h5>ADELAIDE</h5>
                           </div>
                       </div>
                   </a>
@@ -92,11 +92,11 @@
                     <h3 class="brand-color divider-1"> Why to choose Australia? </h3>
                     <p>Find out why Australia has become one of the most popular destinations for international students</p>
                     <ol>
-                      <li>Australia has some of the best universities in the world according to Qs world ranking.</li>
-                      <li>International Students find Australia, most multicultural.</li>
-                      <li>Graduates from Australiaan universities are welcomed by international employers.</li>
-                      <li>Students can work up to 40 hours per fortnight.</li>
-                      <li>Autralian government are more keen to provide scholarship to international students</li>
+                      <li>Australia ranks high in the World Economic Forum's Global Competitiveness Index. The developed economy with high living standards makes it a great place to live and study.</li>
+                      <li>Offers world-class research facilities and an excellent education system.</li>
+                      <li>The country is linguistically diverse, making it an enriching experience for students from different backgrounds.</li>
+                      <li>The weather is great all year round, and the cost of living is relatively low.</li>
+                      <li>The country is multicultural and cosmopolitan, which means that you will get to experience a lot of different cultures while you are here.</li>
                     </ol>
                   </div>
             </div>
@@ -167,6 +167,83 @@
           <!-- /Video modal -->
       </section>
   <!-- about us second section end -->
+
+    <!-- demandable Subjects section start -->
+    <section class="text-center bg-white py-50 rpt-90  rpb-45">
+        <div class="container">
+            <div class="section-title text-center mb-55">
+                <h2>Demandable Subjects in Australia</h2>
+            </div>
+            <div class="allsubject-container">
+            <ul class="">
+                <li>
+                    <div class="subject-container">
+                        <div class="subject-circle py-20"><span>1</span></div>
+                        <div class="subject-line">Information Technology</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container" style="position: relative; right:30px;">
+                        <div class="subject-circle py-20"><span>2</span></div>
+                        <div class="subject-line">Computer Science and Engineering</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container" style="position: relative;">
+                        <div class="subject-circle py-20"><span>3</span></div>
+                        <div class="subject-line">Commercial Cookery</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container" style="position: relative; right:30px;">
+                        <div class="subject-circle py-20"><span>4</span></div>
+                        <div class="subject-line">Tourism and Hospitality Management</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container">
+                        <div class="subject-circle py-20"><span>5</span></div>
+                        <div class="subject-line">Accounting</div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="">
+                <li>
+                    <div class="subject-container">
+                        <div class="subject-circle py-20"><span>6</span></div>
+                        <div class="subject-line">Business Management & Marketing</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container" style="position: relative; right:30px;">
+                        <div class="subject-circle py-20"><span>7</span></div>
+                        <div class="subject-line">Nursing</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container">
+                        <div class="subject-circle py-20"><span>8</span></div>
+                        <div class="subject-line">Biomedical Engineering</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container"  style="position: relative; right:30px;">
+                        <div class="subject-circle py-20"><span>9</span></div>
+                        <div class="subject-line">Automobile Engineering</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="subject-container">
+                        <div class="subject-circle py-20"><span>10</span></div>
+                        <div class="subject-line">Psychology</div>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+  <!-- demandable Subjects section end -->
 
   <!-- partner universities section start -->
   <section class="text-center bg-white py-50 rpt-90  rpb-45">

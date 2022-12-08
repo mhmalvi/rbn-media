@@ -170,6 +170,83 @@
       </section>
   <!-- about us second section end -->
 
+  <!-- demandable Subjects section start -->
+  <section class="text-center bg-white py-50 rpt-90  rpb-45">
+    <div class="container">
+        <div class="section-title text-center mb-55">
+            <h2>Demandable Subjects in UK</h2>
+        </div>
+        <div class="allsubject-container">
+        <ul class="">
+              <li>
+                <div class="subject-container">
+                    <div class="subject-circle py-20"><span>1</span></div>
+                    <div class="subject-line">Law</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container" style="position: relative; right:30px;">
+                    <div class="subject-circle py-20"><span>2</span></div>
+                    <div class="subject-line">Business Analytics</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container">
+                    <div class="subject-circle py-20"><span>3</span></div>
+                    <div class="subject-line">Data Science</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container" style="position: relative; right:30px;">
+                    <div class="subject-circle py-20"><span>4</span></div>
+                    <div class="subject-line">Computer Science</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container">
+                    <div class="subject-circle py-20"><span>5</span></div>
+                    <div class="subject-line">MBA and MIM</div>
+                </div>
+              </li>
+        </ul>
+        <ul class="">
+            <li>
+                <div class="subject-container">
+                    <div class="subject-circle py-20"><span>6</span></div>
+                    <div class="subject-line">MBBS</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container" style="position: relative; right:30px;">
+                    <div class="subject-circle py-20"><span>7</span></div>
+                    <div class="subject-line">Finance</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container">
+                    <div class="subject-circle py-20"><span>8</span></div>
+                    <div class="subject-line">Accounting</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container" style="position: relative; right:30px;">
+                    <div class="subject-circle py-20"><span>9</span></div>
+                    <div class="subject-line">International Business</div>
+                </div>
+              </li>
+              <li>
+                <div class="subject-container">
+                    <div class="subject-circle py-20"><span>10</span></div>
+                    <div class="subject-line">Architecture and Construction Management</div>
+                </div>
+              </li>
+        </ul>
+        </div>
+    </div>
+  </section>
+
+  <!-- demandable Subjects section end -->
+
   <!-- partner universities section start -->
   <section class="text-center bg-white py-50 rpt-90  rpb-45">
 
@@ -184,8 +261,8 @@
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Aston University</h5>
-                          <p>Birmingham</p>
+                          <h5 class="mt-0 mb-1"> Bedfordshire University</h5>
+                          <p>Luton, England</p>
                           <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
                           </p>
@@ -196,8 +273,8 @@
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Bangor University</h5>
-                          <p>Wales</p>
+                          <h5 class="mt-0 mb-1"> Solent University</h5>
+                          <p>Southampton, England</p>
                           <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
                           </p>
@@ -208,8 +285,8 @@
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/uk/partners/1572875214.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Bellerbys College</h5>
-                          <p>Brighton</p>
+                          <h5 class="mt-0 mb-1"> University of South Wales</h5>
+                          <p>Cardiff</p>
                           <p>
                           </p>
                       </div>
@@ -219,8 +296,8 @@
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/uk/partners/1572699086.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Bournemouth University</h5>
-                          <p>Dorset</p>
+                          <h5 class="mt-0 mb-1">Sunderland University</h5>
+                          <p>Sunderland, England</p>
                           <p>
                           </p>
                       </div>
@@ -230,14 +307,14 @@
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/uk/partners/1572699473.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Brunel University</h5>
-                          <p>London</p>
+                          <h5 class="mt-0 mb-1">Birmingham University</h5>
+                          <p>Birmingham, England</p>
                           <p>
                           </p>
                       </div>
                   </div>
               </li>
-              <li>
+              {{--<li>
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/uk/partners/1572699609.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
                       <div class="media-body">
@@ -726,7 +803,7 @@
                           </p>
                       </div>
                   </div>
-              </li>
+              </li>--}}
 
 
           </ul>
@@ -735,7 +812,7 @@
   <!-- partner universities section end -->
 
   <!---- group partners universities  start-->
-  <section class="text-center bg-white py-50 rpt-90  rpb-45">
+  {{--<section class="text-center bg-white py-50 rpt-90  rpb-45">
 
       <div class="container">
           <div class="section-title text-center mb-55">
@@ -899,7 +976,7 @@
 
           </ul>
       </div>
-  </section>
+  </section>--}}
 
   <!---- group partners universities  end-->
 

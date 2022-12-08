@@ -65,49 +65,49 @@
                             <li>
                                 <a href="{{ url('study-in-aus') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569253786.png') }}" alt="Australia">
-                                    Study In Australia
+                                    Australia
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url('study-in-canada') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569237351.png') }}" alt="Canada">
-                                    Study In Canada
+                                    Canada
                                 </a>
                             </li>
                             {{-- <li>
                                 <a href="{{ url('study-in-dubai') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1624194469.png') }}" alt="Dubai">
-                                    Study In Dubai
+                                    Dubai
                                 </a>
                             </li> --}}
                             <li>
                                 <a href="{{ url('study-in-germany') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/1573652587.png') }}" alt="Germany">
-                                    Study In Germany
+                                    <img class="icon" src="{{ asset('assets/images/flag/europe.png') }}" alt="Europe">
+                                    Europe
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url('study-in-malyasia') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569404987.png') }}" alt="Malaysia">
-                                    Study In Malaysia
+                                    Malaysia
                                 </a>
                             </li>
                             {{-- <li>
                                 <a href="{{ url('study-in-switzerland') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1628508376.png') }}" alt="Switzerland">
-                                    Study In Switzerland
+                                    Switzerland
                                 </a>
                             </li> --}}
                             <li>
                                 <a href="{{ url('study-in-uk') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
-                                    Study In UK
+                                    UK
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url('study-in-usa') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/1569246724.png') }}" alt="USA">
-                                    Study In USA
+                                    USA
                                 </a>
                             </li>
 
@@ -144,7 +144,7 @@
     </div>
     <!-- Menu Button -->
     <div class="menu-btn-sidebar d-flex align-items-center">
-        <a href="{{ route('schoolOfEnglish') }}" class="btn text-white" style="font-size: 12px; padding: 6px 16px">School Of English</a>
+        <a href="{{ route('schoolOfEnglish') }}" class="text-white" style="background-color: #A00434; font-size: 12px; padding: 8px 20px">School Of English</a>
         {{--  <form action="javascript:void(0)">
              <input type="search" placeholder="Search" required />
              <button><i class="fas fa-search"></i></button>

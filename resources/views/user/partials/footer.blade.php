@@ -14,14 +14,37 @@
                           </p>
                           <h5 class="pt-5">Follow Us</h5>
                           <div class="social-style-one">
-                              <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-                              <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                              <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
-                              <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
+                              <a href="https://www.facebook.com/rbn.com.bd"><i class="fab fa-facebook-f"></i></a>
+                              <a href="https://twitter.com/RobiRaihan2"><i class="fab fa-twitter"></i></a>
+                              <a href="https://www.instagram.com/rbn_education/"><i class="fab fa-instagram"></i></a>
+                              <a href="https://www.linkedin.com/company/rbn-education/about/"><i class="fab fa-linkedin-in"></i></a>
+                              <a href="https://www.youtube.com/@rbneducation7406"><i class="fab fa-youtube"></i></a>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="col-lg-2 col-md-2 col-sm-4">
+                      <div class="footer-widget menu-widget">
+                        <h5 class="footer-title">About</h5>
+                          <ul>
+                              <li>
+                                  <a href="{{ route('whoWeAre') }}">About Us</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">Scholarship</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">Event</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">Blog</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">Contact Us</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-4">
                       <div class="footer-widget menu-widget">
                           <h5 class="footer-title">Services</h5>
                           <ul>
@@ -43,18 +66,18 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="col-lg-2 col-md-2 col-sm-4">
                       <div class="footer-widget menu-widget">
                           <h5 class="footer-title">Destination</h5>
                           <ul>
-                              <li><a href="{{ url('study-in-aus') }}">Study in Australia</a></li>
-                              <li><a href="{{ url('study-in-canada') }}">Study in Canada</a></li>
-                              <li><a href="{{ url('study-in-dubai') }}">Study in Dubai</a></li>
-                              <li><a href="{{ url('study-in-germany') }}">Study in Germany</a></li>
-                              <li><a href="{{ url('study-in-malyasia') }}">Study In Malaysia</a></li>
-                              <li><a href="{{ url('study-in-switzerland') }}">Study In Switzerland</a></li>
-                              <li><a href="{{ url('study-in-uk') }}">Study In UK</a></li>
-                              <li><a href="{{ url('study-in-usa') }}">Study In USA</a></li>
+                              <li><a href="{{ url('study-in-aus') }}">Australia</a></li>
+                              <li><a href="{{ url('study-in-canada') }}">Canada</a></li>
+                              <li><a href="{{ url('study-in-dubai') }}">Dubai</a></li>
+                              <li><a href="{{ url('study-in-germany') }}">Germany</a></li>
+                              <li><a href="{{ url('study-in-malyasia') }}">Malaysia</a></li>
+                              <li><a href="{{ url('study-in-switzerland') }}">Switzerland</a></li>
+                              <li><a href="{{ url('study-in-uk') }}">UK</a></li>
+                              <li><a href="{{ url('study-in-usa') }}">USA</a></li>
                           </ul>
                       </div>
                   </div>
@@ -75,6 +98,23 @@
                                       <li>
                                           <i class="fas fa-phone"></i>
                                           <a href="callto:+8801312777919">+8801312777919</a>
+                                      </li>
+                                      <!--  <li>
+                            <i class="far fa-clock"></i> Sunday - Friday,<br />
+                            08 am - 05 pm
+                          </li> -->
+                                  </ul>
+                              </div>
+                              <div class="footer-widget contact-info-widget">
+                                  <ul>
+                                      <li>
+                                          <a href="">Terms of Use</a>
+                                      </li>
+                                      <li>
+                                          <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}"  download>Privacy Policy</a>
+                                      </li>
+                                      <li>
+                                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of Conduct</a>
                                       </li>
                                       <!--  <li>
                             <i class="far fa-clock"></i> Sunday - Friday,<br />

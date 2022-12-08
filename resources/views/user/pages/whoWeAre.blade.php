@@ -57,7 +57,7 @@
   </section>
   <!-- Why Learn End -->
   <!-- Team Section Start -->
-  <section class="team-setion-two bg-lighter rel z-1 pt-120 rpt-90 pb-70 rpb-40">
+  {{--<section class="team-setion-two bg-lighter rel z-1 pt-120 rpt-90 pb-70 rpb-40">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -75,8 +75,8 @@
                           <div class="social-style-two">
                           <a href="https://www.facebook.com/robi.raihan.7" target="_blank"><i class="fab fa-facebook-f"></i></a>
                               <a href="https://www.linkedin.com/in/m-a-raihan/" target="_blank"><i class="fab fa-twitter"></i></a>
-                            {{--   <a href="contact.html"><i class="fab fa-instagram"></i></a>
-                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a> --}}
+                               <a href="contact.html"><i class="fab fa-instagram"></i></a>
+                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a> 
                           </div>
                       </div>
                       <div class="member-description">
@@ -92,8 +92,8 @@
                           <div class="social-style-two">
                                <a href="https://www.facebook.com/tahmid.tokee" target="_blank"><i class="fab fa-facebook-f"></i></a>
                               <a href="https://www.linkedin.com/in/tokeetahmid/" target="_blank"><i class="fab fa-twitter"></i></a>
-                           {{--    <a href="contact.html"><i class="fab fa-instagram"></i></a>
-                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a> --}}
+                               <a href="contact.html"><i class="fab fa-instagram"></i></a>
+                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a> 
                           </div>
                       </div>
                       <div class="member-description">
@@ -111,8 +111,8 @@
                           <div class="social-style-two">
                              <a href="https://www.facebook.com/asif.shoshi" target="_blank"><i class="fab fa-facebook-f"></i></a>
                              <a href="https://www.linkedin.com/in/asif-shahriyar-64380564/" target="_blank"><i class="fab fa-twitter"></i></a>
-                           {{--    <a href="contact.html"><i class="fab fa-instagram"></i></a>
-                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a> --}}
+                           <a href="contact.html"><i class="fab fa-instagram"></i></a>
+                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a>
                           </div>
                       </div>
                       <div class="member-description">
@@ -130,8 +130,8 @@
                           <div class="social-style-two">
                              <a href="https://www.facebook.com/tanmaytbs" target="_blank"><i class="fab fa-facebook-f"></i></a>
                              <a href="https://www.linkedin.com/in/tanmaybiswastt/" target="_blank"><i class="fab fa-twitter"></i></a>
-                             {{--  <a href="contact.html"><i class="fab fa-instagram"></i></a>
-                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a> --}}
+                             <a href="contact.html"><i class="fab fa-instagram"></i></a>
+                              <a href="contact.html"><i class="fab fa-pinterest-p"></i></a>
                           </div>
                       </div>
                       <div class="member-description">
@@ -142,7 +142,7 @@
               </div>
           </div>
       </div>
-  </section>
+  </section>--}}
   <!-- Team Section End -->
 
     <!-- Why Learn Start -->

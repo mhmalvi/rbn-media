@@ -4231,7 +4231,7 @@ background-color: #d4c8c8;
 }
 
 .destination-list li a:hover .figure{
-    background: var(--primary);
+    background: var(--teal);
     -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -moz-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -ms-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -4250,7 +4250,7 @@ background-color: #d4c8c8;
 .destination-list li a:hover .card h5,
 .destination-list li a:focus .card h5,
 .destination-list li a:active .card h5{
-    color: var(--primary);
+    color: var(--teal);
 }
 
 @media screen and (max-width:767px){
@@ -4404,7 +4404,59 @@ background-color: #d4c8c8;
 }
 
 
+/*
+*  Demandable Subjects
+*/
+.allsubject-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subject-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px;
+}
 
+.subject-container:hover {
+    scale: 105%;
+    transition-duration: 1s;
+}
+
+.subject-circle{
+    color: #fff;
+    position: relative;
+    left:15px;
+    width: 75px;
+    height: 75px;
+    /* background-color: var(--teal); */
+    background-color: #3895d2;
+    border-radius: 50%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);
+}
+
+.subject-line{
+    color: #fff;
+    background: #278ACD;
+    background: linear-gradient(90deg, #3991cb 0%, #65b1e3 68%, #fafafa 100%);
+    /* background: rgb(32,201,151);
+    background: linear-gradient(90deg, rgba(32,201,151,1) 0%, rgba(32,201,151,1) 68%, rgba(255,255,255,0.9136029411764706) 100%); */
+    width: 300px;
+    height: 60px;
+    margin: auto ;
+    border-radius: .3rem;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
 /*
 *  Partner Universities
 */

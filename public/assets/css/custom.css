@@ -97,63 +97,108 @@
 }
 
 .box1 .figure {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
+    width: 190px;
+    height: 190px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #008000;
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
     position: relative;
 }
 
 .box1 .figure::before {
+    width: 50%;
+    height: 10px;
     position: absolute;
-    left: -7px;
-    top: 50%;
+    left: 50px;
+    top: 210px;
     transform: translateY(-50%);
-    width: 90px;
-    height: 90px;
+    transition-duration: .6s;
     content: "";
-    background: rgba(0, 128, 0, 0.9);
-    opacity: 0.5;
-    border-radius: 50%;
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    opacity: 0.1;
+    z-index: -1;
+    margin: auto;
+}
+.box1 .figure:hover::before {
+    scale:50%;
+    height: 10px;
+    position: absolute;
+    left: 50px;
+    top: 215px;
+    transform: translateY(30%);
+    transition-duration: .6s;
+    content: "";
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    opacity: 0.1;
     z-index: -1;
 }
 
 .featured-services .box1:nth-child(2) .figure {
-    background: rgba(66, 34, 268, 1);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 53% 47% 51% 49% / 46% 48% 52% 54%  ;
 }
 
 .featured-services .box1:nth-child(2) .figure::before {
-    background: rgba(66, 34, 268, 0.9);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 53% 47% 51% 49% / 46% 48% 52% 54%  ;
 }
 
 .featured-services .box1:nth-child(3) .figure {
-    background: rgb(121, 7, 173, 1);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 58% 42% 47% 53% / 46% 48% 52% 54% ;
 }
 
 .featured-services .box1:nth-child(3) .figure::before {
-    background: rgb(121, 7, 173, 0.9);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 58% 42% 47% 53% / 46% 48% 52% 54% ; 
 }
 
 .featured-services .box1:nth-child(4) .figure {
-    background: rgba(19, 235, 162, 1);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 51% 49% 47% 53% / 46% 52% 48% 54%  ; 
 }
 
 .featured-services .box1:nth-child(4) .figure::before {
-    background: rgba(19, 235, 162, 0.9);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 51% 49% 47% 53% / 46% 52% 48% 54% ; 
 }
 
 .featured-services .box1:nth-child(5) .figure {
-    background: var(--primary);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 51% 49% 47% 53% / 50% 49% 51% 50%  ; 
 }
 
 .featured-services .box1:nth-child(5) .figure::before {
-    background: rgba(222, 0, 35, 0.9);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 51% 49% 47% 53% / 50% 49% 51% 50%  ; 
+}
+.featured-services .box1:nth-child(6) .figure {
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 51% 49% 55% 45% / 50% 49% 51% 50%  ; 
 }
 .featured-services .box1:nth-child(6) .figure::before {
-    background: rgba(222, 0, 35, 0.9);
+    background: rgb(92,218,254);
+    background: radial-gradient(circle, rgb(98, 186, 244) 0%, rgba(23,122,232,1) 100%);
+    border-radius: 51% 49% 55% 45% / 50% 49% 51% 50% ; 
+}
+
+.custom-textstyle {
+    font-weight: 700;
+    text-shadow: 1px 1px 10px #28282874;
 }
 .box1 .figure > img {
     width: 45px;
@@ -165,11 +210,15 @@
 }
 
 .about-us {
-    background: #f2f3f7;
+    background: #f5f5f5;
 }
 
 .about-us .circle-styled::before {
     display: none;
+}
+
+.services-section {
+background-color: #278ACD ;
 }
 
 .services-section .category-item a {
