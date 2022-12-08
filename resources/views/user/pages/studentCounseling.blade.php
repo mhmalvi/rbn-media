@@ -69,6 +69,8 @@
       </div>
   </section>
   <!--  destination list end -->
+
+  
    <!-- how it all works section start -->
    <section class="why-learn-area pb-120 rpb-100">
       <div class="container">
