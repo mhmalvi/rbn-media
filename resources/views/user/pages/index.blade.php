@@ -104,19 +104,19 @@
                   </div>
               </div>
           </div>
-          
+
           <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569401765.jpg') }}'); background-repeat: no-repeat;">
                       <img src="{{ asset('assets/images/future-hub/1569401765.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon">
-                          <img src="{{ asset('assets/images/flag/1573652587.png') }}" alt="Germany">
+                      <div class="icon position-absolute">
+                          <img src="{{ asset('assets/images/flag/Europe.png') }}" alt="Europe">
                       </div>
-                      <h4>Germany</h4>
-                      <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Germany..</p>
-                      <a href="{{ url('study-in-germany') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
+                      <h4>Europe</h4>
+                      <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Europe..</p>
+                      <a href="{{ url('study-in-europe') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                   </div>
               </div>
           </div>
@@ -135,7 +135,7 @@
                   </div>
               </div>
           </div>
-          
+
           <div class="col-lg-4 col-sm-6">
               <div class="card box-shadow border-0 hover-styled">
                   <figure class="figure mb-0" style="background-image: url('{{ asset('assets/images/future-hub/1569240440.jpg') }}'); background-repeat: no-repeat;">
@@ -202,7 +202,7 @@
                                   </div>
                                   <h4>Student Counseling</h4>
 
-                                  <a href="#">Read More</a>
+                                  <a href="{{ route('student-counseling') }}">Read More</a>
 
                               </div>
                               <div class="category-item  hover-styled">
@@ -211,7 +211,7 @@
 
                                   </div>
                                   <h4>IELTS & PTE Registration Center</h4>
-                                        <a href="#">Read More</a>
+                                        <a href="{{ route('registration-center') }}">Read More</a>
 
                               </div>
                           </div>
@@ -224,7 +224,7 @@
                                   </div>
                                   {{-- <h4>Language & Scholarship Guidance</h4> --}}
                                   <h4>Scholarship Guidance</h4>
-                                        <a href="#">Read More</a>
+                                        <a href="{{ route('language-scholarship') }}">Read More</a>
 
                               </div>
                               <div class="category-item  hover-styled">
@@ -233,14 +233,14 @@
 
                                   </div>
                                   <h4>Admission Assistance </h4>
-                                    <a href="#">Read More</a>
+                                    <a href="{{ route('admission-assistance') }}">Read More</a>
                               </div>
                                <div class="category-item  hover-styled">
                                    <div class="icon">
                                        <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
                                    </div>
                                    <h4>Pastoral Care</h4>
-                                        <a href="#">Read More</a>
+                                        <a href="{{ route('postalCare') }}">Read More</a>
                                </div>
                           </div>
 
@@ -251,8 +251,7 @@
 
                                   </div>
                                   <h4>Visa Assistance</h4>
-                                         <a href="#">Read More</a>
-
+                                         <a href="{{ route('visa-assistance') }}">Read More</a>
                               </div>
                               <div class="category-item  hover-styled">
                                   <div class="icon">
@@ -260,7 +259,7 @@
 
                                   </div>
                                   <h4>Prior Departure Briefing</h4>
-                                     <a href="#">Read More</a>
+                                     <a href="{{ route('departureBriefing') }}">Read More</a>
 
                               </div>
                                {{--<div class="category-item  hover-styled">
@@ -289,7 +288,8 @@
                   <div class="section-title text-center mb-45">
 
 
-                      <h2>Featured Universities</h2>
+                      <h2>Partner Universities</h2>
+                      <h6>10 Best Associate Universities for Quick Offer Letters</h6>
 
                   </div>
               </div>
@@ -836,9 +836,9 @@
                           {{--<span>Business Manager</span>--}}
                       </div>
                       <p>
-                      "I visited Canada on a visitor visa but wanted to convert my visitor visa 
-                      into a Canada student visa. Every consultant I visited told me that your 
-                      case was impossible. But then I met RBN EDUCATION and I got my Canada student 
+                      "I visited Canada on a visitor visa but wanted to convert my visitor visa
+                      into a Canada student visa. Every consultant I visited told me that your
+                      case was impossible. But then I met RBN EDUCATION and I got my Canada student
                       visa with the help of the staff of RBN EDUCATION I would recommend them to all people."
                       </p>
                       <div class="ratting">
@@ -861,8 +861,8 @@
                           {{--<span>Business Manager</span>--}}
                       </div>
                       <p>
-                      “The counselors at RBN EDUCATION are very helpful and helped me gain a 
-                      UK student visa. Today, I'm very happy and would recommend them to each 
+                      “The counselors at RBN EDUCATION are very helpful and helped me gain a
+                      UK student visa. Today, I'm very happy and would recommend them to each
                       and every student.”
                       </p>
                       <div class="ratting">

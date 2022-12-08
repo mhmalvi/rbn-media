@@ -32,22 +32,20 @@
                         <a href="javascript:void(0)">Services</a>
                         <ul>
                             <li>
-                                <a href="{{ route('admissionConsultation') }}">Student Counseling</a>
+                                <a href="{{ route('student-counseling') }}">Student Counseling</a>
 
                             </li>
-                            <li><a href="{{ route('visaExpress') }}">IELTS & PTE Registration Center</a></li>
+                            <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
                             <li>
-                                <a href="{{ route('phdAdmissionService') }}">Language & Scholarship Guidance</a>
-
-
-                            </li>
-                            <li>
-                                <a href="{{ route('scholarshipGuidance') }}">Admission Assistance</a>
-
+                                <a href="{{ route('language-scholarship') }}">Language & Scholarship Guidance</a>
 
                             </li>
                             <li>
-                                <a href="{{ route('departureBriefing') }}">Visa Assistance</a>
+                                <a href="{{ route('admission-assistance') }}">Admission Assistance</a>
+
+                            </li>
+                            <li>
+                                <a href="{{ route('visa-assistance') }}">Visa Assistance</a>
                             </li>
                             <li>
                                 <a href="{{ route('departureBriefing') }}">Prior Departure Briefing</a>
@@ -81,7 +79,7 @@
                                 </a>
                             </li> --}}
                             <li>
-                                <a href="{{ url('study-in-germany') }}">
+                                <a href="{{ url('study-in-europe') }}">
                                     <img class="icon" src="{{ asset('assets/images/flag/europe.png') }}" alt="Europe">
                                     Europe
                                 </a>
