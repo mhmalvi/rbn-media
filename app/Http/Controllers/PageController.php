@@ -8,6 +8,7 @@ use App\Models\Admin\Event;
 use App\Models\Admin\Tag;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
@@ -26,10 +27,35 @@ class PageController extends Controller
         $pageName = 'Admisssion Consultation';
         return view('user.pages.admissionConsultation', compact('pageName'));
     }
+    public function studentCounseling()
+    {
+        $pageName = 'Student Counseling';
+        return view('user.pages.studentCounseling', compact('pageName'));
+    }
     public function visaExpress()
     {
         $pageName = 'Visa Express';
         return view('user.pages.visaExpress', compact('pageName'));
+    }
+    public function registrationCenter()
+    {
+        $pageName = 'IELTS & PTE Registration Center';
+        return view('user.pages.registrationCenter', compact('pageName'));
+    }
+    public function languageScholarship()
+    {
+        $pageName = 'Language & Scholarship Guidance';
+        return view('user.pages.languageScholarship', compact('pageName'));
+    }
+    public function admissionAssistance()
+    {
+        $pageName = 'Admission Assistance';
+        return view('user.pages.admissionAssistance', compact('pageName'));
+    }
+    public function visaAssistance()
+    {
+        $pageName = 'Visa Assistance';
+        return view('user.pages.visaAssistance', compact('pageName'));
     }
     public function phdAdmissionService()
     {
@@ -43,12 +69,12 @@ class PageController extends Controller
     }
     public function departureBriefing()
     {
-        $pageName = 'Pre-Departure Briefing';
+        $pageName = 'Prior Departure Briefing';
         return view('user.pages.departureBriefing', compact('pageName'));
     }
     public function postalCare()
     {
-        $pageName = 'Pastoral Care In Abroad';
+        $pageName = 'Pastoral Care';
         return view('user.pages.postalCare', compact('pageName'));
     }
     public function studyInAus()
@@ -197,4 +223,20 @@ class PageController extends Controller
         $pageName = 'Student Registration';
         return view('user.pages.studentRegistrationFrom', compact('pageName'));
     }
+
+    public function studentPostRegistration(Request $request)
+    {
+        $data = $request->all();
+        //dd($data);
+        $data["to_email"] = "info@rbn.com";
+        $data["title"] = "Student Enrolment";
+        $data["body"] = "This is Demo";
+        Mail::send('user.email.onlineApplication', $data, function ($message) use ($data) {
+            $message->to("anntaffs67@gmail.com")
+                ->subject($data["title"]);
+                //->attachData($pdf->output(), "ApplyOnline.pdf");
+        });
+        return response()->json(["message" => "mail sent successfully"], 200);
+    }
+
 }

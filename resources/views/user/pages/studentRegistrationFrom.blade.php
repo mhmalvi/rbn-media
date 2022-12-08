@@ -5,16 +5,17 @@
 
     <div class="container" style="position: relative; margin-top: 56px">
         <div class="line"></div>
-           <a href="//www.iecc.co.uk" class="" target="_blank" data-toggle="tooltip" title="Back to Company Website" style="position: absolute;top: 20px;color: #2e58a6;padding: 5px 15px;"><i class="fa fa-home"></i></a>
+           <a href="#" class="" target="_blank" data-toggle="tooltip" title="Back to Company Website" style="position: absolute;top: 20px;color: #2e58a6;padding: 5px 15px;"><i class="fa fa-home"></i></a>
 
             {{-- <form class="form ajax-form" method="POST" action="https://samscrm.co.uk/s/yxE71J3P9abvb08jWYV2og6Ml" data-redirect="https://samscrm.co.uk/welcome-student"> --}}
-            <form class="form ajax-form" method="POST">
+            <form class="form ajax-form" method="POST" action="{{ route('student.registration') }}">
+              @csrf
               <input type="hidden" name="" value="">
               <input type="hidden" name="office_id" value="1">
 
               <input type="hidden" name="batch_email_receiver" value="">
 
-              
+
               <div class="row">
                 <div class="col-lg-6">
                   <div class="card box-shadow p-3 mb-lg-0 mb-2" id="res_left">
@@ -572,7 +573,7 @@
                           <label for="mobile">
                             Mobile Number <span class="text-danger">*</span>
                           </label>
-                          <input type="text" name="mobile" id="mobile" class="form-control" required="" inputmode="text" placeholder="Mobile Number">                  
+                          <input type="text" name="mobile" id="mobile" class="form-control" required="" inputmode="text" placeholder="Mobile Number">
                         </div>
                       </div>
                     </div>
@@ -581,7 +582,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label for="birthday">Date of Birth <span class="text-danger">*</span></label>
-                          <input type="text" name="birthday" id="birthday" class="form-control flatpickr-input" placeholder="Date of Birth" required="" readonly="readonly">                  
+                          <input type="text" name="birthday" id="birthday" class="form-control flatpickr-input" placeholder="Date of Birth" required="" readonly="readonly">
                         </div>
                       </div>
                       <div class="col-lg-6">
@@ -636,8 +637,8 @@
                               <div class="row mt-2">
 
                                 <div id="Australia"  class="col-md-3 mb-2" >
-                                    <label class="labelDiv"> 
-                                    <input type="checkbox" onclick="handleClick(`destination_australia`)" class="d-none countryBox" name="study_destinations[]" value="36" autocomplete="off">    
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_australia`)" class="d-none countryBox" name="study_destinations[]" value="36" autocomplete="off">
                                     <div id="destination_australia" class="destination_div">
                                         <div class="flag_div">
                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569253786.png')}}">
@@ -648,10 +649,10 @@
                                     </div>
                                     </label>
                                 </div>
-                                
+
                                 <div id="Canada" class="col-md-3 mb-2" >
-                                    <label class="labelDiv"> 
-                                    <input type="checkbox" onclick="handleClick(`destination_canada`)"  class="d-none countryBox" name="study_destinations[]" value="124" autocomplete="off">    
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_canada`)"  class="d-none countryBox" name="study_destinations[]" value="124" autocomplete="off">
                                     <div id="destination_canada" class="destination_div">
                                         <div class="flag_div">
                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569237351.png')}}">
@@ -662,12 +663,12 @@
                                     </div>
                                     </label>
                                 </div>
-                                                                
-        
+
+
 
                                 <div id="Germany" class="col-md-3 mb-2" >
-                                    <label class="labelDiv"> 
-                                    <input type="checkbox" onclick="handleClick(`destination_germany`)"  class="d-none countryBox" name="study_destinations[]" value="276" autocomplete="off">    
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_germany`)"  class="d-none countryBox" name="study_destinations[]" value="276" autocomplete="off">
                                     <div id="destination_germany" class="destination_div">
                                         <div class="flag_div">
                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1573652587.png')}}">
@@ -680,8 +681,8 @@
                                 </div>
 
                                 <div id="Malaysia" class="col-md-3 mb-2" >
-                                    <label class="labelDiv"> 
-                                    <input type="checkbox" onclick="handleClick(`destination_malaysia`)" class="d-none countryBox" name="study_destinations[]" value="458" autocomplete="off">    
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_malaysia`)" class="d-none countryBox" name="study_destinations[]" value="458" autocomplete="off">
                                     <div id="destination_malaysia" class="destination_div">
                                         <div class="flag_div">
                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569404987.png')}}">
@@ -694,8 +695,8 @@
                                 </div>
 
                                 <div id="United_Kingdom" class="col-md-3 mb-2" >
-                                    <label class="labelDiv"> 
-                                    <input type="checkbox" onclick="handleClick(`destination_uk`)" class="d-none countryBox" name="study_destinations[]" value="826" autocomplete="off">    
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_uk`)" class="d-none countryBox" name="study_destinations[]" value="826" autocomplete="off">
                                     <div id="destination_uk" class="destination_div">
                                         <div class="flag_div">
                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569240440.png')}}">
@@ -708,8 +709,8 @@
                                 </div>
 
                                 <div id="United_States" class="col-md-3 mb-2">
-                                    <label class="labelDiv"> 
-                                    <input type="checkbox" onclick="handleClick(`destination_us`)" class="d-none countryBox" name="study_destinations[]" value="840" autocomplete="off">    
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_us`)" class="d-none countryBox" name="study_destinations[]" value="840" autocomplete="off">
                                     <div id="destination_us" class="destination_div">
                                         <div class="flag_div">
                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569246724.png')}}">
@@ -720,12 +721,12 @@
                                     </div>
                                     </label>
                                 </div>
-                                
+
                               </div>
                           </div>
                       </section>
                     </div>
-                    
+
                     <h5 class="mt-2">
                       <span class="badge badge-primary px-3 py-2 rounded-pill">Admission Preference</span>
                     </h5>
@@ -818,17 +819,17 @@
                         </div>
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
 
-                
-                
+
+
               </div>
               <div class="row">
                 <div class="col-lg-12">
                   <div class="card box-shadow py-4 mb-lg-0 mb-4 mt-3 px-0" style="height: 100px;box-shadow: none;border: none;">
-                    
+
                     <div class="row">
                       <div class="col text-right">
                         <button type="reset" class="btn btn-warning">Reset</button>
@@ -843,6 +844,6 @@
 
           </div>
 
-   
+
 
 @endsection

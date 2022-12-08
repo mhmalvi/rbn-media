@@ -27,7 +27,14 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/who-we-are', [PageController::class, 'whoWeAre'])->name('whoWeAre');
 Route::get('/out-timeline', [PageController::class, 'timeline'])->name('timeline');
 Route::get('/admission-consultation', [PageController::class, 'admissionConsultation'])->name('admissionConsultation');
-Route::get('/visa-express', [PageController::class, 'visaExpress'])->name('visaExpress');
+
+Route::get('/student-counseling', [PageController::class, 'studentCounseling'])->name('student-counseling');
+//Route::get('/visa-express', [PageController::class, 'visaExpress'])->name('visaExpress');
+Route::get('/registration-center', [PageController::class, 'registrationCenter'])->name('registration-center');
+Route::get('/language-scholarship', [PageController::class, 'languageScholarship'])->name('language-scholarship');
+Route::get('/admission-assistance', [PageController::class, 'admissionAssistance'])->name('admission-assistance');
+Route::get('/visa-assistance', [PageController::class, 'visaAssistance'])->name('visa-assistance');
+
 Route::get('/phd-admission-service', [PageController::class, 'phdAdmissionService'])->name('phdAdmissionService');
 Route::get('/scholarship-guidance', [PageController::class, 'scholarshipGuidance'])->name('scholarshipGuidance');
 Route::get('/departure-briefing', [PageController::class, 'departureBriefing'])->name('departureBriefing');
@@ -35,7 +42,7 @@ Route::get('/postal-care', [PageController::class, 'postalCare'])->name('postalC
 Route::get('/study-in-aus', [PageController::class, 'studyInAus'])->name('studyInAus');
 Route::get('/study-in-canada', [PageController::class, 'studyInCanada'])->name('studyInCanada');
 Route::get('/study-in-dubai', [PageController::class, 'studyInDubai'])->name('studyInDubai');
-Route::get('/study-in-germany', [PageController::class, 'studyInEurope'])->name('studyInEurope');
+Route::get('/study-in-europe', [PageController::class, 'studyInEurope'])->name('studyInEurope');
 Route::get('/study-in-malyasia', [PageController::class, 'studyInMalyasia'])->name('studyInMalyasia');
 Route::get('/study-in-switzerland', [PageController::class, 'studyInSwitzerland'])->name('studyInSwitzerland');
 Route::get('/study-in-uk', [PageController::class, 'studyInUk'])->name('studyInUk');
@@ -51,6 +58,7 @@ Route::get('/dhaka/office', [PageController::class, 'dhakaOffice'])->name('dhaka
 Route::get('/sylhet/office', [PageController::class, 'sylhetOffice'])->name('sylhetOffice');
 Route::get('/school-of-english', [PageController::class, 'schoolOfEnglish'])->name('schoolOfEnglish');
 Route::get('/student-registration', [PageController::class, 'studentRegistration'])->name('studentRegistration');
+Route::post('/student-registration', [PageController::class, 'studentPostRegistration'])->name('student.registration');
 
 
 Route::middleware(['guest', 'PreventBackHistory'])->group(function () {

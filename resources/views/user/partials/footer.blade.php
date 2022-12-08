@@ -47,21 +47,46 @@
                   <div class="col-lg-2 col-md-2 col-sm-4">
                       <div class="footer-widget menu-widget">
                           <h5 class="footer-title">Services</h5>
+{{--                          <ul>--}}
+{{--                              <li>--}}
+{{--                                  <a href="javascript:void(0)">Admission Consultation</a>--}}
+{{--                              </li>--}}
+{{--                              <li>--}}
+{{--                                  <a href="javascript:void(0)">phd admission service</a>--}}
+{{--                              </li>--}}
+{{--                              <li>--}}
+{{--                                  <a href="javascript:void(0)">scholarship guidance</a>--}}
+{{--                              </li>--}}
+{{--                              <li>--}}
+{{--                                  <a href="javascript:void(0)">pre-departure briefing</a>--}}
+{{--                              </li>--}}
+{{--                              <li>--}}
+{{--                                  <a href="javascript:void(0)">pastoral care in abroad</a>--}}
+{{--                              </li>--}}
+{{--                          </ul>--}}
                           <ul>
                               <li>
-                                  <a href="javascript:void(0)">Admission Consultation</a>
+                                  <a href="{{ route('student-counseling') }}">Student Counseling</a>
+
+                              </li>
+                              <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
+                              <li>
+                                  <a href="{{ route('language-scholarship') }}">Language & Scholarship Guidance</a>
+
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">phd admission service</a>
+                                  <a href="{{ route('admission-assistance') }}">Admission Assistance</a>
+
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">scholarship guidance</a>
+                                  <a href="{{ route('visa-assistance') }}">Visa Assistance</a>
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">pre-departure briefing</a>
+                                  <a href="{{ route('departureBriefing') }}">Prior Departure Briefing</a>
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">pastoral care in abroad</a>
+                                  <a href="{{ route('postalCare') }}">Pastoral Care</a>
+
                               </li>
                           </ul>
                       </div>
@@ -72,10 +97,8 @@
                           <ul>
                               <li><a href="{{ url('study-in-aus') }}">Australia</a></li>
                               <li><a href="{{ url('study-in-canada') }}">Canada</a></li>
-                              <li><a href="{{ url('study-in-dubai') }}">Dubai</a></li>
-                              <li><a href="{{ url('study-in-germany') }}">Germany</a></li>
+                              <li><a href="{{ url('study-in-europe') }}">Europe</a></li>
                               <li><a href="{{ url('study-in-malyasia') }}">Malaysia</a></li>
-                              <li><a href="{{ url('study-in-switzerland') }}">Switzerland</a></li>
                               <li><a href="{{ url('study-in-uk') }}">UK</a></li>
                               <li><a href="{{ url('study-in-usa') }}">USA</a></li>
                           </ul>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!--====== Title ======-->
-    <title>Wellearn - Education & LMS HTML Template || Home Two</title>
+    <title>RBN - Aiming High? We Make You Fly</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" />
 
@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" />
 
-    
+
     @stack('styles')
 
 
