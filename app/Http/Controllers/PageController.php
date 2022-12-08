@@ -17,10 +17,30 @@ class PageController extends Controller
         $pageName = 'Who We Are';
         return view('user.pages.whoWeAre', compact('pageName'));
     }
+    public function aboutRbnEducation()
+    {
+        $pageName = 'RBN Education';
+        return view('user.pages.aboutRbnEducation', compact('pageName'));
+    }
+    public function ourValues()
+    {
+        $pageName = 'Our Values';
+        return view('user.pages.ourValues', compact('pageName'));
+    }
     public function timeline()
     {
         $pageName = 'Who We Are';
         return view('user.pages.timeline', compact('pageName'));
+    }
+    public function ourGoals()
+    {
+        $pageName = 'Our Goals';
+        return view('user.pages.ourGoals', compact('pageName'));
+    }
+    public function renownedScholarships()
+    {
+        $pageName = 'Renowned Scholarships';
+        return view('user.pages.renownedScholarships', compact('pageName'));
     }
     public function admissionConsultation()
     {

@@ -27,16 +27,16 @@
                         <h5 class="footer-title">About</h5>
                           <ul>
                               <li>
-                                  <a href="{{ route('whoWeAre') }}">About Us</a>
+                                  <a href="{{ route('about-rbn-education') }}">About Us</a>
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">Scholarship</a>
+                                  <a href="{{ route('renowned-scholarships') }}">Scholarship</a>
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">Event</a>
+                                  <a href="{{ route('event') }}">Event</a>
                               </li>
                               <li>
-                                  <a href="javascript:void(0)">Blog</a>
+                                  <a href="{{ route('blog') }}">Blog</a>
                               </li>
                               <li>
                                   <a href="javascript:void(0)">Contact Us</a>
@@ -182,4 +182,12 @@
               <span class="fas fa-angle-double-up"></span>
           </button>
       </div>
+
+      <script>
+        
+        if(window.location.href.split("/")[3]==="message-from-ceo"){
+            document.getElementById("messageFromCEO").style.display="none"
+        }
+
+      </script>
   </footer>
