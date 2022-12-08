@@ -17,15 +17,26 @@
                     <div class="why-learn-content rmb-35">
                         <div class="section-title mb-30">
                             {{--  <span class="sub-title-two"></span> --}}
-                            <h2>Our Goal</h2>
+                            <h2>Renowned Scholarships</h2>
                         </div>
-                        <p>12 Best Renowned Scholarships For International Students</p>
+                        <p><b>12 Best Renowned Scholarships For International Students</b></p>
                         <ul class="list-style-four">
+                            <li><a href="https://www.chevening.org/" class="text-secondary" target="_blank">Chevening Scholarship UK</a> </li>
+                            <li><a href="https://www.simmons.edu/undergraduate/admission-and-financial-aid/tuition-financial-aid/types-financial-aid/scholarships/kotzen" class="text-secondary" target="_blank">Simmons University Kotzen Scholarships</a> </li>
 
-                            <li>Consistently remain a trustworthy and optimum name in the education consultancy industry.</li>
-                            <li>To strengthen the digital marketing team.</li>
-                            <li>To build a strong and credible relationship with the partner universities.</li>
-                            <li>To provide effective solutions & career advice that are both beneficial and life-changing for students.</li>
+                            <li><a href="https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/types-financial-aid/grants-scholarships" class="text-secondary" target="_blank">Dartmouth College Scholarships</a> </li>
+
+                            <li><a href="https://financialaid.stanford.edu/undergrad/how/international.html" class="text-secondary" target="_blank">Stanford University Scholarships</a> </li>
+
+                            <li><a href="https://www.ucalgary.ca/registrar/finances/awards-scholarships-and-bursaries/international-awards#:~:text=Information%20on%20Eligibility,degree%20program%20to%20be%20eligible." class="text-secondary" target="_blank">University of Calgary International Scholarships</a> </li>
+
+                            <li><a href="https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/awards/university-waterloo-graduate-scholarship" class="text-secondary" target="_blank">International Master's Degree and Doctoral Program Awards by the University of Waterloo</a> </li>
+                            <li><a href="https://science.anu.edu.au/study/scholarships/anu-chancellors-international-scholarship" class="text-secondary" target="_blank">Australian National University (ANU) Chancellor's International Scholarship</a> </li>
+
+                            <li><a href="https://bond.edu.au/scholarship/international-undergraduate-excellence-scholarship" class="text-secondary" target="_blank">Bond University International Undergraduate Excellence Scholarship</a> </li>
+                            <li><a href="https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en" class="text-secondary" target="_blank">Erasmus Mundus Scholarships</a> </li>
+                            <li><a href="https://stipendiumhungaricum.hu/" class="text-secondary" target="_blank">Stipendium Hungaricum</a> </li>
+
 
                         </ul>
 
