@@ -63,6 +63,10 @@
         border-radius: .3rem;
     }
 }
+
+.counseling-img {
+margin: auto;
+}
 /************* header ***************/
 .section {
     padding: 70px 0;

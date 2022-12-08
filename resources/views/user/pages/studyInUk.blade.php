@@ -214,7 +214,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-11  mx-auto col-lg-6 pl-lg-5">
-                      <h3 class="brand-color divider-1">Study in the UK with RBN </h3>
+                      <h3 class="divider-1">Study in the UK with RBN </h3>
                       <p>
                       </p>
                       <p>Guide for application and visa requirements with RBN Thousands of students plan to study in the UK&nbsp;every year but many of them find it difficult while applying for the UK universities. RBN helps international students to live their dream to study in Uk since 2005. We handle the whole process on your behalf starting with university selection, application paperwork, visa guidance, and accommodation arrangements.</p>

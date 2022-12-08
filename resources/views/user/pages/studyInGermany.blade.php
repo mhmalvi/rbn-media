@@ -211,7 +211,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-11  mx-auto col-lg-6 pl-lg-5">
-                      <h3 class="brand-color divider-1">How Do We Organize a Student Profile for a European University?</h3>
+                      <h3 class="divider-1">How Do We Organize a Student Profile for a European University?</h3>
                       <p>A student profile is an essential part of the admissions process at a European university. It can help to identify students' strengths and weaknesses, as well as highlight any areas of focus that they may want to pursue in university. In order for your profile to be effective, it needs to be comprehensive and tailored specifically for each school to that you are applying.
                       </p>
                       <p>So, here we are to help. We target specific schools based on your interests and skillsets. Start making a student CV in European format, we arrange all the paperwork. Furthermore, provide guidance on compiling academically strong files (transcripts, letters of recommendation, etc.), writing persuasive essays, conducting interviews, and more.</p>
