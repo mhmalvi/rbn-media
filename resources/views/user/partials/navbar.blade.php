@@ -22,9 +22,9 @@
                     <li class="dropdown">
                         <a href="javascript:void(0)">About Us</a>
                         <ul>
-                            <li><a href="{{ route('whoWeAre') }}">About RBN Education</a></li>
-                            <li><a href="{{ route('timeline') }}">Our Values</a></li>
-                            <li><a href="{{ route('timeline') }}">Goals</a></li>
+                            <li><a href="{{ route('about-rbn-education') }}">About RBN Education</a></li>
+                            <li><a href="{{ route('our-values') }}">Our Values</a></li>
+                            <li><a href="{{ route('our-goals') }}">Goals</a></li>
 
                         </ul>
                     </li>
@@ -113,7 +113,7 @@
                     </li>
                     <li class="dropdown"><a href="{{ route('scholarship') }}">scholarship</a>
                         <ul>
-                            <li><a href="{{ route('event') }}">Renowned Scholarships</a></li>
+                            <li><a href="{{ route('renowned-scholarships') }}">Renowned Scholarships</a></li>
                             <li><a href="{{ route('article') }}">Articles</a></li>
                         </ul>
                     </li>
