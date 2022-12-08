@@ -1,4 +1,4 @@
- <div class="footer-newsletter br-10 bg-lighter">
+ <div class="footer-newsletter br-10 bg-lighter" id="messageFromCEO">
      <div class="row">
          <div class="col-lg-6">
              <div class="newsletter-video bgs-cover overlay wow fadeInLeft delay-0-2s" style="

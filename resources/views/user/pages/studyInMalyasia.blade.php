@@ -211,7 +211,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-11  mx-auto col-lg-6 pl-lg-5">
-                      <h3 class="brand-color divider-1">Get Admitted to A Malaysian University Through RBN Education </h3>
+                      <h3 class="divider-1">Get Admitted to A Malaysian University Through RBN Education </h3>
                       <p>We assist students to enroll in a Malaysian university by providing them with the expertise and resources they need to navigate the gradual process. This may include helping students to identify their goals, develop a strong application package, and locate potential universities that are best suited to their needs.
                       </p>
                       <p>Our team has extensive experience working with international students, which makes them well-equipped to provide support throughout the entire enrollment process. We answer all of your queries regarding the admission process. We make every effort possible to make sure your transition is smooth and quick.</p>

@@ -213,7 +213,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-11  mx-auto col-lg-6 pl-lg-5">
-                      <h3 class="brand-color divider-1">Mobilize USA Study Plan with RBN Education </h3>
+                      <h3 class="divider-1">Mobilize USA Study Plan with RBN Education </h3>
                       <p>The USA is one of the most welcoming countries when it comes to international students. RBN education mobilizes a student file to enroll students in reputed American universities and gets them on track for obtaining the F1 visa. We work with you to create an individualized plan that takes your unique situation into account, and also assist with the enrollment process so that everything goes as smoothly as possible.
                       </p>
                       <p>By working closely with representatives from US universities, we can ensure that our students are getting information about the school and the program that best suits their needs. In addition, by liaising with embassies worldwide, we can help you secure any necessary paperwork.</p>

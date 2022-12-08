@@ -940,5 +940,4 @@
 
 {{--@include('user.partials.partners')--}}
 
-
 @endsection

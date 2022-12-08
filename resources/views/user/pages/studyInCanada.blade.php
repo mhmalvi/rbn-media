@@ -209,7 +209,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-lg-6 pr-lg-5">
-                      <h3 class="brand-color divider-1">Expand Your Enrollment Possibilities in a Canadian University </h3>
+                      <h3 class="divider-1">Expand Your Enrollment Possibilities in a Canadian University </h3>
                       <p>
                       </p>
                       <p>As a professional student visa agency, we can help you to 
