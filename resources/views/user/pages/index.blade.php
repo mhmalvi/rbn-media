@@ -288,7 +288,8 @@
                   <div class="section-title text-center mb-45">
 
 
-                      <h2>Featured Universities</h2>
+                      <h2>Partner Universities</h2>
+                      <h6>10 Best Associate Universities for Quick Offer Letters</h6>
 
                   </div>
               </div>

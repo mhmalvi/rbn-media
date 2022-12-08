@@ -35,6 +35,8 @@ Route::get('/language-scholarship', [PageController::class, 'languageScholarship
 Route::get('/admission-assistance', [PageController::class, 'admissionAssistance'])->name('admission-assistance');
 Route::get('/visa-assistance', [PageController::class, 'visaAssistance'])->name('visa-assistance');
 
+Route::get('/message-from-ceo', [PageController::class, 'messageFromCeo'])->name('message-from-ceo');
+
 Route::get('/phd-admission-service', [PageController::class, 'phdAdmissionService'])->name('phdAdmissionService');
 Route::get('/scholarship-guidance', [PageController::class, 'scholarshipGuidance'])->name('scholarshipGuidance');
 Route::get('/departure-briefing', [PageController::class, 'departureBriefing'])->name('departureBriefing');

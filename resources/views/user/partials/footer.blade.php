@@ -1,6 +1,6 @@
   <footer class="main-footer bg-blue">
       <div class="container">
-        @include('user.partials.newsletter')
+        @include('user.partials.messageFromCEO')
           <div class="clearfix"></div>
           <div class="row justify-content-between text-white pt-75">
               <div class="row">

@@ -77,6 +77,11 @@ class PageController extends Controller
         $pageName = 'Pastoral Care';
         return view('user.pages.postalCare', compact('pageName'));
     }
+    public function messageFromCeo()
+    {
+        $pageName = 'Message From the CEO';
+        return view('user.pages.messageFromCeoDetails', compact('pageName'));
+    }
     public function studyInAus()
     {
         $pageName = 'Study In Australia';
