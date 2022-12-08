@@ -26,7 +26,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/who-we-are', [PageController::class, 'whoWeAre'])->name('whoWeAre');
 Route::get('/out-timeline', [PageController::class, 'timeline'])->name('timeline');
+Route::get('/about-rbn-education', [PageController::class, 'aboutRbnEducation'])->name('about-rbn-education');
+Route::get('/our-values', [PageController::class, 'ourValues'])->name('our-values');
+Route::get('/our-goals', [PageController::class, 'ourGoals'])->name('our-goals');
 Route::get('/admission-consultation', [PageController::class, 'admissionConsultation'])->name('admissionConsultation');
+Route::get('/renowned-scholarships', [PageController::class, 'renownedScholarships'])->name('renowned-scholarships');
 
 Route::get('/student-counseling', [PageController::class, 'studentCounseling'])->name('student-counseling');
 //Route::get('/visa-express', [PageController::class, 'visaExpress'])->name('visaExpress');
