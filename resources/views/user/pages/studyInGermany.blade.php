@@ -8,11 +8,96 @@
             <h2>Determine Your Future Hub</h2>
         </div>
           <ul class="destination-list">
+          <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/flag/ger.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>GERMANY</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>GERMANY</h5>
+                    </div>
+              </li>
               <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/flag/sweden.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>SWEDEN</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>SWEDEN</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/flag/denmark.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>DENMARK</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>DENMARK</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/flag/hungary.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>HUNGARY</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>HUNGARY</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/flag/italy.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>ITALY</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>ITALY</h5>
+                    </div>
+              </li>
+              {{--<li>
                   <a href="#">
                       <div class="card">
                           <figure class="figure mx-auto">
-                              {{-- <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1569240627.png')}}" class="img-fluid" alt="Toronto "> --}}
+                              <img src="https://www.iecc.co.uk/public/uploads/destination/topcity/1569240627.png')}}" class="img-fluid" alt="Toronto ">
                               <img src="{{asset('assets/images/flag/ger.png')}}" class="img-fluid" alt="London ">
                           </figure>
                           <div class="card-body">
@@ -68,7 +153,7 @@
                           </div>
                       </div>
                   </a>
-              </li>
+              </li>--}}
 
 
           </ul>
@@ -81,15 +166,15 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 mx-auto col-lg-6 pt-md-2">
+                <div class="col-sm-12 mx-auto col-lg-6 pt-md-2  m-auto">
                     <div class="video-box">
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/uk/1603015036.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-11 mx-auto col-lg-6 pl-lg-5">
-                    <h3 class="brand-color divider-1"> Why Europe? </h3>
+                <div class="col-11 mx-auto col-lg-6 pl-lg-5 text-white">
+                    <h3 class="text-white"> Why Europe? </h3>
                     <ol>
                         <li>Many European universities are among the world's top 50 universities. The quality of education is splendid and the cost of studying is very reasonable.</li>
                         <li>European universities offer world-class teaching and research facilities. They also have strong connections with the industry, which makes them well-equipped to meet the needs of working professionals.</li>
@@ -257,7 +342,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> CCT College Dublin</h5>
                           <p>Ireland</p>
@@ -269,7 +354,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Caucasus's International University</h5>
                           <p>Georgia</p>
@@ -295,7 +380,7 @@
           <ul class="list-unstyled partner-universities">
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572699938.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572699938.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> City University of London</h5>
                           <p>London</p>
@@ -309,7 +394,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572784689.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572784689.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> East Anglia University</h5>
                           <p>Norwich</p>
@@ -323,7 +408,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572785167.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572785167.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
                           <p>Scotland</p>
@@ -337,7 +422,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572872985.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872985.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> INTO London World Education Centre</h5>
                           <p>London</p>
@@ -351,7 +436,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572872882.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872882.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> INTO Manchester</h5>
                           <p>Manchester</p>
@@ -365,7 +450,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572873985.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873985.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Manchester Metropolitan University</h5>
                           <p>Manchester</p>
@@ -379,7 +464,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572786861.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786861.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Newcastle University</h5>
                           <p>Newcastle</p>
@@ -393,7 +478,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572872810.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572872810.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Newcastle University London</h5>
                           <p>London</p>
@@ -407,7 +492,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572786976.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572786976.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
                           <p>Northern Ireland</p>
@@ -421,7 +506,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572873115.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572873115.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Exeter</h5>
                           <p>Exeter</p>
@@ -435,7 +520,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572787481.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/uk/partners/1572787481.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Stirling</h5>
                           <p>Scotland</p>

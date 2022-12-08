@@ -3774,6 +3774,21 @@ h6,
     margin-bottom: -26px;
     /*   background: #00cc83; */
 }
+
+.main-header .logo a img {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 991px) {
+    .main-header .logo a img {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+}
+
 @media only screen and (max-width: 1700px) and (min-width: 1500px) {
     .main-header .logo {
         padding-left: 25px;
@@ -3783,8 +3798,7 @@ h6,
 @media only screen and (max-width: 1500px) {
     .main-header .logo {
         padding: 15px;
-        max-width: 100px;
-        margin-top: -16px;
+        margin-top: -20px;
         margin-bottom: -16px;
     }
 }
@@ -4182,10 +4196,10 @@ h6,
 .main-menu .mobile-logo {
     z-index: 5;
     padding: 10px;
-    max-width: 75px;
+    max-width: 90px;
+    max-height: 90px;
     position: relative;
     margin-top: -15px;
-    margin-bottom: -15px;
 }
 
 /* Menu Right icons */

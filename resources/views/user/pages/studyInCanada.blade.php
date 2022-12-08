@@ -8,10 +8,95 @@
             <h2>Determine Your Future Hub</h2>
         </div>
           <ul class="destination-list">
+          <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>ONTARIO</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>ONTARIO</h5>
+                    </div>
+              </li>
               <li>
                   <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/can/topcities/qebec.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>NOVA SCOTIA</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>NOVA SCOTIA</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>NEWFOUNDLAND & LABRADOR</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>NEWFOUNDLAND & LABRADOR</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/can/topcities/manitoba.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>MANITOBA</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>MANITOBA</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/can/topcities/britcol.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>NEW BRUNSWICK</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>NEW BRUNSWICK</h5>
+                    </div>
+              </li>
+              {{--<li>
+                  <a href="#">
                       <div class="card">
-                          <figure class="figure">
+                          <figure class="figure mx-auto">
                               <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}" class="img-fluid" alt="ONTARIO ">
                           </figure>
                           <div class="card-body">
@@ -23,7 +108,7 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
+                          <figure class="figure  mx-auto">
                               <img src="{{asset('assets/images/destination/can/topcities/qebec.png')}}" class="img-fluid" alt="NOVA SCOTIA ">
                           </figure>
                           <div class="card-body">
@@ -35,7 +120,7 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
+                          <figure class="figure  mx-auto">
                               <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}" class="img-fluid" alt="NEWFOUNDLAND & LABRADOR">
                           </figure>
                           <div class="card-body">
@@ -47,7 +132,7 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
+                          <figure class="figure  mx-auto">
                               <img src="{{asset('assets/images/destination/can/topcities/manitoba.png')}}" class="img-fluid" alt="MANITOBA">
                           </figure>
                           <div class="card-body">
@@ -59,7 +144,7 @@
               <li>
                   <a href="#">
                       <div class="card">
-                          <figure class="figure">
+                          <figure class="figure  mx-auto">
                               <img src="{{asset('assets/images/destination/can/topcities/britcol.png')}}" class="img-fluid" alt="NEW BRUNSWICK">
                           </figure>
                           <div class="card-body">
@@ -67,7 +152,7 @@
                           </div>
                       </div>
                   </a>
-              </li>
+              </li>--}}
 
 
           </ul>
@@ -80,15 +165,15 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 pt-md-2">
+                <div class="col-lg-6 pt-md-2  m-auto">
                     <div class="video-box">
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/aus/1578484469.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-lg-6 pl-lg-5">
-                    <h3 class="brand-color divider-1"> Why choose Canada? </h3>
+                <div class="col-lg-6 pl-lg-5 text-white">
+                    <h3 class="text-white"> Why choose Canada? </h3>
                     <ol>
                       <li>Canada is one of the most welcoming countries when it comes to international students.</li>
                       <li>The country is ranked as one of the best countries in the world to study abroad.</li>
