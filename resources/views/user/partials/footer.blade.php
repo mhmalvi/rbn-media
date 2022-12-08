@@ -182,4 +182,12 @@
               <span class="fas fa-angle-double-up"></span>
           </button>
       </div>
+
+      <script>
+        
+        if(window.location.href.split("/")[3]==="message-from-ceo"){
+            document.getElementById("messageFromCEO").style.display="none"
+        }
+
+      </script>
   </footer>
