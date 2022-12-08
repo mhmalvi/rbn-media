@@ -144,7 +144,7 @@
     </div>
     <!-- Menu Button -->
     <div class="menu-btn-sidebar d-flex align-items-center">
-        <a href="{{ route('schoolOfEnglish') }}" class="text-white" style="background-color: #A00434; font-size: 12px; padding: 8px 20px">School Of English</a>
+        <div class=" EnglishSchool-btn"><a href="{{ route('schoolOfEnglish') }}" class="text-white">School Of English</a></div>
         {{--  <form action="javascript:void(0)">
              <input type="search" placeholder="Search" required />
              <button><i class="fas fa-search"></i></button>

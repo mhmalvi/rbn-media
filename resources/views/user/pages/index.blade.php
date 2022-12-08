@@ -80,7 +80,7 @@
                       <img src="{{ asset('assets/images/future-hub/1569253786.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon position-absolute">
+                      <div class="icon">
                           <img src="{{ asset('assets/images/flag/1569253786.png') }}" alt="Australia">
                       </div>
                       <h4>Australia</h4>
@@ -95,7 +95,7 @@
                       <img src="{{ asset('assets/images/future-hub/1569237351.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon position-absolute">
+                      <div class="icon">
                           <img src="{{ asset('assets/images/flag/1569237351.png') }}" alt="Canada">
                       </div>
                       <h4>Canada</h4>
@@ -111,7 +111,7 @@
                       <img src="{{ asset('assets/images/future-hub/1569401765.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon position-absolute">
+                      <div class="icon">
                           <img src="{{ asset('assets/images/flag/1573652587.png') }}" alt="Germany">
                       </div>
                       <h4>Germany</h4>
@@ -126,7 +126,7 @@
                       <img src="{{ asset('assets/images/future-hub/1569404986.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon position-absolute">
+                      <div class="icon">
                           <img src="{{ asset('assets/images/flag/1569404987.png') }}" alt="Malaysia">
                       </div>
                       <h4>Malaysia</h4>
@@ -142,7 +142,7 @@
                       <img src="{{ asset('assets/images/future-hub/1569240440.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon position-absolute">
+                      <div class="icon">
                           <img src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
                       </div>
                       <h4>UK</h4>
@@ -157,7 +157,7 @@
                       <img src="{{ asset('assets/images/future-hub/1569252684.jpg') }}" class="card-img-top" alt="Image" style="visibility: hidden;">
                   </figure>
                   <div class="card-body pt-0">
-                      <div class="icon position-absolute">
+                      <div class="icon">
                           <img src="{{ asset('assets/images/flag/1569246724.png') }}" alt="USA">
                       </div>
                       <h4>USA</h4>

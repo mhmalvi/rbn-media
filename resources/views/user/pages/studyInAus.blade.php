@@ -9,7 +9,92 @@
             <h2>Determine Your Future Hub</h2>
         </div>
           <ul class="destination-list">
+             <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/aus/topcities/1569254151.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>MELBOURNE</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>MELBOURNE</h5>
+                    </div>
+              </li>
               <li>
+                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/aus/topcities/1573052543.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>BRISBANE</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>BRISBANE</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/aus/topcities/1573052585.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>ADELAIDE</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>ADELAIDE</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/aus/topcities/1569254535.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>PERTH</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>PERTH</h5>
+                    </div>
+              </li>
+              <li>
+                  <a href="#">
+                  <div class="flip-box mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/aus/topcities/1569254579.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>SYDNEY</h4>
+                        </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="flipboxback-mob">
+                        <h5>SYDNEY</h5>
+                    </div>
+              </li>
+              {{--<li>
                   <a href="#">
                       <div class="card">
                           <figure class="figure">
@@ -68,7 +153,7 @@
                           </div>
                       </div>
                   </a>
-              </li>
+              </li>--}}
 
 
           </ul>
@@ -81,15 +166,15 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 pt-md-2">
+                <div class="col-lg-6 pt-md-2  m-auto">
                     <div class="video-box">
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/aus/1578484469.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-lg-6 pl-lg-5">
-                    <h3 class="brand-color divider-1"> Why to choose Australia? </h3>
+                <div class="col-lg-6 pl-lg-5 text-white">
+                    <h3 class="text-white"> Why to choose Australia? </h3>
                     <p>Find out why Australia has become one of the most popular destinations for international students</p>
                     <ol>
                       <li>Australia ranks high in the World Economic Forum's Global Competitiveness Index. The developed economy with high living standards makes it a great place to live and study.</li>
@@ -257,10 +342,10 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1571659027.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1571659027.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Aston University</h5>
-                          <p>Birmingham</p>
+                          <h5 class="mt-0 mb-1">Australian Technical College Western Australia</h5>
+                          <p>Perth</p>
                           <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
                           </p>
@@ -269,10 +354,10 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Bangor University</h5>
-                          <p>Wales</p>
+                          <h5 class="mt-0 mb-1">Illora College</h5>
+                          <p>Perth</p>
                           <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
                           </p>
@@ -281,10 +366,10 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572875214.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572875214.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Bellerbys College</h5>
-                          <p>Brighton</p>
+                          <h5 class="mt-0 mb-1">Ozford Institute</h5>
+                          <p>Melbourne</p>
                           <p>
                           </p>
                       </div>
@@ -292,10 +377,10 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572699086.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572699086.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Bournemouth University</h5>
-                          <p>Dorset</p>
+                          <h5 class="mt-0 mb-1">Riverdale Institute</h5>
+                          <p>Melbourne</p>
                           <p>
                           </p>
                       </div>
@@ -303,10 +388,10 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572699473.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572699473.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Brunel University</h5>
-                          <p>London</p>
+                          <h5 class="mt-0 mb-1">Sunbeam International College</h5>
+                          <p>Adelaide</p>
                           <p>
                           </p>
                       </div>
@@ -314,503 +399,22 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572699609.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572699609.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Buckingham University</h5>
-                          <p>Buckingham</p>
+                          <h5 class="mt-0 mb-1">South Sydney College</h5>
+                          <p>Burwood</p>
                           <p>
                           </p>
                       </div>
                   </div>
               </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569490283.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Cardiff University</h5>
-                          <p>Wales</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873704.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> CATS College</h5>
-                          <p>Canterbury</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572699938.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> City University of London</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572700160.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Coventry University</h5>
-                          <p>Coventry</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572870037.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Coventry University London</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1575369232.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Cranfield University</h5>
-                          <p>Cranfield</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873162.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> d'Overbroeck's, Oxford</h5>
-                          <p>Oxford</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572700272.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> De Montfort University</h5>
-                          <p>Leicester</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572700753.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Durham University</h5>
-                          <p>Durham</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572784932.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> East London University</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572785167.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572785314.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Heriot-Watt University</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572874820.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Istituto Marangoni (fashion)</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786296.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Keele University</h5>
-                          <p>Keele</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572869887.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Leeds Beckett University</h5>
-                          <p>Leeds</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786416.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Liverpool John Moores University</h5>
-                          <p>Liverpool</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786560.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Middlesex University</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873269.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Oxford Tutorial College</h5>
-                          <p>Oxford</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786976.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
-                          <p>Northern Ireland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569488170.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Sheffield Hallam University</h5>
-                          <p>Sheffield</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569490373.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Swansea University</h5>
-                          <p>Wales</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873342.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> The Courtauld Institute of Art</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572869963.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> The University of Aberdeen</h5>
-                          <p>Scotland</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569487716.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> The University of Manchester</h5>
-                          <p>Manchester</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1652611078.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Birmingham</h5>
-                          <p>Birmingham</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572698884.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Bolton</h5>
-                          <p>Bolton</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572875314.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Bradford</h5>
-                          <p>Bradford</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572699817.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Central Lancashire</h5>
-                          <p>Preston</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1592140732.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Chester</h5>
-                          <p>Parkgate</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572868032.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Dundee</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872980.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Greenwich</h5>
-                          <p>London</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572785617.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Hertfordshire</h5>
-                          <p>Hertfordshire</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572785732.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Huddersfield</h5>
-                          <p>Huddersfield</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786082.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Hull</h5>
-                          <p>Hull</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569488242.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Leeds</h5>
-                          <p>Leeds</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572265952.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Portsmouth</h5>
-                          <p>Portsmouth</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572787168.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Salford</h5>
-                          <p>Manchester</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572787481.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Stirling</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572875061.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Strathclyde</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572787852.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Sunderland</h5>
-                          <p>Sunderland</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572870312.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Surrey</h5>
-                          <p>Surrey</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572870252.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Sussex</h5>
-                          <p>Sussex</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1569487896.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Westminster</h5>
-                          <p>London</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-
-
           </ul>
       </div>
   </section>
   <!-- partner universities section end -->
 
   <!---- group partners universities  start-->
-  <section class="text-center bg-white py-50 rpt-90  rpb-45">
+  {{--<section class="text-center bg-white py-50 rpt-90  rpb-45">
 
       <div class="container">
           <div class="section-title text-center mb-55">
@@ -820,7 +424,7 @@
           <ul class="list-unstyled partner-universities">
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572699938.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572699938.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> City University of London</h5>
                           <p>London</p>
@@ -834,7 +438,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572784689.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572784689.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> East Anglia University</h5>
                           <p>Norwich</p>
@@ -848,7 +452,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572785167.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572785167.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
                           <p>Scotland</p>
@@ -862,7 +466,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872985.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572872985.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> INTO London World Education Centre</h5>
                           <p>London</p>
@@ -876,7 +480,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872882.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572872882.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> INTO Manchester</h5>
                           <p>Manchester</p>
@@ -890,7 +494,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873985.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572873985.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Manchester Metropolitan University</h5>
                           <p>Manchester</p>
@@ -904,7 +508,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786861.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572786861.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Newcastle University</h5>
                           <p>Newcastle</p>
@@ -918,7 +522,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872810.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572872810.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Newcastle University London</h5>
                           <p>London</p>
@@ -932,7 +536,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786976.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572786976.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
                           <p>Northern Ireland</p>
@@ -946,7 +550,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873115.png')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572873115.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Exeter</h5>
                           <p>Exeter</p>
@@ -960,7 +564,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572787481.jpg')}}" class="img-fluid" alt="University of Massachusetts, Dartmouth">
+                      <img src="{{asset('assets/images/destination/aus/partners/1572787481.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Stirling</h5>
                           <p>Scotland</p>
@@ -974,7 +578,7 @@
 
           </ul>
       </div>
-  </section>
+  </section>--}}
 
   <!---- group partners universities  end-->
 
