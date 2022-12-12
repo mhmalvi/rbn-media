@@ -83,6 +83,10 @@ margin: auto;
     padding-bottom: 10px;
 }
 
+.visaService-li p{
+    text-align: justify;
+}
+
 .visaService-bullet{
     width: 30px;
     height: 30px;

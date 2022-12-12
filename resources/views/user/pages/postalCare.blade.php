@@ -40,7 +40,7 @@
                 <a>
                 <div class="dice-box mx-auto">
                       <div class="dicebox-dialog">
-                      <h4>1 <br> Guidance on the university registration process</h4>
+                      <h4>1.<br> Guidance on the university registration process</h4>
                       </div>
                   </div>
                 </a>
@@ -49,7 +49,7 @@
                   <a>
                   <div class="dice-box mx-auto">
                         <div class="dicebox-dialog">
-                        <h4>2<br> Instructions on how to get a local resident permit</h4>
+                        <h4>2.<br> Instructions on how to get a local resident permit</h4>
                         </div>
                     </div>
                   </a>
@@ -58,7 +58,7 @@
                   <a>
                   <div class="dice-box mx-auto">
                         <div class="dicebox-dialog">
-                        <h4>3<br>Familiarize students with the local healthcare system</h4>
+                        <h4>3.<br>Familiarize students with the local healthcare system</h4>
                         </div>
                     </div>
                   </a>
@@ -71,7 +71,7 @@
                   <a>
                   <div class="dice-box mx-auto">
                         <div class="dicebox-dialog">
-                        <h4>4<br>Guidelines on foreign bank account open</h4>
+                        <h4>4.<br> Guidelines on foreign bank account open</h4>
                         </div>
                     </div>
                   </a>
@@ -80,7 +80,7 @@
                   <a>
                   <div class="dice-box mx-auto">
                         <div class="dicebox-dialog">
-                        <h4>5<br> Support in getting a dependent visa & family visit visa</h4>
+                        <h4>5.<br> Support in getting a dependent visa & family visit visa</h4>
                         </div>
                     </div>
                   </a>

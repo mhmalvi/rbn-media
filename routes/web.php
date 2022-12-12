@@ -65,6 +65,7 @@ Route::get('/sylhet/office', [PageController::class, 'sylhetOffice'])->name('syl
 Route::get('/school-of-english', [PageController::class, 'schoolOfEnglish'])->name('schoolOfEnglish');
 Route::get('/student-registration', [PageController::class, 'studentRegistration'])->name('studentRegistration');
 Route::post('/student-registration', [PageController::class, 'studentPostRegistration'])->name('student.registration');
+Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 
 
 Route::middleware(['guest', 'PreventBackHistory'])->group(function () {

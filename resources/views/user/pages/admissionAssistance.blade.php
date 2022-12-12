@@ -23,8 +23,6 @@
                       </div>
                   </a>
               </li>
-            </ul>
-            <ul class="Counseling-list">
               <li>
                   <a href="#">
                       <div class="card hover-styled">
@@ -43,15 +41,13 @@
                       </div>
                   </a>
               </li>
-
-
           </ul>
       </div>
   </section>
   <!--  destination list end -->
 
      <!-- how it all works section start -->
-     <section class="why-learn-area pb-120 rpb-100">
+     <section class="assistance pb-120 rpb-100">
       <div class="container">
          <h2 class="text-center">HOW IT ALL WORKS</h2>   
           <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s pt-20">
