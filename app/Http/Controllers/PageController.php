@@ -64,7 +64,7 @@ class PageController extends Controller
     }
     public function languageScholarship()
     {
-        $pageName = 'Language & Scholarship Guidance';
+        $pageName = 'Scholarship Guidance';
         return view('user.pages.languageScholarship', compact('pageName'));
     }
     public function admissionAssistance()

@@ -222,7 +222,6 @@
                                       <img src="{{ asset('assets/images/categories/icon3.png') }}" alt="Icon" />
 
                                   </div>
-                                  {{-- <h4>Language & Scholarship Guidance</h4> --}}
                                   <h4>Scholarship Guidance</h4>
                                         <a href="{{ route('language-scholarship') }}">Read More</a>
 
@@ -237,7 +236,7 @@
                               </div>
                                <div class="category-item  hover-styled">
                                    <div class="icon">
-                                       <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
+                                       <img src="{{ asset('assets/images/categories/icon5.png') }}" alt="Icon" />
                                    </div>
                                    <h4>Pastoral Care</h4>
                                         <a href="{{ route('postalCare') }}">Read More</a>
@@ -247,7 +246,7 @@
                           <div class="col-md-4 col-sm-6 mt-40">
                               <div class="category-item  hover-styled mt-40">
                                   <div class="icon">
-                                      <img src="{{ asset('assets/images/categories/icon5.png') }}" alt="Icon" />
+                                      <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
 
                                   </div>
                                   <h4>Visa Assistance</h4>
@@ -255,7 +254,7 @@
                               </div>
                               <div class="category-item  hover-styled">
                                   <div class="icon">
-                                      <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
+                                      <img src="{{ asset('assets/images/categories/icon7.png') }}" alt="Icon" />
 
                                   </div>
                                   <h4>Prior Departure Briefing</h4>
@@ -477,84 +476,54 @@
 
               <div class="coach-item style-two wow fadeInUp delay-0-2s">
                   <div class="coach-image">
-                      <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">The University of Manchester</a>
-
-                      <h4>Manchester, UK</h4>
-                        <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
-
-
+                      <a href="javascript:void(0)" class="category">Outstanding Educational Advisor</a>
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-4s">
                   <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
 
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Leeds</a>
-
-                      <h4>Yorkshire, UK</h4>
-                        <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
-
-
+                      <a href="javascript:void(0)" class="category">SHU International Agent of the Year 2008</a>
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-6s">
                   <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach3.jpg') }}" alt="Coach" />
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
 
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Manitoba</a>
-
-                      <h4>Manitoba, Canada</h4>
-                      <p>Ranked 350th by The World University Ranking 2021.</p>
-
-
+                      <a href="javascript:void(0)" class="category">Authorised Agent from 2009-2011</a>
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-2s">
                   <div class="coach-image">
-                      <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">The University of Manchester</a>
-
-                      <h4>Manchester, UK</h4>
-                        <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
-
-
+                      <a href="javascript:void(0)" class="category">Top Achiever Award in 2009</a>
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-4s">
                   <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
 
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Leeds</a>
-
-                      <h4>Yorkshire, UK</h4>
-                        <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
-
-
+                      <a href="javascript:void(0)" class="category">Certification of Representation 2019</a>
                   </div>
               </div>
               <div class="coach-item style-two wow fadeInUp delay-0-6s">
                   <div class="coach-image">
-                      <img src="{{ asset('assets/images/coachs/coach3.jpg') }}" alt="Coach" />
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
 
                   </div>
                   <div class="coach-content text-center">
-                      <a href="javascript:void(0)" class="category">University of Manitoba</a>
-
-                      <h4>Manitoba, Canada</h4>
-                      <p>Ranked 350th by The World University Ranking 2021.</p>
-
-
+                      <a href="javascript:void(0)" class="category">Certification of Representation 2021</a>
                   </div>
               </div>
           </div>

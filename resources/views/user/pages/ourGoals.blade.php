@@ -20,12 +20,23 @@
                             <h2>Our Goal</h2>
                         </div>
 
-                        <ul class="list-style-four">
-
-                            <li>Consistently remain a trustworthy and optimum name in the education consultancy industry.</li>
-                            <li>To strengthen the digital marketing team.</li>
-                            <li>To build a strong and credible relationship with the partner universities.</li>
-                            <li>To provide effective solutions & career advice that are both beneficial and life-changing for students.</li>
+                        <ul class="">
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>Consistently remain a trustworthy and optimum name in the education consultancy industry.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>To strengthen the digital marketing team.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>To build a strong and credible relationship with the partner universities.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>To provide effective solutions & career advice that are both beneficial and life-changing for students.</p>
+                            </li>
 
                         </ul>
 

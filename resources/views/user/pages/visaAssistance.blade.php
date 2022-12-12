@@ -6,8 +6,8 @@
       <div class="container">
           <div class=" align-items-center large-gap wow fadeInLeft delay-0-2s">
               <div class=" mx-auto">
-                      <p>
-                      Basically, education consultancy firms assist to gain a student visa forthwith when the applicants enroll in one of their partner institutions. This is a time-consuming and involved process that requires extensive consultation with an immigration lawyer and careful planning with associates.</p>
+                      <h5>
+                      Basically, education consultancy firms assist to gain a student visa forthwith when the applicants enroll in one of their partner institutions. This is a time-consuming and involved process that requires extensive consultation with an immigration lawyer and careful planning with associates.</h5>
               </div>
           </div>
       </div>

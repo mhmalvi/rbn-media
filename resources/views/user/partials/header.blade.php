@@ -16,9 +16,9 @@
                          <a href="https://www.youtube.com/@rbneducation7406"><i class="fab fa-youtube"></i></a>
                      </div>
                      <ul class="top-menu">
-                         <li><a href="javascript:void(0)">Setting & Privacy</a></li>
-                         <li><a href="javascript:void(0)">Faqs</a></li>
-                         <li><a href="javascript:void(0)">About</a></li>
+                     {{--<li><a href="about.html">Setting & Privacy</a></li>--}}
+                                <li><a href="faqs.html">Faqs</a></li>
+                                {{--<li><a href="about.html">About</a></li>--}}
                      </ul>
                  </div>
              </div>

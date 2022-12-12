@@ -35,9 +35,9 @@
                                 <a href="{{ route('student-counseling') }}">Student Counseling</a>
 
                             </li>
-                            <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
+                            <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration</a></li>
                             <li>
-                                <a href="{{ route('language-scholarship') }}">Language & Scholarship Guidance</a>
+                                <a href="{{ route('language-scholarship') }}">Scholarship Guidance</a>
 
                             </li>
                             <li>

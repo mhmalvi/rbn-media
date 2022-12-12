@@ -73,6 +73,10 @@ margin: auto;
     height: 30px;
 }
 
+.aboutrbn-li{
+    display:flex;
+}
+
 .visaService-li{
     display:flex;
     padding-top: 10px;
