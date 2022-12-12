@@ -162,19 +162,20 @@
   <!--  destination list end -->
   
   <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45">
+    <section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline:8%;">
 
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mx-auto col-lg-6 pt-md-2  m-auto">
-                    <div class="video-box">
+                    <div class="video-box" style="padding:19%;">
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/uk/1603015036.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-11 mx-auto col-lg-6 pl-lg-5 text-white">
-                    <h3 class="text-white"> Why Europe? </h3>
+                <div class="col-11 mx-auto col-lg-6 pl-lg-5 " style="margin: 35px 0 0 0;">
+
+                    <h3 class=""> Why Europe? </h3>
                     <ol>
                         <li>Many European universities are among the world's top 50 universities. The quality of education is splendid and the cost of studying is very reasonable.</li>
                         <li>European universities offer world-class teaching and research facilities. They also have strong connections with the industry, which makes them well-equipped to meet the needs of working professionals.</li>

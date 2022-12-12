@@ -1,16 +1,15 @@
-  <footer class="main-footer bg-blue">
+  <footer class="main-footer bg-blue pt-75">
       <div class="container">
-        @include('user.partials.messageFromCEO')
           <div class="clearfix"></div>
           <div class="row justify-content-between text-white pt-75">
               <div class="row">
-                  <div class="col-lg-3 col-sm-4">
+                  <div class="col-lg-4 col-sm-4">
                       <div class="footer-widget about-widget">
                           <h5 class="footer-title">About Us</h5>
-                          <p>
+                          <p class="pr-2">
                               We, as a consultancy firm, have been serving our students
-                              since 2005 and this is how our students treat us in return.
-                              Their good words and references help us growing further.
+                              since 2005 & this is how our students treat us in return.
+                              Their good words & references help us growing further.
                           </p>
                           <h5 class="pt-5">Follow Us</h5>
                           <div class="social-style-one">
@@ -24,10 +23,14 @@
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-4">
                       <div class="footer-widget menu-widget">
-                        <h5 class="footer-title">About</h5>
+                          <h5 class="footer-title">About</h5>
                           <ul>
                               <li>
                                   <a href="{{ route('about-rbn-education') }}">About Us</a>
+                              </li>
+                              <li>
+                                  <a href="#services">Services</a>
+
                               </li>
                               <li>
                                   <a href="{{ route('renowned-scholarships') }}">Scholarship</a>
@@ -44,26 +47,10 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-lg-2 col-md-2 col-sm-4">
+
+                  {{-- <div class="col-lg-2 col-md-2 col-sm-4">
                       <div class="footer-widget menu-widget">
                           <h5 class="footer-title">Services</h5>
-{{--                          <ul>--}}
-{{--                              <li>--}}
-{{--                                  <a href="javascript:void(0)">Admission Consultation</a>--}}
-{{--                              </li>--}}
-{{--                              <li>--}}
-{{--                                  <a href="javascript:void(0)">phd admission service</a>--}}
-{{--                              </li>--}}
-{{--                              <li>--}}
-{{--                                  <a href="javascript:void(0)">scholarship guidance</a>--}}
-{{--                              </li>--}}
-{{--                              <li>--}}
-{{--                                  <a href="javascript:void(0)">pre-departure briefing</a>--}}
-{{--                              </li>--}}
-{{--                              <li>--}}
-{{--                                  <a href="javascript:void(0)">pastoral care in abroad</a>--}}
-{{--                              </li>--}}
-{{--                          </ul>--}}
                           <ul>
                               <li>
                                   <a href="{{ route('student-counseling') }}">Student Counseling</a>
@@ -73,94 +60,98 @@
                               <li>
                                   <a href="{{ route('language-scholarship') }}">Scholarship Guidance</a>
 
-                              </li>
-                              <li>
-                                  <a href="{{ route('admission-assistance') }}">Admission Assistance</a>
+                  </li>
+                  <li>
+                      <a href="{{ route('admission-assistance') }}">Admission Assistance</a>
 
-                              </li>
-                              <li>
-                                  <a href="{{ route('visa-assistance') }}">Visa Assistance</a>
-                              </li>
-                              <li>
-                                  <a href="{{ route('departureBriefing') }}">Prior Departure Briefing</a>
-                              </li>
-                              <li>
-                                  <a href="{{ route('postalCare') }}">Pastoral Care</a>
+                  </li>
+                  <li>
+                      <a href="{{ route('visa-assistance') }}">Visa Assistance</a>
+                  </li>
+                  <li>
+                      <a href="{{ route('departureBriefing') }}">Prior Departure Briefing</a>
+                  </li>
+                  <li>
+                      <a href="{{ route('postalCare') }}">Pastoral Care</a>
 
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-lg-2 col-md-2 col-sm-4">
-                      <div class="footer-widget menu-widget">
-                          <h5 class="footer-title">Destination</h5>
-                          <ul>
-                              <li><a href="{{ url('study-in-aus') }}">Australia</a></li>
-                              <li><a href="{{ url('study-in-canada') }}">Canada</a></li>
-                              <li><a href="{{ url('study-in-europe') }}">Europe</a></li>
-                              <li><a href="{{ url('study-in-malyasia') }}">Malaysia</a></li>
-                              <li><a href="{{ url('study-in-uk') }}">UK</a></li>
-                              <li><a href="{{ url('study-in-usa') }}">USA</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-lg-3">
-                      <div class="row">
-                          <div class="col-sm-12">
-                              <div class="footer-widget contact-info-widget">
-                                  <h5 class="footer-title">Get In Touch</h5>
-                                  <ul>
-                                      <li>
-                                          <i class="fas fa-map-marker-alt"></i>69/1 Suvastu Tower,
-                                          2nd floor, Panthapath Signal, Dhaka-1205
-                                      </li>
-                                      <li>
-                                          <i class="far fa-envelope"></i>
-                                          <a href="mailto:info@rbn.com.bd">info@rbn.com.bd</a>
-                                      </li>
-                                      <li>
-                                          <i class="fas fa-phone"></i>
-                                          <a href="callto:+8801312777919">+8801312777919</a>
-                                      </li>
-                                      <!--  <li>
-                            <i class="far fa-clock"></i> Sunday - Friday,<br />
-                            08 am - 05 pm
-                          </li> -->
-                                  </ul>
-                              </div>
-                              <div class="footer-widget contact-info-widget">
-                                  <ul>
-                                      <li>
-                                          <a href="">Terms of Use</a>
-                                      </li>
-                                      <li>
-                                          <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}"  download>Privacy Policy</a>
-                                      </li>
-                                      <li>
-                                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of Conduct</a>
-                                      </li>
-                                      <!--  <li>
-                            <i class="far fa-clock"></i> Sunday - Friday,<br />
-                            08 am - 05 pm
-                          </li> -->
-                                  </ul>
-                              </div>
-                          </div>
-{{--                          <div class="col-sm-6">--}}
-{{--                              <div class="footer-widget video-widget">--}}
-{{--                                  <p>Quis autem vel eum iure repre enderit voluptate</p>--}}
-{{--                                  <div class="video-widget overlay my-20">--}}
-{{--                                      <img src="{{ asset('assets/images/footer/video.jpg') }}" alt="Video" />--}}
+                  </li>
+                  </ul>
+              </div>
+          </div> --}}
 
-{{--                                      <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i class="fas fa-play"></i></a>--}}
-{{--                                  </div>--}}
-{{--                                  <a href="javascript:void(0)" class="read-more">view more <i class="fas fa-arrow-right"></i></a>--}}
-{{--                              </div>--}}
-{{--                          </div>--}}
-                      </div>
-                  </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="footer-widget menu-widget">
+                  <h5 class="footer-title">Destination</h5>
+                  <ul>
+                      <li><a href="{{ url('study-in-aus') }}">Australia</a></li>
+                      <li><a href="{{ url('study-in-canada') }}">Canada</a></li>
+                      <li><a href="{{ url('study-in-europe') }}">Europe</a></li>
+                      <li><a href="{{ url('study-in-malyasia') }}">Malaysia</a></li>
+                      <li><a href="{{ url('study-in-uk') }}">UK</a></li>
+                      <li><a href="{{ url('study-in-usa') }}">USA</a></li>
+                  </ul>
               </div>
           </div>
+          <div class="col-lg-4">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="footer-widget contact-info-widget">
+                          <h5 class="footer-title">Get In Touch</h5>
+                          <ul>
+                              <li>
+                                  <i class="fas fa-map-marker-alt"></i>69/1 Suvastu Tower,
+                                  2nd floor, Panthapath Signal, Dhaka-1205
+                              </li>
+                              <li>
+                                  <i class="far fa-envelope"></i>
+                                  <a href="mailto:info@rbn.com.bd">info@rbn.com.bd</a>
+                              </li>
+                              <li>
+                                  <i class="fas fa-phone"></i>
+                                  <a href="callto:+8801312777919">+8801312777919</a>
+                              </li>
+                          </ul>
+
+                          <button class="mt-3 py-2 px-3 bg-success" style="border-radius: 0.3rem;">
+                              <a href="{{ url('student-registration') }}">
+
+                                  Registration Form
+                              </a>
+                          </button>
+
+                      </div>
+
+                      {{-- <div class="footer-widget contact-info-widget">
+                          <ul>
+                              <li>
+                                  <a href="">Terms of Use</a>
+                              </li>
+                              <li>
+                                  <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}" download>Privacy
+                      Policy</a>
+                      </li>
+                      <li>
+                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of
+                              Conduct</a>
+                      </li>
+                      </ul>
+                  </div> --}}
+              </div>
+              {{-- <div class="col-sm-6"> --}}
+              {{-- <div class="footer-widget video-widget"> --}}
+              {{-- <p>Quis autem vel eum iure repre enderit voluptate</p> --}}
+              {{-- <div class="video-widget overlay my-20"> --}}
+              {{-- <img src="{{ asset('assets/images/footer/video.jpg') }}" alt="Video" /> --}}
+
+              {{-- <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i class="fas fa-play"></i></a> --}}
+              {{-- </div> --}}
+              {{-- <a href="javascript:void(0)" class="read-more">view more <i class="fas fa-arrow-right"></i></a> --}}
+              {{-- </div> --}}
+              {{-- </div> --}}
+          </div>
+      </div>
+      </div>
+      </div>
       </div>
       <div class="copyright-area bg-dark-blue text-white rel">
           <div class="container">
@@ -170,10 +161,17 @@
                       reserved.
                   </p>
                   <ul class="footer-menu">
-                      <li><a href="javascript:void(0)">Faqs</a></li>
-                      <li><a href="javascript:void(0)">Links</a></li>
-                      <li><a href="javascript:void(0)">About</a></li>
-                      <!--  <li><a href="javascript:void(0)">Payments</a></li> -->
+                      <li>
+                          <a href="">Terms of Use</a>
+                      </li>
+                      <li>
+                          <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}" download>Privacy
+                              Policy</a>
+                      </li>
+                      <li>
+                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of
+                              Conduct</a>
+                      </li>
                   </ul>
               </div>
           </div>
@@ -183,11 +181,12 @@
           </button>
       </div>
 
-      <script>
-        
-        if(window.location.href.split("/")[3]==="message-from-ceo"){
-            document.getElementById("messageFromCEO").style.display="none"
-        }
+      {{-- <script>
+          console.log(window.location.href)
 
-      </script>
+          if (window.location.href.split("/")[3] === "message-from-ceo") {
+              document.getElementById("messageFromCEO").style.display = "none"
+          }
+
+      </script> --}}
   </footer>

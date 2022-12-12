@@ -1,269 +1,272 @@
 @extends('user.layout.app')
 @section('content')
-  @include('user.partials.banner')
-  <!--  destination list start -->
-  <section class="destination text-justify py-80 rpt-90  rpb-45">
-      <div class="container">
+@include('user.partials.banner')
+<!--  destination list start -->
+<section class="destination text-justify py-50 rpt-90  rpb-45">
+    <div class="container">
         <div class="section-title text-center mb-55">
             <h2>Determine Your Future Hub</h2>
         </div>
-          <ul class="destination-list">
-          <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>ONTARIO</h4>
-                        </div>
-                    </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>ONTARIO</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/can/topcities/qebec.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>NOVA SCOTIA</h4>
+        <ul class="destination-list">
+            <li>
+                <a href="#">
+                    <div class="flip-box  mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>ONTARIO</h4>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>NOVA SCOTIA</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>NEWFOUNDLAND & LABRADOR</h4>
-                        </div>
-                    </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>NEWFOUNDLAND & LABRADOR</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/can/topcities/manitoba.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>MANITOBA</h4>
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>ONTARIO</h5>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="flip-box  mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/can/topcities/qebec.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>NOVA SCOTIA</h4>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>MANITOBA</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/can/topcities/britcol.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>NOVA SCOTIA</h5>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="flip-box  mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>NEWFOUNDLAND & LABRADOR</h4>
+                            </div>
                         </div>
-                        <div class="flip-box-back">
-                        <h4>NEW BRUNSWICK</h4>
+                    </div>
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>NEWFOUNDLAND & LABRADOR</h5>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="flip-box  mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/can/topcities/manitoba.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>MANITOBA</h4>
+                            </div>
                         </div>
                     </div>
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>MANITOBA</h5>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="flip-box  mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/can/topcities/britcol.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>NEW BRUNSWICK</h4>
+                            </div>
+                        </div>
                     </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>NEW BRUNSWICK</h5>
-                    </div>
-              </li>
-              {{--<li>
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>NEW BRUNSWICK</h5>
+                </div>
+            </li>
+            {{--<li>
                   <a href="#">
                       <div class="card">
                           <figure class="figure mx-auto">
                               <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}" class="img-fluid" alt="ONTARIO ">
-                          </figure>
-                          <div class="card-body">
-                              <h5>ONTARIO</h5>
-                          </div>
-                      </div>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <div class="card">
-                          <figure class="figure  mx-auto">
-                              <img src="{{asset('assets/images/destination/can/topcities/qebec.png')}}" class="img-fluid" alt="NOVA SCOTIA ">
-                          </figure>
-                          <div class="card-body">
-                              <h5>NOVA SCOTIA</h5>
-                          </div>
-                      </div>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <div class="card">
-                          <figure class="figure  mx-auto">
-                              <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}" class="img-fluid" alt="NEWFOUNDLAND & LABRADOR">
-                          </figure>
-                          <div class="card-body">
-                              <h5>NEWFOUNDLAND & LABRADOR</h5>
-                          </div>
-                      </div>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <div class="card">
-                          <figure class="figure  mx-auto">
-                              <img src="{{asset('assets/images/destination/can/topcities/manitoba.png')}}" class="img-fluid" alt="MANITOBA">
-                          </figure>
-                          <div class="card-body">
-                              <h5>MANITOBA</h5>
-                          </div>
-                      </div>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <div class="card">
-                          <figure class="figure  mx-auto">
-                              <img src="{{asset('assets/images/destination/can/topcities/britcol.png')}}" class="img-fluid" alt="NEW BRUNSWICK">
-                          </figure>
-                          <div class="card-body">
-                              <h5>NEW BRUNSWICK</h5>
-                          </div>
-                      </div>
-                  </a>
-              </li>--}}
-
-
-          </ul>
-      </div>
-  </section>
-  <!--  destination list end -->
-  
-  <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 pt-md-2  m-auto">
-                    <div class="video-box">
-                        <figure class="figure circle-styled">
-                            <img class="img-fluid" src="{{asset('assets/images/destination/aus/1578484469.jpg')}}" alt="Image">
-                        </figure>
-                    </div>
+            </figure>
+            <div class="card-body">
+                <h5>ONTARIO</h5>
+            </div>
+    </div>
+    </a>
+    </li>
+    <li>
+        <a href="#">
+            <div class="card">
+                <figure class="figure  mx-auto">
+                    <img src="{{asset('assets/images/destination/can/topcities/qebec.png')}}" class="img-fluid" alt="NOVA SCOTIA ">
+                </figure>
+                <div class="card-body">
+                    <h5>NOVA SCOTIA</h5>
                 </div>
-                <div class="col-lg-6 pl-lg-5 text-white">
-                    <h3 class="text-white"> Why choose Canada? </h3>
-                    <ol>
-                      <li>Canada is one of the most welcoming countries when it comes to international students.</li>
-                      <li>The country is ranked as one of the best countries in the world to study abroad.</li>
-                      <li>The education system in Canada is very robust and provides students with the best possible education.</li>
-                      <li>International students acquire precious work experience in Canada in a variety of ways.</li>
-                      <li>Canada has excellent infrastructure and offers a wide range of PR opportunities for global students. Furthermore, Canada Student Immigration Program (CSIP) allows graduate international academic pupils and their spouses to study in Canada on open work permits.</li>
-                    </ol>
-                  </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <div class="card">
+                <figure class="figure  mx-auto">
+                    <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}" class="img-fluid" alt="NEWFOUNDLAND & LABRADOR">
+                </figure>
+                <div class="card-body">
+                    <h5>NEWFOUNDLAND & LABRADOR</h5>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <div class="card">
+                <figure class="figure  mx-auto">
+                    <img src="{{asset('assets/images/destination/can/topcities/manitoba.png')}}" class="img-fluid" alt="MANITOBA">
+                </figure>
+                <div class="card-body">
+                    <h5>MANITOBA</h5>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <div class="card">
+                <figure class="figure  mx-auto">
+                    <img src="{{asset('assets/images/destination/can/topcities/britcol.png')}}" class="img-fluid" alt="NEW BRUNSWICK">
+                </figure>
+                <div class="card-body">
+                    <h5>NEW BRUNSWICK</h5>
+                </div>
+            </div>
+        </a>
+    </li>--}}
+
+
+    </ul>
+    </div>
+</section>
+<!--  destination list end -->
+
+<!-- about first section start -->
+<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 9%;">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-md-2  m-auto">
+                <div class="video-box" style="padding: 19%;">
+
+                    <figure class="figure circle-styled">
+                        <img class="img-fluid" src="{{asset('assets/images/destination/aus/1578484469.jpg')}}" alt="Image">
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
+
+                <h3 class=""> Why choose Canada? </h3>
+                <ol>
+                    <li>Canada is one of the most welcoming countries when it comes to international students.</li>
+                    <li>The country is ranked as one of the best countries in the world to study abroad.</li>
+                    <li>The education system in Canada is very robust and provides students with the best possible education.</li>
+                    <li>International students acquire precious work experience in Canada in a variety of ways.</li>
+                    <li>Canada has excellent infrastructure and offers a wide range of PR opportunities for global students. Furthermore, Canada Student Immigration Program (CSIP) allows graduate international academic pupils and their spouses to study in Canada on open work permits.</li>
+                </ol>
             </div>
         </div>
-        <!-- Video modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog')}}" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg')}}" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog')}}" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg')}}" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" id="video_first" src="" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Video modal -->
+</section>
+<!-- about first section end -->
+
+<!-- about us second section start -->
+<section class=" py-50 rpt-90  rpb-45">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pr-lg-5">
+                <h3 class="divider-1">Expand Your Enrollment Possibilities in a Canadian University </h3>
+                <p>
+                </p>
+                <p>As a professional student visa agency, we can help you to
+                    expand your enrollment possibilities in a Canadian university by providing access to international students.</p>
+                <p>The process of applying for a student visa in Canada is comparatively complicated and time-consuming. Nevertheless,
+                    our experienced consultants and immigration lawyers are able to walk you through the steps and help you to understand
+                    all of your options.</p>
+                <p>Once you are approved, our representative will take care of everything else from submitting the necessary paperwork
+                    to ensuring that you are registered for classes and meeting any other appropriate requirements for Canadian universities.</p>
+                <p>It may seem like an arduous task, but using a professional student visa agency makes the process much easier and more manageable.
+                    Since we know exactly what needs to happen. Accordingly, you can focus on the required actions.</p>
+
+            </div>
+            <div class="col-lg-6">
+                <div class="video-box">
+                    <figure class="figure1 mb-0">
+                        <img class="img-fluid" src="{{asset('assets/images/destination/aus/1571659027.jpg')}}" alt="Image">
+                        <button class="btn btn-link play-btn-sec absolute-center" data-toggle="modal" data-target="#myModalSec" data-src="https://www.youtube.com/embed/8VFx25hIB70">
+                            <svg class="svg-inline--fa fa-play-circle fa-w-16" aria-hidden="true" data-prefix="far" data-icon="play-circle" role="img')}}" xmlns="http://www.w3.org/2000/svg')}}" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M371.7 238l-176-107c-15.8-8.8-35.7 2.5-35.7 21v208c0 18.4 19.8 29.8 35.7 21l176-101c16.4-9.1 16.4-32.8 0-42zM504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256z"></path>
+                            </svg><!-- <i class="far fa-play-circle"></i> -->
                         </button>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" id="video_first" src="" allowfullscreen=""></iframe>
-                        </div>
+
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="myModalSec" tabindex="-1" role="dialog')}}" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg')}}" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" id="video_sec" src="" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /Video modal -->
-    </section>
-  <!-- about first section end -->
+    </div>
+    <!-- /Video modal -->
+</section>
+<!-- about us second section end -->
 
-  <!-- about us second section start -->
-      <section class="text-justify py-50 rpt-90  rpb-45">
-
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-6 pr-lg-5">
-                      <h3 class="divider-1">Expand Your Enrollment Possibilities in a Canadian University </h3>
-                      <p>
-                      </p>
-                      <p>As a professional student visa agency, we can help you to 
-                        expand your enrollment possibilities in a Canadian university by providing access to international students.</p>
-                      <p>The process of applying for a student visa in Canada is comparatively complicated and time-consuming. Nevertheless, 
-                        our experienced consultants and immigration lawyers are able to walk you through the steps and help you to understand 
-                        all of your options.</p>
-                      <p>Once you are approved, our representative will take care of everything else from submitting the necessary paperwork 
-                        to ensuring that you are registered for classes and meeting any other appropriate requirements for Canadian universities.</p>
-                      <p>It may seem like an arduous task, but using a professional student visa agency makes the process much easier and more manageable. 
-                          Since we know exactly what needs to happen. Accordingly, you can focus on the required actions.</p>
-
-                  </div>
-                  <div class="col-lg-6">
-                      <div class="video-box">
-                          <figure class="figure1 mb-0">
-                            <img class="img-fluid" src="{{asset('assets/images/destination/aus/1571659027.jpg')}}" alt="Image">
-                              <button class="btn btn-link play-btn-sec absolute-center" data-toggle="modal" data-target="#myModalSec" data-src="https://www.youtube.com/embed/8VFx25hIB70">
-                                  <svg class="svg-inline--fa fa-play-circle fa-w-16" aria-hidden="true" data-prefix="far" data-icon="play-circle" role="img')}}" xmlns="http://www.w3.org/2000/svg')}}" viewBox="0 0 512 512" data-fa-i2svg="">
-                                      <path fill="currentColor" d="M371.7 238l-176-107c-15.8-8.8-35.7 2.5-35.7 21v208c0 18.4 19.8 29.8 35.7 21l176-101c16.4-9.1 16.4-32.8 0-42zM504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256z"></path>
-                                  </svg><!-- <i class="far fa-play-circle"></i> -->
-                              </button>
-
-                          </figure>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- Video modal -->
-          <div class="modal fade" id="myModalSec" tabindex="-1" role="dialog')}}" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-lg')}}" role="document">
-                  <div class="modal-content">
-                      <div class="modal-body">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">×</span>
-                          </button>
-                          <div class="embed-responsive embed-responsive-16by9">
-                              <iframe class="embed-responsive-item" id="video_sec" src="" allowfullscreen=""></iframe>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- /Video modal -->
-      </section>
-  <!-- about us second section end -->
-
-    <!-- demandable Subjects section start -->
-    <section class="text-center bg-white py-50 rpt-90  rpb-45">
-        <div class="container">
-            <div class="section-title text-center mb-55">
-                <h2>Demandable Subjects in Canada</h2>
-            </div>
-            <div class="allsubject-container">
+<!-- demandable Subjects section start -->
+<section class="text-center bg-white py-50 rpt-90  rpb-45">
+    <div class="container">
+        <div class="section-title text-center mb-55">
+            <h2>Demandable Subjects in Canada</h2>
+        </div>
+        <div class="allsubject-container">
             <ul class="">
                 <li>
                     <div class="subject-container">
@@ -290,14 +293,14 @@
                     </div>
                 </li>
                 <li>
-                    <div class="subject-container" >
+                    <div class="subject-container">
                         <div class="subject-circle py-20"><span>5</span></div>
                         <div class="subject-line">Psychology</div>
                     </div>
                 </li>
             </ul>
             <ul class="">
-            <li>
+                <li>
                     <div class="subject-container">
                         <div class="subject-circle py-20"><span>6</span></div>
                         <div class="subject-line">Health and Medicine</div>
@@ -328,21 +331,21 @@
                     </div>
                 </li>
             </ul>
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-  <!-- demandable Subjects section end -->
+<!-- demandable Subjects section end -->
 
-  <!-- partner universities section start -->
-  <section class="text-center bg-white py-50 rpt-90  rpb-45">
+<!-- partner universities section start -->
+<section class="text-center bg-white py-50 rpt-90  rpb-45">
 
-      <div class="container">
-          <div class="section-title text-center mb-55">
-              <h2>Our Partners</h2>
-          </div>
+    <div class="container">
+        <div class="section-title text-center mb-55">
+            <h2>Our Partners</h2>
+        </div>
 
-          <ul class="list-unstyled partner-universities">
+        <ul class="list-unstyled partner-universities">
 
               <li>
                   <div class="media box-shadow2 hover-styled">
@@ -517,8 +520,8 @@
   </section>
   <!-- partner universities section end -->
 
-  <!---- group partners universities  start-->
-  {{--<section class="text-center bg-white py-50 rpt-90  rpb-45">
+<!---- group partners universities  start-->
+{{--<section class="text-center bg-white py-50 rpt-90  rpb-45">
 
       <div class="container">
           <div class="section-title text-center mb-55">
@@ -529,161 +532,161 @@
               <li>
                   <div class="media box-shadow2 hover-styled">
                       <img src="{{asset('assets/images/destination/aus/partners/1572699938.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> City University of London</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
+<div class="media-body">
+    <h5 class="mt-0 mb-1"> City University of London</h5>
+    <p>London</p>
+    <p>
+    </p>
+</div>
 
-                  </div>
-              </li>
-
-
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572784689.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> East Anglia University</h5>
-                          <p>Norwich</p>
-                          <p>
-                          </p>
-                      </div>
-
-                  </div>
-              </li>
+</div>
+</li>
 
 
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572785167.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572784689.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> East Anglia University</h5>
+            <p>Norwich</p>
+            <p>
+            </p>
+        </div>
 
-                  </div>
-              </li>
-
-
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872985.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> INTO London World Education Centre</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-
-                  </div>
-              </li>
+    </div>
+</li>
 
 
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872882.jpg')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> INTO Manchester</h5>
-                          <p>Manchester</p>
-                          <p>
-                          </p>
-                      </div>
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572785167.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> Glasgow Caledonian University</h5>
+            <p>Scotland</p>
+            <p>
+            </p>
+        </div>
 
-                  </div>
-              </li>
-
-
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873985.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Manchester Metropolitan University</h5>
-                          <p>Manchester</p>
-                          <p>
-                          </p>
-                      </div>
-
-                  </div>
-              </li>
+    </div>
+</li>
 
 
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786861.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Newcastle University</h5>
-                          <p>Newcastle</p>
-                          <p>
-                          </p>
-                      </div>
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572872985.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> INTO London World Education Centre</h5>
+            <p>London</p>
+            <p>
+            </p>
+        </div>
 
-                  </div>
-              </li>
-
-
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572872810.jpg')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Newcastle University London</h5>
-                          <p>London</p>
-                          <p>
-                          </p>
-                      </div>
-
-                  </div>
-              </li>
+    </div>
+</li>
 
 
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572786976.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
-                          <p>Northern Ireland</p>
-                          <p>
-                          </p>
-                      </div>
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572872882.jpg')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> INTO Manchester</h5>
+            <p>Manchester</p>
+            <p>
+            </p>
+        </div>
 
-                  </div>
-              </li>
-
-
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572873115.png')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Exeter</h5>
-                          <p>Exeter</p>
-                          <p>
-                          </p>
-                      </div>
-
-                  </div>
-              </li>
+    </div>
+</li>
 
 
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/aus/partners/1572787481.jpg')}}" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1"> University of Stirling</h5>
-                          <p>Scotland</p>
-                          <p>
-                          </p>
-                      </div>
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572873985.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> Manchester Metropolitan University</h5>
+            <p>Manchester</p>
+            <p>
+            </p>
+        </div>
 
-                  </div>
-              </li>
+    </div>
+</li>
 
 
-          </ul>
-      </div>
-  </section>--}}
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572786861.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> Newcastle University</h5>
+            <p>Newcastle</p>
+            <p>
+            </p>
+        </div>
 
-  <!---- group partners universities  end-->
+    </div>
+</li>
+
+
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572872810.jpg')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> Newcastle University London</h5>
+            <p>London</p>
+            <p>
+            </p>
+        </div>
+
+    </div>
+</li>
+
+
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572786976.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> Queen's University Belfast</h5>
+            <p>Northern Ireland</p>
+            <p>
+            </p>
+        </div>
+
+    </div>
+</li>
+
+
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572873115.png')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> University of Exeter</h5>
+            <p>Exeter</p>
+            <p>
+            </p>
+        </div>
+
+    </div>
+</li>
+
+
+<li>
+    <div class="media box-shadow2 hover-styled">
+        <img src="{{asset('assets/images/destination/aus/partners/1572787481.jpg')}}" class="img-fluid" alt="">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1"> University of Stirling</h5>
+            <p>Scotland</p>
+            <p>
+            </p>
+        </div>
+
+    </div>
+</li>
+
+
+</ul>
+</div>
+</section>--}}
+
+<!---- group partners universities  end-->
 
 @endsection

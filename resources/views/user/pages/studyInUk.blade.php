@@ -162,19 +162,22 @@
   <!--  destination list end -->
   
   <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45">
+    <section class="about-us text-justify py-50 rpt-90  rpb-45" style='margin-inline:10%'>
+
 
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mx-auto col-lg-6 pt-md-2  m-auto">
-                    <div class="video-box">
+                    <div class="video-box" style="padding: 19%;">
+
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/uk/1603015036.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-11 mx-auto col-lg-6 pl-lg-5 text-white">
-                    <h3 class="text-white"> Why study in the UK? </h3>
+                <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
+
+                    <h3 class=""> Why study in the UK? </h3>
                     <p>Here are few reasons to choose UK as your study destination</p>
                     <ol>
                         <li>UK offer High quality Education and diverse range of well-researched courses in world's top universities</li>

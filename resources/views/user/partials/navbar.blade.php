@@ -74,67 +74,67 @@
                             </li>
                             {{-- <li>
                                 <a href="{{ url('study-in-dubai') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/1624194469.png') }}" alt="Dubai">
-                                    Dubai
-                                </a>
-                            </li> --}}
-                            <li>
-                                <a href="{{ url('study-in-europe') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/europe.png') }}" alt="Europe">
-                                    Europe
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ url('study-in-malyasia') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/1569404987.png') }}" alt="Malaysia">
-                                    Malaysia
-                                </a>
-                            </li>
-                            {{-- <li>
+                            <img class="icon" src="{{ asset('assets/images/flag/1624194469.png') }}" alt="Dubai">
+                            Dubai
+                            </a>
+                    </li> --}}
+                    <li>
+                        <a href="{{ url('study-in-europe') }}">
+                            <img class="icon" src="{{ asset('assets/images/flag/europe.png') }}" alt="Europe">
+                            Europe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url('study-in-malyasia') }}">
+                            <img class="icon" src="{{ asset('assets/images/flag/1569404987.png') }}" alt="Malaysia">
+                            Malaysia
+                        </a>
+                    </li>
+                    {{-- <li>
                                 <a href="{{ url('study-in-switzerland') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/1628508376.png') }}" alt="Switzerland">
-                                    Switzerland
-                                </a>
-                            </li> --}}
-                            <li>
-                                <a href="{{ url('study-in-uk') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
-                                    UK
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ url('study-in-usa') }}">
-                                    <img class="icon" src="{{ asset('assets/images/flag/1569246724.png') }}" alt="USA">
-                                    USA
-                                </a>
-                            </li>
-
-                        </ul>
+                    <img class="icon" src="{{ asset('assets/images/flag/1628508376.png') }}" alt="Switzerland">
+                    Switzerland
+                    </a>
+                    </li> --}}
+                    <li>
+                        <a href="{{ url('study-in-uk') }}">
+                            <img class="icon" src="{{ asset('assets/images/flag/1569240440.png') }}" alt="UK">
+                            UK
+                        </a>
                     </li>
-                    <li class="dropdown"><a href="{{ route('scholarship') }}">scholarship</a>
-                        <ul>
-                            <li><a href="{{ route('renowned-scholarships') }}">Renowned Scholarships</a></li>
-                            <li><a href="{{ route('article') }}">Articles</a></li>
-                        </ul>
+                    <li>
+                        <a href="{{ url('study-in-usa') }}">
+                            <img class="icon" src="{{ asset('assets/images/flag/1569246724.png') }}" alt="USA">
+                            USA
+                        </a>
                     </li>
 
-                    <li><a href="{{ route('event') }}">Event</a></li>
+                </ul>
+                </li>
+                <li class="dropdown"><a href="{{ route('scholarship') }}">scholarship</a>
+                    <ul>
+                        <li><a href="{{ route('renowned-scholarships') }}">Renowned Scholarships</a></li>
+                        <li><a href="{{ route('article') }}">Articles</a></li>
+                    </ul>
+                </li>
 
-                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                <li><a href="{{ route('event') }}">Event</a></li>
 
-                    <li class="dropdown">
-                        <a href="javascript:void(0)">Visit Now</a>
-                        <ul>
-                            <li>
-                                <a href="{{ route('dhakaOffice') }}">Dhaka Office</a>
+                <li><a href="{{ route('blog') }}">Blog</a></li>
 
-                            </li>
-                            <li>
-                                <a href="{{ route('sylhetOffice') }}">Sylhet Office</a>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Visit Now</a>
+                    <ul>
+                        <li>
+                            <a href="{{ route('dhakaOffice') }}">Dhaka Office</a>
 
-                            </li>
-                        </ul>
-                    </li>
+                        </li>
+                        <li>
+                            <a href="{{ route('sylhetOffice') }}">Sylhet Office</a>
+
+                        </li>
+                    </ul>
+                </li>
                 </ul>
             </div>
         </nav>
@@ -143,7 +143,7 @@
     <!-- Menu Button -->
     <div class="menu-btn-sidebar d-flex align-items-center">
         <div class=" EnglishSchool-btn"><a href="{{ route('schoolOfEnglish') }}" class="text-white">School Of English</a></div>
-        {{--  <form action="javascript:void(0)">
+        {{-- <form action="javascript:void(0)">
              <input type="search" placeholder="Search" required />
              <button><i class="fas fa-search"></i></button>
          </form> --}}
@@ -161,4 +161,3 @@
             </button>
         </div>
     </div>
-

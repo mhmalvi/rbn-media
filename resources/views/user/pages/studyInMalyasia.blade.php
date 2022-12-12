@@ -162,19 +162,23 @@
   <!--  destination list end -->
   
   <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45">
+    <section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 8%;">
+
+
 
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mx-auto col-lg-6 pt-md-2 m-auto">
-                    <div class="video-box">
+                    <div class="video-box" style="padding: 19%;">
+
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/uk/1603015036.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
-                <div class="col-11 mx-auto col-lg-6 pl-lg-5 text-white">
-                    <h3 class="text-white"> Why choose Malaysia? </h3>
+                <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
+
+                    <h3 class=""> Why choose Malaysia? </h3>
                     <ol>
                         <li>Malaysia has a thriving economy, on the other hand, is a moderate-cost country to live in.</li>
                         <li>The education system in Malaysia specializes in world-class work opportunities.</li>
@@ -206,7 +210,7 @@
   <!-- about first section end -->
 
   <!-- about us second section start -->
-      <section class="text-justify py-50 rpt-90  rpb-45">
+      <section class=" py-50 rpt-90  rpb-45" >
 
           <div class="container">
               <div class="row">
