@@ -3270,20 +3270,27 @@ body.home-page .section:first-child {
         margin-left: -26%;
     }
 
+    .services-content{
+        text-align: center;
+    }
+
     .about-us .img-fluid{
         margin-left: 18%;
     }
 
     .featured-services .box1 {
-        margin: 0 0 0 21% ;
+        margin: 0 0 0 24% ;
         
     }
+    
 }
 
 @media screen and (min-width: 768px) {
     .blockquote.style2 .box p {
         width: calc(100% - 150px);
     }
+
+  
 }
 
 /*
