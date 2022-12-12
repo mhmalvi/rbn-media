@@ -65,6 +65,7 @@ body {
     line-height: 1.82;
     font-size: 16px;
     font-family: "Nunito Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -3939,6 +3940,12 @@ h6,
     margin-right: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1279px) {
+    .nav-outer {
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .nav-outer {
         width: 100%;
@@ -3998,10 +4005,11 @@ h6,
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    padding: 25px 10px;
 }
 @media only screen and (max-width: 1500px) {
     .main-menu .navbar-collapse li {
-        padding: 25px 15px;
+        padding: 25px 10px;
     }
 }
 @media only screen and (max-width: 1199px) {
@@ -4052,6 +4060,13 @@ h6,
     margin-right: 5px;
     background: var(--white);
     border: 1px solid var(--white);
+}
+
+/* /////////////////////////////////// */
+@media (min-width: 1000px) and (max-width: 1338px) {
+    .main-menu .navbar-collapse li {
+        padding: 25px 10px;
+    }
 }
 @media only screen and (max-width: 991px) {
     .main-menu .navbar-collapse li a {
@@ -5122,6 +5137,7 @@ h6,
     background: #278acd;
     border-radius: 12px;
     font-family: "Raleway", sans-serif;
+    display: none;
 }
 @media only screen and (max-width: 575px) {
     .admin-speech {
@@ -5129,6 +5145,27 @@ h6,
         margin-right: 25px;
         padding-left: 25px;
         padding-right: 25px;
+    }
+    .hero-two-left,
+    .hero-two-right {
+        min-width: 46%;
+    }
+
+    .menu-btn-sidebar {
+        width: 77%;
+    }
+
+    .menu-btn-sidebar a {
+        /* border-radius: 20px;
+        display: inline-block; */
+        /* padding: 8px 23px; */
+        vertical-align: super;
+        padding: 6px 17px;
+        /* font-weight: 700; */
+    }
+
+    .EnglishSchool-btn {
+        width: 99%;
     }
 }
 .admin-speech .image {
@@ -5166,10 +5203,17 @@ h6,
     background: #278acd;
 }
 
-.hero-two-left,
-.hero-two-right {
+.hero-two-left {
     z-index: -1;
     max-width: 25%;
+    position: absolute;
+}
+
+.hero-two-right {
+    z-index: -1;
+    top: 20%;
+    /* bottom: -80%; */
+    max-width: 40%;
     position: absolute;
 }
 
@@ -12109,7 +12153,8 @@ blockquote .blockquote-footer:before {
 }
 
 .footer-widget {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    padding: 4%;
 }
 .footer-widget p {
     color: #d8d8d8;
