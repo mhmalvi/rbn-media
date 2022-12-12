@@ -347,6 +347,7 @@
 
         <ul class="list-unstyled partner-universities">
 
+<<<<<<< HEAD
             <li>
                 <div class="media box-shadow2 hover-styled">
                     <img src="{{asset('assets/images/destination/aus/partners/1571659027.jpg')}}" class="img-fluid" alt="">
@@ -507,6 +508,180 @@
     </div>
 </section>
 <!-- partner universities section end -->
+=======
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      <img src="https://images.studee.com/images/university/university__coast-mountain-college--logo.svg" class="img-fluid" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Coast Mountain College</h5>
+                          <p>British Columbia</p>
+                          <p>
+                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      <img src="https://ospreyeducation.ca/wp-content/uploads/2020/11/d2aaa251580f5bffdad3e9ad96557171-5bce15e699419-hero.jpg" class="img-fluid" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Nipissing University</h5>
+                          <p>Wales</p>
+                          <p>
+                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Ontario</span>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572875214.jpg')}}" class="img-fluid" alt="">--}}
+                      <img src="https://gamaeducation.com/wp-content/uploads/2018/11/Lakeland-College-Logo.png" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Lakeland College</h5>
+                          <p>Alberta</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572699086.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://images.studee.com/images/university/university__coast-mountain-college--logo.svg" class="img-fluid" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Coast Mountain College</h5>
+                          <p>British Columbia</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572699473.jpg')}}" class="img-fluid" alt="">--}}
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Etoncollegearms.svg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Eton College</h5>
+                          <p>British Columbia</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572699609.jpg')}}" class="img-fluid" alt="">--}}
+                      <img src="https://crampete.s3.ap-south-1.amazonaws.com/uploads/kanan/2020/7/1593845252091_GREAT-PLAINS-COLLEGE.jpg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1">Great Plains College</h5>
+                          <p>Saskatchewan</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1569490283.jpg')}}" class="img-fluid" alt="">--}}
+                      <img src="https://www.internationalexperience.ca/wp-content/uploads/2020/06/Mentora.png" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Mentora College of Business and Technology</h5>
+                          <p>Toronto</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572699938.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://s3.ap-south-1.amazonaws.com/leverageedu/school-logo/logo_1613054997761.png" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1">Multihexa College</h5>
+                          <p>Quebec</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572700160.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://www.parkland.edu/portals/3/Global/Media/Logos/PC-logo%20green-vertical.jpg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1">Parkland College</h5>
+                          <p>Saskatchewan</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572870037.jpg')}}" class="img-fluid" alt="">--}}
+                      <img src="https://www.jeduka.com/storage/school_image/2/q-college.png" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Q College</h5>
+                          <p>British Columbia</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1575369232.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://www.eduopinions.com/wp-content/uploads/2018/07/QuestUniversityCanada-logo-350x306.jpg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Quest University</h5>
+                          <p>British Columbia</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572873162.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://www.nelsonstar.com/wp-content/uploads/2018/01/10411702_web1_copy_Selkirk-logo-vertical_RGB-640x640.jpg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> Selkirk College</h5>
+                          <p>British Columbia</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572700272.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://theglobalexposure.com/wp-content/uploads/2019/02/Study-In-St.-Thomas-University-Canada-1.jpg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1"> St. Thomas University</h5>
+                          <p>New Brunswick</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="media box-shadow2 hover-styled">
+                      {{--<img src="{{asset('assets/images/destination/aus/partners/1572700753.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/TaylorsCollege_logo.jpg" alt="">
+                      <div class="media-body">
+                          <h5 class="mt-0 mb-1">Taylor Pro College</h5>
+                          <p>British Columbia</p>
+                          <p>
+                          </p>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </section>
+  <!-- partner universities section end -->
+>>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
 <!---- group partners universities  start-->
 {{--<section class="text-center bg-white py-50 rpt-90  rpb-45">

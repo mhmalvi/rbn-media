@@ -10,9 +10,14 @@
     @include('user.partials.banner')
 
     <!-- Why Learn Start -->
-    <section class="why-learn-area pt-120 pb-120 rpb-100">
+    <section class="msgCeo pt-120 pb-120 rpb-100">
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
+                <div class="col-lg-6">
+                    <div class="wow fadeInRight delay-0-2s">
+                        <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="">
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="why-learn-content rmb-35">
                         <div class="section-title mb-30">
@@ -25,11 +30,6 @@
                         <p>As a mentor, we work diligently to find the best schools and educators for our students. Our team of experienced consultants is dedicated to providing the entire university enrollment & visa services. We also assist earnestly with post-departure support.</p>
                         <p>Finally, our communication is transparent with both current and potential clients. Subsequently, we've built trust and fostered collaboration with our partner institutions.</p>
 
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="Why Learn">
                     </div>
                 </div>
             </div>

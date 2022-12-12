@@ -224,10 +224,16 @@
                                 <div class="icon">
                                     <img src="{{ asset('assets/images/categories/icon3.png') }}" alt="Icon" />
 
+<<<<<<< HEAD
                                 </div>
                                 {{-- <h4>Language & Scholarship Guidance</h4> --}}
                                 <h4>Scholarship Guidance</h4>
                                 <a href="{{ route('language-scholarship') }}">Read More</a>
+=======
+                                  </div>
+                                  <h4>Scholarship Guidance</h4>
+                                        <a href="{{ route('language-scholarship') }}">Read More</a>
+>>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
                             </div>
                             <div class="category-item  hover-styled">
@@ -267,11 +273,46 @@
                             </div>
                             {{--<div class="category-item  hover-styled">
                                    <div class="icon">
+<<<<<<< HEAD
                                        <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
                         </div>
                         <h4>Pastoral Care</h4>
                         <a href="#">Read More</a>
                     </div>--}}
+=======
+                                       <img src="{{ asset('assets/images/categories/icon5.png') }}" alt="Icon" />
+                                   </div>
+                                   <h4>Pastoral Care</h4>
+                                        <a href="{{ route('postalCare') }}">Read More</a>
+                               </div>
+                          </div>
+
+                          <div class="col-md-4 col-sm-6 mt-40">
+                              <div class="category-item  hover-styled mt-40">
+                                  <div class="icon">
+                                      <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
+
+                                  </div>
+                                  <h4>Visa Assistance</h4>
+                                         <a href="{{ route('visa-assistance') }}">Read More</a>
+                              </div>
+                              <div class="category-item  hover-styled">
+                                  <div class="icon">
+                                      <img src="{{ asset('assets/images/categories/icon7.png') }}" alt="Icon" />
+
+                                  </div>
+                                  <h4>Prior Departure Briefing</h4>
+                                     <a href="{{ route('departureBriefing') }}">Read More</a>
+
+                              </div>
+                               {{--<div class="category-item  hover-styled">
+                                   <div class="icon">
+                                       <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
+                                   </div>
+                                   <h4>Pastoral Care</h4>
+                                        <a href="#">Read More</a>
+                               </div>--}}
+>>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
 
                 </div>
@@ -478,6 +519,7 @@
         </div>
         <div class="Accreditations-slider">
 
+<<<<<<< HEAD
             <div class="coach-item style-two wow fadeInUp delay-0-2s">
                 <div class="coach-image">
                     <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
@@ -564,6 +606,64 @@
     </div>
 </section>
 <!-- Accredations Section End -->
+=======
+              <div class="coach-item style-two wow fadeInUp delay-0-2s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category">Outstanding Educational Advisor</a>
+                  </div>
+              </div>
+              <div class="coach-item style-two wow fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category">SHU International Agent of the Year 2008</a>
+                  </div>
+              </div>
+              <div class="coach-item style-two wow fadeInUp delay-0-6s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category">Authorised Agent from 2009-2011</a>
+                  </div>
+              </div>
+              <div class="coach-item style-two wow fadeInUp delay-0-2s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category">Top Achiever Award in 2009</a>
+                  </div>
+              </div>
+              <div class="coach-item style-two wow fadeInUp delay-0-4s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category">Certification of Representation 2019</a>
+                  </div>
+              </div>
+              <div class="coach-item style-two wow fadeInUp delay-0-6s">
+                  <div class="coach-image">
+                      <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
+
+                  </div>
+                  <div class="coach-content text-center">
+                      <a href="javascript:void(0)" class="category">Certification of Representation 2021</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Accredations Section End -->
+>>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
 <!-- Advertise Area Start -->
 {{-- <section class="advertise-area pb-100 rpb-70">--}}

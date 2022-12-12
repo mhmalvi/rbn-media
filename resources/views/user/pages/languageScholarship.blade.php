@@ -2,7 +2,7 @@
 @section('content')
    @include('user.partials.banner')
           <!-- IELTS REG section Start -->
-          <section class="why-learn-area pt-120 pb-120 rpb-100">
+    <section class="why-learn-area pt-120 pb-120 rpb-100">
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">

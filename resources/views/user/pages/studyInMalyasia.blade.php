@@ -345,7 +345,8 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      <img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">
+                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">--}}
+                      <img src="https://www.logolynx.com/images/logolynx/3d/3dff01f8c9d0eaeb998ffb355211a8c8.jpeg" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Mahsa University</h5>
                           <p>Petaling Jaya</p>

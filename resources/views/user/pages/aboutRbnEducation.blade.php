@@ -16,7 +16,7 @@
 @include('user.partials.banner')
 
   <!-- Why Learn Start -->
-  <section class="why-learn-area pt-120 pb-120 rpb-100">
+  <section class="why-learn-area pt-40 pt-lg-120 pb-20 pb-lg-120 rpb-100">
       <div class="container">
           <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
               <div class="col-lg-6">
@@ -42,7 +42,7 @@
 
 
     <!-- Why Learn Start -->
-    <section class="why-learn-area pt-120 pb-120 rpb-100">
+    <section class="why-learn-area pt-20 pt-lg-120 pb-20 pb-lg-120 rpb-100">
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
@@ -52,7 +52,7 @@
                 </div>
                  <div class="col-lg-6">
                      <div class="why-learn-content rmb-35">
-                         <div class="section-title mb-30">
+                         <div class="section-title mb-30 pt-10">
                              {{-- <span class="sub-title-two"></span> --}}
                              <h2>Why Choose RBN Education?</h2>
 
@@ -60,15 +60,32 @@
                          <p>Keeping our promise is extremely crucial for us since we don't want our students to face any trouble. We make every effort to assist them in reaching their ambitions and allow us to be proud of their achievements. We have been able to develop a solid relationship with our partner institutions overseas since 2017, allowing us to provide genuine guidance to our students and their parents.</p>
 
                          <p><b>Consider thinking about these reasons to embark on your journey of study abroad:</b></p>
-                         <ul class="list-style-four">
-
-                             <li>Based on our experience and professionalism, we can rely on RBN Education.</li>
-                             <li>Starting with the inquiry until the visa stage, our expert team assists and guides you throughout the entire process. After you have obtained your visa, we also provide pastoral support to ensure that you enroll at the university easily.</li>
-                             <li>Moreover, we represent over a hundred academic institutions all around the world.</li>
-                             <li>We have consultants who are international graduates, which enables us to give precise advice to applicants.</li>
-                             <li>We can identify and solve diverse issues as we deal with multinational students.</li>
-                             <li>Additionally, we have a professional code of conduct that we follow. In order to maintain high standards in our work, we observe ethical, moral, and personal values.</li>
-
+                         <ul class="">
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>Based on our experience and professionalism, we can rely on RBN Education.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>Starting with the inquiry until the visa stage, our expert team assists and guides you throughout the entire process. After you have obtained your visa, we also provide pastoral support to ensure that you enroll at the university easily.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>Moreover, we represent over a hundred academic institutions all around the world.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>We have consultants who are international graduates, which enables us to give precise advice to applicants.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>We can identify and solve diverse issues as we deal with multinational students.</p>
+                            </li>
+                            <li class="aboutrbn-li">
+                                <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">
+                                <p>Additionally, we have a professional code of conduct that we follow. In order to maintain high standards in our work, we observe ethical, moral, and personal values.</p>
+                            </li>
+                             
                          </ul>
 
 

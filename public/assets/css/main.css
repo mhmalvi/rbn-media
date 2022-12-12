@@ -4482,13 +4482,14 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    font-family: "poppins";
 }
 
 .departure-list .flip-box {
     background-color: transparent;
-    width: 250px;
-    height: 200px;
+    width: 380px;
+    height: 400px;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -4496,9 +4497,9 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 
 .departure-list .flip-box-inner {
     background-color: transparent;
-    position: relative;
+    
     width: 100%;
-    height: 100%;
+    height: auto;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -4506,38 +4507,121 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 
 .departure-list .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
-}
-
-.departure-list .flip-box-front,
-.flip-box-back {
+    height: auto;
+    transition-duration: 1s;
+  }
+  
+  .departure-list .flip-box-front, .flip-box-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
-
-.departure-list .flip-box-front {
-    background-color: #278acd;
-    color: rgb(255, 255, 255);
+  }
+  
+  .departure-list .flip-box-front {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     border-radius: 1rem;
     align-items: center;
-    margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
+    box-shadow: 0px -1px 20px 2px rgba(0, 0, 255, .1);
+    -webkit-box-shadow: 0px -1px 20px 2px rgba(0, 0, 255, .1);
+    -moz-box-shadow: 0px -1px 20px 2px rgba(0, 0, 255, .1);
+  }
 
-.departure-list .flip-box-back {
+  .departure-list .flip-box-front img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+
+  .departure-list .flip-box-front > h4 {
+    color: rgb(0, 0, 0);
+  }
+  
+  .departure-list .flip-box-back {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    text-align: start;
     align-items: center;
     min-height: 200px;
+    padding: 20px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px -1px 20px 2px rgba(0, 0, 255, .1);
+    -webkit-box-shadow: 0px -1px 20px 2px rgba(0, 0, 255, .1);
+    -moz-box-shadow: 0px -1px 20px 2px rgba(0, 0, 255, .1); 
 }
 
+/* POSTAL CARE SECTION */
+.postalCare {
+    background:#278ACD;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.postalCare > h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.postalCare-list {
+    text-align: center;
+    margin: 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    gap: 60px;  
+}
+
+.postalCareContainer {
+    position: relative;
+    top: -150px;
+    width: 100%;
+}
+.postalCare-list .dice-box {
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 280px;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transform: rotate(-45deg);
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow: 0px -1px 20px 2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px -1px 20px 2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px -1px 20px 2px rgba(0,0,0,0.25);
+  }
+
+.postalCare-list .dicebox-dialog > h4 {
+    color: #4ea0d7;
+    transform: rotate(45deg);
+    position: relative;
+    top:75px;
+}
+
+@media screen and (max-width:768px){
+    .postalCare-list .dicebox-dialog > h4 {
+    top: 100px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .postalCare-list {
+    gap: 0px;
+    }
+}
 /*
 * Top Education Destination
 */
@@ -4691,8 +4775,10 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 
 .subject-line {
     color: #fff;
-    background: #278acd;
-    background: linear-gradient(90deg, #3991cb 0%, #65b1e3 68%, #fafafa 100%);
+
+    background: #278ACD;
+    background: linear-gradient(90deg, #3991cb 0%, #65b1e3 68%, #ffffff 100%);
+
     /* background: rgb(32,201,151);
     background: linear-gradient(90deg, rgba(32,201,151,1) 0%, rgba(32,201,151,1) 68%, rgba(255,255,255,0.9136029411764706) 100%); */
     width: 300px;
@@ -4724,21 +4810,23 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 
 .partner-universities li {
     margin-bottom: 2rem;
+    height: auto;
 }
 
 .partner-universities .media {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 1rem 1rem 1rem 0.5rem;
-    border-radius: 50px;
     align-items: center;
-    background-color: var(--white);
+    border-radius: .5rem;
+    background-color: #efefef;
+    height: 200px;
+    padding: 10px;
 }
 
-.partner-universities .media > img {
-    width: 60px;
-    height: 60px;
+.partner-universities .media > img{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-right: 1rem;
     padding: 0.3rem;

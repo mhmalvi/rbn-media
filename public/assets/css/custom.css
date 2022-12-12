@@ -69,7 +69,32 @@
         border-radius: 0.3rem;
     }
 }
-/***** header *****/
+
+.counseling-img {
+margin: auto;
+}
+
+.admission-bullet {
+    width: 30px;
+    height: 30px;
+}
+
+.aboutrbn-li{
+    display:flex;
+}
+
+.visaService-li{
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.visaService-bullet{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+/************* header ***************/
 .section {
     padding: 70px 0;
 }

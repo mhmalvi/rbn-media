@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!--====== Title ======-->
-    <title>RBN - Aiming High? We Make You Fly</title>
+    <title>RBN - Education Consultant in Bangladesh | RBN Education | Study Abroad</title>
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo-icon.png') }}" type="image/x-icon" />
 
     <!--====== Google Fonts ======-->
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet" />

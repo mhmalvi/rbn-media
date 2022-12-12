@@ -74,7 +74,7 @@
    <!-- how it all works section start -->
    <section class="why-learn-area pb-120 rpb-100">
       <div class="container">
-         <h2 class="text-center">HOW IT ALL WORKS</h2>
+         <h2 class="text-center" style="color: #278ACD!important">HOW IT ALL WORKS</h2>
          <h4 class="text-center">Step by Step Elaboration</h4>
           <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s pt-20">
               <div class="col-lg-6">
