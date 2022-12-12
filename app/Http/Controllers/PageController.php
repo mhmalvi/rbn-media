@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
+    public function FAQ()
+    {
+        $pageName = 'Frequently Asked Questions';
+        return view('user.pages.faq', compact('pageName'));
+    }
     public function whoWeAre()
     {
         $pageName = 'Who We Are';

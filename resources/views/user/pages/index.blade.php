@@ -826,11 +826,270 @@
                 <div class="testimonial-author-two">
                     <img src="{{ asset('assets/images/testimonials/testimonial-two1.jpg') }}" alt="Author" />
 
-                </div>
-                <div class="testimonial-content-two">
-                    <div class="designation">
-                        <h3>Canada student visa achiever</h3>
-                        {{--<span>Business Manager</span>--}}
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Mishu</h3>
+                          <span>Canada Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      "After getting a refusal the first time, I got nervous and lost hope. 
+                      I was looking for an agent who can organize the documentation. Finally, 
+                      I found RBN Education and they helped me a lot. Their work is transparent, 
+                      precise as well as cooperative. I'm really happy and excited. Students who 
+                      remain discouraged to go Canada from other agencies, I would highly recommend 
+                      them to RBN Education."
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Mahmudul</h3>
+                          <span>UK Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      "I've got a UK student visa through RBN Education. They help a 
+                      lot to get into the University of South Wales! I would like to 
+                      thank RBN Education for helping me out. The entire visa process 
+                      is smooth. I am earnestly recommending RBN Education. Come, visit 
+                      & grab your desired intake"
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Imran</h3>
+                          <span>USA Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      “Through RBN Education, I've acquired USA F1 VISA. They make it 
+                      easier to get accepted to Trine University. I'd like to acknowledge 
+                      RBN Education for their tremendous assistance. I enthusiastically 
+                      recommend RBN Education to US Visa aspirants.”
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Ketu</h3>
+                          <span>Canada Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      “I visited Canada on a visitor visa but wanted to convert my visitor 
+                      visa into a Canada student visa. Every consultant I visited told me 
+                      that your case was impossible. Then I met RBN EDUCATION and I got my 
+                      Canada student visa with the help of the staff of RBN EDUCATION. I 
+                      would firmly recommend them to the potential students.”
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Priya</h3>
+                          <span>UK Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      “The counselors at RBN EDUCATION are very helpful and helped 
+                      me gain a UK student visa. Today, I'm very happy and would 
+                      recommend them to each and every student.”
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Shams</h3>
+                          <span>Hungary Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      “After a moderate study gap, I wanted to pursue my master's in Europe. 
+                      I contacted a number of agencies in Dhaka. Nevertheless, nearly all of 
+                      them disagreed to take my file due to my age and academic gap. RBN Education 
+                      was the next stop for me. With the help of RBN Education, it took only two 
+                      weeks to get me accepted to Budapest Metropolitan University. I'm a proud 
+                      international student now. Best wishes for RBN Education. Keep up the good work”.
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Fariha</h3>
+                          <span>Australian Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      “RBN Education gave special attention to process my Australian Visa. 
+                      My gratitude toward them. Since I got the offer letter from the National 
+                      Academy of Professional Studies (NAPS) within 2 days. To guarantee an error-free 
+                      and well-presented application as well as proper GTE clearance I highly 
+                      recommend RBN Education.”
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="testimonial-item-two">
+                  <div class="testimonial-author-two">
+                      <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
+
+                  </div>
+                  <div class="testimonial-content-two">
+                      <div class="designation">
+                          <h3>Taslima</h3>
+                          <span>Malaysian Student Visa Gainer</span>
+                      </div>
+                      <p>
+                      “RBN Education cordially helped me to get a Malaysian student visa. 
+                      They definitely assist with getting into Mahsa University. I'd like 
+                      to acknowledge RBN Education for its cooperation. The visa process is 
+                      handled with professionalism. Therefore, I appreciate and recommend RBN 
+                      Education.”
+                      </p>
+                      <div class="ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Testimonials Section End -->
+
+  <!-- Blog Section Start -->
+  <section class="blog-section pt-120 rpt-90">
+      <div class="container">
+          <div class="section-title text-center mb-55">
+              <span class="sub-title-two">Latest Blogs</span>
+              <h2>Get Every Single Updates</h2>
+          </div>
+          <div class="row">
+            @isset($blogs)
+                  @php
+                      $i=1;
+                      $blogCount = count($blogs);
+                  @endphp
+
+              @foreach($blogs as $blog)
+                      @if($i <5)
+                       <div class="col-lg-3 col-md-6">
+                           <div class="blog-item style-two wow fadeInUp delay-0-2s">
+                               <div class="blog-image">
+                                   <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
+                                   <span class="date">{{ date('M', strtotime($blog->created_at)) }} <span>{{ date('d', strtotime($blog->created_at)) }}</span></span>
+                               </div>
+                               <div class="blog-content">
+                                   <div class="content">
+                                       <ul class="blog-meta">
+                                           <li>
+                                               <i class="far fa-user"></i>
+                                               <a href="javascript:void(0)">By {{ $blog->author_name }}</a>
+                                           </li>
+
+                                       </ul>
+                                       <h4>
+                                           <a href="javascript:void(0)">Designing Better Link Web Site and Emailsite</a>
+                                       </h4>
+                                       <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                      @endif
+                          @php
+                              $i++;
+                          @endphp
+                 @endforeach
+            @endisset
+
+                @if($blogCount >4)
+                    <div class="event-more-btn text-center pt-15">
+                        <a href="{{ route('blog') }}" class="theme-btn style-three">View More Posts <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <p>
                         "I visited Canada on a visitor visa but wanted to convert my visitor visa

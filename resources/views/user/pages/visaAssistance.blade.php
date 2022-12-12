@@ -5,7 +5,7 @@
         <section class="why-learn-area pt-100 pb-50">
       <div class="container">
           <div class=" align-items-center large-gap wow fadeInLeft delay-0-2s">
-              <div class=" mx-auto">
+              <div class="text-justify mx-auto">
                       <h5>
                       Basically, education consultancy firms assist to gain a student visa forthwith when the applicants enroll in one of their partner institutions. This is a time-consuming and involved process that requires extensive consultation with an immigration lawyer and careful planning with associates.</h5>
               </div>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                  <div class="col-lg-6">
-                     <div class="why-learn-content rmb-35">
+                     <div class="why-learn-content rmb-35 text-justify">
                          <div class="section-title mt-30 mb-30">
                              {{-- <span class="sub-title-two"></span> --}}
                              <h2>Submit Your Visa Application with RBN Education</h2>

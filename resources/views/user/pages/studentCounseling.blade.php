@@ -74,11 +74,11 @@
    <!-- how it all works section start -->
    <section class="why-learn-area pb-120 rpb-100">
       <div class="container">
-         <h2 class="text-center" style="color: #278ACD!important">HOW IT ALL WORKS</h2>
+         <h2 class="text-center" style="color: #278ACD">HOW IT ALL WORKS</h2>
          <h4 class="text-center">Step by Step Elaboration</h4>
           <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s pt-20">
               <div class="col-lg-6">
-                  <div class="why-learn-content rmb-35">
+                  <div class="why-learn-content text-justify rmb-35">
                       <div class="section-title">
                          {{--  <span class="sub-title-two"></span> --}}
                           <h5>Step 1: Initial Counseling</h5>
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                  <div class="col-lg-6">
-                     <div class="why-learn-content rmb-35">
+                     <div class="why-learn-content text-justify rmb-35">
                          <div class="section-title mb-30">
                              {{-- <span class="sub-title-two"></span> --}}
                              <h2>Approach Your Free Consultation Now!</h2>

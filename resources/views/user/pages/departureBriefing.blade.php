@@ -21,7 +21,7 @@
                       <h4>1. Checklist Confer</h4>
                       </div>
                       <div class="flip-box-back">
-                      <h5>In accordance with circumstances as well as weather issues, we prepare a checklist of what a student may need while traveling and residing abroad.</h5>
+                      <p>In accordance with circumstances as well as weather issues, we prepare a checklist of what a student may need while traveling and residing abroad.</p>
                       </div>
                   </div>
                   </div>
@@ -38,7 +38,7 @@
                         <h4>2. Documents Array</h4>
                         </div>
                         <div class="flip-box-back">
-                        <h5>It's a bit complex to remember for students to have all of their documents with them before they leave their home country. To avoid unnecessary stress overseas, we assist them in preparing the essential document list.</h5>
+                        <p>It's a bit complex to remember for students to have all of their documents with them before they leave their home country. To avoid unnecessary stress overseas, we assist them in preparing the essential document list.</p>
                         </div>
                     </div>
                     </div>
@@ -55,7 +55,7 @@
                         <h4>3. Health & Safety Measures</h4>
                         </div>
                         <div class="flip-box-back">
-                        <h5>We let our pupils be familiar with the health and safety regulations of the country they are going to study.</h5>
+                        <p>We let our pupils be familiar with the health and safety regulations of the country they are going to study.</p>
                         </div>
                     </div>
                     </div>
@@ -74,7 +74,7 @@
                       <h4>4. Travel Restrictions</h4>
                       </div>
                       <div class="flip-box-back">
-                      <h5>We make aware of the students of any travel restrictions that their destination country may have. Also, guide on the local currency transportation system, food & drink, entertainment, etc.</h5>
+                      <p>We make aware of the students of any travel restrictions that their destination country may have. Also, guide on the local currency transportation system, food & drink, entertainment, etc.</p>
                       </div>
                   </div>
                   </div>
@@ -91,7 +91,7 @@
                         <h4>5. Airport Immigration</h4>
                         </div>
                         <div class="flip-box-back">
-                        <h5>For students who are not well-known about the immigration process, here we are to instruct them about the airport immigration rules. Before flying, we provide them with a range of helpful resources including helpful links or written materials.</h5>
+                        <p>For students who are not well-known about the immigration process, here we are to instruct them about the airport immigration rules. Before flying, we provide them with a range of helpful resources including helpful links or written materials.</p>
                         </div>
                     </div>
                     </div>
@@ -108,9 +108,9 @@
                         <h4>6. On-Arrival Actions</h4>
                         </div>
                         <div class="flip-box-back">
-                        <h5>We offer students a comprehensive briefing that outlines all the necessary steps they need to take as soon as arriving at the study destination. </h5>
-                        <h5>This briefing might include information about the university reporting registration procedure, SEVIS reporting, orientation class, university resource utilization, adjusting to new time zones, accommodation documents as well as ways to connect with fellow students for further help. </h5>
-                        <h5>We also ensure the flexibility of getting in touch with us if students face any issues after arriving.</h5>
+                        <p>We offer students a comprehensive briefing that outlines all the necessary steps they need to take as soon as arriving at the study destination. </p>
+                        <p>This briefing might include information about the university reporting registration procedure, SEVIS reporting, orientation class, university resource utilization, adjusting to new time zones, accommodation documents as well as ways to connect with fellow students for further help. </p>
+                        <p>We also ensure the flexibility of getting in touch with us if students face any issues after arriving.</p>
                         </div>
                     </div>
                     </div>
@@ -129,7 +129,7 @@
                       <h4>7. Part-Time Job</h4>
                       </div>
                       <div class="flip-box-back">
-                      <h5>While studying abroad, it can be a daunting task to find jobs that are work-related and compatible with your studies. This is where we come in handy as well. We help students search for part-time job opportunities by providing them with the necessary information on how to apply.</h5>
+                      <p>While studying abroad, it can be a daunting task to find jobs that are work-related and compatible with your studies. This is where we come in handy as well. We help students search for part-time job opportunities by providing them with the necessary information on how to apply.</p>
                       </div>
                   </div>
                   </div>
@@ -146,7 +146,7 @@
                         <h4>8. Post-Study Work</h4>
                         </div>
                         <div class="flip-box-back">
-                        <h5>We also offer information about post-study work opportunities. It helps students to find jobs or internships that match their skills, and interests, as well as helps them navigate the process of finding a job after completing their degree.</h5>
+                          <p>We also offer information about post-study work opportunities. It helps students to find jobs or internships that match their skills, and interests, as well as helps them navigate the process of finding a job after completing their degree.</p>
                         </div>
                     </div>
                     </div>
@@ -163,7 +163,7 @@
                         <h4>9. Visa Extension</h4>
                         </div>
                         <div class="flip-box-back">
-                        <h5>Visa extension is a vital service as many international graduates face difficulty to find work. This situation may force them to leave the country or face trouble utilizing the academic knowledge & practical skill they achieved. We, as consultants will guide you through the process of how to extend a student visa.</h5>
+                          <p>Visa extension is a vital service as many international graduates face difficulty to find work. This situation may force them to leave the country or face trouble utilizing the academic knowledge & practical skill they achieved. We, as consultants will guide you through the process of how to extend a student visa.</p>
                         </div>
                     </div>
                     </div>

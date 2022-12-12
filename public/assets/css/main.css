@@ -4383,7 +4383,7 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 /* SERVICES student counseling */
 .Counseling-list {
     text-align: center;
-    margin: 0 -15px;
+    margin: 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -4482,6 +4482,11 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
     }
 }
 
+/* Admission Assistance Section */
+.assistance p{
+    text-align: justify;
+}
+
 /* SERVICE departure Css */
 .departure-list {
     text-align: center;
@@ -4553,7 +4558,7 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
-    text-align: start;
+    text-align: justify;
     align-items: center;
     min-height: 200px;
     padding: 20px;
@@ -4615,7 +4620,7 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
     color: #4ea0d7;
     transform: rotate(45deg);
     position: relative;
-    top:75px;
+    top:80px;
 }
 
 @media screen and (max-width:768px){
