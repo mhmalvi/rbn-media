@@ -4324,6 +4324,9 @@ samp {
     width: 32px;
     height: 32px;
 }
+.box-shadow2 .media-body{
+    /* text-align: center; */
+}
 .sidebar-panel .feed-element,
 .media-body,
 .sidebar-panel p {

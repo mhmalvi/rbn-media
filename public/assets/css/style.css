@@ -191,6 +191,15 @@ textarea,
     .form-control {
         font-size: 16px;
     }
+    .delay-0-2s{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+    .why-learn-image{
+        margin-left: 4%;
+    }
 }
 
 .nice-select {

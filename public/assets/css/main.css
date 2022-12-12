@@ -4816,7 +4816,7 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 .partner-universities .media {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     align-items: center;
     border-radius: .5rem;
     background-color: #efefef;
