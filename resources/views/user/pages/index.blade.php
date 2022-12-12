@@ -182,11 +182,11 @@
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="services-content rmb-65 wow fadeInUp delay-0-2s">
-                    <div class="section-title text-white">
+                    <div class="section-title">
 
                         <h2>Services</h2>
                     </div>
-                    <h5 class="text-white">
+                    <h5 class="">
                         A place for everything you need to shape your dream.
 
                     </h5>
@@ -224,16 +224,9 @@
                                 <div class="icon">
                                     <img src="{{ asset('assets/images/categories/icon3.png') }}" alt="Icon" />
 
-<<<<<<< HEAD
-                                </div>
-                                {{-- <h4>Language & Scholarship Guidance</h4> --}}
-                                <h4>Scholarship Guidance</h4>
-                                <a href="{{ route('language-scholarship') }}">Read More</a>
-=======
                                   </div>
                                   <h4>Scholarship Guidance</h4>
                                         <a href="{{ route('language-scholarship') }}">Read More</a>
->>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
                             </div>
                             <div class="category-item  hover-styled">
@@ -273,13 +266,6 @@
                             </div>
                             {{--<div class="category-item  hover-styled">
                                    <div class="icon">
-<<<<<<< HEAD
-                                       <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
-                        </div>
-                        <h4>Pastoral Care</h4>
-                        <a href="#">Read More</a>
-                    </div>--}}
-=======
                                        <img src="{{ asset('assets/images/categories/icon5.png') }}" alt="Icon" />
                                    </div>
                                    <h4>Pastoral Care</h4>
@@ -312,7 +298,6 @@
                                    <h4>Pastoral Care</h4>
                                         <a href="#">Read More</a>
                                </div>--}}
->>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
 
                 </div>
@@ -519,94 +504,6 @@
         </div>
         <div class="Accreditations-slider">
 
-<<<<<<< HEAD
-            <div class="coach-item style-two wow fadeInUp delay-0-2s">
-                <div class="coach-image">
-                    <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
-                </div>
-                <div class="coach-content text-center">
-                    <a href="javascript:void(0)" class="category">The University of Manchester</a>
-
-                    <h4>Manchester, UK</h4>
-                    <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
-
-
-                </div>
-            </div>
-            <div class="coach-item style-two wow fadeInUp delay-0-4s">
-                <div class="coach-image">
-                    <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
-
-                </div>
-                <div class="coach-content text-center">
-                    <a href="javascript:void(0)" class="category">University of Leeds</a>
-
-                    <h4>Yorkshire, UK</h4>
-                    <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
-
-
-                </div>
-            </div>
-            <div class="coach-item style-two wow fadeInUp delay-0-6s">
-                <div class="coach-image">
-                    <img src="{{ asset('assets/images/coachs/coach3.jpg') }}" alt="Coach" />
-
-                </div>
-                <div class="coach-content text-center">
-                    <a href="javascript:void(0)" class="category">University of Manitoba</a>
-
-                    <h4>Manitoba, Canada</h4>
-                    <p>Ranked 350th by The World University Ranking 2021.</p>
-
-
-                </div>
-            </div>
-            <div class="coach-item style-two wow fadeInUp delay-0-2s">
-                <div class="coach-image">
-                    <img src="https://www.iecc.co.uk/public/uploads/featureduniversity/1571659859.jpg{{-- asset('assets/images/coachs/coach1.jpg') --}}" alt="Coach" />
-                </div>
-                <div class="coach-content text-center">
-                    <a href="javascript:void(0)" class="category">The University of Manchester</a>
-
-                    <h4>Manchester, UK</h4>
-                    <p>Ranked 55th by The Times Higher Education World University Rankings 2020.</p>
-
-
-                </div>
-            </div>
-            <div class="coach-item style-two wow fadeInUp delay-0-4s">
-                <div class="coach-image">
-                    <img src="{{ asset('assets/images/coachs/coach2.jpg') }}" alt="Coach" />
-
-                </div>
-                <div class="coach-content text-center">
-                    <a href="javascript:void(0)" class="category">University of Leeds</a>
-
-                    <h4>Yorkshire, UK</h4>
-                    <p>Ranked Top 100 Universities in the world | QS World University Rankings 2020</p>
-
-
-                </div>
-            </div>
-            <div class="coach-item style-two wow fadeInUp delay-0-6s">
-                <div class="coach-image">
-                    <img src="{{ asset('assets/images/coachs/coach3.jpg') }}" alt="Coach" />
-
-                </div>
-                <div class="coach-content text-center">
-                    <a href="javascript:void(0)" class="category">University of Manitoba</a>
-
-                    <h4>Manitoba, Canada</h4>
-                    <p>Ranked 350th by The World University Ranking 2021.</p>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Accredations Section End -->
-=======
               <div class="coach-item style-two wow fadeInUp delay-0-2s">
                   <div class="coach-image">
                       <img src="{{ asset('assets/images/accredition/accredit.jpg') }}" alt="" />
@@ -663,7 +560,6 @@
       </div>
   </section>
   <!-- Accredations Section End -->
->>>>>>> 482dfb18f483d8483c6237124226ad8074523926
 
 <!-- Advertise Area Start -->
 {{-- <section class="advertise-area pb-100 rpb-70">--}}

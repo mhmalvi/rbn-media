@@ -89,43 +89,42 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>SYDNEY</h5>
-                    </div>
-              </li>
-          </ul>
-      </div>
-  </section>
-  <!--  destination list end -->
-  
-  <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45">
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>SYDNEY</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!--  destination list end -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 pt-md-2  m-auto">
-                    <div class="video-box">
-                        <figure class="figure circle-styled">
-                            <img class="img-fluid" src="{{asset('assets/images/destination/aus/1578484469.jpg')}}" alt="Image">
-                        </figure>
-                    </div>
+<!-- about first section start -->
+{{-- <section class="about-us text-justify py-50 rpt-90  rpb-45">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-md-2  m-auto">
+                <div class="video-box">
+                    <figure class="figure circle-styled">
+                        <img class="img-fluid" src="{{asset('assets/images/destination/aus/1578484469.jpg')}}" alt="Image">
+                    </figure>
                 </div>
             </div>
+        </div>
         </a>
-    </li>
-    <li>
+        </li>
+        <li>
         <a href="#">
             <div class="card">
                 <figure class="figure">
                     <img src="{{asset('assets/images/destination/aus/topcities/1573052585.png')}}" class="img-fluid" alt="Scotland">
-                </figure>
-                <div class="card-body">
-                    <h5>ADELAIDE</h5>
-                </div>
-            </div>
-        </a>
+        </figure>
+        <div class="card-body">
+            <h5>ADELAIDE</h5>
+        </div>
+    </div>
+    </a>
     </li>
     <li>
         <a href="#">
@@ -150,12 +149,12 @@
                 </div>
             </div>
         </a>
-    </li>--}}
+    </li>
 
 
     </ul>
     </div>
-</section>
+</section> --}}
 <!--  destination list end -->
 
 <!-- about first section start -->
@@ -340,79 +339,79 @@
 
         <ul class="list-unstyled partner-universities">
 
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                        <img src="https://skstudy.com/wp-content/uploads/2020/06/300pixel.png" class="img-fluid" alt="">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Australian Technical College Western Australia</h5>
-                            <p>Perth</p>
-                            <p>
-                                <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                            </p>
-                        </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://ibb.co/cwNRvxx" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1">Illora College</h5>
-                          <p>Perth</p>
-                          <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="https://topaustralianuniversities.com/logos/original/logo-ozford-college.png" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1">Ozford Institute</h5>
-                          <p>Melbourne</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Riverdale_CI_Crest.png" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1">Riverdale Institute</h5>
-                          <p>Melbourne</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="https://sunbeam.edu.au/wp-content/uploads/2019/08/Logo_Trans-1024x662.png" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1">Sunbeam International College</h5>
-                          <p>Adelaide</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="media box-shadow2 hover-styled">
-                      <img src="https://www.uniagents.com/ga-institution/logo/institute_151_logo1531218454.jpg" class="img-fluid" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0 mb-1">South Sydney College</h5>
-                          <p>Burwood</p>
-                          <p>
-                          </p>
-                      </div>
-                  </div>
-              </li>
-          </ul>
-      </div>
-  </section>
-  <!-- partner universities section end -->
+            <li>
+                <div class="media box-shadow2 hover-styled">
+                    <img src="https://skstudy.com/wp-content/uploads/2020/06/300pixel.png" class="img-fluid" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Australian Technical College Western Australia</h5>
+                        <p>Perth</p>
+                        <p>
+                            <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="media box-shadow2 hover-styled">
+                    {{--<img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
+                    <img src="https://ibb.co/cwNRvxx" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Illora College</h5>
+                        <p>Perth</p>
+                        <p>
+                            <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="media box-shadow2 hover-styled">
+                    <img src="https://topaustralianuniversities.com/logos/original/logo-ozford-college.png" class="img-fluid" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Ozford Institute</h5>
+                        <p>Melbourne</p>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="media box-shadow2 hover-styled">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Riverdale_CI_Crest.png" class="img-fluid" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Riverdale Institute</h5>
+                        <p>Melbourne</p>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="media box-shadow2 hover-styled">
+                    <img src="https://sunbeam.edu.au/wp-content/uploads/2019/08/Logo_Trans-1024x662.png" class="img-fluid" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Sunbeam International College</h5>
+                        <p>Adelaide</p>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="media box-shadow2 hover-styled">
+                    <img src="https://www.uniagents.com/ga-institution/logo/institute_151_logo1531218454.jpg" class="img-fluid" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">South Sydney College</h5>
+                        <p>Burwood</p>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- partner universities section end -->
 
 <!---- group partners universities  start-->
 {{--<section class="text-center bg-white py-50 rpt-90  rpb-45">
