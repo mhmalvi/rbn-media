@@ -10,7 +10,7 @@
         </div>
         <ul class="destination-list">
             <li>
-                <a href="#">
+                <a>
                     <div class="flip-box  mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -89,19 +89,18 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>SYDNEY</h5>
-                    </div>
-              </li>
+                </a>
+                <div class="flipboxback-mob">
+                    <h5>SYDNEY</h5>
+                </div>
+            </li>
           </ul>
       </div>
   </section>
   <!--  destination list end -->
   
   <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45">
+    {{--<section class="about-us text-justify py-50 rpt-90  rpb-45">
 
         <div class="container">
             <div class="row">
@@ -150,12 +149,12 @@
                 </div>
             </div>
         </a>
-    </li>--}}
+    </li>
 
 
     </ul>
     </div>
-</section>
+</section>--}}
 <!--  destination list end -->
 
 <!-- about first section start -->

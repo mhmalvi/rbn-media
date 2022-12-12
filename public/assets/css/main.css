@@ -4267,6 +4267,10 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 }
 
 @media screen and (max-width: 1024px) {
+    .destination-list .flip-box:hover .flip-box-inner {
+        transform: rotateY(0deg);
+    }
+
     .destination-list .flipboxback-mob > h5 {
         display: block;
     }
