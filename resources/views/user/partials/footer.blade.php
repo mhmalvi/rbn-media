@@ -188,7 +188,7 @@
                               Policy</a>
                       </li>
                       <li>
-                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}">Code of
+                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" target="_blank">Code of
                               Conduct</a>
                       </li>
                   </ul>
