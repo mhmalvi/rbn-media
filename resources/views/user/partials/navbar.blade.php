@@ -11,6 +11,10 @@
             font-size: 80%;
         }
 
+        .EnglishSchool-btn {
+            font-size: 88%;
+        }
+
     </style>
 
     <div class="nav-outer clearfix">
