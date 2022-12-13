@@ -347,8 +347,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.eduopinions.com/wp-content/uploads/2018/02/University-of-Bedfordshire-UOB-logo-350x270.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/uk/uk1.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Bedfordshire University</h5>
                           <p>Luton, England</p>
@@ -360,8 +359,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.solent.ac.uk/image-library/about-us/coat-of-arms.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/uk/uk2.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Solent University</h5>
                           <p>Southampton, England</p>
@@ -373,8 +371,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572875214.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://upload.wikimedia.org/wikipedia/en/a/af/University_of_Glamorgan_arms.png" alt="">
+                      <img src="{{asset('assets/images/uni/uk/uk3.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of South Wales</h5>
                           <p>Cardiff</p>
@@ -385,8 +382,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572699086.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://upload.wikimedia.org/wikipedia/en/4/44/University_of_Sunderland_coat_of_arms.png" alt="">
+                      <img src="{{asset('assets/images/uni/uk/uk4.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Sunderland University</h5>
                           <p>Sunderland, England</p>
@@ -397,8 +393,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572699473.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Shield_of_the_University_of_Birmingham.svg" alt="">
+                      <img src="{{asset('assets/images/uni/uk/uk5.svg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Birmingham University</h5>
                           <p>Birmingham, England</p>

@@ -344,7 +344,7 @@
 
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://skstudy.com/wp-content/uploads/2020/06/300pixel.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus1.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Australian Technical College Western Australia</h5>
                         <p>Perth</p>
@@ -356,8 +356,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    {{--<img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                    <img src="https://illoura.edu.au/wp-content/uploads/2022/02/illoura-College-Logo.png" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus2.png')}}" class="img-fluid" alt="">
 
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Illoura College</h5>
@@ -370,7 +369,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://topaustralianuniversities.com/logos/original/logo-ozford-college.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus3.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Ozford Institute</h5>
                         <p>Melbourne</p>
@@ -381,7 +380,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Riverdale_CI_Crest.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus4.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Riverdale Institute</h5>
                         <p>Melbourne</p>
@@ -392,7 +391,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://sunbeam.edu.au/wp-content/uploads/2019/08/Logo_Trans-1024x662.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus5.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Sunbeam International College</h5>
                         <p>Adelaide</p>
@@ -403,7 +402,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://www.uniagents.com/ga-institution/logo/institute_151_logo1531218454.jpg" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus6.jpg')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">South Sydney College</h5>
                         <p>Burwood</p>

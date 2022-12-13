@@ -343,8 +343,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://cdn.ischoolconnect.com/logo/1036.png" alt="">
+                      <img src="{{asset('assets/images/uni/eu/eu1.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> CCT College Dublin</h5>
                           <p>Ireland</p>
@@ -356,8 +355,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://admissionofficege.com/wp-content/uploads/2021/06/Caucasuss-International-University.png" alt="">
+                      <img src="{{asset('assets/images/uni/eu/eu2.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Caucasus's International University</h5>
                           <p>Georgia</p>

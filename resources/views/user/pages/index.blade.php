@@ -467,7 +467,7 @@
 
 <!-- Accreditations Section Start -->
 
-<section class="Accreditations-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+{{--<section class="Accreditations-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
 
     <div class="container">
         <div class="row justify-content-center">
@@ -534,7 +534,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>--}}
 <!-- Accredations Section End -->
 
 <!-- Advertise Area Start -->
@@ -689,7 +689,7 @@
 <!-- Team Section End -->
 
 <!-- Event Section Start -->
-<section class="event-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+<section class="event-section-two rel z-1 rpt-90 pb-130 rpb-100">
     <div class="container">
         <div class="section-title text-center mb-55">
             <span class="sub-title-two">Event & Program</span>
