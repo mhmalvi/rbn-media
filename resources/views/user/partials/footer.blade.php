@@ -1,3 +1,25 @@
+  <style>
+      @media only screen and (max-width:500px) {
+          .footer-widget {
+              padding: 4%;
+              text-align: center;
+          }
+
+          .footer-widget ul {
+              text-align: center;
+
+          }
+
+          .footer-awesome {
+              margin-left: 5%;
+              margin-top: 2%;
+
+          }
+
+      }
+
+  </style>
+
   <footer class="main-footer bg-blue pt-75">
       <div class="container">
           <div class="clearfix"></div>
@@ -55,10 +77,10 @@
                               <li>
                                   <a href="{{ route('student-counseling') }}">Student Counseling</a>
 
-                              </li>
-                              <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
-                              <li>
-                                  <a href="{{ route('language-scholarship') }}">Scholarship Guidance</a>
+                  </li>
+                  <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
+                  <li>
+                      <a href="{{ route('language-scholarship') }}">Scholarship Guidance</a>
 
                   </li>
                   <li>
@@ -104,11 +126,12 @@
                               </li>
                               <li>
                                   <i class="far fa-envelope"></i>
-                                  <a href="mailto:info@rbn.com.bd">info@rbn.com.bd</a>
+                                  <a class="footer-awesome" href="mailto:info@rbn.com.bd">info@rbn.com.bd</a>
                               </li>
                               <li>
                                   <i class="fas fa-phone"></i>
-                                  <a href="callto:+8801312777919">+8801312777919</a>
+                                  <a class="footer-awesome" href="callto:+8801312777919">+8801312777919</a>
+
                               </li>
                           </ul>
 
