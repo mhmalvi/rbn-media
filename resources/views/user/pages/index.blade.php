@@ -1191,86 +1191,37 @@
             @endphp
 
             @foreach($blogs as $blog)
-            @if($i <5) <div class="col-lg-3 col-md-6">
-                <div class="blog-item style-two wow fadeInUp delay-0-2s">
-                    <div class="blog-image">
-                        <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
-                        <span class="date">{{ date('M', strtotime($blog->created_at)) }} <span>{{ date('d', strtotime($blog->created_at)) }}</span></span>
-                    </div>
-                    <div class="blog-content">
-                        <div class="content">
-                            <ul class="blog-meta">
-                                <li>
-                                    <i class="far fa-user"></i>
-                                    <a href="javascript:void(0)">By {{ $blog->author_name }}</a>
-                                </li>
-
-                            </ul>
-                            <h4>
-                                <a href="javascript:void(0)">Designing Better Link Web Site and Emailsite</a>
-                            </h4>
-                            <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+            @if($i <5) 
+            <div class="col-lg-3 col-md-6">
+                <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="blog-item style-two wow fadeInUp delay-0-2s">
+                    {{-- <div class="blog-item style-two wow fadeInUp delay-0-2s"> --}}
+                        <div class="blog-image">
+                            <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
+                            <span class="date">{{ date('M', strtotime($blog->created_at)) }} <span>{{ date('d', strtotime($blog->created_at)) }}</span></span>
                         </div>
-                    </div>
-                </div>
-        </div>
-        @endif
-        @php
-        $i++;
-        @endphp
-        @endforeach
-        @endisset
+                        <div class="blog-content">
+                            <div class="content">
+                                <ul class="blog-meta">
+                                    <li>
+                                        <i class="far fa-user text-black"></i>
+                                        <span class="text-black">By {{ $blog->author_name }}</span>
+                                        {{-- <a href="javascript:void(0)" class="text-black">By {{ $blog->author_name }}</a> --}}
+                                    </li>
 
-        @if($blogCount >4)
-        <div class="event-more-btn text-center pt-15">
-            <a href="{{ route('blog') }}" class="theme-btn style-three">View More Posts <i class="fas fa-arrow-right"></i></a>
-        </div>
-        @endif
-    </div>
-    </div>
-    </div>
-    </div>
-</section>
-<!-- Testimonials Section End -->
-
-<!-- Blog Section Start -->
-<section class="blog-section pt-120 rpt-90">
-    <div class="container">
-        <div class="section-title text-center mb-55">
-            <span class="sub-title-two">Latest Blogs</span>
-            <h2>Get Every Single Updates</h2>
-        </div>
-        <div class="row">
-            @isset($blogs)
-            @php
-            $i=1;
-            $blogCount = count($blogs);
-            @endphp
-
-            @foreach($blogs as $blog)
-            @if($i <5) <div class="col-lg-3 col-md-6">
-                <div class="blog-item style-two wow fadeInUp delay-0-2s">
-                    <div class="blog-image">
-                        <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
-                        <span class="date">{{ date('M', strtotime($blog->created_at)) }} <span>{{ date('d', strtotime($blog->created_at)) }}</span></span>
-                    </div>
-                    <div class="blog-content">
-                        <div class="content">
-                            <ul class="blog-meta">
-                                <li>
-                                    <i class="far fa-user"></i>
-                                    <a href="javascript:void(0)">By {{ $blog->author_name }}</a>
-                                </li>
-
-                            </ul>
-                            <h4>
-                                <a href="javascript:void(0)">Designing Better Link Web Site and Emailsite</a>
-                            </h4>
-                            <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                                </ul>
+                                <h4>
+                                    <span>
+                                        {{-- <a href="javascript:void(0)"> --}}
+                                            Designing Better Link Web Site and Emailsite
+                                        {{-- </a> --}}
+                                    </span>
+                                </h4>
+                                <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="read-more text-black">Read more <i class="fas fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-        </div>
+                    {{-- </div> --}}
+                </a>
+            </div>
         @endif
         @php
         $i++;

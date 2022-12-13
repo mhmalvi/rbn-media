@@ -17,7 +17,7 @@
                     <div class="why-learn-content rmb-35">
                         <div class="section-title mb-30">
                             {{--  <span class="sub-title-two"></span> --}}
-                            <h2>Our Goal</h2>
+                            <h2>Our Goals</h2>
                         </div>
 
                         <ul class="">

@@ -72,7 +72,7 @@
 
   
    <!-- how it all works section start -->
-   <section class="why-learn-area pb-120 rpb-100">
+   <section class="why-learn-area  rpb-100">
       <div class="container">
          <h2 class="text-center" style="color: #278ACD">HOW IT ALL WORKS</h2>
          <h4 class="text-center">Step by Step Elaboration</h4>
@@ -117,8 +117,6 @@
               <div class="col-lg-6">
                   <div class="why-learn-image wow fadeInRight delay-0-2s">
                       <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="Why Learn">
-
-
                   </div>
               </div>
           </div>
@@ -127,7 +125,7 @@
   <!-- how it all works section end -->
 
     <!-- Approach Your Free Consultation Start -->
-    <section class="why-learn-area pt-120 pb-120 rpb-100">
+    <section class="why-learn-area pt-120 rpb-100">
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">

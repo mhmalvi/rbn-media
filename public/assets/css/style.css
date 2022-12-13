@@ -4054,6 +4054,7 @@ h6,
         line-height: 43px;
     }
 }
+
 .main-menu .navbar-collapse li a {
     position: relative;
     display: block;
@@ -4066,6 +4067,7 @@ h6,
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
+
 .main-menu ul li .icon {
     width: 25px;
     height: 25px;
@@ -4079,6 +4081,23 @@ h6,
 @media (min-width: 1000px) and (max-width: 1338px) {
     .main-menu .navbar-collapse li {
         padding: 25px 10px;
+    }
+
+    .main-menu .navbar-collapse li a {
+        position: relative;
+        display: block;
+        font-size: 12px;
+        opacity: 1;
+        font-weight: 700;
+        color: #262d3d;
+        text-transform: capitalize;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .brand_logo {
+        width: 50%;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -4648,9 +4667,38 @@ h6,
         border-right: 1px solid rgba(255, 255, 255, 0.2);
     }
 }
+
+@media only screen and (min-width: 1501px) and (max-width: 1701px) {
+    .main-menu .navbar-collapse li a {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        opacity: 1;
+        font-weight: 700;
+        color: #262d3d;
+        text-transform: capitalize;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .main-header.header-three .top-inner .top-left p:last-child {
         display: none;
+    }
+
+    .main-menu .navbar-collapse li a {
+        position: relative;
+        display: block;
+        font-size: 12px;
+        opacity: 1;
+        font-weight: 700;
+        color: #262d3d;
+        text-transform: capitalize;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
     }
 }
 
@@ -5153,6 +5201,21 @@ h6,
     font-family: "Raleway", sans-serif;
     display: none;
 }
+
+.EnglishSchool-btn {
+    background-color: #d61734;
+    font-size: 80%;
+    border-radius: 0.3rem;
+}
+
+@media screen and (min-width: 991px) {
+    .EnglishSchool-btn {
+        background-color: #d61734;
+        font-size: 14px;
+        border-radius: 0.3rem;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .admin-speech {
         margin-left: 25px;
@@ -8722,8 +8785,14 @@ h6,
     margin-bottom: 30px;
 }
 .blog-item .blog-content {
+    padding-top: 10px;
     padding: 25px;
 }
+
+.blog-item .blog-content:hover {
+    color: rgb(29, 29, 29) !important;
+}
+
 @media only screen and (max-width: 375px) {
     .blog-item .blog-content {
         padding-left: 20px;
@@ -8874,10 +8943,11 @@ h6,
 .blog-item .blog-image img {
     width: 100%;
     border-radius: 5px;
+    padding-bottom: 1rem;
 }
 
 .blog-image img {
-    height: 190px;
+    height: 210px;
     width: 100%;
 }
 
