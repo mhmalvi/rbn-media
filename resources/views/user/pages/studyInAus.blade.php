@@ -349,7 +349,7 @@
                         <h5 class="mt-0 mb-1">Australian Technical College Western Australia</h5>
                         <p>Perth</p>
                         <p>
-                            <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                            {{-- <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span> --}}
                         </p>
                     </div>
                 </div>
@@ -363,7 +363,7 @@
                         <h5 class="mt-0 mb-1">Illoura College</h5>
                         <p>Perth</p>
                         <p>
-                            <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                            {{-- <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span> --}}
                         </p>
                     </div>
                 </div>

@@ -352,9 +352,9 @@
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Bay Atlantic University</h5>
                           <p>Washington</p>
-                          <p>
+                          {{-- <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
+                          </p> --}}
                       </div>
                   </div>
               </li>
@@ -365,9 +365,9 @@
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Hawaii Pacific University</h5>
                           <p>Honolulu</p>
-                          <p>
+                          {{-- <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
+                          </p> --}}
                       </div>
                   </div>
               </li>

@@ -353,9 +353,9 @@
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Coast Mountain College</h5>
                           <p>British Columbia</p>
-                          <p>
+                          {{-- <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
+                          </p> --}}
                       </div>
                   </div>
               </li>
@@ -365,9 +365,9 @@
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Nipissing University</h5>
                           <p>Wales</p>
-                          <p>
+                          {{-- <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Ontario</span>
-                          </p>
+                          </p> --}}
                       </div>
                   </div>
               </li>

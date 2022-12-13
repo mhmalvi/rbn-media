@@ -348,9 +348,9 @@
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> CCT College Dublin</h5>
                           <p>Ireland</p>
-                          <p>
+                          {{-- <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
+                          </p> --}}
                       </div>
                   </div>
               </li>
@@ -361,9 +361,9 @@
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Caucasus's International University</h5>
                           <p>Georgia</p>
-                          <p>
+                          {{-- <p>
                               <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
-                          </p>
+                          </p> --}}
                       </div>
                   </div>
               </li>
