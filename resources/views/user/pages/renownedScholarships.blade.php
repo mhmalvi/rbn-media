@@ -29,7 +29,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             <h5> Chevening Scholarship UK</h5>
                                         </button>
                                     </h2>
@@ -42,7 +42,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingTwo">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <h5> Simmons University Kotzen Scholarships</h5>
                                         </button>
                                     </h2>
@@ -54,7 +54,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingThree">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <h5> Dartmouth College Scholarships</h5>
                                         </button>
                                     </h2>
@@ -66,7 +66,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingFour">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <h5>Stanford University Scholarships</h5>
                                         </button>
                                     </h2>
@@ -78,7 +78,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingFive">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <h5> University of Calgary International Scholarships</h5>
                                         </button>
                                     </h2>
@@ -90,7 +90,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingSix">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <h5>International Master's Degree and Doctoral Program Awards by the University of Waterloo</h5>
                                         </button>
                                     </h2>
@@ -102,7 +102,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingEight">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                         <h5> Australian National University (ANU) Chancellor's International Scholarship</h5>
                                         </button>
                                     </h2>
@@ -114,7 +114,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingNine">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                         <h5>Bond University International Undergraduate Excellence Scholarship</h5>
                                         </button>
                                     </h2>
@@ -126,7 +126,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingTen">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                         <h5> Erasmus Mundus Scholarships</h5>
                                         </button>
                                     </h2>
@@ -138,7 +138,7 @@
                                 <div class="card">
                                     <div class="card-header" id="headingEleven">
                                     <h2 class="mb-0">
-                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                        <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                         <h5> Stipendium Hungaricum</h5>
                                         </button>
                                     </h2>

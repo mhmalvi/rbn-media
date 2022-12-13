@@ -983,6 +983,9 @@ a.theme-btn.style-five:hover {
     background-color: #141517;
 }
 
+.bg-brand-light {
+    background-color: #3a91cb;
+}
 /* Border Radius */
 .br-5 {
     border-radius: 5px;
