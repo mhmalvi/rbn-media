@@ -5,6 +5,17 @@
               text-align: center;
           }
 
+          .footer-widget ul {
+              text-align: center;
+
+          }
+
+          .footer-awesome {
+              margin-left: 5%;
+              margin-top: 2%;
+
+          }
+
       }
 
   </style>
@@ -115,11 +126,12 @@
                               </li>
                               <li>
                                   <i class="far fa-envelope"></i>
-                                  <a href="mailto:info@rbn.com.bd">info@rbn.com.bd</a>
+                                  <a class="footer-awesome" href="mailto:info@rbn.com.bd">info@rbn.com.bd</a>
                               </li>
                               <li>
                                   <i class="fas fa-phone"></i>
-                                  <a href="callto:+8801312777919">+8801312777919</a>
+                                  <a class="footer-awesome" href="callto:+8801312777919">+8801312777919</a>
+
                               </li>
                           </ul>
 
