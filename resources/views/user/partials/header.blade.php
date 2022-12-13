@@ -17,7 +17,7 @@
                      </div>
                      <ul class="top-menu">
                      {{--<li><a href="about.html">Setting & Privacy</a></li>--}}
-                                <li><a href="faqs.html">Faqs</a></li>
+                                <li><a href="{{ url('faq') }}">Faqs</a></li>
                                 {{--<li><a href="about.html">About</a></li>--}}
                      </ul>
                  </div>

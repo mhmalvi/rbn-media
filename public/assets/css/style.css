@@ -191,13 +191,13 @@ textarea,
     .form-control {
         font-size: 16px;
     }
-    .delay-0-2s{
+    .delay-0-2s {
         width: 100%;
     }
-    iframe{
+    iframe {
         width: 100%;
     }
-    .why-learn-image{
+    .why-learn-image {
         margin-left: 4%;
     }
 }
@@ -3037,7 +3037,7 @@ h6,
     .rmb-35,
     .rmy-35 {
         margin-bottom: 35px;
-        margin-left:9% ;
+        margin-left: 9%;
     }
     .rmb-40,
     .rmy-40 {
@@ -5036,6 +5036,7 @@ h6,
 /* Hero Two */
 .hero-section-two {
     overflow: hidden;
+    padding-top: 25rem;
 }
 
 .hero-content-two {
@@ -5247,7 +5248,7 @@ h6,
     right: 5%;
     bottom: 100px;
 }
-.hero-two-right:after,
+/* .hero-two-right:after,
 .hero-two-right:before {
     content: "";
     left: 44%;
@@ -5255,20 +5256,20 @@ h6,
     position: absolute;
     border-radius: 50%;
     background: #278acd;
-}
+} */
 .hero-two-right:before {
     width: 475px;
     height: 475px;
     opacity: 0.5;
     bottom: 13%;
 }
-.hero-two-right:after {
+/* .hero-two-right:after {
     width: 350px;
     height: 350px;
     bottom: 10%;
     -webkit-animation: fadeInRight 1s linear 1.5s both;
     animation: fadeInRight 1s linear 1.5s both;
-}
+} */
 
 /* Hero Three */
 .hero-three-image-part {

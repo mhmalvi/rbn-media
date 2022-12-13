@@ -261,26 +261,11 @@
                                 <a href="{{ route('departureBriefing') }}">Read More</a>
 
                             </div>
-                            {{--<div class="category-item  hover-styled">
-                                   <div class="icon">
-                                       <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
                         </div>
-                        <h4>Pastoral Care</h4>
-                        <a href="#">Read More</a>
-                    </div>--}}
-
-
+                    </div>
                 </div>
-                <h4>Pastoral Care</h4>
-                <a href="#">Read More</a>
-            </div>--}}
-
-
+            </div>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
     </div>
 </section>
 <!-- Categories Section End -->
@@ -1226,7 +1211,7 @@
             <a href="{{ route('blog') }}" class="theme-btn style-three">View More Posts <i class="fas fa-arrow-right"></i></a>
         </div>
         @endif
-        <p>
+        {{-- <p>
             "I visited Canada on a visitor visa but wanted to convert my visitor visa
             into a Canada student visa. Every consultant I visited told me that your
             case was impossible. But then I met RBN EDUCATION and I got my Canada student
@@ -1238,10 +1223,10 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-        </div>
+        </div> --}}
     </div>
     </div>
-    <div class="testimonial-item-two">
+    {{-- <div class="testimonial-item-two">
         <div class="testimonial-author-two">
             <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
 
@@ -1249,7 +1234,6 @@
         <div class="testimonial-content-two">
             <div class="designation">
                 <h3>UK student visa achiever</h3>
-                {{--<span>Business Manager</span>--}}
             </div>
             <p>
                 “The counselors at RBN EDUCATION are very helpful and helped me gain a
@@ -1264,7 +1248,7 @@
                 <i class="fas fa-star"></i>
             </div>
         </div>
-    </div>
+    </div> --}}
     </div>
     </div>
 </section>
@@ -1323,11 +1307,18 @@
 
     </div>
 
+     {{-- @include('admin.components.header') --}}
+
     </div>
 </section>
 <hr class="mt-95 rmt-65" />
 <!-- Blog Section End -->
 
-{{--@include('user.partials.partners')--}}
+<div class="position-relative " style="position: relative; top: 0%;  transform: translateY(80px);">
+    <div class="w-75 mx-auto pt-5 "
+    >
+        @include('user.partials.messageFromCEO')
+    </div>
+</div>
 
 @endsection
