@@ -862,6 +862,28 @@ h6,
     }
 }
 
+/* Message From Ceo  */
+
+.msgCeo .circle-styled {
+    position: relative;
+}
+
+.msgCeo .circle-styled::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #de0023;
+    content: "";
+    z-index: -1;
+}
+
+.msgCeo img{
+    width: 300px;
+    height: 200px;
+}
 /*
 * Divider
 */

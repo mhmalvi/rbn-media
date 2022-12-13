@@ -15,7 +15,9 @@
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="wow fadeInRight delay-0-2s">
-                        <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="">
+                        <figure class="figure circle-styled">
+                            <img class="img-fluid" src="{{asset('assets/images/testimonials/student.jpg')}}" alt="Image">
+                        </figure>
                     </div>
                 </div>
                 <div class="col-lg-6">
