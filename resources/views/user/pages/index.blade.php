@@ -261,19 +261,11 @@
                                 <a href="{{ route('departureBriefing') }}">Read More</a>
 
                             </div>
-                            {{--<div class="category-item  hover-styled">
-                                   <div class="icon">
-                                       <img src="{{ asset('assets/images/categories/icon6.png') }}" alt="Icon" />
                         </div>
-                        <h4>Pastoral Care</h4>
-                        <a href="#">Read More</a>
-                    </div>--}}
-
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
     </div>
 </section>
 <!-- Categories Section End -->
@@ -1280,11 +1272,18 @@
 
     </div>
 
+     {{-- @include('admin.components.header') --}}
+
     </div>
 </section>
 <hr class="mt-95 rmt-65" />
 <!-- Blog Section End -->
 
-{{--@include('user.partials.partners')--}}
+<div class="position-relative " style="position: relative; top: 0%;  transform: translateY(80px);">
+    <div class="w-75 mx-auto pt-5 "
+    >
+        @include('user.partials.messageFromCEO')
+    </div>
+</div>
 
 @endsection

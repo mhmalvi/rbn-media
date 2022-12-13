@@ -94,7 +94,6 @@
                     <h5>SYDNEY</h5>
                 </div>
             </li>
-<<<<<<< HEAD
           </ul>
       </div>
   </section>
@@ -102,12 +101,6 @@
   
   <!-- about first section start -->
     {{--<section class="about-us text-justify py-50 rpt-90  rpb-45">
-=======
-        </ul>
-    </div>
-</section>
-<!--  destination list end -->
->>>>>>> 8a54a1f2a1c8e883e637147cc79cedcaf3e7fe36
 
 <!-- about first section start -->
 {{-- <section class="about-us text-justify py-50 rpt-90  rpb-45">
@@ -164,11 +157,7 @@
 
     </ul>
     </div>
-<<<<<<< HEAD
-</section>--}}
-=======
 </section> --}}
->>>>>>> 8a54a1f2a1c8e883e637147cc79cedcaf3e7fe36
 <!--  destination list end -->
 
 <!-- about first section start -->

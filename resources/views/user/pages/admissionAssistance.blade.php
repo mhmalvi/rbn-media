@@ -44,23 +44,25 @@
           </ul>
       </div>
   </section>
-  <!--  destination list end -->
-
-     <!-- how it all works section start -->
+  
      <section class="assistance pb-120 rpb-100">
       <div class="container">
          <h2 class="text-center">HOW IT ALL WORKS</h2>   
           <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s pt-20">
               <div class="col-lg-8 mx-auto">
                   <ul class="why-learn-content rmb-35">
-                     <li>
-                      <div class="admission-bullet">
-                         {{--  <span class="sub-title-two"></span> --}}
-                         <img src="assets/images/service/bulletpoint.png" alt="">
-                      </div>
-                      <p>
-                      It is important to be aware of deadlines throughout the application process. Hence, we always remain meticulous to meet the deadlines of universities. Simultaneously, we recheck if there are any updated entry requirements and guides about visa requirements. Accordingly, we organize all the student's files.</p>
-                      </li>
+                    <li class="admission_assistance_list_style">
+
+                        <div class="admission-bullet">
+                            {{-- <span class="sub-title-two"></span> --}}
+                            <img src="assets/images/service/bulletpoint.png" alt="">
+                        </div>
+                        <p class="admission_assistance_list_para">
+                            It is important to be aware of deadlines throughout the application process. Hence, we always remain meticulous to meet the deadlines of universities. Simultaneously, we recheck if there are any updated entry requirements and guides about visa requirements. Accordingly, we organize all the student's files.
+                        </p>
+
+                    </li>
+                    <li class="admission_assistance_list_style">
 
                         <div class="admission-bullet">
                             {{-- <span class="sub-title-two"></span> --}}
@@ -68,6 +70,9 @@
                         </div>
                         <p class="admission_assistance_list_para">
                             It is important to be aware of deadlines throughout the application process. Hence, we always remain meticulous to meet the deadlines of universities. Simultaneously, we recheck if there are any updated entry requirements and guides about visa requirements. Accordingly, we organize all the student's files.</p>
+
+                        </p>
+
                     </li>
 
                     <li class="admission_assistance_list_style">
