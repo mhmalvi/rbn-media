@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                    <h3 class=""> Why choose Malaysia? </h3>
+                    <h3 class=""> Why Choose Malaysia? </h3>
                     <ol>
                         <li>Malaysia has a thriving economy, on the other hand, is a moderate-cost country to live in.</li>
                         <li>The education system in Malaysia specializes in world-class work opportunities.</li>

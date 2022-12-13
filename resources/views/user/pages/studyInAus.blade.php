@@ -161,7 +161,7 @@
 <!--  destination list end -->
 
 <!-- about first section start -->
-<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 8%;">
+<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 5%;">
 
 
     <div class="container">
@@ -176,7 +176,7 @@
             </div>
             <div class="col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                <h3 class=""> Why to choose Australia? </h3>
+                <h3 class=""> Why Choose Australia? </h3>
                 <p>Find out why Australia has become one of the most popular destinations for international students</p>
                 <ol>
                     <li>Australia ranks high in the World Economic Forum's Global Competitiveness Index. The developed economy with high living standards makes it a great place to live and study.</li>
@@ -213,7 +213,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pr-lg-5">
-                <h3 class="divider-1">Study in the Australia with RBN </h3>
+                <h3 class="divider-1">Study in Australia with RBN </h3>
                 <p>
                 </p>
                 <p>Guide for application and visa requirements with RBN Thousands of students plan to study in the Australia&nbsp;every year but many of them find it difficult while applying for the Australia universities. RBN helps international students to live their dream to study in Australia since 2005. We handle the whole process on your behalf starting with university selection, application paperwork, visa guidance, and accommodation arrangements.</p>

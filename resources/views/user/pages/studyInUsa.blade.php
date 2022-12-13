@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                    <h3 class=""> Why choose USA? </h3>
+                    <h3 class=""> Why Choose USA? </h3>
                     <ol>
                         <li>The USA offers world-class universities with top-ranked faculties.</li>
                         <li>American universities are known for their high standard of teaching and research.</li>

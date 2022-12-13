@@ -162,7 +162,7 @@
   <!--  destination list end -->
   
   <!-- about first section start -->
-    <section class="about-us text-justify py-50 rpt-90  rpb-45" style='margin-inline:10%'>
+    <section class="about-us text-justify py-50 rpt-90  rpb-45" style='margin-inline:8%'>
 
 
         <div class="container">
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                    <h3 class=""> Why study in the UK? </h3>
+                    <h3 class=""> Why Study in The UK? </h3>
                     <p>Here are few reasons to choose UK as your study destination</p>
                     <ol>
                         <li>UK offer High quality Education and diverse range of well-researched courses in world's top universities</li>
@@ -217,7 +217,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-11  mx-auto col-lg-6 pl-lg-5">
-                      <h3 class="divider-1">Study in the UK with RBN </h3>
+                      <h3 class="divider-1">Study in UK with RBN </h3>
                       <p>
                       </p>
                       <p>Guide for application and visa requirements with RBN Thousands of students plan to study in the UK&nbsp;every year but many of them find it difficult while applying for the UK universities. RBN helps international students to live their dream to study in Uk since 2005. We handle the whole process on your behalf starting with university selection, application paperwork, visa guidance, and accommodation arrangements.</p>

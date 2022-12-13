@@ -161,7 +161,7 @@
 <!--  destination list end -->
 
 <!-- about first section start -->
-<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 9%;">
+<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 5%;">
 
 
     <div class="container">
@@ -176,7 +176,7 @@
             </div>
             <div class="col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                <h3 class=""> Why choose Canada? </h3>
+                <h3 class=""> Why Choose Canada? </h3>
                 <ol>
                     <li>Canada is one of the most welcoming countries when it comes to international students.</li>
                     <li>The country is ranked as one of the best countries in the world to study abroad.</li>
@@ -212,7 +212,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pr-lg-5">
-                <h3 class="divider-1">Expand Your Enrollment Possibilities in a Canadian University </h3>
+                <h3 class="divider-1">Expand Your Enrollment Possibilities in A Canadian University </h3>
                 <p>
                 </p>
                 <p>As a professional student visa agency, we can help you to
