@@ -138,7 +138,7 @@
                           <button class="mt-3 py-2 px-3 bg-success" style="border-radius: 0.3rem;">
                               <a href="{{ url('student-registration') }}">
 
-                                  Register now
+                                  Student Registration
                               </a>
                           </button>
 
