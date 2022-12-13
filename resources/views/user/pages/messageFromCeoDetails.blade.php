@@ -16,11 +16,6 @@
         }
 
     }
-    section{
-        margin-top: 20%;
-
-    }
-
 </style>
 
 @endpush
