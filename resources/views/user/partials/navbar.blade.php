@@ -12,7 +12,7 @@
         }
 
         .EnglishSchool-btn {
-            font-size: 88%;
+            font-size: 80%;
         }
 
     </style>
