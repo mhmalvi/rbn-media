@@ -1,3 +1,14 @@
+  <style>
+      @media only screen and (max-width:500px) {
+          .footer-widget {
+              padding: 4%;
+              text-align: center;
+          }
+
+      }
+
+  </style>
+
   <footer class="main-footer bg-blue pt-75">
       <div class="container">
           <div class="clearfix"></div>
@@ -55,10 +66,10 @@
                               <li>
                                   <a href="{{ route('student-counseling') }}">Student Counseling</a>
 
-                              </li>
-                              <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
-                              <li>
-                                  <a href="{{ route('language-scholarship') }}">Scholarship Guidance</a>
+                  </li>
+                  <li><a href="{{ route('registration-center') }}">IELTS & PTE Registration Center</a></li>
+                  <li>
+                      <a href="{{ route('language-scholarship') }}">Scholarship Guidance</a>
 
                   </li>
                   <li>
