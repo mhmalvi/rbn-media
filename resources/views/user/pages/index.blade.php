@@ -269,13 +269,6 @@
                         <a href="#">Read More</a>
                     </div>--}}
 
-
-                </div>
-                <h4>Pastoral Care</h4>
-                <a href="#">Read More</a>
-            </div>--}}
-
-
         </div>
     </div>
     </div>
@@ -1191,7 +1184,8 @@
             @endphp
 
             @foreach($blogs as $blog)
-            @if($i <5) <div class="col-lg-3 col-md-6">
+            @if($i <5) 
+            <div class="col-lg-3 col-md-6">
                 <div class="blog-item style-two wow fadeInUp delay-0-2s">
                     <div class="blog-image">
                         <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
@@ -1213,7 +1207,7 @@
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         @endif
         @php
         $i++;
@@ -1226,44 +1220,7 @@
             <a href="{{ route('blog') }}" class="theme-btn style-three">View More Posts <i class="fas fa-arrow-right"></i></a>
         </div>
         @endif
-        <p>
-            "I visited Canada on a visitor visa but wanted to convert my visitor visa
-            into a Canada student visa. Every consultant I visited told me that your
-            case was impossible. But then I met RBN EDUCATION and I got my Canada student
-            visa with the help of the staff of RBN EDUCATION I would recommend them to all people."
-        </p>
-        <div class="ratting">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-        </div>
     </div>
-    </div>
-    <div class="testimonial-item-two">
-        <div class="testimonial-author-two">
-            <img src="{{ asset('assets/images/testimonials/testimonial-two2.jpg') }}" alt="Author" />
-
-        </div>
-        <div class="testimonial-content-two">
-            <div class="designation">
-                <h3>UK student visa achiever</h3>
-                {{--<span>Business Manager</span>--}}
-            </div>
-            <p>
-                “The counselors at RBN EDUCATION are very helpful and helped me gain a
-                UK student visa. Today, I'm very happy and would recommend them to each
-                and every student.”
-            </p>
-            <div class="ratting">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>
     </div>
     </div>
     </div>
