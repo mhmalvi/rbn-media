@@ -1,3 +1,14 @@
+    <style>
+        @media only screen and (max-width:480px) {
+            .school-of-english {
+                font-size: 88%;
+
+            }
+
+        }
+
+    </style>
+
     <div class="nav-outer clearfix">
         <!-- Main Menu -->
         <nav class="main-menu navbar-expand-lg">
@@ -142,7 +153,7 @@
     </div>
     <!-- Menu Button -->
     <div class="menu-btn-sidebar d-flex align-items-center">
-        <div class=" EnglishSchool-btn"><a href="{{ route('schoolOfEnglish') }}" class="text-white">School Of English</a></div>
+        <div class=" EnglishSchool-btn"><a href="{{ route('schoolOfEnglish') }}" class="text-white school-of-english">School Of English</a></div>
         {{-- <form action="javascript:void(0)">
              <input type="search" placeholder="Search" required />
              <button><i class="fas fa-search"></i></button>

@@ -1,9 +1,7 @@
 @extends('user.layout.app')
 @push('styles')
     <style>
-        p{
-            text-align: justify !important;
-        }
+        
     </style>
 @endpush
 @section('content')

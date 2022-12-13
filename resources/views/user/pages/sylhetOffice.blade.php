@@ -2,7 +2,7 @@
 @push('styles')
     <style>
         p{
-            text-align: justify !important;
+            
         }
     </style>
 @endpush

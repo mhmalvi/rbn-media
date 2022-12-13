@@ -1,6 +1,21 @@
 @extends('user.layout.app')
 @section('content')
 
+<style scoped>
+
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            width: 92%;
+        }
+
+        
+
+</style>
+
 <!-- Hero Section Start -->
 <section class="hero-section-two text-white text-center bg-blue rel z-1 pt-240 rpt-150 pb-80">
     <div class="container">
@@ -794,12 +809,12 @@
                         <span>Canada Student Visa Gainer</span>
                     </div>
                     <p>
-                      "After getting a refusal the first time, I got nervous and lost hope. 
-                      I was looking for an agent who can organize the documentation. Finally, 
-                      I found RBN Education and they helped me a lot. Their work is transparent, 
-                      precise as well as cooperative. I'm really happy and excited. Students who 
-                      remain discouraged to go Canada from other agencies, I would highly recommend 
-                      them to RBN Education."
+                        "After getting a refusal the first time, I got nervous and lost hope.
+                        I was looking for an agent who can organize the documentation. Finally,
+                        I found RBN Education and they helped me a lot. Their work is transparent,
+                        precise as well as cooperative. I'm really happy and excited. Students who
+                        remain discouraged to go Canada from other agencies, I would highly recommend
+                        them to RBN Education."
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1008,10 +1023,10 @@
                         <span>USA Student Visa Gainer</span>
                     </div>
                     <p>
-                      “Through RBN Education, I've acquired USA F1 VISA. They make it 
-                      easier to get accepted to Trine University. I'd like to acknowledge 
-                      RBN Education for their tremendous assistance. I enthusiastically 
-                      recommend RBN Education to US Visa aspirants.”
+                        “Through RBN Education, I've acquired USA F1 VISA. They make it
+                        easier to get accepted to Trine University. I'd like to acknowledge
+                        RBN Education for their tremendous assistance. I enthusiastically
+                        recommend RBN Education to US Visa aspirants.”
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1033,11 +1048,11 @@
                         <span>Canada Student Visa Gainer</span>
                     </div>
                     <p>
-                      “I visited Canada on a visitor visa but wanted to convert my visitor 
-                      visa into a Canada student visa. Every consultant I visited told me 
-                      that your case was impossible. Then I met RBN EDUCATION and I got my 
-                      Canada student visa with the help of the staff of RBN EDUCATION. I 
-                      would firmly recommend them to the potential students.”
+                        “I visited Canada on a visitor visa but wanted to convert my visitor
+                        visa into a Canada student visa. Every consultant I visited told me
+                        that your case was impossible. Then I met RBN EDUCATION and I got my
+                        Canada student visa with the help of the staff of RBN EDUCATION. I
+                        would firmly recommend them to the potential students.”
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1060,9 +1075,9 @@
                         <span>UK Student Visa Gainer</span>
                     </div>
                     <p>
-                      “The counselors at RBN EDUCATION are very helpful and helped 
-                      me gain a UK student visa. Today, I'm very happy and would 
-                      recommend them to each and every student.”
+                        “The counselors at RBN EDUCATION are very helpful and helped
+                        me gain a UK student visa. Today, I'm very happy and would
+                        recommend them to each and every student.”
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1085,12 +1100,12 @@
                         <span>Hungary Student Visa Gainer</span>
                     </div>
                     <p>
-                      “After a moderate study gap, I wanted to pursue my master's in Europe. 
-                      I contacted a number of agencies in Dhaka. Nevertheless, nearly all of 
-                      them disagreed to take my file due to my age and academic gap. RBN Education 
-                      was the next stop for me. With the help of RBN Education, it took only two 
-                      weeks to get me accepted to Budapest Metropolitan University. I'm a proud 
-                      international student now. Best wishes for RBN Education. Keep up the good work”.
+                        “After a moderate study gap, I wanted to pursue my master's in Europe.
+                        I contacted a number of agencies in Dhaka. Nevertheless, nearly all of
+                        them disagreed to take my file due to my age and academic gap. RBN Education
+                        was the next stop for me. With the help of RBN Education, it took only two
+                        weeks to get me accepted to Budapest Metropolitan University. I'm a proud
+                        international student now. Best wishes for RBN Education. Keep up the good work”.
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1113,11 +1128,11 @@
                         <span>Australian Student Visa Gainer</span>
                     </div>
                     <p>
-                      “RBN Education gave special attention to process my Australian Visa. 
-                      My gratitude toward them. Since I got the offer letter from the National 
-                      Academy of Professional Studies (NAPS) within 2 days. To guarantee an error-free 
-                      and well-presented application as well as proper GTE clearance I highly 
-                      recommend RBN Education.”
+                        “RBN Education gave special attention to process my Australian Visa.
+                        My gratitude toward them. Since I got the offer letter from the National
+                        Academy of Professional Studies (NAPS) within 2 days. To guarantee an error-free
+                        and well-presented application as well as proper GTE clearance I highly
+                        recommend RBN Education.”
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1140,11 +1155,11 @@
                         <span>Malaysian Student Visa Gainer</span>
                     </div>
                     <p>
-                      “RBN Education cordially helped me to get a Malaysian student visa. 
-                      They definitely assist with getting into Mahsa University. I'd like 
-                      to acknowledge RBN Education for its cooperation. The visa process is 
-                      handled with professionalism. Therefore, I appreciate and recommend RBN 
-                      Education.”
+                        “RBN Education cordially helped me to get a Malaysian student visa.
+                        They definitely assist with getting into Mahsa University. I'd like
+                        to acknowledge RBN Education for its cooperation. The visa process is
+                        handled with professionalism. Therefore, I appreciate and recommend RBN
+                        Education.”
                     </p>
                     <div class="ratting">
                         <i class="fas fa-star"></i>
@@ -1176,8 +1191,7 @@
             @endphp
 
             @foreach($blogs as $blog)
-            @if($i <5) 
-            <div class="col-lg-3 col-md-6">
+            @if($i <5) <div class="col-lg-3 col-md-6">
                 <div class="blog-item style-two wow fadeInUp delay-0-2s">
                     <div class="blog-image">
                         <img src="{{ asset('assets/admin/image/blogs/'.$blog->thumbnail) }}" alt="Blog Thumbnail" />
@@ -1199,7 +1213,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
         @endif
         @php
         $i++;
@@ -1272,7 +1286,7 @@
 
     </div>
 
-     {{-- @include('admin.components.header') --}}
+    {{-- @include('admin.components.header') --}}
 
     </div>
 </section>
@@ -1280,8 +1294,7 @@
 <!-- Blog Section End -->
 
 <div class="position-relative " style="position: relative; top: 0%;  transform: translateY(80px);">
-    <div class="w-75 mx-auto pt-5 "
-    >
+    <div class="w-75 mx-auto pt-5 ">
         @include('user.partials.messageFromCEO')
     </div>
 </div>

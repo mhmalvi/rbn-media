@@ -207,7 +207,7 @@
   <!-- about first section end -->
 
   <!-- about us second section start -->
-      <section class="text-justify py-50 rpt-90  rpb-45">
+      <section class="py-50 rpt-90  rpb-45">
 
           <div class="container">
               <div class="row">

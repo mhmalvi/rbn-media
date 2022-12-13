@@ -357,9 +357,10 @@
             <li>
                 <div class="media box-shadow2 hover-styled">
                     {{--<img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                    <img src="https://ibb.co/cwNRvxx" alt="">
+                    <img src="https://illoura.edu.au/wp-content/uploads/2022/02/illoura-College-Logo.png" alt="">
+
                     <div class="media-body">
-                        <h5 class="mt-0 mb-1">Illora College</h5>
+                        <h5 class="mt-0 mb-1">Illoura College</h5>
                         <p>Perth</p>
                         <p>
                             <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
