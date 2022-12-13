@@ -1,10 +1,14 @@
-    <style>
+    <style scoped>
         @media only screen and (max-width:480px) {
             .school-of-english {
                 font-size: 88%;
 
             }
 
+        }
+
+        .main-menu .navbar-collapse li a {
+            font-size: 14px;
         }
 
     </style>
