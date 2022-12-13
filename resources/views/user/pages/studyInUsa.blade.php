@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                    <h3 class=""> Why choose USA? </h3>
+                    <h3 class=""> Why Choose USA? </h3>
                     <ol>
                         <li>The USA offers world-class universities with top-ranked faculties.</li>
                         <li>American universities are known for their high standard of teaching and research.</li>
@@ -347,8 +347,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://bau.edu/wp-content/uploads/2019/08/Coat.png" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa1.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Bay Atlantic University</h5>
                           <p>Washington</p>
@@ -360,8 +359,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.hpu.edu/brand/images/hpu-seal.png" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa2.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Hawaii Pacific University</h5>
                           <p>Honolulu</p>
@@ -373,8 +371,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572875214.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://wvresearch.org/wp-content/uploads/2019/09/NewsPostImage2019-113-1024x448.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa3.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> University of Charleston</h5>
                           <p>West Virginia</p>
@@ -385,8 +382,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572699086.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.herzing.edu/sites/default/files/styles/fp_900_900/public/2020-08/Case%20Study%20Logo.png.webp" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa4.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Herzing University</h5>
                           <p>Wisconsin</p>
@@ -397,8 +393,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572699473.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Rosemont_College_seal.png" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa5.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Rosemont College</h5>
                           <p>Pennsylvania</p>
@@ -409,8 +404,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572699609.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://cpb-us-w2.wpmucdn.com/www.paulsmiths.edu/dist/7/67/files/2016/06/parent-20qn67l.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa6.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Paul Smiths College</h5>
                           <p>New York</p>
@@ -421,8 +415,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1569490283.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://s3.amazonaws.com/web-campaign-images/546/53ff1e4ce515821102cc971d8d5e26ae.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa7.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Presentation College</h5>
                           <p>South Dakota</p>
@@ -433,8 +426,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572873704.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.teachkentucky.com/tky-content/uploads/2016/03/hanover-college-logo.png" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa8.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Hanover College</h5>
                           <p>Indiana</p>
@@ -445,8 +437,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572699938.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.hartwick.edu/wp-content/uploads/2022/02/Hartwick_Primary-Logo_vert_RGB_Slider021822.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa9.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Hartwick College</h5>
                           <p>New York</p>
@@ -457,8 +448,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572700160.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.hilbert.edu/images/default-source/default-album/brand/hilbert-logo-hc.tmb-thumb160.png" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa10.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Hilbert College</h5>
                           <p>New York</p>
@@ -469,8 +459,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572870037.jpg')}}" class="img-fluid" alt="">--}}
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_of_los_angeles_mission_college.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa11.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Los Angeles Mission College</h5>
                           <p>California</p>
@@ -481,8 +470,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1575369232.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://mentoralanguageacademy.ca/wp-content/uploads/2020/07/mentora-school-pakistan-symbol.png" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa12.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Mentora College</h5>
                           <p>Washington, DC</p>
@@ -493,8 +481,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572873162.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.coe.edu/application/files/3316/4557/1768/Graduation_Downloads_Social_Media_2022_V317.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa13.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">COE College</h5>
                           <p>Cedar Rapids, Lowa</p>
@@ -505,8 +492,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572700272.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://topicimages.mrowl.com/large/ballin_jason/collegesanduni/wisconsin/edgewoodcollege_1.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa14.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Edgewood College</h5>
                           <p>Wisconsin</p>
@@ -517,8 +503,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572700753.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://leapscholar.com/tapri/_next/image?url=https%3A%2F%2Fleapassets.s3.ap-south-1.amazonaws.com%2FGlasgow_Caledonian_New_York_College_gcnyc_d79616d458.jpg&w=96&q=75" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa15.png')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Glasgow Caledonian New York College</h5>
                           <p>New York</p>
@@ -529,8 +514,7 @@
               </li>
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572784932.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://nercomp.org/wp-content/uploads/2016/11/Nichols-Logo.jpg" alt="">
+                      <img src="{{asset('assets/images/uni/usa/usa16.jpg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1">Nichols College</h5>
                           <p>Massachusetts</p>

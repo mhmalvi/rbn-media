@@ -161,7 +161,7 @@
 <!--  destination list end -->
 
 <!-- about first section start -->
-<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 8%;">
+<section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 5%;">
 
 
     <div class="container">
@@ -176,7 +176,7 @@
             </div>
             <div class="col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                <h3 class=""> Why to choose Australia? </h3>
+                <h3 class=""> Why Choose Australia? </h3>
                 <p>Find out why Australia has become one of the most popular destinations for international students</p>
                 <ol>
                     <li>Australia ranks high in the World Economic Forum's Global Competitiveness Index. The developed economy with high living standards makes it a great place to live and study.</li>
@@ -213,7 +213,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pr-lg-5">
-                <h3 class="divider-1">Study in the Australia with RBN </h3>
+                <h3 class="divider-1">Study in Australia with RBN </h3>
                 <p>
                 </p>
                 <p>Guide for application and visa requirements with RBN Thousands of students plan to study in the Australia&nbsp;every year but many of them find it difficult while applying for the Australia universities. RBN helps international students to live their dream to study in Australia since 2005. We handle the whole process on your behalf starting with university selection, application paperwork, visa guidance, and accommodation arrangements.</p>
@@ -344,7 +344,7 @@
 
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://skstudy.com/wp-content/uploads/2020/06/300pixel.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus1.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Australian Technical College Western Australia</h5>
                         <p>Perth</p>
@@ -356,8 +356,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    {{--<img src="{{asset('assets/images/destination/aus/partners/1569490629.jpg')}}" class="img-fluid" alt="">--}}
-                    <img src="https://illoura.edu.au/wp-content/uploads/2022/02/illoura-College-Logo.png" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus2.png')}}" class="img-fluid" alt="">
 
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Illoura College</h5>
@@ -370,7 +369,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://topaustralianuniversities.com/logos/original/logo-ozford-college.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus3.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Ozford Institute</h5>
                         <p>Melbourne</p>
@@ -381,7 +380,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Riverdale_CI_Crest.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus4.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Riverdale Institute</h5>
                         <p>Melbourne</p>
@@ -392,7 +391,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://sunbeam.edu.au/wp-content/uploads/2019/08/Logo_Trans-1024x662.png" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus5.png')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Sunbeam International College</h5>
                         <p>Adelaide</p>
@@ -403,7 +402,7 @@
             </li>
             <li>
                 <div class="media box-shadow2 hover-styled">
-                    <img src="https://www.uniagents.com/ga-institution/logo/institute_151_logo1531218454.jpg" class="img-fluid" alt="">
+                    <img src="{{asset('assets/images/uni/aus/aus6.jpg')}}" class="img-fluid" alt="">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">South Sydney College</h5>
                         <p>Burwood</p>

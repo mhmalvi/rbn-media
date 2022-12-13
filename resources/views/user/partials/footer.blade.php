@@ -27,11 +27,11 @@
               <div class="row">
                   <div class="col-lg-4 col-sm-4">
                       <div class="footer-widget about-widget">
-                          <h5 class="footer-title">About Us</h5>
+                          <h5 class="footer-title">RBN Education</h5>
                           <p class="pr-2">
-                              We, as a consultancy firm, have been serving our students
-                              since 2005 & this is how our students treat us in return.
-                              Their good words & references help us growing further.
+                            RBN Education is a unique organization having a dedicated approach 
+                            toward the welfare of the students that always acts as a bridge between 
+                            the institutes and prospective students.
                           </p>
                           <h5 class="pt-5">Follow Us</h5>
                           <div class="social-style-one">
@@ -138,26 +138,22 @@
                           <button class="mt-3 py-2 px-3 bg-success" style="border-radius: 0.3rem;">
                               <a href="{{ url('student-registration') }}">
 
-                                  Registration Form
+                                  Student Registration
                               </a>
                           </button>
 
                       </div>
 
                       {{-- <div class="footer-widget contact-info-widget">
-                          <ul>
-                              <li>
-                                  <a href="">Terms of Use</a>
-                              </li>
-                              <li>
-                                  <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}" download>Privacy
-                      Policy</a>
-                      </li>
-                      <li>
-                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of
-                              Conduct</a>
-                      </li>
-                      </ul>
+                        <ul>
+                            <li>
+                                  <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}" download>Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of
+                                    Conduct</a>
+                            </li>
+                        </ul>
                   </div> --}}
               </div>
               {{-- <div class="col-sm-6"> --}}
@@ -184,15 +180,15 @@
                       reserved.
                   </p>
                   <ul class="footer-menu">
-                      <li>
+                      {{--<li>
                           <a href="">Terms of Use</a>
-                      </li>
+                      </li>--}}
                       <li>
-                          <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}" download>Privacy
+                          <a href="{{ asset('assets/pdf/RBN-Privacy-Policy.pdf') }}" target="_blank">Privacy
                               Policy</a>
                       </li>
                       <li>
-                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" download>Code of
+                          <a href="{{ asset('assets/pdf/RBN-Code-of-Conduct.pdf') }}" target="_blank">Code of
                               Conduct</a>
                       </li>
                   </ul>

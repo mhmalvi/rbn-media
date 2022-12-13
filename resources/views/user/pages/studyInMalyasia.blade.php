@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-11 mx-auto col-lg-6 pl-lg-5" style="margin: 35px 0 0 0;">
 
-                    <h3 class=""> Why choose Malaysia? </h3>
+                    <h3 class=""> Why Choose Malaysia? </h3>
                     <ol>
                         <li>Malaysia has a thriving economy, on the other hand, is a moderate-cost country to live in.</li>
                         <li>The education system in Malaysia specializes in world-class work opportunities.</li>
@@ -345,8 +345,7 @@
 
               <li>
                   <div class="media box-shadow2 hover-styled">
-                      {{--<img src="{{asset('assets/images/destination/uk/partners/1572698665.png')}}" class="img-fluid" alt="">--}}
-                      <img src="https://www.logolynx.com/images/logolynx/3d/3dff01f8c9d0eaeb998ffb355211a8c8.jpeg" alt="">
+                      <img src="{{asset('assets/images/uni/mal/mal1.jpeg')}}" class="img-fluid" alt="">
                       <div class="media-body">
                           <h5 class="mt-0 mb-1"> Mahsa University</h5>
                           <p>Petaling Jaya</p>
