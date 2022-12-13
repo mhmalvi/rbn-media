@@ -11,17 +11,17 @@
 
     <!-- Why Learn Start -->
     <section class="msgCeo pt-120 pb-120 rpb-100">
-        <div class="container">
+        <div class="container m-0 p-0">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="wow fadeInRight delay-0-2s">
                         <figure class="figure circle-styled">
-                            <img class="img-fluid" src="{{asset('assets/images/testimonials/student.jpg')}}" alt="Image">
+                            <img class="" src="{{asset('assets/images/testimonials/student.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="why-learn-content rmb-35">
+                    <div class="msgCeoContent">
                         <div class="section-title mb-30">
                             {{--  <span class="sub-title-two"></span> --}}
                             <h2>Message From CEO</h2>
