@@ -8,7 +8,7 @@
         }
 
         .main-menu .navbar-collapse li a {
-            font-size: 14px;
+            font-size: 80%;
         }
 
     </style>
