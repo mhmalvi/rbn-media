@@ -138,7 +138,7 @@
                     </div>
                 </div>
                  <div class="col-lg-6">
-                     <div class="why-learn-content text-justify rmb-35">
+                     <div class="why-learn-content rmb-35">
                          <div class="section-title mb-30">
                              {{-- <span class="sub-title-two"></span> --}}
                              <h2>Approach Your Free Consultation Now!</h2>
