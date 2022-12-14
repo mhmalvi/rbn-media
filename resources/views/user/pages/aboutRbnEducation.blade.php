@@ -33,7 +33,7 @@
               </div>
               <div class="col-lg-6">
                   <div class="why-learn-image wow fadeInRight delay-0-2s">
-                      <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="Why Learn">
+                      <img src="{{ asset('assets/images/about/about1.jpg') }}" alt="Why Learn">
                   </div>
               </div>
           </div>
@@ -47,7 +47,7 @@
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="assets/images/about/whoweare2.jpg" alt="Why Learn">
+                        <img src="assets/images/about/about2.jpg" alt="Why Learn">
                     </div>
                 </div>
                  <div class="col-lg-6">

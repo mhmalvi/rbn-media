@@ -39,7 +39,7 @@
             </div>
          <div class="col-lg-6">
              <div class="why-learn-image wow fadeInRight delay-0-2s">
-                 <img src="{{ asset('assets/images/about/ourtimeline.jpg') }}" alt="timeline">
+                 <img src="{{ asset('assets/images/about/values1.jpg') }}" alt="timeline">
 
 
              </div>

@@ -33,7 +33,7 @@
                                                   @php
                                                     $details = explode(".",$article->details);
                                                   @endphp
-                                                  <p>{{ $article->intro_details }}</p>
+                                                  <p class="text-justify">{{ $article->intro_details }}</p>
                                                   <a href="{{ url('article-details' , [ 'id' => $article->id ]) }}" class="theme-btn style-two">Learn more <i class="fas fa-arrow-right"></i></a>
                                               </div>
                                           </div>

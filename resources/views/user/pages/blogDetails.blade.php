@@ -39,7 +39,7 @@
 {{--                                            <img src="{{ asset('assets/admin/image/authors/'.$blog->author_image) }}" alt="Author">--}}
 {{--                                        </div>--}}
                                         <div class="content">
-                                            <div class="mb-50">
+                                            <div class="mb-50 text-justify">
                                                 <h3>{{ $blog->title }}</h3>
                                                 <ul class="blog-standard-header">
                                                     <li><span class="name">{{ $blog->author_name }}</span></li>
@@ -47,7 +47,7 @@
 
                                                 </ul>
                                             </div>
-                                            <div class="pb-4">
+                                            <div class="text-justify pb-4">
 
                                                 @php
                                                     $details = explode(".",$blog->details);
@@ -78,7 +78,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="content col-12">
+                                                    <div class="content text-justify col-12">
                                                         <h6><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary">{{$blog->title}}</a></h6>
                                                         <p>{{ $blog->intro_details }}</p>
                                                     </div>

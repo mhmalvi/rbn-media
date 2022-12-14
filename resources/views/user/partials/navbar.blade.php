@@ -6,6 +6,9 @@
             }
 
         }
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+        width: 100% !important;
+        }
 
     </style>
 

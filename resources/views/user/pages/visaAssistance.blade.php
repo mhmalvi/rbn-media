@@ -4,7 +4,7 @@
         <!-- Visa apply top section start -->
         <section class="why-learn-area pt-100 pb-50">
       <div class="container">
-          <div class=" align-items-center large-gap wow fadeInLeft delay-0-2s">
+          <div class=" align-items-center text-justify large-gap wow fadeInLeft delay-0-2s">
               <div class=" mx-auto">
                       <h5>
                       Basically, education consultancy firms assist to gain a student visa forthwith when the applicants enroll in one of their partner institutions. This is a time-consuming and involved process that requires extensive consultation with an immigration lawyer and careful planning with associates.</h5>
@@ -27,16 +27,16 @@
                 </div>
                  <div class="col-lg-6">
                      <div class="why-learn-content rmb-35">
-                         <div class="section-title mt-30 mb-30">
+                         <div class="mt-30 mb-30">
                              {{-- <span class="sub-title-two"></span> --}}
                              <h2>Submit Your Visa Application with RBN Education</h2>
 
                          </div>
-                         <p>The first step is to merge students' educational goals with university requirements. Once the applicant obtains an admission offer letter from their desired university, we start assembling documents with intensive care. In this regard, RBN education chronologically assists students to create a strong portfolio that showcases their skills, achievements, and potential contributions to higher education.</p>
+                         <p class="text-justify">The first step is to merge students' educational goals with university requirements. Once the applicant obtains an admission offer letter from their desired university, we start assembling documents with intensive care. In this regard, RBN education chronologically assists students to create a strong portfolio that showcases their skills, achievements, and potential contributions to higher education.</p>
 
-                         <p>Our expert Visa Counsellors and Embassy-trained Executives have years of experience dealing with High Commissions all over the world. Thus, it works to get your visas approved quickly. It is not a complicated process nonetheless many students get rejections due to a dearth of appropriate documentation and guidelines.</p>
+                         <p class="text-justify">Our expert Visa Counsellors and Embassy-trained Executives have years of experience dealing with High Commissions all over the world. Thus, it works to get your visas approved quickly. It is not a complicated process nonetheless many students get rejections due to a dearth of appropriate documentation and guidelines.</p>
 
-                         <p>Therefore, we provide overall guidance on how best to present yourself during the entire visa application process. Consequently, RBN Education remains one of Bangladesh's top student visa agencies.</p>
+                         <p class="text-justify">Therefore, we provide overall guidance on how best to present yourself during the entire visa application process. Consequently, RBN Education remains one of Bangladesh's top student visa agencies.</p>
 
 
                      </div>
@@ -51,7 +51,7 @@
       <div class="container">
          <h2 class="text-center">Our Visa Services at a Glance</h2>   
           <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s pt-20">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-7 mx-auto">
                   <ul class="why-learn-content rmb-35">
                      <li class="visaService-li">
                            <img src="assets/images/service/tick.png" class="visaService-bullet" alt="">

@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="Why Learn">
+                        <img src="{{ asset('assets/images/about/goal1.jpg') }}" alt="Why Learn">
                     </div>
                 </div>
             </div>

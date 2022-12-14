@@ -29,11 +29,11 @@
                                                       </li>
                                                       {{-- <li><i class="far fa-comments"></i> <a href="blog-details.html">Comments (05)</a></li> --}}
                                                   </ul>
-                                                  <h3><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary">{{ $blog->title }}</a></h3>
+                                                  <h3><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary text-justify">{{ $blog->title }}</a></h3>
                                                   @php
                                                     $details = explode(".",$blog->details);
                                                   @endphp
-                                                  <p>{{ $blog->intro_details }}</p>
+                                                  <p class="text-justify">{{ $blog->intro_details }}</p>
                                                   <a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="theme-btn style-two">Learn more <i class="fas fa-arrow-right"></i></a>
                                               </div>
                                           </div>
@@ -78,8 +78,8 @@
                                           </div>
                                           <div class="row">
                                               <div class="content col-12">
-                                                  <h6><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary">{{$blog->title}}</a></h6>
-                                                  <p>{{ $blog->intro_details }}</p>
+                                                  <h6><a href="{{ url('blog-details' , [ 'id' => $blog->id ]) }}" class="text-secondary text-justify">{{$blog->title}}</a></h6>
+                                                  <p class="text-justify">{{ $blog->intro_details }}</p>
                                               </div>
                                           </div>
                                           <div class="row">

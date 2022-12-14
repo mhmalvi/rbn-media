@@ -23,7 +23,7 @@
                         <div class="section-title">
                             <h2>Renowned Scholarships</h2>
                         </div>
-                        <p><b>10 Best Renowned Scholarships For International Students</b></p>
+                        <p><b>10 Best Renowned Scholarships for International Students</b></p>
                 
                             <div class="accordion" id="accordionExample">                   
                                 <div class="card">

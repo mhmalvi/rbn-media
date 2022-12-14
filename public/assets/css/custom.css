@@ -272,8 +272,11 @@
 }
 .admission-bullet {
     margin-inline: 4%;
+    width: 50px;
 }
-
+.admission-bullet img{
+    width: 50px;
+}
 .admission_assistance_list_para {
     width: 258%;
 }

@@ -127,7 +127,7 @@
                     </div>
                 </div>
                  <div class="col-lg-6">
-                     <div class="why-learn-content rmb-35">
+                     <div class="why-learn-content rmb-35 pt-30">
                          <div class="section-title mb-30">
                              {{-- <span class="sub-title-two"></span> --}}
                              <h2>Approach Your Free Consultation Now!</h2>
@@ -154,7 +154,7 @@
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
             <div class="col-lg-6">
-                <h2>Students Life cycle with us</h2>
+                <h2>Students Life Cycle with Us</h2>
                     </div>
                 <div class="col-lg-6">
                     <div class="counseling-img fadeInRight delay-0-2s">

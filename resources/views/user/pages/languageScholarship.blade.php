@@ -7,12 +7,12 @@
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="assets/images/about/whoweare2.jpg" alt="Why Learn">
+                        <img src="assets/images/about/scolarship.jpg" alt="Why Learn">
 
 
                     </div>
                 </div>
-                 <div class="col-lg-6">
+                 <div class="col-lg-6 pt-30">
                      <div class="why-learn-content rmb-35">
                          <p>A good education consultancy firm gives English language proficiency and scholarship guidelines to students to help them find the best possible educational opportunities. RBN Education also gives this service soulfully to potential students. As a diligent student consultancy firm, we play a crucial role in providing language proficiency and scholarship guidelines to students.</p>
 

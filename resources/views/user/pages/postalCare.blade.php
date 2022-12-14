@@ -13,7 +13,7 @@
                     </div>
                 </div>
                  <div class="col-lg-6">
-                     <div class="why-learn-content rmb-35 pt-20">
+                     <div class="why-learn-content text-justify rmb-35 pt-20">
                          <p>RBN education supports students by giving them the service they need about pastoral care abroad. This type of service can be helpful for students who are studying overseas and may not have access to traditional forms of pastoral support.</p>
 
                          <p>It is important for these individuals to have a strong understanding of the customs and culture of that country, and this knowledge can be gained through working with a consultant firm like ours.</p>

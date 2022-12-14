@@ -10,7 +10,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingOne">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <h5> Do I need a higher education consultant to study abroad?</h5>
                             </button>
                         </h2>
@@ -25,7 +25,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingTwo">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <h5> How can I choose a good education agent for studying abroad?</h5>
                             </button>
                         </h2>
@@ -39,7 +39,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingThree">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <h5> Is there any financial assistance offered by the universities to the students?</h5>
                             </button>
                         </h2>
@@ -53,7 +53,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingFour">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             <h5> Is the internship a paid session for international students?</h5>
                             </button>
                         </h2>
@@ -67,7 +67,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingFive">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             <h5> How will I know which course and University/College are appropriate for me?</h5>
                             </button>
                         </h2>
@@ -81,7 +81,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingSix">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             <h5> What are the differences between MSc, MA, and MBA: Management degree programs?</h5>
                             </button>
                         </h2>
@@ -95,7 +95,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingSeven">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             <h5> What is an Embedded College?</h5>
                             </button>
                         </h2>
@@ -109,7 +109,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingEight">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             <h5> How long does it take to get an offer?</h5>
                             </button>
                         </h2>
@@ -123,7 +123,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingNine">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             <h5> What is the difference between a Conditional Offer and an Unconditional Offer?</h5>
                             </button>
                         </h2>
@@ -137,7 +137,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingTen">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                             <h5> How can I pay the fees to University/College?</h5>
                             </button>
                         </h2>
@@ -151,7 +151,7 @@
                     <div class="card">
                         <div class="card-header bg-brand-light" id="headingEleven">
                         <h2 class="mb-0">
-                            <button class="collapsed py-10 w-100 text-left pl-4" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                            <button class="collapsed py-10 w-100 text-justify pl-4" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                             <h5> What are the reasons for Tier 4 Student Visa Refusals?</h5>
                             </button>
                         </h2>

@@ -7,7 +7,7 @@
             <div class="d-flex flex-column align-items-center large-gap wow fadeInLeft delay-0-2s">
                 {{--<div class="">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="assets/images/about/whoweare2.jpg" alt="Why Learn">
+                        <img src="assets/images/about/ielts.jpg" alt="Why Learn">
 
 
                     </div>

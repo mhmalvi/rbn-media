@@ -112,7 +112,7 @@
                             <img src="{{ asset('assets/images/flag/1569237351.png') }}" alt="Canada">
                         </div>
                         <h4>Canada</h4>
-                        <p class="card-text">Experience quality education and beautiful natural environment while studying in Canada..</p>
+                        <p class="card-text">Experience quality education and beautiful natural environment while studying in Canada.</p>
                         <a href="{{ url('study-in-canada') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                             <img src="{{ asset('assets/images/flag/Europe.png') }}" alt="Europe">
                         </div>
                         <h4>Europe</h4>
-                        <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Europe..</p>
+                        <p class="card-text">Experience the diverse cultural opportunities by studying abroad in Europe.</p>
                         <a href="{{ url('study-in-europe') }}" class="btn bg-blue text-white w-50 m-auto">Explore</a>
                     </div>
                 </div>
@@ -777,7 +777,7 @@
                 <h4>
                     <a href="javascript:void(0)">Contexts Variables In That Static Site Generator</a>
                 </h4>
-                <a href="javascript:void(0)" class="read-more color-two">Get ticket <i class="fas fa-arrow-right"></i></a>
+                <a href="javascript:void(0)" class="read-more color-two">Get ticket <i class="fas fa-arrow-rFight"></i></a>
             </div>
         </div>
     </div> --}}
@@ -788,6 +788,9 @@
         <a href="{{ route('event') }}" class="theme-btn style-three">View More Events <i class="fas fa-arrow-right"></i></a>
     </div>
     @endif
+    </div>
+    <div class="d-flex justify-content-center event-more-btn text-center pt-15">
+        <a href="{{ route('event') }}" class="theme-btn style-three">View More Events <i class="fas fa-arrow-right"></i></a>
     </div>
 </section>
 <!-- Event Section End -->
@@ -1228,7 +1231,7 @@
         @endisset
 
         @if($blogCount >4)
-        <div class="event-more-btn text-center pt-15">
+        <div class="event-more-btn text-center m-auto pt-20">
             <a href="{{ route('blog') }}" class="theme-btn style-three">View More Posts <i class="fas fa-arrow-right"></i></a>
         </div>
         @endif
@@ -1243,7 +1246,7 @@
 <!-- Blog Section End -->
 
 <div class="position-relative " style="position: relative; top: 0%;  transform: translateY(80px);">
-    <div class="w-75 mx-auto pt-5 ">
+    <div class="w-75 mx-auto pt-5">
         @include('user.partials.messageFromCEO')
     </div>
 </div>

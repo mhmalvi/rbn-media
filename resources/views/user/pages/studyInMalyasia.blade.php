@@ -161,7 +161,7 @@
   </section>
   <!--  destination list end -->
   
-  <!-- about first section start -->
+  <!-- Malaysia first section start -->
     <section class="about-us text-justify py-50 rpt-90  rpb-45" style="margin-inline: 8%;">
 
 
@@ -172,7 +172,7 @@
                     <div class="video-box" style="padding: 19%;">
 
                         <figure class="figure circle-styled">
-                            <img class="img-fluid" src="{{asset('assets/images/destination/uk/1603015036.jpg')}}" alt="Image">
+                            <img class="img-fluid" src="{{asset('assets/images/destination/malay/mal-top.jpg')}}" alt="Image">
                         </figure>
                     </div>
                 </div>
@@ -207,10 +207,10 @@
         </div>
         <!-- /Video modal -->
     </section>
-  <!-- about first section end -->
+  <!--Malaysia first section end -->
 
-  <!-- about us second section start -->
-      <section class=" py-50 rpt-90  rpb-45" >
+  <!-- Malaysia second section start -->
+      <section class="text-justify py-50 rpt-90  rpb-45" >
 
           <div class="container">
               <div class="row">
@@ -224,8 +224,8 @@
                   <div class="col-sm-12 mx-auto col-lg-6 col-lg-6">
                       <div class="video-box">
                           <figure class="figure1 mb-0">
-                            {{-- <img width="75%" src="{{asset('assets/images/destination/uk/1571657683.png')}}" alt="Image"> --}}
-                            <img src="{{asset('assets/images/destination/uk/1571657683.png')}}" alt="Image">
+                            {{-- <img width="75%" src="{{asset('assets/images/destination/uk/mal-bot.jpg')}}" alt="Image"> --}}
+                            <img src="{{asset('assets/images/destination/malay/mal-bot.jpeg')}}" alt="Image">
                               <button class="btn btn-link play-btn-sec absolute-center" data-toggle="modal" data-target="#myModalSec" data-src="https://www.youtube.com/embed/8VFx25hIB70">
                                   <svg class="svg-inline--fa fa-play-circle fa-w-16" aria-hidden="true" data-prefix="far" data-icon="play-circle" role="img')}}" xmlns="http://www.w3.org/2000/svg')}}" viewBox="0 0 512 512" data-fa-i2svg="">
                                       <path fill="currentColor" d="M371.7 238l-176-107c-15.8-8.8-35.7 2.5-35.7 21v208c0 18.4 19.8 29.8 35.7 21l176-101c16.4-9.1 16.4-32.8 0-42zM504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256z"></path>

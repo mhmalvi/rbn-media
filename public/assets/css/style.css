@@ -3799,7 +3799,7 @@ h6,
 
 @media screen and (max-width: 991px) {
     .main-header .logo a img {
-        width: 100%;
+        width: 120%;
         height: 100%;
         margin-top: 0px;
     }
@@ -4245,8 +4245,8 @@ h6,
 .main-menu .mobile-logo {
     z-index: 5;
     padding: 10px;
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 160px;
+    max-height: 100px;
     position: relative;
     margin-top: -15px;
 }
@@ -8346,6 +8346,16 @@ h6,
     .testimonials-section-two .testimonial-item-two {
         display: block;
     }
+    .testimonials-section-two:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        width: 100%;
+        top: -80px;
+        z-index: -1;
+        background: #f7f7f7;
+        height: calc(100% + 160px);
+    }
 }
 .testimonials-section-two
     .testimonial-item-two.slick-active
@@ -8458,6 +8468,7 @@ h6,
     font-size: 22px;
     line-height: 1.3;
     color: #262d3d;
+    text-align: justify;
 }
 @media only screen and (max-width: 767px) {
     .testimonial-content-two p {
@@ -11848,8 +11859,8 @@ blockquote .blockquote-footer:before {
 
 .textFade {
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 0px;
+    right: 0;
     width: 100%;
     height: 22px;
     background: rgb(255, 255, 255);
