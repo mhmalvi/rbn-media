@@ -11,11 +11,14 @@
 {{--    @if ($given_name)--}}
         <ul>
 
-            <li>Name: {{$given_name}}</li>
+            {{-- <li>Name: {{$first_name}}</li>
             <li>Email: {{$email}}</li>
             <li>Nationality: {{$nationality}}</li>
             <li>Mobile Code: {{$mobile_code}}</li>
-            <li>Mobile Number: {{$mobile}}</li>
+            <li>Mobile Number: {{$mobile}}</li> --}}
+
+            <li>Mobile Number: hello</li>
+
 
 
 

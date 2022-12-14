@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\TagController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SendEmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -64,8 +65,9 @@ Route::get('/dhaka/office', [PageController::class, 'dhakaOffice'])->name('dhaka
 Route::get('/sylhet/office', [PageController::class, 'sylhetOffice'])->name('sylhetOffice');
 Route::get('/school-of-english', [PageController::class, 'schoolOfEnglish'])->name('schoolOfEnglish');
 Route::get('/student-registration', [PageController::class, 'studentRegistration'])->name('studentRegistration');
-Route::post('/student-registration', [PageController::class, 'studentPostRegistration'])->name('student.registration');
+Route::post('student-registration', [PageController::class, 'studentPostRegistration'])->name('student.registration');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
+// Route::get('send-email-pdf', [SendEmailController::class, 'index']);
 
 
 Route::middleware(['guest', 'PreventBackHistory'])->group(function () {
