@@ -257,15 +257,15 @@ class PageController extends Controller
     public function studentPostRegistration(Request $request)
     {
         $data = $request->all();
-        //dd($data);
-        $data["to_email"] = "info@rbn.com";
-        $data["title"] = "Student Enrolment";
-        $data["body"] = "This is Demo";
-        Mail::send('user.email.onlineApplication', $data, function ($message) use ($data) {
-            $message->to("anntaffs67@gmail.com")
-                ->subject($data["title"]);
-                //->attachData($pdf->output(), "ApplyOnline.pdf");
-        });
+        dd($data);
+        // $data["to_email"] = "info@rbn.com";
+        // $data["title"] = "Student Enrolment";
+        // $data["body"] = "This is Demo";
+        // Mail::send('user.email.onlineApplication', $data, function ($message) use ($data) {
+        //     $message->to("anntaffs67@gmail.com")
+        //         ->subject($data["title"]);
+        //         //->attachData($pdf->output(), "ApplyOnline.pdf");
+        // });
         return response()->json(["message" => "mail sent successfully"], 200);
     }
 
