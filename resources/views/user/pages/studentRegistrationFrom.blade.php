@@ -573,6 +573,36 @@
                           <input type="text" name="last_academic_result" id="last_academic_result" class="form-control flatpickr-input" placeholder="Last Academic Result" required="">
                         </div>
                       </div>
+                      
+                      <div class="col-md-6 d-flex align-items-center">
+                        <label class="form-label semibold mr-5" style="display: block;">
+                          Language Certificate
+                          <span class="text-danger">*</span>
+                        </label>
+
+                        <div class="d-flex align-items-center">
+                            <div class="checkbox-detailed">
+                              <input type="radio" name="language_certificate" id="check-certificate-1" value="Male" required="">
+                              <label for="check-certificate-1">
+                                <span class="checkbox-detailed-tbl">
+                                  <span class="checkbox-detailed-cell">
+                                    <span class="checkbox-detailed-title">Yes</span>
+                                  </span>
+                                </span>
+                              </label>
+                            </div>
+                            <div class="checkbox-detailed ml-3">
+                              <input type="radio" name="language_certificate" id="check-certificate-2" value="Female" required="">
+                              <label for="check-certificate-2">
+                                <span class="checkbox-detailed-tbl">
+                                  <span class="checkbox-detailed-cell">
+                                    <span class="checkbox-detailed-title">No</span>
+                                  </span>
+                                </span>
+                              </label>
+                            </div>
+                        </div>
+                    </div>
 
 
                       {{-- <div class="col-lg-3">
@@ -724,7 +754,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label>Preffered Course level <span class="text-danger">*</span></label>
+                          <label>Preferred  Course level <span class="text-danger">*</span></label>
                           <div class="selectbox">
                             <select name="level" id="level" class="form-control rounded-pill" required="">
                               <option disabled="true" selected="" value="">Select Course Level..</option>
