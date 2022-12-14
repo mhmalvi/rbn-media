@@ -1632,7 +1632,7 @@ h3.divider-1 {
     border-color: var(--white);
     font-weight: 400;
     height: 40px;
-    padding: 0 1.5rem;
+    padding: 0.625rem 1.5rem;
 }
 
 .form textarea.form-control {

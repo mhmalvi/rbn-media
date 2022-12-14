@@ -5,7 +5,7 @@
              <h2 class="page-title wow fadeInUp delay-0-2s">{{ $pageName }}</h2>
              <nav aria-label="breadcrumb">
                  <ol class="breadcrumb wow fadeInUp delay-0-4s">
-                     <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                     <li class="breadcrumb-item"><a href="/">home</a></li>
                      <li class="breadcrumb-item active">{{ $pageName }}</li>
                  </ol>
              </nav>
