@@ -7,14 +7,6 @@
 
         }
 
-        .main-menu .navbar-collapse li a {
-            font-size: 80%;
-        }
-
-        .EnglishSchool-btn {
-            font-size: 80%;
-        }
-
     </style>
 
     <div class="nav-outer clearfix">
@@ -23,7 +15,7 @@
             <div class="navbar-header">
                 <div class="mobile-logo br-10 p-15">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/images/logos/rbn-logo.png') }}" alt="Logo" title="Logo" />
+                        <img class="brand_logo" src="{{ asset('assets/images/logos/rbn-logo.png') }}" alt="Logo" title="Logo" />
                     </a>
                 </div>
 
@@ -146,11 +138,12 @@
                     <ul>
                         <li>
                             <a href="{{ route('dhakaOffice') }}">Dhaka Office</a>
-
                         </li>
                         <li>
                             <a href="{{ route('sylhetOffice') }}">Sylhet Office</a>
-
+                        </li>
+                        <li>
+                            <a href="{{ route('studentRegistration') }}">Register Now</a>
                         </li>
                     </ul>
                 </li>
@@ -161,7 +154,7 @@
     </div>
     <!-- Menu Button -->
     <div class="menu-btn-sidebar d-flex align-items-center">
-        <div class=" EnglishSchool-btn"><a href="{{ route('schoolOfEnglish') }}" class="text-white school-of-english">School Of English</a></div>
+        <div class="EnglishSchool-btn"><a href="{{ route('schoolOfEnglish') }}" class="text-white school-of-english">School Of English</a></div>
         {{-- <form action="javascript:void(0)">
              <input type="search" placeholder="Search" required />
              <button><i class="fas fa-search"></i></button>

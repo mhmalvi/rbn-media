@@ -46,6 +46,7 @@
 /* -------------------------------------------------------------- */
 /* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Raleway:wght@600;700;800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/roboto");
 /*******************************************************/
 /******************* 01. Default Style *****************/
 /*******************************************************/
@@ -64,7 +65,8 @@ body {
     font-weight: 400;
     line-height: 1.82;
     font-size: 16px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto", sans-serif !important;
+    /* font-family: "Nunito Sans", sans-serif; */
     scroll-behavior: smooth;
 }
 
@@ -3790,9 +3792,9 @@ h6,
 }
 
 .main-header .logo a img {
-    width: 100px;
-    height: 100px;
-    margin-top: -20px;
+    width: 100%;
+    height: 70px;
+    margin-top: -21px;
 }
 
 @media screen and (max-width: 991px) {
@@ -4054,6 +4056,7 @@ h6,
         line-height: 43px;
     }
 }
+
 .main-menu .navbar-collapse li a {
     position: relative;
     display: block;
@@ -4066,6 +4069,7 @@ h6,
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
+
 .main-menu ul li .icon {
     width: 25px;
     height: 25px;
@@ -4079,6 +4083,23 @@ h6,
 @media (min-width: 1000px) and (max-width: 1338px) {
     .main-menu .navbar-collapse li {
         padding: 25px 10px;
+    }
+
+    .main-menu .navbar-collapse li a {
+        position: relative;
+        display: block;
+        font-size: 12px;
+        opacity: 1;
+        font-weight: 700;
+        color: #262d3d;
+        text-transform: capitalize;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .brand_logo {
+        width: 50%;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -4648,9 +4669,38 @@ h6,
         border-right: 1px solid rgba(255, 255, 255, 0.2);
     }
 }
+
+@media only screen and (min-width: 1501px) and (max-width: 1701px) {
+    .main-menu .navbar-collapse li a {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        opacity: 1;
+        font-weight: 700;
+        color: #262d3d;
+        text-transform: capitalize;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .main-header.header-three .top-inner .top-left p:last-child {
         display: none;
+    }
+
+    .main-menu .navbar-collapse li a {
+        position: relative;
+        display: block;
+        font-size: 12px;
+        opacity: 1;
+        font-weight: 700;
+        color: #262d3d;
+        text-transform: capitalize;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
     }
 }
 
@@ -5039,7 +5089,9 @@ h6,
 /* Hero Two */
 .hero-section-two {
     overflow: hidden;
-    padding-top: 25rem;
+    /* padding-top: 25rem; */
+    /* padding-top: 35rem; */
+    padding-top: 30%;
 }
 
 .hero-content-two {
@@ -5095,6 +5147,11 @@ h6,
         margin-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .hero-section-two {
+        overflow: hidden;
+        padding-top: 65%;
     }
 }
 
@@ -5153,6 +5210,21 @@ h6,
     font-family: "Raleway", sans-serif;
     display: none;
 }
+
+.EnglishSchool-btn {
+    background-color: #d61734;
+    font-size: 80%;
+    border-radius: 0.3rem;
+}
+
+@media screen and (min-width: 991px) {
+    .EnglishSchool-btn {
+        background-color: #d61734;
+        font-size: 14px;
+        border-radius: 0.3rem;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .admin-speech {
         margin-left: 25px;
@@ -8722,8 +8794,14 @@ h6,
     margin-bottom: 30px;
 }
 .blog-item .blog-content {
+    padding-top: 10px;
     padding: 25px;
 }
+
+.blog-item .blog-content:hover {
+    color: rgb(29, 29, 29) !important;
+}
+
 @media only screen and (max-width: 375px) {
     .blog-item .blog-content {
         padding-left: 20px;
@@ -8874,10 +8952,11 @@ h6,
 .blog-item .blog-image img {
     width: 100%;
     border-radius: 5px;
+    padding-bottom: 1rem;
 }
 
 .blog-image img {
-    height: 190px;
+    height: 210px;
     width: 100%;
 }
 

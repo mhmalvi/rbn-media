@@ -54,24 +54,8 @@
     font-weight: 700;
 }
 
-.EnglishSchool-btn {
-    /* background-color: #A00434; */
-    background-color: #ad254f;
-    font-size: 80%;
-    border-radius: 0.3rem;
-}
-
-@media screen and (min-width: 991px) {
-    .EnglishSchool-btn {
-        /* background-color: #a00434; */
-        background-color: #ad254f;
-        font-size: 14px;
-        border-radius: 0.3rem;
-    }
-}
-
 .counseling-img {
-margin: auto;
+    margin: auto;
 }
 
 .admission-bullet {
@@ -79,21 +63,21 @@ margin: auto;
     height: 30px;
 }
 
-.aboutrbn-li{
-    display:flex;
+.aboutrbn-li {
+    display: flex;
 }
 
-.visaService-li{
-    display:flex;
+.visaService-li {
+    display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.visaService-li p{
+.visaService-li p {
     text-align: justify;
 }
 
-.visaService-bullet{
+.visaService-bullet {
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -177,8 +161,8 @@ margin: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     position: relative;
 }
 
@@ -191,8 +175,8 @@ margin: auto;
     transform: translateY(-50%);
     transition-duration: 0.6s;
     content: "";
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     opacity: 0.1;
     z-index: -1;
     margin: auto;
@@ -208,67 +192,67 @@ margin: auto;
     transition-duration: 0.6s;
     content: "";
     background: rgb(92, 218, 254);
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     opacity: 0.1;
     z-index: -1;
 }
 
 .featured-services .box1:nth-child(2) .figure {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 53% 47% 51% 49% / 46% 48% 52% 54%;
 }
 
 .featured-services .box1:nth-child(2) .figure::before {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 53% 47% 51% 49% / 46% 48% 52% 54%;
 }
 
 .featured-services .box1:nth-child(3) .figure {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 58% 42% 47% 53% / 46% 48% 52% 54%;
 }
 
 .featured-services .box1:nth-child(3) .figure::before {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 58% 42% 47% 53% / 46% 48% 52% 54%;
 }
 
 .featured-services .box1:nth-child(4) .figure {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 51% 49% 47% 53% / 46% 52% 48% 54%;
 }
 
 .featured-services .box1:nth-child(4) .figure::before {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 51% 49% 47% 53% / 46% 52% 48% 54%;
 }
 
 .featured-services .box1:nth-child(5) .figure {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 51% 49% 47% 53% / 50% 49% 51% 50%;
 }
 
 .featured-services .box1:nth-child(5) .figure::before {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 51% 49% 47% 53% / 50% 49% 51% 50%;
 }
 .featured-services .box1:nth-child(6) .figure {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 51% 49% 55% 45% / 50% 49% 51% 50%;
 }
 .featured-services .box1:nth-child(6) .figure::before {
-    background: #a00434b3;
-    background: radial-gradient(circle, #a00434b3 0%, #a00434 100%);
+    background: #d61734;
+    background: radial-gradient(circle, #fc3b54 0%, #a00434 100%);
     border-radius: 51% 49% 55% 45% / 50% 49% 51% 50%;
 }
 
@@ -283,13 +267,13 @@ margin: auto;
     width: 45px;
 }
 
-.admission_assistance_list_style{
-    display:flex;
+.admission_assistance_list_style {
+    display: flex;
 }
-.admission-bullet{
-    margin-inline:4%;
+.admission-bullet {
+    margin-inline: 4%;
 }
 
-.admission_assistance_list_para{
+.admission_assistance_list_para {
     width: 258%;
 }
