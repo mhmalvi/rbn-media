@@ -6,9 +6,11 @@ use App\Models\Admin\Articles;
 use App\Models\Admin\Blog;
 use App\Models\Admin\Event;
 use App\Models\Admin\Tag;
+use App\Models\StudentRegistration;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use PDF;
 
 class PageController extends Controller
 {
@@ -182,13 +184,13 @@ class PageController extends Controller
     }
     public function blogDetails(Request $request)
     {
-        if(!isset($request->id)){
+        if (!isset($request->id)) {
             return redirect()->route('blog');
         }
         //dd($request->id);
         $pageName = 'Blog Details';
         $blogs = Blog::Where('id', $request->id);
-        if($blogs==""){
+        if ($blogs == "") {
             return redirect()->route('blog');
         }
         $blog = $blogs->first();
@@ -215,13 +217,13 @@ class PageController extends Controller
 
     public function articleDetails(Request $request)
     {
-        if(!isset($request->id)){
+        if (!isset($request->id)) {
             return redirect()->route('article');
         }
         //dd($request->id);
         $pageName = 'Article Details';
         $articles = Articles::Where('id', $request->id);
-        if($articles==""){
+        if ($articles == "") {
             return redirect()->route('article');
         }
         $article = $articles->first();
@@ -256,17 +258,33 @@ class PageController extends Controller
 
     public function studentPostRegistration(Request $request)
     {
+        // dd($request->all());
+        // $data = new StudentRegistration();
+        // $first_name = $request->first_name;
+        // $last_name = $request->last_name;
+        // $email = $request->email;
+        // $country = $request->country;
+        // $mobile_code = $request->mobile_code;
+        // $mobile = $request->mobile;
+        // $birthday = $request->birthday;
+        // $gender = $request->gender;
+        // $last_academic_result = $request->last_academic_result;
+        // $notes = $request->notes;
+        // $study_destinations = $request->study_destinations;
+        // $level = $request->level;
+        // $course_name = $request->course_name;
+        // $language_certificate = $request->language_certificate;
+
         $data = $request->all();
-        dd($data);
-        // $data["to_email"] = "info@rbn.com";
-        // $data["title"] = "Student Enrolment";
+        // dd($data);
+        $data["email"] = "tanjibrubyat@gmail.com";
+        $data["title"] = "Student Enrolment";
         // $data["body"] = "This is Demo";
-        // Mail::send('user.email.onlineApplication', $data, function ($message) use ($data) {
-        //     $message->to("anntaffs67@gmail.com")
-        //         ->subject($data["title"]);
-        //         //->attachData($pdf->output(), "ApplyOnline.pdf");
-        // });
+        Mail::send('user.email.onlineApplication', $data, function ($message) use ($data) {
+            $message->to("megatanjib@gmail.com")
+                ->subject($data["title"]);
+                // ->attachData($pdf->output(), $data);
+        });
         return response()->json(["message" => "mail sent successfully"], 200);
     }
-
 }

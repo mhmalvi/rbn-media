@@ -15,23 +15,20 @@ class CreateStudentRegistrationsTable extends Migration
     {
         Schema::create('student_registrations', function (Blueprint $table) {
             $table->id();
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->string('email');
-            $table->string('nationality');
-            $table->integer('country_code');
-            $table->string('mobile_number');
-            $table->date('date_of_birth');
-            $table->string('gender');
-            $table->string('preferred_study_destination');
-            $table->string('preffered_course_level');
-            $table->string('subject');
-            $table->string('start_date');
-            $table->string('language_certificate');
-            $table->string('last_academic_result');
-            $table->string('study_gap');
-            $table->string('summary');
-            $table->timestamps();
+            $table->string('_first_name');
+            $table->string('_last_name');
+            $table->string('_email');
+            $table->string('_nationality');
+            $table->string('_country_code');
+            $table->string('_mobile_number');
+            $table->string('_dob');
+            $table->string('_gender');
+            $table->string('_last_academic_result');
+            $table->string('_summary');
+            $table->string('_preferred_study_destination');
+            $table->string('_preferred_course_level');
+            $table->string('_subject');
+            $table->string('_language_certificate');
         });
     }
 
