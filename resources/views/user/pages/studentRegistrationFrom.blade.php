@@ -7,204 +7,6 @@
             <div>
               <form class="form ajax-form" method="POST" action="{{ route('student.registration') }}">
               <div class="row">
-                
-                <div class="col-lg-6 d-block bg-white">
-                  <div class="card box-shadow p-3 mb-lg-0 mb-4" style="height: 550px;" id="res_right">
-                    <h5><span class="badge badge-primary px-3 py-2 rounded-pill">Select your preferred study destination(s)</span><i class="fa fa-info-circle ml-2 pt-1" data-toggle="tooltip" title="You can select multiple" style="color: #ceccda;"></i></h5>
-
-                    <div id="study_destination">
-                      <section class="box-typical box-typical-padding">
-
-                          <div class="box-white">
-                              <div class="row mt-2">
-
-                                <div id="Australia"  class="col-md-3 mb-2" >
-                                    <label class="labelDiv">
-                                    <input type="checkbox" onclick="handleClick(`destination_australia`)" class="d-none countryBox" name="study_destinations[]" value="36" autocomplete="off">
-                                    <div id="destination_australia" class="destination_div">
-                                        <div class="flag_div">
-                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569253786.png')}}">
-                                        </div>
-                                        <div class="country_div">
-                                            <strong>Australia</strong>
-                                        </div>
-                                    </div>
-                                    </label>
-                                </div>
-
-                                <div id="Canada" class="col-md-3 mb-2" >
-                                    <label class="labelDiv">
-                                    <input type="checkbox" onclick="handleClick(`destination_canada`)"  class="d-none countryBox" name="study_destinations[]" value="124" autocomplete="off">
-                                    <div id="destination_canada" class="destination_div">
-                                        <div class="flag_div">
-                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569237351.png')}}">
-                                        </div>
-                                        <div class="country_div">
-                                            <strong>Canada</strong>
-                                        </div>
-                                    </div>
-                                    </label>
-                                </div>
-
-
-
-                                <div id="Germany" class="col-md-3 mb-2" >
-                                    <label class="labelDiv">
-                                    <input type="checkbox" onclick="handleClick(`destination_germany`)"  class="d-none countryBox" name="study_destinations[]" value="276" autocomplete="off">
-                                    <div id="destination_germany" class="destination_div">
-                                        <div class="flag_div">
-                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/Europe.png')}}">
-                                        </div>
-                                        <div class="country_div">
-                                            <strong> Europe</strong>
-                                        </div>
-                                    </div>
-                                    </label>
-                                </div>
-
-                                <div id="Malaysia" class="col-md-3 mb-2" >
-                                    <label class="labelDiv">
-                                    <input type="checkbox" onclick="handleClick(`destination_malaysia`)" class="d-none countryBox" name="study_destinations[]" value="458" autocomplete="off">
-                                    <div id="destination_malaysia" class="destination_div">
-                                        <div class="flag_div">
-                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569404987.png')}}">
-                                        </div>
-                                        <div class="country_div">
-                                            <strong>Malaysia</strong>
-                                        </div>
-                                    </div>
-                                    </label>
-                                </div>
-
-                                <div id="United_Kingdom" class="col-md-3 mb-2" >
-                                    <label class="labelDiv">
-                                    <input type="checkbox" onclick="handleClick(`destination_uk`)" class="d-none countryBox" name="study_destinations[]" value="826" autocomplete="off">
-                                    <div id="destination_uk" class="destination_div">
-                                        <div class="flag_div">
-                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569240440.png')}}">
-                                        </div>
-                                        <div class="country_div">
-                                            <strong>United Kingdom</strong>
-                                        </div>
-                                    </div>
-                                    </label>
-                                </div>
-
-                                <div id="United_States" class="col-md-3 mb-2">
-                                    <label class="labelDiv">
-                                    <input type="checkbox" onclick="handleClick(`destination_us`)" class="d-none countryBox" name="study_destinations[]" value="840" autocomplete="off">
-                                    <div id="destination_us" class="destination_div">
-                                        <div class="flag_div">
-                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569246724.png')}}">
-                                        </div>
-                                        <div class="country_div">
-                                            <strong>United States</strong>
-                                        </div>
-                                    </div>
-                                    </label>
-                                </div>
-
-                              </div>
-                          </div>
-                      </section>
-                    </div>
-
-                    <h5 class="mt-2">
-                      <span class="badge badge-primary px-3 py-2 rounded-pill">Admission Preference</span>
-                    </h5>
-
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label>Preffered Course level <span class="text-danger">*</span></label>
-                          <div class="selectbox">
-                            <select name="level" id="level" class="form-control rounded-pill" required="">
-                              <option disabled="true" selected="" value="">Select Course Level..</option>
-                              <option value="HND">HND</option>
-                              <option value="HNC">HNC</option>
-                              <option value="A Level">A Level</option>
-                              <option value="APC">APC</option>
-                              <option value="Access to University">Access to University</option>
-                              <option value="Bachelor">Bachelor</option>
-                              <option value="Bachelor ( Y1 )">Bachelor ( Y1 )</option>
-                              <option value="Bachelor ( Y2 )">Bachelor ( Y2 )</option>
-                              <option value="Bachelor ( Y3 )">Bachelor ( Y3 )</option>
-                              <option value="Bachelor ( Y4 )">Bachelor ( Y4 )</option>
-                              <option value="CAP">CAP</option>
-                              <option value="Diploma">Diploma</option>
-                              <option value="English">English</option>
-                              <option value="Foundation">Foundation</option>
-                              <option value="International  Year 1">International  Year 1</option>
-                              <option value="Masters">Masters</option>
-                              <option value="Masters by Research">Masters by Research</option>
-                              <option value="MPhil">MPhil</option>
-                              <option value="Pre-Sessional English">Pre-Sessional English</option>
-                              <option value="Pre-Masters">Pre-Masters</option>
-                              <option value="PgDip">PgDip</option>
-                              <option value="PhD">PhD</option>
-                              <option value="Schooling  Year 11">Schooling  Year 11</option>
-                              <option value="Schooling  Year 12">Schooling  Year 12</option>
-                              <option value="Advanced Subsidiary">Advanced Subsidiary</option>
-                        </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="funding_status">
-                            Subject
-                            <span class="text-danger">*</span>
-                          </label>
-                          <input type="text" name="course_name" class="form-control" placeholder="Subject" required="">
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <label class="form-label semibold mr-5" style="display: block;">
-                          Language Certificate
-                          <span class="text-danger">*</span>
-                        </label>
-
-                        <div class="d-flex align-items-center">
-                            <div class="checkbox-detailed">
-                              <input type="radio" name="language_certificate" id="check-det-1" value="Male" required="">
-                              <label for="check-det-1">
-                                <span class="checkbox-detailed-tbl">
-                                  <span class="checkbox-detailed-cell">
-                                    <span class="checkbox-detailed-title">Male</span>
-                                  </span>
-                                </span>
-                              </label>
-                            </div>
-                            <div class="checkbox-detailed ml-3">
-                              <input type="radio" name="language_certificate" id="check-det-2" value="Female" required="">
-                              <label for="check-det-2">
-                                <span class="checkbox-detailed-tbl">
-                                  <span class="checkbox-detailed-cell">
-                                    <span class="checkbox-detailed-title">Female</span>
-                                  </span>
-                                </span>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <div class="box-shadow py-5 mb-4 mt-3 px-0" style="height: 100px;box-shadow: none;border: none;">
-                          <div class="row">
-                            <div class="col text-right">
-                              <button type="reset" class="btn btn-warning">Reset</button>
-                              <button type="submit" class="btn btn-primary btn-submit">Submit</button>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div class="col-lg-6">
                   <div class="card box-shadow p-3 mb-lg-0 mb-2" id="res_left">
                     <h5><span class="badge badge-primary px-3 py-2 rounded-pill">Primary Information</span></h5>
@@ -815,7 +617,203 @@
                   </div>
                 </div>
 
-                
+                <div class="col-lg-6 d-block bg-white">
+                  <div class="card box-shadow p-3 mb-lg-0 mb-4" id="res_right">
+                    <h5><span class="badge badge-primary px-3 py-2 rounded-pill">Select your preferred study destination(s)</span><i class="fa fa-info-circle ml-2 pt-1" data-toggle="tooltip" title="You can select multiple" style="color: #ceccda;"></i></h5>
+
+                    <div id="study_destination">
+                      <section class="box-typical box-typical-padding">
+
+                          <div class="box-white">
+                              <div class="row mt-2">
+
+                                <div id="Australia"  class="col-md-3 mb-2" >
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_australia`)" class="d-none countryBox" name="study_destinations[]" value="36" autocomplete="off">
+                                    <div id="destination_australia" class="destination_div">
+                                        <div class="flag_div">
+                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569253786.png')}}">
+                                        </div>
+                                        <div class="country_div">
+                                            <strong>Australia</strong>
+                                        </div>
+                                    </div>
+                                    </label>
+                                </div>
+
+                                <div id="Canada" class="col-md-3 mb-2" >
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_canada`)"  class="d-none countryBox" name="study_destinations[]" value="124" autocomplete="off">
+                                    <div id="destination_canada" class="destination_div">
+                                        <div class="flag_div">
+                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569237351.png')}}">
+                                        </div>
+                                        <div class="country_div">
+                                            <strong>Canada</strong>
+                                        </div>
+                                    </div>
+                                    </label>
+                                </div>
+
+
+
+                                <div id="Germany" class="col-md-3 mb-2" >
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_germany`)"  class="d-none countryBox" name="study_destinations[]" value="276" autocomplete="off">
+                                    <div id="destination_germany" class="destination_div">
+                                        <div class="flag_div">
+                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/Europe.png')}}">
+                                        </div>
+                                        <div class="country_div">
+                                            <strong> Europe</strong>
+                                        </div>
+                                    </div>
+                                    </label>
+                                </div>
+
+                                <div id="Malaysia" class="col-md-3 mb-2" >
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_malaysia`)" class="d-none countryBox" name="study_destinations[]" value="458" autocomplete="off">
+                                    <div id="destination_malaysia" class="destination_div">
+                                        <div class="flag_div">
+                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569404987.png')}}">
+                                        </div>
+                                        <div class="country_div">
+                                            <strong>Malaysia</strong>
+                                        </div>
+                                    </div>
+                                    </label>
+                                </div>
+
+                                <div id="United_Kingdom" class="col-md-3 mb-2" >
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_uk`)" class="d-none countryBox" name="study_destinations[]" value="826" autocomplete="off">
+                                    <div id="destination_uk" class="destination_div">
+                                        <div class="flag_div">
+                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569240440.png')}}">
+                                        </div>
+                                        <div class="country_div">
+                                            <strong>United Kingdom</strong>
+                                        </div>
+                                    </div>
+                                    </label>
+                                </div>
+
+                                <div id="United_States" class="col-md-3 mb-2">
+                                    <label class="labelDiv">
+                                    <input type="checkbox" onclick="handleClick(`destination_us`)" class="d-none countryBox" name="study_destinations[]" value="840" autocomplete="off">
+                                    <div id="destination_us" class="destination_div">
+                                        <div class="flag_div">
+                                            <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569246724.png')}}">
+                                        </div>
+                                        <div class="country_div">
+                                            <strong>United States</strong>
+                                        </div>
+                                    </div>
+                                    </label>
+                                </div>
+
+                              </div>
+                          </div>
+                      </section>
+                    </div>
+
+                    <h5 class="mt-2">
+                      <span class="badge badge-primary px-3 py-2 rounded-pill">Admission Preference</span>
+                    </h5>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Preffered Course level <span class="text-danger">*</span></label>
+                          <div class="selectbox">
+                            <select name="level" id="level" class="form-control rounded-pill" required="">
+                              <option disabled="true" selected="" value="">Select Course Level..</option>
+                              <option value="HND">HND</option>
+                              <option value="HNC">HNC</option>
+                              <option value="A Level">A Level</option>
+                              <option value="APC">APC</option>
+                              <option value="Access to University">Access to University</option>
+                              <option value="Bachelor">Bachelor</option>
+                              <option value="Bachelor ( Y1 )">Bachelor ( Y1 )</option>
+                              <option value="Bachelor ( Y2 )">Bachelor ( Y2 )</option>
+                              <option value="Bachelor ( Y3 )">Bachelor ( Y3 )</option>
+                              <option value="Bachelor ( Y4 )">Bachelor ( Y4 )</option>
+                              <option value="CAP">CAP</option>
+                              <option value="Diploma">Diploma</option>
+                              <option value="English">English</option>
+                              <option value="Foundation">Foundation</option>
+                              <option value="International  Year 1">International  Year 1</option>
+                              <option value="Masters">Masters</option>
+                              <option value="Masters by Research">Masters by Research</option>
+                              <option value="MPhil">MPhil</option>
+                              <option value="Pre-Sessional English">Pre-Sessional English</option>
+                              <option value="Pre-Masters">Pre-Masters</option>
+                              <option value="PgDip">PgDip</option>
+                              <option value="PhD">PhD</option>
+                              <option value="Schooling  Year 11">Schooling  Year 11</option>
+                              <option value="Schooling  Year 12">Schooling  Year 12</option>
+                              <option value="Advanced Subsidiary">Advanced Subsidiary</option>
+                        </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="funding_status">
+                            Subject
+                            <span class="text-danger">*</span>
+                          </label>
+                          <input type="text" name="course_name" class="form-control" placeholder="Subject" required="">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <label class="form-label semibold mr-5" style="display: block;">
+                          Language Certificate
+                          <span class="text-danger">*</span>
+                        </label>
+
+                        <div class="d-flex align-items-center">
+                            <div class="checkbox-detailed">
+                              <input type="radio" name="language_certificate" id="check-det-1" value="Male" required="">
+                              <label for="check-det-1">
+                                <span class="checkbox-detailed-tbl">
+                                  <span class="checkbox-detailed-cell">
+                                    <span class="checkbox-detailed-title">Male</span>
+                                  </span>
+                                </span>
+                              </label>
+                            </div>
+                            <div class="checkbox-detailed ml-3">
+                              <input type="radio" name="language_certificate" id="check-det-2" value="Female" required="">
+                              <label for="check-det-2">
+                                <span class="checkbox-detailed-tbl">
+                                  <span class="checkbox-detailed-cell">
+                                    <span class="checkbox-detailed-title">Female</span>
+                                  </span>
+                                </span>
+                              </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="box-shadow py-5 mb-4 mt-3 px-0" style="height: 100px;box-shadow: none;border: none;">
+                          <div class="row">
+                            <div class="col text-right">
+                              <button type="reset" class="btn btn-warning">Reset</button>
+                              <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               
