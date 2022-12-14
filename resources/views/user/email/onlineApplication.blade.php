@@ -6,24 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Application Form</title>
 </head>
+
+
 <body>
 
-{{--    @if ($given_name)--}}
-        <ul>
+    {{-- @if ($given_name)--}}
+    <ul>
 
-            {{-- <li>Name: {{$first_name}}</li>
-            <li>Email: {{$email}}</li>
-            <li>Nationality: {{$nationality}}</li>
-            <li>Mobile Code: {{$mobile_code}}</li>
-            <li>Mobile Number: {{$mobile}}</li> --}}
+        <li>First Name: <?=$first_name;?></li>
 
-            <li>Mobile Number: hello</li>
+        {{-- <li>Last Name: {{$last_name}}</li>
+        <li>Email: {{$email}}</li>
+        <li>Country: {{$country}}</li>
+        <li>:Mobile Code {{$mobile_code}}</li>
+
+        <li>Mobile: {{$mobile}}</li>
+
+        <li>Date of Birth: {{$birthday}}</li>
+
+        <li>Gender: {{$gender}}</li>
+
+        <li>Last Academic Result: {{$last_academic_result}}</li>
+
+        <li>Comments: {{$notes}}</li>
+        <h3>Study Destinations</h3> --}}
+        {{-- @foreach($study_destinations as $destinations)
+
+        <li> {{$destinations}}</li>
+
+        @endforeach --}}
+
+        {{-- <li>Level: {{$level}}</li> --}}
+
+        {{-- <li>Course Name: {{$course_name}}</li>
+
+        <li>Language Certification: {{$language_certificate}}</li> --}}
+
+
+        {{-- <li>Mobile Number: hello</li> --}}
 
 
 
 
-        </ul>
-{{--    @endif--}}
+    </ul>
+    {{-- @endif--}}
 
     <p>Thank you</p>
 </body>
