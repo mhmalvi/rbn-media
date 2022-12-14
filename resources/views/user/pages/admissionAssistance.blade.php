@@ -27,7 +27,7 @@
                   <a href="#">
                       <div class="card hover-styled">
                           <div class="card-body">
-                              <h5>Accurate Application from Fill-up</h5>
+                              <h5>Accurate Application Form Fill-up</h5>
                           </div>
                       </div>
                   </a>

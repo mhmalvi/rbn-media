@@ -899,29 +899,6 @@ h6,
     border-radius: 2rem;
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.08);
 }
-/*
-* Divider
-*/
-
-h3.divider-1 {
-    margin-bottom: 2.5rem;
-}
-
-.divider-1 {
-    position: relative;
-}
-
-.divider-1::before {
-    position: absolute;
-    bottom: -32px;
-    left: 50%;
-    transform: translateX(-50%);
-    content: "";
-    background: var(--gray);
-    width: 180px;
-    height: 5px;
-    border-radius: 5px;
-}
 
 /*
 *  Divider
@@ -4434,7 +4411,6 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: calc(100%);
 }
 
 .Counseling-list li a {
@@ -4445,6 +4421,7 @@ body.destination-page .section:nth-child(even):not(.contact-us) {
 
 .Counseling-list li .card {
     border: 0px;
+    overflow: hidden;
 }
 
 .Counseling-list li .figure {

@@ -22,15 +22,6 @@
                   <a href="#">
                       <div class="card hover-styled">
                           <div class="card-body">
-                              <h5>Initial Counseling</h5>
-                          </div>
-                      </div>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <div class="card hover-styled">
-                          <div class="card-body">
                               <h5>Paper Assessment</h5>
                           </div>
                       </div>

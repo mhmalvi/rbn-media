@@ -31,7 +31,7 @@
              <div class="header-inner d-flex align-items-center justify-content-between">
                  <div class="logo-outer d-lg-flex align-items-center">
                      <div class="logo">
-                         <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logos/rbn.png') }}" alt="Logo" title="Logo" /></a>
+                         <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logos/rbn-logo.png') }}" alt="Logo" title="Logo" /></a>
 
                      </div>
                     {{--  <select name="select-languages" id="select-languages">

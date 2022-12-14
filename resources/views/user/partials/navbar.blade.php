@@ -23,7 +23,7 @@
             <div class="navbar-header">
                 <div class="mobile-logo br-10 p-15">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/images/logos/rbn.png') }}" alt="Logo" title="Logo" />
+                        <img src="{{ asset('assets/images/logos/rbn-logo.png') }}" alt="Logo" title="Logo" />
                     </a>
                 </div>
 
