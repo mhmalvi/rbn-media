@@ -530,7 +530,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label for="birthday">Date of Birth <span class="text-danger">*</span></label>
-                          <input type="text" name="birthday" id="birthday" class="form-control flatpickr-input" placeholder="Date of Birth" required="" readonly="readonly">
+                          <input type="date" name="birthday" id="birthday" class="form-control flatpickr-input" placeholder="Date of Birth" required="">
                         </div>
                       </div>
 
@@ -569,8 +569,8 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="birthday">Last Academic Result<span class="text-danger">*</span></label>
-                          <input type="text" name="last_academic_result" id="last_academic_result" class="form-control flatpickr-input" placeholder="Last Academic Result" required="" readonly="readonly">
+                          <label for="last_academic_result">Last Academic Result<span class="text-danger">*</span></label>
+                          <input type="text" name="last_academic_result" id="last_academic_result" class="form-control flatpickr-input" placeholder="Last Academic Result" required="">
                         </div>
                       </div>
 
@@ -619,8 +619,7 @@
 
                 <div class="col-lg-6 d-block bg-white">
                   <div class="card box-shadow p-3 mb-lg-0 mb-4" id="res_right">
-                    <h5><span class="badge badge-primary px-3 py-2 rounded-pill">Select your preferred study destination(s)</span><i class="fa fa-info-circle ml-2 pt-1" data-toggle="tooltip" title="You can select multiple" style="color: #ceccda;"></i></h5>
-
+                    <h5><span class="badge badge-primary px-3 py-2 rounded-pill">Select your preferred study destination(s)</span>
                     <div id="study_destination">
                       <section class="box-typical box-typical-padding">
 
@@ -777,21 +776,21 @@
 
                         <div class="d-flex align-items-center">
                             <div class="checkbox-detailed">
-                              <input type="radio" name="language_certificate" id="check-det-1" value="Male" required="">
-                              <label for="check-det-1">
+                              <input type="radio" name="language_certificate" id="check-certificate-1" value="Male" required="">
+                              <label for="check-certificate-1">
                                 <span class="checkbox-detailed-tbl">
                                   <span class="checkbox-detailed-cell">
-                                    <span class="checkbox-detailed-title">Male</span>
+                                    <span class="checkbox-detailed-title">Yes</span>
                                   </span>
                                 </span>
                               </label>
                             </div>
                             <div class="checkbox-detailed ml-3">
-                              <input type="radio" name="language_certificate" id="check-det-2" value="Female" required="">
-                              <label for="check-det-2">
+                              <input type="radio" name="language_certificate" id="check-certificate-2" value="Female" required="">
+                              <label for="check-certificate-2">
                                 <span class="checkbox-detailed-tbl">
                                   <span class="checkbox-detailed-cell">
-                                    <span class="checkbox-detailed-title">Female</span>
+                                    <span class="checkbox-detailed-title">No</span>
                                   </span>
                                 </span>
                               </label>
@@ -801,7 +800,7 @@
 
                     <div class="row">
                       <div class="col-lg-12">
-                        <div class="box-shadow py-5 mb-4 mt-3 px-0" style="height: 100px;box-shadow: none;border: none;">
+                        <div class="box-shadow pt-50 pb-5 mb-4 mt-3 px-0" style="height: 100px;box-shadow: none;border: none;">
                           <div class="row">
                             <div class="col text-right">
                               <button type="reset" class="btn btn-warning">Reset</button>
