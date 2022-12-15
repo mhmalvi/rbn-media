@@ -9,24 +9,6 @@
         </div>
         <ul class="destination-list">
             <li>
-                <a href="#">
-                    <div class="flip-box  mx-auto">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}" class="" alt="" style="width: 50%; align-items: center">
-                            </div>
-                            <div class="flip-box-back">
-                                <h4>ONTARIO</h4>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <div class="flipboxback-mob">
-                    <h5>ONTARIO</h5>
-                </div>
-            </li>
-            <li>
-                <a href="#">
                     <div class="flip-box  mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -37,30 +19,26 @@
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
                     <h5>NOVA SCOTIA</h5>
                 </div>
             </li>
             <li>
-                <a href="#">
                     <div class="flip-box  mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                                <img src="{{asset('assets/images/destination/can/topcities/toronto.png')}}" class="" alt="" style="width: 50%; align-items: center">
                             </div>
                             <div class="flip-box-back">
-                                <h4>NEWFOUNDLAND & LABRADOR</h4>
+                                <h4>ONTARIO</h4>
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
-                    <h5>NEWFOUNDLAND & LABRADOR</h5>
+                    <h5>ONTARIO</h5>
                 </div>
             </li>
             <li>
-                <a href="#">
                     <div class="flip-box  mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -71,13 +49,11 @@
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
                     <h5>MANITOBA</h5>
                 </div>
             </li>
             <li>
-                <a href="#">
                     <div class="flip-box  mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -88,9 +64,23 @@
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
                     <h5>NEW BRUNSWICK</h5>
+                </div>
+            </li>
+            <li>
+                    <div class="flip-box  mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/can/topcities/vancouver.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>NEWFOUNDLAND & LABRADOR</h4>
+                            </div>
+                        </div>
+                    </div>
+                <div class="flipboxback-mob">
+                    <h5>NEWFOUNDLAND & LABRADOR</h5>
                 </div>
             </li>
             {{--<li>

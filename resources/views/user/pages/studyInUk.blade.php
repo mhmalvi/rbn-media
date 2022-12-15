@@ -9,7 +9,6 @@
         </div>
           <ul class="destination-list">
           <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -20,75 +19,66 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>LONDON</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/uk/topcities/manchester.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        <img src="{{asset('assets/images/destination/uk/topcities/man.png')}}"  class="" alt="" style="width: 50%; align-items: center">
                         </div>
                         <div class="flip-box-back">
                         <h4>MANCHESTER</h4>
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>MANCHESTER</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/uk/topcities/SCOTLAND.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        <img src="{{asset('assets/images/destination/uk/topcities/scotland.png')}}"  class="" alt="" style="width: 50%; align-items: center">
                         </div>
                         <div class="flip-box-back">
                         <h4>SCOTLAND</h4>
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>SCOTLAND</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/uk/topcities/SHEFFIELD.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        <img src="{{asset('assets/images/destination/uk/topcities/sheffield.png')}}"  class="" alt="" style="width: 50%; align-items: center">
                         </div>
                         <div class="flip-box-back">
                         <h4>SHEFFIELD</h4>
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>SHEFFIELD</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/uk/topcities/WALES.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        <img src="{{asset('assets/images/destination/uk/topcities/wales.png')}}"  class="" alt="" style="width: 50%; align-items: center">
                         </div>
                         <div class="flip-box-back">
                         <h4>WALES</h4>
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>WALES</h5>
                     </div>
@@ -352,7 +342,7 @@
                           <h5 class="mt-0 mb-1"> Bedfordshire University</h5>
                           <p>Luton, England</p>
                           <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                              {{--<span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>--}}
                           </p>
                       </div>
                   </div>
@@ -364,7 +354,7 @@
                           <h5 class="mt-0 mb-1"> Solent University</h5>
                           <p>Southampton, England</p>
                           <p>
-                              <span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>
+                              {{--<span class="badge badge-secondary font-weight-normal custom-scholarship mr-2">Scholarship</span>--}}
                           </p>
                       </div>
                   </div>

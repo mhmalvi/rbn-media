@@ -8,59 +8,7 @@
             <h2>Determine Your Future Hub</h2>
         </div>
           <ul class="destination-list">
-          <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/usa/topcities/cali.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>CALIFORNIA</h4>
-                        </div>
-                    </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>CALIFORNIA</h5>
-                    </div>
-              </li>
               <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/usa/topcities/ny.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>NEW YORK</h4>
-                        </div>
-                    </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>NEW YORK</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/usa/topcities/tex.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4>TEXAS</h4>
-                        </div>
-                    </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5>TEXAS</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -71,13 +19,56 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>FLORIDA</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/usa/topcities/ny.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>NEW YORK</h4>
+                        </div>
+                    </div>
+                    </div>
+                  <div class="flipboxback-mob">
+                        <h5>NEW YORK</h5>
+                    </div>
+              </li>
+              <li>
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/usa/topcities/tex.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>TEXAS</h4>
+                        </div>
+                    </div>
+                    </div>
+                  <div class="flipboxback-mob">
+                        <h5>TEXAS</h5>
+                    </div>
+              </li>
+              <li>
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/usa/topcities/cali.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4>CALIFORNIA</h4>
+                        </div>
+                    </div>
+                    </div>
+                  <div class="flipboxback-mob">
+                        <h5>CALIFORNIA</h5>
+                    </div>
+              </li>
+              <li>
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -88,7 +79,6 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>WASHINGTON</h5>
                     </div>
@@ -169,7 +159,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mx-auto col-lg-6 pt-md-2  m-auto">
-                    <div class="video-box" style="padding-left: 19%; padding-right: 19%">
+                    <div class="video-box" style="padding: 19%;">
 
                         <figure class="figure circle-styled">
                             <img class="img-fluid" src="{{asset('assets/images/destination/usa/usa-top.jpg')}}" alt="Image">

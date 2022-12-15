@@ -27,71 +27,63 @@
                 </div>
             </li>
             <li>
-                <a href="#">
                     <div class="flip-box  mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="{{asset('assets/images/destination/aus/topcities/1573052543.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                                <img src="{{asset('assets/images/destination/aus/topcities/brisbane.png')}}" class="" alt="" style="width: 50%; align-items: center">
                             </div>
                             <div class="flip-box-back">
                                 <h4>BRISBANE</h4>
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
                     <h5>BRISBANE</h5>
                 </div>
             </li>
             <li>
-                <a href="#">
                     <div class="flip-box mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="{{asset('assets/images/destination/aus/topcities/1573052585.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                                <img src="{{asset('assets/images/destination/aus/topcities/adelaide.png')}}" class="" alt="" style="width: 50%; align-items: center">
                             </div>
                             <div class="flip-box-back">
                                 <h4>ADELAIDE</h4>
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
                     <h5>ADELAIDE</h5>
                 </div>
             </li>
             <li>
-                <a href="#">
                     <div class="flip-box mx-auto">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="{{asset('assets/images/destination/aus/topcities/1569254535.png')}}" class="" alt="" style="width: 50%; align-items: center">
-                            </div>
-                            <div class="flip-box-back">
-                                <h4>PERTH</h4>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <div class="flipboxback-mob">
-                    <h5>PERTH</h5>
-                </div>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="flip-box mx-auto">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="{{asset('assets/images/destination/aus/topcities/1569254579.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                                <img src="{{asset('assets/images/destination/aus/topcities/sydney.png')}}" class="" alt="" style="width: 50%; align-items: center">
                             </div>
                             <div class="flip-box-back">
                                 <h4>SYDNEY</h4>
                             </div>
                         </div>
                     </div>
-                </a>
                 <div class="flipboxback-mob">
                     <h5>SYDNEY</h5>
+                </div>
+            </li>
+            <li>
+                    <div class="flip-box mx-auto">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="{{asset('assets/images/destination/aus/topcities/perth.png')}}" class="" alt="" style="width: 50%; align-items: center">
+                            </div>
+                            <div class="flip-box-back">
+                                <h4>PERTH</h4>
+                            </div>
+                        </div>
+                    </div>
+                <div class="flipboxback-mob">
+                    <h5>PERTH</h5>
                 </div>
             </li>
           </ul>

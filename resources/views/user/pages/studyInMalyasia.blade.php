@@ -9,7 +9,6 @@
         </div>
           <ul class="destination-list">
           <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -20,47 +19,26 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>KUALA LUMPUR</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/malay/topcities/222.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        <img src="{{asset('assets/images/destination/malay/topcities/2222.png')}}"  class="" alt="" style="width: 50%; align-items: center">
                         </div>
                         <div class="flip-box-back">
                         <h4>PENANG</h4>
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>PENANG</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                        <img src="{{asset('assets/images/destination/malay/topcities/333.png')}}"  class="" alt="" style="width: 50%; align-items: center">
-                        </div>
-                        <div class="flip-box-back">
-                        <h4> JOHOR BAHRU</h4>
-                        </div>
-                    </div>
-                    </div>
-                  </a>
-                  <div class="flipboxback-mob">
-                        <h5> JOHOR BAHRU</h5>
-                    </div>
-              </li>
-              <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -71,13 +49,26 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>SELANGOR</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
+                  <div class="flip-box  mx-auto">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                        <img src="{{asset('assets/images/destination/malay/topcities/333.png')}}"  class="" alt="" style="width: 50%; align-items: center">
+                        </div>
+                        <div class="flip-box-back">
+                        <h4> JOHOR BAHRU</h4>
+                        </div>
+                    </div>
+                    </div>
+                  <div class="flipboxback-mob">
+                        <h5> JOHOR BAHRU</h5>
+                    </div>
+              </li>
+              <li>
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -88,7 +79,6 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>MALACCA</h5>
                     </div>

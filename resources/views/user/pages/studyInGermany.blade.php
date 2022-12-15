@@ -9,7 +9,6 @@
         </div>
           <ul class="destination-list">
           <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -20,13 +19,11 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>GERMANY</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -37,13 +34,11 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>SWEDEN</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -54,13 +49,11 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>DENMARK</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
                   <div class="flip-box  mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
@@ -71,14 +64,12 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>HUNGARY</h5>
                     </div>
               </li>
               <li>
-                  <a href="#">
-                  <div class="flip-box  mx-auto">
+                  <div class="flip-box mx-auto">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                         <img src="{{asset('assets/images/flag/italy.png')}}"  class="" alt="" style="width: 50%; align-items: center">
@@ -88,7 +79,6 @@
                         </div>
                     </div>
                     </div>
-                  </a>
                   <div class="flipboxback-mob">
                         <h5>ITALY</h5>
                     </div>

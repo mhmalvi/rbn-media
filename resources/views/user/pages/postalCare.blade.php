@@ -7,9 +7,7 @@
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="assets/images/about/whoweare2.jpg" alt="Why Learn">
-
-
+                        <img src="{{ asset('assets/images/service/pastoral/yellow.jpg') }}" alt="">
                     </div>
                 </div>
                  <div class="col-lg-6">
@@ -29,8 +27,8 @@
 
     <!--Our Services in Oversea Section START -->
     <section class="pt-120 pb-120 rpb-100">
-      <div class="postalCare pt-20">
-            <h1>A Glimpse of Our Services in Overseas Pastoral Care</h1>
+      <div class="postalCare pt-20 text-center text-white">
+            <h3>A Glimpse of Our Services in Overseas Pastoral Care</h3>
       </div>
       <div class="postalCareContainer">
          <div class="py-10">

@@ -20,9 +20,7 @@
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="assets/images/about/whoweare2.jpg" alt="Why Learn">
-
-
+                        <img src="{{ asset('assets/images/service/visa/visa.jpg') }}" alt="">
                     </div>
                 </div>
                  <div class="col-lg-6">

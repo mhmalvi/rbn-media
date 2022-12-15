@@ -107,7 +107,7 @@
               </div>
               <div class="col-lg-6">
                   <div class="why-learn-image wow fadeInRight delay-0-2s">
-                      <img src="{{ asset('assets/images/about/whoweare.jpg') }}" alt="Why Learn">
+                      <img src="{{ asset('assets/images/service/counsel/counseling.jpg') }}" alt="">
                   </div>
               </div>
           </div>
@@ -116,14 +116,12 @@
   <!-- how it all works section end -->
 
     <!-- Approach Your Free Consultation Start -->
-    <section class="why-learn-area pt-120 rpb-100">
+    <section class="why-learn-area pt-60 pt-lg-120 rpb-100">
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
                 <div class="col-lg-6">
                     <div class="why-learn-image wow fadeInRight delay-0-2s">
-                        <img src="assets/images/about/whoweare2.jpg" alt="Why Learn">
-
-
+                        <img src="{{ asset('assets/images/service/counsel/coun.jpg') }}" alt="">
                     </div>
                 </div>
                  <div class="col-lg-6">
@@ -150,7 +148,7 @@
     </section>
 
     <!-- student lifecycle START -->
-    <section class=" student-leftcycle pt-120 pb-120 rpb-100">
+    <section class=" student-leftcycle pt-60 pt-lg-120 pb-120 rpb-100">
         <div class="container">
             <div class="row align-items-center large-gap wow fadeInLeft delay-0-2s">
             <div class="col-lg-6">
