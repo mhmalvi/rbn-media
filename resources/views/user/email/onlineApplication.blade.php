@@ -13,34 +13,46 @@
     {{-- @if ($given_name)--}}
     <ul>
 
-        <li>First Name: <?=$first_name;?></li>
+        <li><strong>First Name:</strong> {{ $first_name }}</li>
 
-        {{-- <li>Last Name: {{$last_name}}</li>
-        <li>Email: {{$email}}</li>
-        <li>Country: {{$country}}</li>
-        <li>:Mobile Code {{$mobile_code}}</li>
 
-        <li>Mobile: {{$mobile}}</li>
 
-        <li>Date of Birth: {{$birthday}}</li>
+        <li><strong>Last Name:</strong> {{$last_name}}</li>
 
-        <li>Gender: {{$gender}}</li>
 
-        <li>Last Academic Result: {{$last_academic_result}}</li>
+        <li><strong>Email:</strong> {{$email_address}}</li>
 
-        <li>Comments: {{$notes}}</li>
-        <h3>Study Destinations</h3> --}}
-        {{-- @foreach($study_destinations as $destinations)
+        <li><strong>Country:</strong> {{$country}}</li>
 
-        <li> {{$destinations}}</li>
+        <li><strong>Mobile Code:</strong> {{$mobile_code}}</li>
 
-        @endforeach --}}
+        <li><strong>Mobile:</strong> {{$mobile}}</li>
 
-        {{-- <li>Level: {{$level}}</li> --}}
+        <li><strong>Date of Birth:</strong> {{$birthday}}</li>
 
-        {{-- <li>Course Name: {{$course_name}}</li>
+        <li><strong>Gender:</strong> {{$gender}}</li>
 
-        <li>Language Certification: {{$language_certificate}}</li> --}}
+        <li><strong>Last Academic Result:</strong> {{$last_academic_result}}</li>
+
+        <li><strong>Comments:</strong> {{$notes}}</li>
+
+        <li><strong>
+
+            Study Destinations:</strong>
+
+            @foreach($study_destinations as $destinations)
+
+            {{$destinations}},
+
+            @endforeach
+        </li>
+
+        <li><strong>Level:</strong> {{$level}}</li>
+
+        <li><strong>Course Name:</strong> {{$course_name}}</li>
+
+        <li><strong>Language Certification:</strong> {{$language_certificate}}</li>
+
 
 
         {{-- <li>Mobile Number: hello</li> --}}

@@ -31,7 +31,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email">Email <span class="text-danger">*</span></label>
-                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required="" value="">
+                                    <input type="string" name="email_address" id="email" class="form-control" placeholder="Email Address" required="" value="">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -627,7 +627,99 @@
                                     <div class="box-white">
                                         <div class="row mt-2">
 
-                                            <div id="Australia" class="col-md-3 mb-2">
+                                             <div id="Australia" class="col-md-3 mb-2">
+                                                 <label class="labelDiv">
+                                                     <input type="checkbox" onclick="handleClick(`destination_australia`)" class="d-none countryBox" name="study_destinations[]" value="Australia" autocomplete="off">
+
+                                                     <div id="destination_australia" class="destination_div">
+                                                         <div class="flag_div">
+                                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569253786.png')}}">
+                                                         </div>
+                                                         <div class="country_div">
+                                                             <strong>Australia</strong>
+                                                         </div>
+                                                     </div>
+                                                 </label>
+                                             </div>
+
+                                             <div id="Canada" class="col-md-3 mb-2">
+                                                 <label class="labelDiv">
+                                                     <input type="checkbox" onclick="handleClick(`destination_canada`)" class="d-none countryBox" name="study_destinations[]" value="Canada" autocomplete="off">
+
+                                                     <div id="destination_canada" class="destination_div">
+                                                         <div class="flag_div">
+                                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569237351.png')}}">
+                                                         </div>
+                                                         <div class="country_div">
+                                                             <strong>Canada</strong>
+                                                         </div>
+                                                     </div>
+                                                 </label>
+                                             </div>
+
+
+
+                                             <div id="Germany" class="col-md-3 mb-2">
+                                                 <label class="labelDiv">
+                                                     <input type="checkbox" onclick="handleClick(`destination_germany`)" class="d-none countryBox" name="study_destinations[]" value="Europe" autocomplete="off">
+
+                                                     <div id="destination_germany" class="destination_div">
+                                                         <div class="flag_div">
+                                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/Europe.png')}}">
+                                                         </div>
+                                                         <div class="country_div">
+                                                             <strong> Europe</strong>
+                                                         </div>
+                                                     </div>
+                                                 </label>
+                                             </div>
+
+                                             <div id="Malaysia" class="col-md-3 mb-2">
+                                                 <label class="labelDiv">
+                                                     <input type="checkbox" onclick="handleClick(`destination_malaysia`)" class="d-none countryBox" name="study_destinations[]" value="Malaysia" autocomplete="off">
+
+                                                     <div id="destination_malaysia" class="destination_div">
+                                                         <div class="flag_div">
+                                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569404987.png')}}">
+                                                         </div>
+                                                         <div class="country_div">
+                                                             <strong>Malaysia</strong>
+                                                         </div>
+                                                     </div>
+                                                 </label>
+                                             </div>
+
+                                             <div id="United_Kingdom" class="col-md-3 mb-2">
+                                                 <label class="labelDiv">
+                                                     <input type="checkbox" onclick="handleClick(`destination_uk`)" class="d-none countryBox" name="study_destinations[]" value="United Kingdom" autocomplete="off">
+
+                                                     <div id="destination_uk" class="destination_div">
+                                                         <div class="flag_div">
+                                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569240440.png')}}">
+                                                         </div>
+                                                         <div class="country_div">
+                                                             <strong>United Kingdom</strong>
+                                                         </div>
+                                                     </div>
+                                                 </label>
+                                             </div>
+
+                                             <div id="United_States" class="col-md-3 mb-2">
+                                                 <label class="labelDiv">
+                                                     <input type="checkbox" onclick="handleClick(`destination_us`)" class="d-none countryBox" name="study_destinations[]" value="United States" autocomplete="off">
+
+                                                     <div id="destination_us" class="destination_div">
+                                                         <div class="flag_div">
+                                                             <img class="img-responsive flag_img" src="{{asset('assets/images/flag/1569246724.png')}}">
+                                                         </div>
+                                                         <div class="country_div">
+                                                             <strong>United States</strong>
+                                                         </div>
+                                                     </div>
+                                                 </label>
+                                             </div>
+
+                                            {{-- <div id="Australia" class="col-md-3 mb-2">
                                                 <label class="labelDiv">
                                                     <input type="checkbox" onclick="handleClick(`destination_australia`)" class="d-none countryBox" name="study_destinations[]" value="36" autocomplete="off">
                                                     <div id="destination_australia" class="destination_div">
@@ -711,7 +803,7 @@
                                                         </div>
                                                     </div>
                                                 </label>
-                                            </div>
+                                            </div> --}}
 
                                         </div>
                                     </div>
